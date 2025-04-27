@@ -1784,17 +1784,27 @@ El equipo no realizó cambios de distribución para la elaboración de los Mock-
 **Segmento 1: Supervisores operativos y jefes de área**
 
 * Como usuario, quiero poder acceder rápidamente al soporte oficial de la aplicación.
-
+<p align="center">
+  <img src="Images/img88.jpg" alt="imagen" />
+</p>
 
 * Como usuario, quiero poder generar y tener un historial de registros
-
+<p align="center">
+  <img src="Images/img89.jpg" alt="imagen" />
+</p>
 
   **Segmento 2: Gerentes de RR. HH. y directivos estratégicos**
 
 * Como usuario, quiero registrar y acceder a la información de desempeño de colaboradores y equipos.
+<p align="center">
+  <img src="Images/img90.jpg" alt="imagen" />
+</p>
 
 
 * Como usuario, quiero ver una estadística de comparación acerca del rendimiento en un periodo
+<p align="center">
+  <img src="Images/img91.jpg" alt="imagen" />
+</p>
 
 
 # **4.5. Web Applications Prototyping.** {#4.5.-web-applications-prototyping.}
@@ -1814,24 +1824,27 @@ El Domain Driven Design (DDD) busca lograr una comprensión común del dominio e
 ### **4.6.1. Software Architecture Context Diagram.** {#4.6.1.-software-architecture-context-diagram.}
 
 <p align="center">
-  <img src="Images/img87.jpg" alt="imagen" />
+  <img src="Images/img92.jpg" alt="imagen" />
 </p>
 
 ### **4.6.2. Software Architecture Container Diagrams.** {#4.6.2.-software-architecture-container-diagrams.}
 
 <p align="center">
-  <img src="Images/img88.jpg" alt="imagen" />
+  <img src="Images/img93.jpg" alt="imagen" />
 </p>
 
 ### **4.6.3. Software Architecture Components Diagrams.** {#4.6.3.-software-architecture-components-diagrams.}
 
 <p align="center">
-  <img src="Images/img89.jpg" alt="imagen" />
+  <img src="Images/img94.jpg" alt="imagen" />
 </p>
 
 # **4.7.Software Object-Oriented Design.** {#4.7.software-object-oriented-design.}
 
 ### **4.7.1. Class Diagrams.** {#4.7.1.-class-diagrams.}
+<p align="center">
+  <img src="Images/diagramaclases.png" alt="imagen" />
+</p>
 
 ### **4.7.2. Class Dictionary.** {#4.7.2.-class-dictionary.}
 
@@ -1887,19 +1900,14 @@ La base de datos de TalentManager ha sido diseñada bajo un enfoque relacional, 
 * id\_empleado: INT(FK)
 
 <p align="center">
-  <img src="Images/img90.jpg" alt="imagen" />
+  <img src="Images/img95.jpg" alt="imagen" />
 </p>
+
 # **Capítulo V: Product Implementation, Validation & Deployment** {#capítulo-v:-product-implementation,-validation-&-deployment}
 
 # **5.1. Software Configuration Management.** {#5.1.-software-configuration-management.}
 
-### **5.1.1. Software Development Environment Configuration.** {#5.1.1.-software-development-environment-configuration.}
-
-**Requirements Management**
-
-Trello: Esta herramienta digital facilita la organización y seguimiento de proyectos, siendo especialmente útil en entornos ágiles. Su interfaz basada en tableros y tarjetas permitirá visualizar las actividades y gestionar en tiempo real las historias de usuario del sprint activo.  
-[https://trello.com/es](https://trello.com/es)
-
+### **5.1.1. Software Development Environment Configuration.** {#5.1.1.-software-development-environment-configuration.
 **Product UX/UI Design**
 
 Figma: Se trata de una aplicación online centrada en el diseño de interfaces y elaboración de prototipos interactivos. Para este proyecto, se empleará como la herramienta principal para crear la maqueta visual de la plataforma.  
@@ -1936,7 +1944,7 @@ El control del código fuente resulta esencial para el trabajo colaborativo en c
 Hemos creado una organización con 3 repositorios, para el informe, landing page y aplicación web.
 
 <p align="center">
-  <img src="Images/img91.jpg" alt="imagen" />
+  <img src="Images/img96.jpg" alt="imagen" />
 </p>
 
 Link del repositorio del informe: [https://github.com/TalentManager-BERSS/ProyectReport-TalentManager](https://github.com/TalentManager-BERSS/ProyectReport-TalentManager)
@@ -1986,14 +1994,14 @@ La Landing Page de TalentManager es de facil acceso para el publico, presentamos
 Visita el repositorio oficial de TalentManager mediante el siguiente enlace:  
 [https://github.com/TalentManager-BERSS/LandingPage-TalentManager](https://github.com/TalentManager-BERSS/LandingPage-TalentManager)  
 <p align="center">
-  <img src="Images/img92.jpg" alt="imagen" />
+  <img src="Images/img97.jpg" alt="imagen" />
 </p>
 
 **2\. Descarga del proyecto:**
 
 Haz clic en el botón verde que dice **“Code”** y selecciona la opción **“Download ZIP”** para obtener una copia comprimida del proyecto.  
 <p align="center">
-  <img src="Images/img93.jpg" alt="imagen" />
+  <img src="Images/img98.jpg" alt="imagen" />
 </p>
 
 **3\. Extracción del archivo comprimido:**
@@ -2001,7 +2009,7 @@ Haz clic en el botón verde que dice **“Code”** y selecciona la opción **�
 Ubica el archivo .zip descargado en tu computadora.  
 Haz clic derecho sobre él y selecciona la opción “Extraer todo” o utiliza tu herramienta de descompresión preferida para acceder al contenido en una carpeta de tu preferencia.  
 <p align="center">
-  <img src="Images/img94.jpg" alt="imagen" />
+  <img src="Images/img99.jpg" alt="imagen" />
 </p>
 
 **4\. Visualización de la Landing Page:**
@@ -2101,26 +2109,6 @@ Durante el Sprint 1, se desarrollaron 10 historias de usuario centradas en la co
 El equipo cumplió con 8 de las 10 historias planeadas, faltando la redirección a términos legales y redes sociales, páginas las cuales aún no han sido creadas y por ende no hay enlace.
 
 A continuación, mostraremos las evidencias de nuestro trabajo en este sprint:
-
-<p align="center">
-  <img src="Images/img95.jpg" alt="imagen" />
-</p>
-
-<p align="center">
-  <img src="Images/img96.jpg" alt="imagen" />
-</p>
-
-<p align="center">
-  <img src="Images/img97.jpg" alt="imagen" />
-</p>
-
-<p align="center">
-  <img src="Images/img98.jpg" alt="imagen" />
-</p>
-
-<p align="center">
-  <img src="Images/img99.jpg" alt="imagen" />
-</p>
 
 <p align="center">
   <img src="Images/img100.jpg" alt="imagen" />
