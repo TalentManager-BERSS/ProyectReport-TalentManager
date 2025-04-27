@@ -2245,4 +2245,4 @@ Diseño en Figma (Landing Page y Aplicación): [https://www.figma.com/design/lvq
 
 Diseño de diagrama de clases en Lucidchart: [https://lucid.app/lucidchart/7d41f66c-c90d-4228-8ea3-ba014fa01a78/edit?viewport\_loc=-11%2C-11%2C2217%2C1095%2C0\_0\&invitationId=inv\_f4654d3b-896d-4f20-afe1-43cb9da45fda](https://lucid.app/lucidchart/7d41f66c-c90d-4228-8ea3-ba014fa01a78/edit?viewport_loc=-11%2C-11%2C2217%2C1095%2C0_0&invitationId=inv_f4654d3b-896d-4f20-afe1-43cb9da45fda)
 
-Link del video de exposición TB1: 
+Link del video de exposición TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/ETT6y7080ZNMrHRvPkg200sBo9hlJ-gUACmhu079nKifUw?e=viqfna&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
