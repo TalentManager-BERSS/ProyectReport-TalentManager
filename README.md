@@ -294,12 +294,12 @@ Soy Gabriel Borja, tengo 19 años y soy estudiante de la carrera de Ingeniería 
 **Carrera:** Ingeniería de Software
 **Descripción:**
 Soy responsable, creativo y siempre trato de apoyar al equipo en todo hasta el final.
-| ![Suarez](Images/Suarez.png) | **Nombre:** Santiago Manuel Suárez Romero 
+| ![Suarez](Images/Suarez.jpg) | **Nombre:** Santiago Manuel Suárez Romero 
 **Código de estudiante:** U202311532  
 **Carrera:** Ingenieria de Software  
 **Descripción:**  
 Soy una persona amigable, trabajadora y creativa, cuando trabajo siempre trato de dar lo mejor de mi.
-| ![Luis](Images/Luis.png) | **Nombre:** Luis Piero Rodríguez Rodríguez 
+| ![Luis](Images/Luis.jpg) | **Nombre:** Luis Piero Rodríguez Rodríguez 
 **Código de estudiante:** U202311334
 **Carrera:** Ingeniería de Software  
 **Descripción:**  
