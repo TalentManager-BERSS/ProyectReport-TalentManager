@@ -833,6 +833,26 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | **Feeling** | Frustrada y preocupada por la falta de precisión y el tiempo que consume el proceso. | Insegura, dudando si sus decisiones realmente se basan en datos objetivos. | Estresada y ansiosa, temiendo que la falta de claridad debilite su propuesta o análisis. |
 
 # **2.4 Ubiquitous Language** {#2.4-ubiquitous-language}
+| **Término**                  | **Definición**                                                                                                                                              |
+|-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| TalentManager                 | Plataforma web para registrar, evaluar y dar seguimiento al desempeño de trabajadores, facilitando decisiones estratégicas mediante reportes automáticos y centralización de datos. |
+| Evaluación de desempeño       | Proceso de análisis periódico del rendimiento laboral de un colaborador en función de criterios definidos por la empresa.                                    |
+| Reporte automático            | Documento generado por la plataforma que presenta datos de desempeño, asistencia o comportamiento de manera estructurada, sin intervención manual.        |
+| Supervisor operativo          | Usuario que lidera equipos de trabajo y utiliza TalentManager para registrar observaciones, asistencias, faltas y desempeño diario.                        |
+| Gerente de RR.HH.             | Usuario que gestiona evaluaciones formales, genera reportes estratégicos y toma decisiones de gestión de talento basadas en los datos que TalentManager proporciona. |
+| Asistencia                    | Registro diario que indica si un empleado se presentó o no a trabajar.                                                                                      |
+| Faltas y tardanzas            | Incidentes donde un trabajador no se presenta o llega fuera del horario establecido, registrados en el sistema.                                              |
+| Observación de comportamiento | Comentario o nota sobre la actitud o conducta de un empleado, almacenado junto a su historial de desempeño.                                                  |
+| Puntaje de desempeño          | Calificación numérica diaria asignada a un trabajador para reflejar su rendimiento general.                                                                 |
+| Historial del empleado        | Conjunto de registros sobre desempeño, observaciones, asistencia y puntajes, organizados cronológicamente para cada trabajador.                             |
+| Capacitación estratégica      | Proceso de formación para empleados basado en los resultados de evaluaciones y necesidades detectadas en TalentManager.                                     |
+| Formulario de evaluación      | Documento digital donde se registran observaciones, puntajes y comentarios sobre el desempeño de un trabajador en un periodo definido.                      |
+| Sistema de reportes           | Módulo de TalentManager que genera informes personalizados para apoyar la gestión de Recursos Humanos y toma de decisiones.                                 |
+| Centralización de datos       | Consolidación de toda la información laboral de los empleados en un solo sistema accesible en tiempo real.                                                   |
+| Gestión del talento humano    | Proceso integral de evaluar, registrar, capacitar y mejorar el rendimiento de los colaboradores dentro de una organización.                                 |
+| Plataforma web                | Medio tecnológico a través del cual se accede a TalentManager desde computadoras o dispositivos móviles con conexión a internet.                           |
+| Seguimiento diario            | Registro constante de eventos como asistencia, desempeño y comportamiento de los trabajadores.                                                              |
+
 
 # **Capítulo III: Requirements Specification** {#capítulo-iii:-requirements-specification}
 
