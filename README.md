@@ -533,7 +533,15 @@ En el ámbito de la gestión del desempeño laboral y recursos humanos, existen 
 | ----- | :---- | ----- | ----- | ----- | ----- |
 | ¿Por qué realizar este análisis? |  | Llevar a cabo este análisis resulta fundamental, ya que nos brinda una comprensión profunda del panorama competitivo al que se enfrenta nuestra startup. Nos permite identificar tanto los riesgos como las posibilidades de crecimiento dentro del mercado, y reconocer en qué aspectos podemos diferenciarnos de otras propuestas similares. Asimismo, facilita el reconocimiento de nuestras ventajas y limitaciones frente a la competencia, lo que contribuye a una toma de decisiones estratégicas más informada y enfocada. |  |  |  |
 | Nombre |  | TalentManager | 15Five | BambooHR | Talentum |
-| Logo |  | ![][image4] | ![][image5] | ![][image6] | ![][image7] |
+| Logo |  | <p align="center">
+  <img src="Images/img4.jpg" alt="img" />
+</p> | <p align="center">
+  <img src="Images/img5.jpg" alt="img" />
+</p> | <p align="center">
+  <img src="Images/img6.jpg" alt="img" />
+</p> | <p align="center">
+  <img src="Images/img7.jpg" alt="img" />
+</p> |
 | Perfil | Overview | Aplicación web que permite a empresas registrar, evaluar y dar seguimiento al desempeño de sus trabajadores con reportes  | Plataforma de Gestión del Rendimiento y Compromiso de Empleados | Plataforma de gestión de recursos humanos en la nube, pensada para pequeñas y medianas empresas.. | Software de gestión humana que ofrece soluciones en la nube para atraer, desarrollar, retener y potenciar el talento humano en las empresas. Sus módulos incluyen gestión del desempeño, diseño organizacional, clima laboral, compensaciones, gestión de competencias, línea de carrera y sucesión, capacitación y desarrollo. ​ |
 |  | Ventaja competitiva ¿Qué valor ofrece a los clientes? | Evaluaciones flexibles, reportes automáticos y criterios personalizables | Gestiona el rendimiento de los empleados, centrada en la retroalimentación continua, el establecimiento de objetivos y el compromiso del personal, mejorando la productividad y la cultura organizacional. | Interfaz intuitiva y fácil de usar, especialización en pymes, datos centralizados y seguros y buen soporte al cliente y experiencia del usuario. | Ofrece una plataforma integral que cubre diversas áreas de recursos humanos, permitiendo una gestión centralizada y eficiente del talento. |
 | Plan de marketing | Mercado objetivo | Empresas medianas y grandes, especialmente en sectores como retail, logística. | Empresas de tamaño medio a grande. | Empresas pequeñas y medianas  | Empresas de diversos tamaños que buscan modernizar su gestión de recursos humanos mediante soluciones digitales. |
@@ -609,7 +617,9 @@ Luego de realizar un análisis de los usuarios, se decidió formar dos segmentos
 
 **Segmento objetivo \#1: Supervisores operativos y jefes de área**
 
-![][image8]
+<p align="center">
+  <img src="Images/img8.jpg" alt="img" />
+</p>
 
 Nombre: Fabrizio Huamaní
 
@@ -627,7 +637,9 @@ Durante la conversación, se le pregunta a Fabrizio sobre su experiencia como su
 
 Fabrizio opina que TalentManager le sería muy útil, ya que permitiría centralizar información, ahorrar tiempo y automatizar tareas repetitivas, facilitando la gestión de múltiples secciones de personal. Afirma que le gustaría utilizar la plataforma por su interfaz práctica y rápida, ya que le ayudaría significativamente en su labor de supervisión.
 
-![][image9]
+<p align="center">
+  <img src="Images/img9.jpg" alt="img" />
+</p>
 
 Nombre: Bruno Cárdenas  
 **Ocupación:** Trabajador de konecta  
@@ -639,7 +651,9 @@ Resumen: En la siguiente entrevista, Santiago Cárdenas presenta a Bruno Cárden
 
 **Segmento objetivo \#2: Gerentes de RR. HH. y directivos estratégicos**
 
-**![][image10]**
+<p align="center">
+  <img src="Images/img10.jpg" alt="img" />
+</p>
 
 Nombre: Paulo Quincho
 
@@ -754,45 +768,59 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 
 ### 
 
-![][image12]
+<p align="center">
+  <img src="Images/img12.jpg" alt="img" />
+</p>
 
 **Segmento objetivo \#2: Gerentes de RR. HH. y directivos estratégicos**
 
 ### 
 
-![][image13]
+<p align="center">
+  <img src="Images/img13.jpg" alt="img" />
+</p>
 
 ### **2.3.2 User Task Matrix** {#2.3.2-user-task-matrix}
 
 **Luis Alva:**
 
-![][image14]
+<p align="center">
+  <img src="Images/img14.jpg" alt="img" />
+</p>
 
 **Tatiana Marcela:**
 
-![][image15]
+<p align="center">
+  <img src="Images/img15.jpg" alt="img" />
+</p>
 
 ### **2.3.3 User Journey Mapping** {#2.3.3-user-journey-mapping}
 
 **User Persona: Luis Alva:**
 
-**![][image16]**
+<p align="center">
+  <img src="Images/img16.jpg" alt="img" />
+</p>
 
 **User Persona: Tatiana Marcela:**
 
-![][image17]
-
+<p align="center">
+  <img src="Images/img17.jpg" alt="img" />
+</p>
                       
-
 ### **2.3.4 Empathy Mapping** {#2.3.4-empathy-mapping}
 
 **User persona del segmento \#1: Supervisores operativos y jefes de área**
 
-**![][image18]**
+<p align="center">
+  <img src="Images/img18.jpg" alt="img" />
+</p>
 
 **User persona del segmento objetivo \#2: Gerentes de RR. HH. y directivos estratégicos**
 
-![][image19]
+<p align="center">
+  <img src="Images/img19.jpg" alt="img" />
+</p>
 
 ### **2.3.5 As-is Scenario Mapping** {#2.3.5-as-is-scenario-mapping}
 
