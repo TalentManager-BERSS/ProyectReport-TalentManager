@@ -1889,3 +1889,349 @@ La base de datos de TalentManager ha sido diseñada bajo un enfoque relacional, 
 <p align="center">
   <img src="Images/img90.jpg" alt="imagen" />
 </p>
+# **Capítulo V: Product Implementation, Validation & Deployment** {#capítulo-v:-product-implementation,-validation-&-deployment}
+
+# **5.1. Software Configuration Management.** {#5.1.-software-configuration-management.}
+
+### **5.1.1. Software Development Environment Configuration.** {#5.1.1.-software-development-environment-configuration.}
+
+**Requirements Management**
+
+Trello: Esta herramienta digital facilita la organización y seguimiento de proyectos, siendo especialmente útil en entornos ágiles. Su interfaz basada en tableros y tarjetas permitirá visualizar las actividades y gestionar en tiempo real las historias de usuario del sprint activo.  
+[https://trello.com/es](https://trello.com/es)
+
+**Product UX/UI Design**
+
+Figma: Se trata de una aplicación online centrada en el diseño de interfaces y elaboración de prototipos interactivos. Para este proyecto, se empleará como la herramienta principal para crear la maqueta visual de la plataforma.  
+[https://www.figma.com/](https://www.figma.com/)
+
+**Software Development**
+
+Visual Studio Code: Este editor de código fuente será utilizado como el entorno de desarrollo principal. Elegido por la experiencia previa del equipo, destaca por su compatibilidad multiplataforma, su ecosistema de extensiones y su soporte para diversos lenguajes de programación.  
+[https://code.visualstudio.com/](https://code.visualstudio.com/)
+
+HTML5: Lenguaje de marcado esencial para estructurar el contenido web. Se usará para definir la arquitectura visual de la aplicación dentro del navegador.  
+[https://www.w3schools.com/html/html5\_syntax.asp](https://www.w3schools.com/html/html5_syntax.asp)
+
+CSS: Tecnología de diseño que permite definir estilos y adaptar visualmente los elementos HTML. Se integrará con HTML para personalizar el aspecto gráfico del proyecto.  
+[https://google.github.io/styleguide/htmlcssguide.html](https://google.github.io/styleguide/htmlcssguide.html)
+
+JavaScript: Lenguaje de scripting que dota de dinamismo a las interfaces. Se empleará para programar funcionalidades y respuestas interactivas en el frontend del sistema.  
+[https://developer.mozilla.org/es/docs/Web/JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+
+**Software Deployment**
+
+GitHub: Plataforma de alojamiento de código fuente que facilitará el trabajo colaborativo en línea. Permitirá a los miembros del equipo contribuir, controlar versiones y revisar avances desde cualquier navegador.  
+[https://github.com/](https://github.com/)
+
+**Software Documentation and Project Management**
+
+GitHub: Además de usarse para control de versiones, también servirá como repositorio de documentación técnica del sistema. Su interfaz permite centralizar el contenido del proyecto y hacer seguimiento colaborativo.  
+[https://github.com/](https://github.com/)
+
+### **5.1.2. Source Code Management.** {#5.1.2.-source-code-management.}
+
+El control del código fuente resulta esencial para el trabajo colaborativo en cualquier proyecto de software. En esta sección se planteará un esquema definido de organización y control de versiones, haciendo uso de GitHub.
+
+Hemos creado una organización con 3 repositorios, para el informe, landing page y aplicación web.
+
+<p align="center">
+  <img src="Images/img91.jpg" alt="imagen" />
+</p>
+
+Link del repositorio del informe: [https://github.com/TalentManager-BERSS/ProyectReport-TalentManager](https://github.com/TalentManager-BERSS/ProyectReport-TalentManager)
+
+Link del repositorio de la landing page: [https://github.com/TalentManager-BERSS/LandingPage-TalentManager](https://github.com/TalentManager-BERSS/LandingPage-TalentManager)
+
+Link del repositorio de la aplicación web: [https://github.com/TalentManager-BERSS/WebApplication-TalentManager](https://github.com/TalentManager-BERSS/WebApplication-TalentManager)
+
+### **5.1.3. Source Code Style Guide & Conventions.** {#5.1.3.-source-code-style-guide-&-conventions.}
+
+Para asegurar un código limpio, comprensible y fácil de mantener en el desarrollo de TalentManager, se han seguido las siguientes convenciones:
+
+**HTML**
+
+1. **Cierre obligatorio de etiquetas**: Todas las etiquetas deben cerrarse correctamente para evitar errores de renderizado.
+
+2. **Uso consistente de minúsculas**: Se mantiene el uso exclusivo de minúsculas en los nombres de etiquetas y atributos para mejorar la legibilidad y uniformidad.
+
+3. **Atributos entre comillas**: Se colocan comillas dobles en todos los valores de atributos, especialmente si contienen espacios.
+
+4. **Uso de alt, width y height en imágenes**: Se especifican estos atributos para mejorar la accesibilidad y el rendimiento en la carga.
+
+**CSS**
+
+1. **Nombres de clase descriptivos y breves**: Se usan nombres que reflejan claramente el propósito del elemento.
+
+2. **Separación con guiones**: Tanto clases como IDs utilizan guiones para mejorar la legibilidad.
+
+3. **Omisión de unidades para cero**: Se evita especificar unidades cuando el valor es 0.
+
+4. **Formato limpio y organizado**: Cada selector y cada regla CSS se escriben en líneas separadas para facilitar la lectura del código.
+
+**JavaScript**
+
+1. **Estructura clara del DOM:** Se verifica que los elementos estén completamente cargados con DOMContentLoaded antes de ejecutar funciones.  
+2. **Nombres de variables representativos**: Se nombran de forma clara y coherente con la función que cumplen.  
+3. **Evitar funciones anidadas innecesarias**: El código se modulariza para facilitar su mantenimiento y reutilización.
+
+Estas convenciones permiten que el desarrollo y mantenimiento de TalentManager se realice de forma eficiente, garantizando escalabilidad y facilidad de lectura para cualquier miembro del equipo.
+
+### **5.1.4. Software Deployment Configuration.** {#5.1.4.-software-deployment-configuration.}
+
+La Landing Page de TalentManager es de facil acceso para el publico, presentamos aquí las formas para entrar a nuestra Landing Page:
+
+**1\. Ingreso al repositorio en GitHub:**
+
+Visita el repositorio oficial de TalentManager mediante el siguiente enlace:  
+[https://github.com/TalentManager-BERSS/LandingPage-TalentManager](https://github.com/TalentManager-BERSS/LandingPage-TalentManager)  
+<p align="center">
+  <img src="Images/img92.jpg" alt="imagen" />
+</p>
+
+**2\. Descarga del proyecto:**
+
+Haz clic en el botón verde que dice **“Code”** y selecciona la opción **“Download ZIP”** para obtener una copia comprimida del proyecto.  
+<p align="center">
+  <img src="Images/img93.jpg" alt="imagen" />
+</p>
+
+**3\. Extracción del archivo comprimido:**
+
+Ubica el archivo .zip descargado en tu computadora.  
+Haz clic derecho sobre él y selecciona la opción “Extraer todo” o utiliza tu herramienta de descompresión preferida para acceder al contenido en una carpeta de tu preferencia.  
+<p align="center">
+  <img src="Images/img94.jpg" alt="imagen" />
+</p>
+
+**4\. Visualización de la Landing Page:**
+
+Una vez extraído, navega dentro de la carpeta del proyecto y abre el archivo index.html con el navegador web de tu elección, como Google Chrome o Mozilla Firefox.
+
+# **5.2. Landing Page, Services & Applications Implementation.** {#5.2.-landing-page,-services-&-applications-implementation.}
+
+### **5.2.1. Sprint 1** {#5.2.1.-sprint-1}
+
+#### **5.2.1.1. Sprint Planning 1\.** {#5.2.1.1.-sprint-planning-1.}
+
+La reunión de planificación del sprint marca el inicio del mismo y establece qué se va a desarrollar y cómo se llevará a cabo. Su propósito es reunir al equipo para definir una meta específica (Sprint Goal), elegir las historias de usuario y dividirlas en tareas. Esta sesión permite que se distribuya el trabajo de manera organizada y se mantenga al grupo enfocado en ofrecer valor real al usuario final.
+
+A continuación se podrá apreciar la tabla del sprint planificado:
+
+| Sprint \# | Sprint 1 |
+| :---- | :---- |
+| **Sprint Planning Background**  |  |
+| Date | 2025-04-11 |
+| Time | 9:30 PM |
+| Location | Reunión virtual |
+| Prepared By | Santiago Cárdenas, Gustavo Román |
+| Attendees (to planning meeting) | Santiago Cárdenas / Gustavo Román / Luis Rodríguez / Santiago Suárez / Gabriel Borja |
+| Sprint n – 1 Review Summary | A lo largo del Sprint, se implementaron historias de usuario centradas en la creación de la landing page, lo que permitió consolidar una primera impresión robusta de la plataforma. El equipo de desarrollo (integrado por Luis Rodríguez, Gustavo Román y Santiago Cárdenas) resaltó que una adecuada estimación de Story Points y la definición precisa de las tareas contribuyeron a sostener un flujo de trabajo equilibrado y sostenido. Por su parte, el diseñador UX/UI (Santiago Suárez), enfatizó que el enfoque modular adoptado favoreció una organización visual coherente y flexible. Finalmente, el product owner (Gabriel Borja) manifestó su conformidad con los avances logrados durante el Sprint. |
+| Sprint n – 1 Retrospective Summary | Durante el transcurso del Sprint, el equipo subrayó varios aspectos positivos, entre ellos la eficiente organización de las tareas, una adecuada estimación temporal basada en Story Points, y una comunicación fluida que facilitó la pronta resolución de obstáculos. Se destacó además la colaboración activa al momento de definir los criterios de aceptación, lo cual fortaleció la alineación del equipo. Como aspecto a mejorar, se reconoció la importancia de afinar la estimación de tiempos, especialmente en tareas relacionadas con el diseño visual, así como de optimizar las sesiones de revisión para enfocarse con mayor profundidad en los aprendizajes obtenidos y en la retroalimentación proporcionada por el product owner. |
+| **Sprint Goal & User Stories**  |  |
+| Sprint n Goal | **Our focus is** on delivering a functional and visually appealing landing page that presents TalentManager’s value proposition, facilitates intuitive access to all core sections, and enables contact with the company and subscription to services. **We believe it delivers** clarity and trust to new visitors and helps convert them into users by clearly explaining what TalentManager offers and how to begin engaging with the platform. **This will be confirmed when** users can navigate through sections like “About Us,” “Services,” and “Subscribe,” explore subscription plans, access contact options, view key benefits, and interact with the responsive navigation from any device. |
+| Sprint n Velocity | 20 |
+| Sum of Story Points | 20 |
+
+#### 
+
+#### **5.2.1.2. Aspect Leaders and Collaborators.** {#5.2.1.2.-aspect-leaders-and-collaborators.}
+
+En esta sección, el equipo desarrolló una Leadership and Collaboration Matrix (LACX) adaptada al contexto de TalentManager, con el propósito de mejorar la claridad y eficiencia en la comunicación interna. Este artefacto asigna de forma explícita a una persona líder y a sus colaboradores por cada aspecto relevante del Sprint. Dichos aspectos representan áreas clave del alcance funcional trabajado en esta iteración, tales como secciones específicas de la landing page o funcionalidades principales. La sección incluye una introducción que describe los componentes priorizados durante el Sprint y cómo el LACX permite identificar con claridad las responsabilidades compartidas y los puntos de coordinación en el equipo.
+
+Se han definido los roles de líder (L) y colaborador (C) para los integrantes del grupo en cada aspecto definido del sprint
+
+Los aspectos que se han tenido en cuenta para este sprint son:
+
+1. Barra de navegación, portada y beneficios y swiper  
+2. Contacto  
+3. Nosotros  
+4. Suscribete y pie de página  
+5. Inicio de sesión y registro  
+6. Revisión y mejoras generales, responsive
+
+| Team Member (Last Name, First Name) | GitHub Username | Barra de navegación, portada y beneficios y swiper | Contacto | Nosotros  | Suscribete y pie de página   | Login and Registration Pages  | Overall Review and Enhancements, Responsive Design |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| Cárdenas Concha, Santiago Iván | Sack136 | C | L | C | C | C | C |
+| Román Pajuelo, Luis Gustavo | Raizo400 | C | C | C | C | L | C |
+| Suárez Romero, Santiago Manuel | SDarXx | C | C | C | L | C | C |
+| Borja Molina, Gabriel Sebastián | borj410 | C | C | L | C | C | C |
+| Rodríguez Rodríguez, Luis Piero | luissssrr | C | C | C | C | C | L |
+
+#### 
+
+   #### **5.2.1.3. Sprint Backlog 1\.** {#5.2.1.3.-sprint-backlog-1.}
+
+En este sprint se muestran los trabajos realizados para desplegar la primera versión de nuestro landing page.
+
+| Sprint \# 1 |  |  |  |  |  |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| Work-Item / Task | User Story ID | Description | Estimation (Hours) | Estimation (Hours) | Assigned To / Status |
+| US01 | 1 | Design and implement main message section | 1 | Developer Team | Done |
+| US02 | 1 | Implement responsive navigation menu for desktop | 3 | Developer Team | Done |
+| US02 | 2 | Implement hamburger menu for mobile and tablet | 3 | Developer Team | Done |
+| US03 | 1 | Create section displaying main benefits | 1 | Developer Team | Done |
+| US04 | 1 | Implement navigation to Services, Contact, About Us, and Subscribe | 1 | Developer Team | Done |
+| US05 | 1 | Design and implement contact form | 1 | Developer Team | Done |
+| US05 | 2 | Program message sending functionality | 1 | Developer Team | Done |
+| US06 | 1 | Display subscription plans with details | 1 | Developer Team | Done |
+| US07 | 1 | Create About Us page with company and project information | 1 | Developer Team | Done |
+| US08 | 1 | Implement access to privacy policies and terms of service | 1 | Developer Team | To-Do |
+| US09 | 1 | Add social media links to footer | 1 | Developer Team | To-Do |
+| US10 | 1 | Implement interactive slide carousel (Swiper) | 3 | Developer Team | Done |
+
+#### **5.2.1.4. Development Evidence for Sprint Review.** {#5.2.1.4.-development-evidence-for-sprint-review.}
+
+#### 
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| Raizo400/TalentManager-BERSS/LandingPage-TalentManager | master | b2ng7dg | \- | \- | 22/04/2025 |
+| SDarXx/TalentManager-BERSS/LandingPage-TalentManager | master | k9emg2 | \- | \- | 22/04/2025 |
+| borj410/TalentManager-BERSS/LandingPage-TalentManager | master | l23ga4 | \- | \- | 24/04/2025 |
+| Sack136/TalentManager-BERSS/LandingPage-TalentManager | master | 4mn1tr | \- | \- | 24/04/2025 |
+| luissssrr/TalentManager-BERSS/LandingPage-TalentManager | master | gmn42d | \- | \- | 26/04/2025 |
+
+#### 
+
+#### **5.2.1.5. Execution Evidence for Sprint Review.** {#5.2.1.5.-execution-evidence-for-sprint-review.}
+
+Durante el Sprint 1, se desarrollaron 10 historias de usuario centradas en la construcción integral de la landing page de TalentManager.
+
+El equipo cumplió con 8 de las 10 historias planeadas, faltando la redirección a términos legales y redes sociales, páginas las cuales aún no han sido creadas y por ende no hay enlace.
+
+A continuación, mostraremos las evidencias de nuestro trabajo en este sprint:
+
+<p align="center">
+  <img src="Images/img95.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img96.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img97.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img98.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img99.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img100.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img101.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img102.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img103.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img104.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img105.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img106.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img107.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img108.jpg" alt="imagen" />
+</p>
+
+Video de evidencia: [https://youtu.be/gf21jn5x9oQ](https://youtu.be/gf21jn5x9oQ)
+
+#### **5.2.1.6. Services Documentation Evidence for Sprint Review.** {#5.2.1.6.-services-documentation-evidence-for-sprint-review.}
+
+Durante el presente Sprint, el equipo de desarrollo centró sus esfuerzos exclusivamente en el diseño e implementación de la landing page de la plataforma TalentManager, estableciendo así la base visual y estructural del proyecto. Como parte de esta primera etapa, se priorizó la construcción de la interfaz pública inicial, enfocándose en aspectos como el diseño responsive, la navegación fluida, la presentación clara de los servicios, planes de suscripción y la recopilación visual de reseñas y datos de contacto. En consecuencia, aún no se ha iniciado el desarrollo ni la documentación de endpoints relacionados con servicios web, por lo que no se cuenta con especificaciones OpenAPI, verbos HTTP implementados, parámetros, ni ejemplos de respuesta o interacción de APIs. La integración de servicios backend y la documentación correspondiente a Web Services están planificadas para sprints posteriores, una vez completada la capa visual y definidas las funcionalidades clave del sistema. Por tanto, esta sección no contiene por el momento URLs de endpoints, commits asociados a la documentación, ni capturas de interacción con APIs, dado que su desarrollo aún no ha comenzado.
+
+#### **5.2.1.7. Software Deployment Evidence for Sprint Review.** {#5.2.1.7.-software-deployment-evidence-for-sprint-review.}
+
+En este sprint, el equipo realizó el despliegue de la landing page del proyecto.
+
+1. Se creó un repositorio público en github: [https://github.com/TalentManager-BERSS/LandingPage-TalentManager](https://github.com/TalentManager-BERSS/LandingPage-TalentManager)
+
+2. Se configuró la rama master como fuente y /root como origen de contenido, de tal forma la landing page es pública desde el siguiente enlace: [https://talentmanager-berss.github.io/LandingPage-TalentManager/](https://talentmanager-berss.github.io/LandingPage-TalentManager/)
+
+3. Gracias al uso de GitHub (y por ende, GitHub Pages), la landing page se actualiza de forma automática después de cada commit, de esta forma no hay problema para avanzar la misma.
+
+4. Se evaluó el rendimiento de la landing page y se verificó que todo estaba óptimo.
+
+Gracias a este avance, se puede visualizar la landing page y con ello la propuesta de TalentManager, así como un primer paso para avanzar el frontend de la plataforma futura a realizar.
+
+#### **5.2.1.8. Team Collaboration Insights during Sprint.** {#5.2.1.8.-team-collaboration-insights-during-sprint.}
+
+A lo largo de este Sprint, el equipo concentró sus esfuerzos en el desarrollo inicial de la página principal del proyecto TalentManager. Se llevaron a cabo actividades relacionadas con el diseño estético, organización del contenido, codificación con tecnologías como HTML y CSS, y la incorporación de funcionalidades mediante JavaScript. Además, se completó la integración y publicación del sitio a través de GitHub. Todos los integrantes del equipo contribuyeron activamente en la creación colaborativa de este primer entregable visual del proyecto, se definieron los diseños, se desarrolló el codigo HTML con sus estilos CSS, añadimos funcionalidades en JavaScript, configuramos el repositorio en GitHub, y finalmente, como grupo hicimos revisiones de todo el trabajo para asegurarnos de hacer un buen trabajo.
+
+**Análiticas de colaboración GitHub:**
+
+A continuación, presentaremos evidencia de la participación de los integrantes en el GitHub:
+
+<p align="center">
+  <img src="Images/img109.jpg" alt="imagen" />
+</p>
+
+# **CONCLUSIONES**
+
+# **Conclusiones y recomendaciones:** {#conclusiones-y-recomendaciones:}
+1. Fuerte necesidad de centralización de datos: Tanto supervisores como gerentes destacan que actualmente manejan la información del desempeño de manera dispersa (cuadernos, Excel, múltiples plataformas), dificultando el control y análisis eficiente.
+
+2. Alta disposición a adoptar TalentManager: Los usuarios entrevistados (supervisores y gerentes) muestran interés real en usar una plataforma que automatice evaluaciones, facilite reportes y permita ahorrar tiempo.
+
+3. Valor clave de la automatización: La generación automática de reportes y la facilidad para evaluar desempeño periódicamente son funcionalidades altamente valoradas para reducir carga administrativa.
+
+4. La facilidad de uso es prioritaria: Los usuarios esperan que TalentManager tenga una interfaz simple, rápida y sin necesidad de capacitaciones extensas para su implementación efectiva.
+
+5. La personalización de criterios es indispensable: Tanto para supervisores como para gerentes, es importante que la plataforma permita ajustar los criterios de evaluación a las prioridades y realidades específicas de cada empresa.
+
+6. Impacto en la toma de decisiones estratégicas: Gerentes de RR. HH. consideran que TalentManager puede mejorar su capacidad para tomar decisiones basadas en datos objetivos y actualizados, en vez de evaluaciones subjetivas.
+
+7. Apoyo en la planificación de capacitaciones: La disponibilidad de reportes claros y métricas objetivas permitiría al área de RR. HH. identificar necesidades de capacitación de manera más efectiva.
+
+8. Expectativas de cumplimiento legal: Gerentes como Francisco Reyes resaltan que la plataforma debe garantizar evaluaciones justas y cumplir normativas laborales vigentes para su adopción corporativa.
+
+9.Oportunidad de destacar frente a la competencia: TalentManager tiene una ventaja competitiva si refuerza su diferenciador de "reportes automáticos personalizados" y "flexibilidad de uso en cualquier dispositivo".
+
+10. Contribución a mejorar el clima organizacional: Al facilitar procesos de evaluación más transparentes y rápidos, TalentManager puede ayudar indirectamente a mejorar la motivación, la percepción de justicia interna y la productividad laboral.
+
+# **BIBLIOGRAFÍA**
+
+* Alvarez, A. (2020, 5 de agosto). *5W2H: Qué significa, para qué sirve, cómo aplicarla y algunos ejemplos*. LeanConstructionMexico. [https://www.leanconstructionmexico.com.mx/post/5w2h-qu%C3%A9-significapara-qu%C3%A9-sirve-c%C3%B3mo-aplicarla-y-algunos-ejemplos](https://www.leanconstructionmexico.com.mx/post/5w2h-qu%C3%A9-significapara-qu%C3%A9-sirve-c%C3%B3mo-aplicarla-y-algunos-ejemplos)  
+* Andina (2024, 4 de mayo). *El 62 % de líderes afirma que motivar a sus equipos es lo más desafiante.* Andina. Recuperado el 10 de abril de 2025, de [https://andina.pe/agencia/noticia-el-62-lideres-afirman-motivar-a-sus-equipos-es-mas-desafiante-984466.aspx](https://andina.pe/agencia/noticia-el-62-lideres-afirman-motivar-a-sus-equipos-es-mas-desafiante-984466.aspx)  
+* ComexPerú (2023). *DESEMPEÑO DEL MERCADO LABORAL PERUANO.* \[Conjunto de datos\]. ComexPerú. [https://www.comexperu.org.pe/upload/articles/reportes/reporte-laboral-009.pdf](https://www.comexperu.org.pe/upload/articles/reportes/reporte-laboral-009.pdf)  
+* ComexPerú (2023). *REPORTE DE PRODUCTIVIDAD LABORAL*. ComexPerú. [https://www.comexperu.org.pe/upload/articles/reportes/reporte-laboral-013-.pdf](https://www.comexperu.org.pe/upload/articles/reportes/reporte-laboral-013-.pdf)  
+* Conexión Esan (2021). *¿Cómo afecta el estrés laboral a nivel empresarial?*. Esan. [https://www.esan.edu.pe/conexion-esan/como-afecta-el-estres-laboral-a-nivel-empresarial](https://www.esan.edu.pe/conexion-esan/como-afecta-el-estres-laboral-a-nivel-empresarial)  
+* El Peruano (2014, 19 de septiembre) *Medir el desempeño laboral genera mejoras y más beneficios.* El Peruano. [https://elperuano.pe/noticia/24029-medir-el-desempeno-laboral-genera-mejoras-y-mas-beneficios](https://elperuano.pe/noticia/24029-medir-el-desempeno-laboral-genera-mejoras-y-mas-beneficios)  
+* El Peruano. (2025, 22 de enero) *Evaluación de desempeño: clave en el crecimiento.* El Peruano. [https://elperuano.pe/noticia/262594-evaluacion-de-desempeno-clave-en-el-crecimiento](https://elperuano.pe/noticia/262594-evaluacion-de-desempeno-clave-en-el-crecimiento)  
+* *Lean UX y Lean Startup: potencia experiencia y diseño de producto.* (2023, 28 de septiembre). Pragma. [https://www.pragma.co/es/blog/lean-ux-y-lean-startuppotencia-experiencia-y-diseno-de-producto](https://www.pragma.co/es/blog/lean-ux-y-lean-startuppotencia-experiencia-y-diseno-de-producto)  
+* Loayza, A. & Rosas, M (2020). *LA IMPORTANCIA DE LA EVALUACIÓN DE DESEMPEÑO EN EMPRESAS FORMALES DE LIMA METROPOLITANA ENTRE 2015 AL 2019\.* \[Tesis de bachiller, Universidad San Ignacio de Loyola\] Repositorio de la Universidad San Ignacio de Loyola. [https://repositorio.usil.edu.pe/server/api/core/bitstreams/0acfaa32-2983-4b16-943c-e0d7d05c5a82/content](https://repositorio.usil.edu.pe/server/api/core/bitstreams/0acfaa32-2983-4b16-943c-e0d7d05c5a82/content)  
+* PwC (2021) *Benchmarking de Gestión de Recursos Humanos 2021\.* \[Diapositiva Powerpoint\] [https://www.pwc.pe/es/publicaciones/assets/PwC-Benchmarking-Gestion-Recursos-Humanos-2021.pdf](https://www.pwc.pe/es/publicaciones/assets/PwC-Benchmarking-Gestion-Recursos-Humanos-2021.pdf)
+
+# 
+
+# **ANEXOS**
+
+Diseño en Figma (Landing Page y Aplicación): [https://www.figma.com/design/lvqSuexiI0BCRGWkHxNRQH/TalentManager?node-id=417-3699\&t=XJw9vIX6hp28gLZD-1](https://www.figma.com/design/lvqSuexiI0BCRGWkHxNRQH/TalentManager?node-id=417-3699&t=XJw9vIX6hp28gLZD-1)
+
+Diseño de diagrama de clases en Lucidchart: [https://lucid.app/lucidchart/7d41f66c-c90d-4228-8ea3-ba014fa01a78/edit?viewport\_loc=-11%2C-11%2C2217%2C1095%2C0\_0\&invitationId=inv\_f4654d3b-896d-4f20-afe1-43cb9da45fda](https://lucid.app/lucidchart/7d41f66c-c90d-4228-8ea3-ba014fa01a78/edit?viewport_loc=-11%2C-11%2C2217%2C1095%2C0_0&invitationId=inv_f4654d3b-896d-4f20-afe1-43cb9da45fda)
+
+Link del video de exposición TB1: 
