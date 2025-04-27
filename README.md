@@ -518,3 +518,296 @@ Profesionales encargados de tomar decisiones estratégicas relacionadas con la g
 * Intereses: Gestión estratégica del talento, transformación digital en RR. HH., eficiencia organizacional, liderazgo empresarial.  
 * Estilo de vida: Profesionales orientados a resultados, acostumbrados a usar dashboards, informes ejecutivos y herramientas de análisis. Participan en la toma de decisiones clave para el crecimiento de la empresa.  
 * Actitudes: Valoran la precisión, la confiabilidad de los datos, y el acceso rápido a reportes útiles. Buscan soluciones que integren tecnología, análisis y planificación sin añadir complejidad innecesaria.
+
+# **2.1 Competidores** {#2.1-competidores}
+
+En el ámbito de la gestión del desempeño laboral y recursos humanos, existen varias plataformas que ofrecen servicios similares a TalentManager. A continuación, se presentan los principales competidores directos reconocidos:
+
+* **15Five:** Plataforma internacional de gestión del rendimiento y compromiso del empleado, que se destaca por su enfoque en el feedback continuo y el desarrollo personal. 15Five está diseñada para empresas medianas y grandes que desean fortalecer la cultura organizacional a través de herramientas como encuestas de compromiso, establecimiento de objetivos y retroalimentación regular. Aunque es una solución robusta y ampliamente utilizada, sus precios pueden resultar altos para empresas pequeñas o con presupuestos ajustados. Ofrece aplicación web y móvil, además de integraciones con otras plataformas de RR. HH.  
+* **BambooHR:** Diseñada especialmente para pequeñas y medianas empresas, BambooHR es una plataforma integral de recursos humanos en la nube que abarca desde la gestión de empleados hasta ausencias, incorporación, evaluaciones y reportes. Su principal fortaleza es la facilidad de uso y el excelente soporte al cliente. A pesar de su buena automatización e interfaz amigable, su capacidad de personalización es más limitada frente a soluciones más complejas. Opera bajo un modelo de suscripción mensual y se distribuye tanto por web como por aplicaciones móviles.  
+* **Talentum:** Es un software regional especializado en la gestión humana, con soluciones modulares que abarcan desde la evaluación del desempeño hasta el clima laboral, compensaciones, capacitación, línea de carrera y sucesión. Su enfoque integral lo convierte en una opción atractiva para empresas que buscan centralizar múltiples áreas de RR. HH. Sin embargo, su principal debilidad es la falta de información pública sobre precios y casos de éxito, lo que puede dificultar la comparación con otras alternativas en el mercado. Su distribución se da vía plataforma online accesible desde cualquier dispositivo.
+
+  ### **2.1.1 Análisis competitivo** {#2.1.1-análisis-competitivo}
+
+| Competitive Analysis Landscape |  |  |  |  |  |
+| ----- | :---- | ----- | ----- | ----- | ----- |
+| ¿Por qué realizar este análisis? |  | Llevar a cabo este análisis resulta fundamental, ya que nos brinda una comprensión profunda del panorama competitivo al que se enfrenta nuestra startup. Nos permite identificar tanto los riesgos como las posibilidades de crecimiento dentro del mercado, y reconocer en qué aspectos podemos diferenciarnos de otras propuestas similares. Asimismo, facilita el reconocimiento de nuestras ventajas y limitaciones frente a la competencia, lo que contribuye a una toma de decisiones estratégicas más informada y enfocada. |  |  |  |
+| Nombre |  | TalentManager | 15Five | BambooHR | Talentum |
+| Logo |  | ![][image4] | ![][image5] | ![][image6] | ![][image7] |
+| Perfil | Overview | Aplicación web que permite a empresas registrar, evaluar y dar seguimiento al desempeño de sus trabajadores con reportes  | Plataforma de Gestión del Rendimiento y Compromiso de Empleados | Plataforma de gestión de recursos humanos en la nube, pensada para pequeñas y medianas empresas.. | Software de gestión humana que ofrece soluciones en la nube para atraer, desarrollar, retener y potenciar el talento humano en las empresas. Sus módulos incluyen gestión del desempeño, diseño organizacional, clima laboral, compensaciones, gestión de competencias, línea de carrera y sucesión, capacitación y desarrollo. ​ |
+|  | Ventaja competitiva ¿Qué valor ofrece a los clientes? | Evaluaciones flexibles, reportes automáticos y criterios personalizables | Gestiona el rendimiento de los empleados, centrada en la retroalimentación continua, el establecimiento de objetivos y el compromiso del personal, mejorando la productividad y la cultura organizacional. | Interfaz intuitiva y fácil de usar, especialización en pymes, datos centralizados y seguros y buen soporte al cliente y experiencia del usuario. | Ofrece una plataforma integral que cubre diversas áreas de recursos humanos, permitiendo una gestión centralizada y eficiente del talento. |
+| Plan de marketing | Mercado objetivo | Empresas medianas y grandes, especialmente en sectores como retail, logística. | Empresas de tamaño medio a grande. | Empresas pequeñas y medianas  | Empresas de diversos tamaños que buscan modernizar su gestión de recursos humanos mediante soluciones digitales. |
+|  | Estrategias de marketing | Ofreceremos pruebas gratis para que las empresas prueben la herramienta sin compromiso y compartiremos opiniones reales de usuarios satisfechos para generar confianza. | Marketing de contenido blogs, webinars, estudios de caso), pruebas gratuitas y testimonios de clientes. | Se emplea estrategias como marketing de contenidos, optimización en buscadores y pruebas gratuitas para captar clientes.   | Ofrecen demostraciones gratuitas de su software, contenido educativo a través de su blog y presencia activa en redes sociales profesionales como LinkedIn. |
+| Plan de producto | Productos y servicios | Plataforma web con módulos de evaluación, reportes, seguimiento de asistencia y observaciones. Soporte y capacitación incluidos. | Feedback continuo, evaluaciones de desempeño, establecimiento de objetivos  encuestas de compromiso y herramientas de desarrollo de empleados.  | Se ofrece una plataforma web y app móvil con módulos para gestión de empleados, incorporación, ausencias, evaluaciones, reportes y firma electrónica.  | Software en la nube para gestión de recursos humanos con módulos especializados. |
+|  | Precios y costos | Suscripción mensual o anual por número de empleados. | Precios basados en suscripción mensual, con planes que varían según el tamaño de la empresa y las características del plan elegido. | El modelo es por suscripción mensual, con precios que varían según el tamaño de la empresa y los módulos contratados | No especificados públicamente; se ofrecen demostraciones gratuitas para potenciales clientes. |
+|  | Canales de distribución (Web y/o Móvil) | Aplicación web accesible desde navegador. | Plataforma web accesible desde cualquier dispositivo, aplicación móvil disponible para facilitar la interacción en cualquier lugar. | Plataforma web accesible desde cualquier navegador y disponible en Android y iOS | Plataforma en línea accesible desde cualquier dispositivo con conexión a internet. |
+| Análisis FODA (SWOT) | Fortalezas | Flexibilidad, facilidad de uso, automatización de reportes, enfoque en desempeño. | Interfaz fácil de usar, enfoque en la cultura organizacional, herramientas de retroalimentación y desarrollo personal, integración con otras plataformas de recursos humanos. | Facilidad de usar y está centrado en pymes, ofreciendo una plataforma intuitiva con buena automatización de procesos y excelente soporte al cliente. Su integración entre módulos y aplicaciones móviles facilita la gestión de RRHH. | Solución integral y modular que abarca múltiples aspectos de la gestión humana. |
+|  | Oportunidades | Digitalización de RR.HH., demanda de análisis de rendimiento, integración con otros sistemas. | Expansión en mercados internacionales, integración con nuevas tecnologías como la inteligencia artificial para análisis predictivo, y mayor personalización de las funcionalidades. | La expansión hacia mercados emergentes y el desarrollo de nuevas integraciones, como la inteligencia artificial para análisis de desempeño, representan grandes oportunidades.  | Creciente digitalización de procesos en empresas peruanas que buscan optimizar su gestión de talento.​ |
+|  | Debilidades | Menor reconocimiento frente a grandes marcas, resistencia al cambio en empresas tradicionales. | Precios relativamente altos para pequeñas empresas, dependencia de internet para su funcionamiento y la posible resistencia a cambiar de sistemas tradicionales de gestión de recursos | Su capacidad de personalización es limitada en comparación con soluciones más complejas, lo que puede ser un inconveniente para empresas con necesidades más específicas.. | Falta de información pública sobre precios y casos de éxito que respalden su efectividad. |
+|  | Amenazas | Competencia con soluciones más conocidas o gratuitas, preocupaciones de seguridad si no se gestiona bien. | Competencia en el mercado de plataformas de gestión de rendimiento y la posible saturación del mercado con opciones similares a precios más bajos. | La necesidad de actualizaciones constantes debido a cambios en la legislación laboral puede generar desafíos para mantener la competitividad. | Competencia con otras plataformas más reconocidas o con mayor presencia en el mercado local.​ |
+
+  ### **2.1.2 Estrategias y tácticas frente a competidores** {#2.1.2-estrategias-y-tácticas-frente-a-competidores}
+
+  ### **Innovación Continua en Tecnología** {#innovación-continua-en-tecnología}
+
+* Fortaleza Utilizada: Flexibilidad en soluciones y enfoque personalizado.
+
+* Oportunidad Aprovechada: Necesidad de digitalizar la evaluación del desempeño en empresas medianas.
+
+* Estrategia: Desarrollar nuevas funciones útiles según el feedback de los usuarios.
+
+* Táctica: Mejorar la plataforma cada 2-3 semanas con funciones simples como recordatorios o exportación de reportes en PDF.
+
+  ### **Modelo de Negocio Asequible y Escalable** {#modelo-de-negocio-asequible-y-escalable}
+
+* Fortaleza Utilizada: Costos accesibles y flexibilidad.
+
+* Oportunidad Aprovechada: Empresas buscan opciones económicas para comenzar.
+
+* Estrategia: Crear planes simples de suscripción que crezcan con el uso.
+
+* Táctica: Definir precios fijos mensuales según número de empleados y ofrecer una opción gratuita o demo limitada.
+
+  
+
+
+  ### **Pruebas Piloto y Testimonios** {#pruebas-piloto-y-testimonios}
+
+* Fortaleza Utilizada: Soluciones personalizadas y enfoque cercano al cliente.
+
+* Oportunidad Aprovechada: Validación del producto en situaciones reales.
+
+* Estrategia: Probar el sistema con empresas reales o simuladas.
+
+* Táctica: Implementar el sistema con 1 o 2 empresas pequeñas y recopilar testimonios.
+
+# **2.2 Entrevistas** {#2.2-entrevistas}
+
+Luego de realizar un análisis de los usuarios, se decidió formar dos segmentos para realizar las entrevistas.
+
+### **2.2.1 Diseño de entrevistas** {#2.2.1-diseño-de-entrevistas}
+
+|  Supervisores operativos y jefes de área |  |
+| :---: | ----- |
+| **Pregunta 1** | ¿Cómo suele llevar el control del desempeño diario de los trabajadores a su cargo? |
+| **Pregunta 2** | ¿Qué tan seguido necesita hacer evaluaciones o dar seguimiento al rendimiento del equipo? |
+| **Pregunta 3** | ¿Qué aspectos le resultan más complicados o tediosos al momento de registrar o revisar esa información?  |
+| **Pregunta 4** | ¿Cuáles son los criterios que más toma en cuenta al momento de calificar a un trabajador (asistencia, puntualidad, actitud, resultados, etc.)?  |
+| **Pregunta 5** | ¿Qué tanto le ayudaría una herramienta que automatice reportes y le permita registrar observaciones fácilmente desde una sola plataforma?  |
+| **Pregunta 6** | ¿Usaría una plataforma como TalentManager, que le permite registrar información de los trabajadores, evaluarlos periódicamente, generar reportes automáticos y hacer seguimiento desde una interfaz práctica y rápida? |
+
+| Gerentes de RR. HH. y directivos estratégicos |  |
+| :---: | :---: |
+| **Pregunta 1** | ¿Cuál es el impacto del consumo energético en los costos operativos de tu empresa? |
+| **Pregunta 2** | ¿Cómo monitorean actualmente el consumo de energía en sus operaciones? |
+| **Pregunta 3** | ¿Qué medidas han implementado para reducir el consumo de energía o mejorar la eficiencia? |
+| **Pregunta 4** | ¿Qué importancia le das a la sostenibilidad y a la reducción de costos energéticos a largo plazo? |
+| **Pregunta 5** | ¿Qué problemas tienen para manejar los costos de energía cuando los precios cambian mucho? |
+| **Pregunta 6** | ¿Están utilizando actualmente alguna tecnología para optimizar el consumo energético? Si es así, ¿cuáles? |
+
+### **2.2.2 Registro de entrevistas** {#2.2.2-registro-de-entrevistas}
+
+**Segmento objetivo \#1: Supervisores operativos y jefes de área**
+
+![][image8]
+
+Nombre: Fabrizio Huamaní
+
+**Ocupación:** Trabajador de Plaza Vea y Estudiante 
+
+**Edad:** 21
+
+**Distrito:** Cercado de Lima, Lima 
+
+**Link:** [Segmento 1 \- Entrevista 1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/EZPhSNIYbU9KhLGvCrIKZuMBN1ttf0Txe_CiazA9julInw?e=sV0ns8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Resumen: En la entrevista, Gustavo Román presenta a Fabrizio Guamaní, supervisor del área de sala en Plaza Vea, y le explica que TalentManager es una aplicación web para empresas que permite registrar y evaluar el desempeño de los trabajadores. La plataforma permite ver datos personales, asistencias, evaluaciones y generar reportes automáticos para facilitar decisiones sobre el personal.
+
+Durante la conversación, se le pregunta a Fabrizio sobre su experiencia como supervisor y su opinión sobre la plataforma. Él comenta que realiza un seguimiento continuo al desempeño de su equipo y que las evaluaciones formales se hacen de manera mensual o trimestral. Señala que una de las principales dificultades es recopilar información dispersa y consolidarla desde distintas plataformas.
+
+Fabrizio opina que TalentManager le sería muy útil, ya que permitiría centralizar información, ahorrar tiempo y automatizar tareas repetitivas, facilitando la gestión de múltiples secciones de personal. Afirma que le gustaría utilizar la plataforma por su interfaz práctica y rápida, ya que le ayudaría significativamente en su labor de supervisión.
+
+![][image9]
+
+Nombre: Bruno Cárdenas  
+**Ocupación:** Trabajador de konecta  
+**Edad:** 21  
+**Distrito:** Cercado de Lima, Lima   
+[Segmento 1 \- Entrevista 2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/ET1IBsvyWpNIjbq6Lt_sCv8BNW-I0iWM7sK-7Nq3nkNnvA?e=4hyG4H&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Resumen: En la siguiente entrevista, Santiago Cárdenas presenta a Bruno Cárdenas, supervisor en el área de call center Konecta. Él  opina que debido a que es jefe de área, tiene que hacer observaciones hacia las personas que tiene a cargo. Las anotaciones las hace a mano en un cuaderno o crea un excel donde puede almacenar información de cada uno de sus integrantes de su equipo. Bruno afirma que TalentManager sería una aplicación de gran ayuda debido a que no tendría que calcular el rendimiento independiente de cada uno, debido a que la app te lo da en un reporte automáticamente.
+
+**Segmento objetivo \#2: Gerentes de RR. HH. y directivos estratégicos**
+
+**![][image10]**
+
+Nombre: Paulo Quincho
+
+**Ocupación:** Gerente de RR.HH en Expro
+
+**Edad:** 24
+
+**Distrito:** Surco, Lima 
+
+[**Segmento 2 \- Entrevista 1.mp4**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/EVnWsZMSuKpBiHMviSaiGVUBD0a9_I9wBzsjLKWKCGU3YQ?e=TCLgfk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+En la entrevista, Santiago conversa con Pablo Quincho, profesional con dos años de experiencia en el área administrativa de Recursos Humanos en la empresa Expro. Se le presenta *Talent Manager*, una plataforma web que permite registrar, evaluar y dar seguimiento al desempeño de los trabajadores mediante reportes automáticos y criterios personalizados.
+
+Pablo comenta que la información esencial para la toma de decisiones estratégicas en su organización incluye el desempeño individual y grupal, productividad y rotación. Señala que actualmente los datos que manejan son dispersos y poco actualizados, lo que dificulta el análisis confiable y oportuno.
+
+Revisa reportes de forma mensual o trimestral, dependiendo del indicador, y menciona como reto principal la dificultad de identificar objetivamente el potencial real de los colaboradores y alinear capacitaciones a objetivos estratégicos.
+
+Considera que *Talent Manager* sería muy útil para centralizar datos en tiempo real, personalizar reportes y facilitar la toma de decisiones. Afirma que usaría la plataforma, ya que le permitiría ahorrar tiempo y mejorar la calidad del análisis estratégico en la gestión del talento.
+
+![][image11]
+
+Nombre: Francisco Reyes
+
+**Ocupación:** Gerente de RR.HH en Expro
+
+**Edad:** 55
+
+**Distrito:** La Molina, Lima 
+
+Link: [Segmento 2 \- Entrevista 2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/ETnIr0hhFX5OnC6ZxduAWJ4BKWoLsxBY7SSGfAss0LgHAA?e=nhzVEq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+En la entrevista, se conversó con Francisco Reyes, gerente administrativo de una empresa importadora de repuestos. Se le presenta TalentManager, una plataforma web que permite registrar, evaluar y dar seguimiento al desempeño de los trabajadores mediante reportes automáticos y criterios personalizados.
+
+Francisco comenta que la información esencial para tomar decisiones estratégicas sobre el talento humano incluye la experiencia previa y el conocimiento específico del área en la que se desempeñará el trabajador. Señala que actualmente los datos sobre rendimiento no son confiables ni accesibles, ya que provienen de evaluaciones humanas indirectas y no de sistemas objetivos.
+
+Revisa reportes de asistencia y comportamiento mensualmente, pero las evaluaciones de desempeño se realizan cada seis meses o una vez al año. Como principal reto al planificar capacitaciones o reestructuraciones menciona la falta de motivación en ciertas áreas del personal, especialmente aquellas sin incentivos económicos adicionales.
+
+Considera que Talent Manager sería muy útil para obtener reportes actualizados, centralizados y objetivos en tiempo real. Afirma que usaría la plataforma si garantiza criterios justos de evaluación y cumple con la normativa laboral vigente, ya que le permitiría tomar mejores decisiones estratégicas y reducir el margen de error humano.
+
+### **2.2.3 Análisis de entrevistas** {#2.2.3-análisis-de-entrevistas}
+
+**Segmento objetivo \#1: Supervisores operativos y jefes de área**
+
+**Hallazgos:**
+
+* **Centralización de información**: Los supervisores actualmente gestionan datos de desempeño de forma manual y dispersa (cuadernos, Excel), lo que genera pérdida de tiempo y riesgo de errores. Hay una fuerte necesidad de una plataforma centralizada que integre todos los datos relevantes de manera organizada.
+
+* **Dificultad en la recopilación y consolidación**: Tanto Fabrizio como Bruno indicaron que el proceso de recoger información de desempeño es tedioso y poco eficiente, lo que provoca retrasos y falta de precisión al momento de evaluar a su personal.
+
+* **Valoración de la automatización**: Ambos entrevistados destacaron que una plataforma que calcule automáticamente asistencias, rendimientos y observaciones sería muy valiosa. Eliminaría tareas repetitivas y permitiría enfocarse en la gestión estratégica del equipo.
+
+* **Importancia de una interfaz práctica y rápida**: Los supervisores buscan soluciones ágiles y fáciles de usar, que no requieran una curva de aprendizaje elevada ni procesos complicados para registrar o consultar información.
+
+* **Interés real de adopción**: Tanto Fabrizio como Bruno manifestaron interés en utilizar TalentManager como herramienta de trabajo diario, siempre que cumpla con la promesa de eficiencia y practicidad.
+
+**Conclusiones:** Los supervisores operativos y jefes de área enfrentan una gestión fragmentada y manual de la información de sus equipos, lo que afecta su productividad y efectividad. Existe una alta disposición a adoptar una plataforma digital como TalentManager, siempre que cumpla con tres factores clave: centralización de datos, automatización de reportes y una interfaz práctica.
+
+TalentManager tiene una gran oportunidad de posicionarse como una solución esencial para supervisores de operaciones, mejorando su eficiencia y ayudándolos a tomar decisiones más informadas de manera rápida. Además, reforzar la facilidad de uso y la generación automática de reportes será un diferencial altamente valorado para este segmento.
+
+**Segmento objetivo \#2: Gerentes de RR. HH. y directivos estratégicos**
+
+**Hallazgos:**
+
+* **Necesidad de centralización y actualización de datos**: Tanto Paulo como Francisco señalaron que actualmente manejan información dispersa, lo que complica el análisis estratégico y la toma de decisiones basadas en datos confiables.
+
+* **Valor de reportes personalizados y automáticos**: Los entrevistados destacaron que una plataforma que permita personalizar criterios de evaluación y genere reportes automáticos en tiempo real sería sumamente útil para facilitar el análisis de desempeño, productividad y rotación.
+
+* **Desafíos en la identificación del talento**: Existe una dificultad clara en evaluar objetivamente el potencial real de los colaboradores y en alinear acciones de capacitación con los objetivos de la empresa, debido a la falta de métricas objetivas actuales.
+
+* **Importancia de evaluaciones justas y normativas**: Francisco remarcó que para que la plataforma sea adoptada debe garantizar criterios de evaluación imparciales y cumplir con normativas laborales, lo cual sería clave para su confianza en el sistema.
+
+* **Alta disposición a utilizar la plataforma**: Ambos entrevistados manifestaron interés real en adoptar TalentManager si garantiza ahorro de tiempo, mejor calidad de análisis y apoyo en la toma de decisiones estratégicas.
+
+**Conclusiones:** Los gerentes de RR. HH. y directivos estratégicos requieren herramientas que permitan centralizar datos dispersos, automatizar reportes y generar evaluaciones objetivas que puedan respaldar decisiones sobre el talento humano. Actualmente, las herramientas manuales o dispersas afectan la eficiencia del área y la calidad de las decisiones.
+
+TalentManager tiene una oportunidad clara de posicionarse como una solución estratégica para la gestión del talento si ofrece información en tiempo real, criterios justos de evaluación y opciones de personalización. Esto no solo optimizaría los procesos de RR. HH., sino que también reduciría el margen de error humano en decisiones clave como promociones, despidos o capacitaciones.
+
+# **2.3 Needfinding** {#2.3-needfinding}
+
+Las necesidades identificadas en los segmentos objetivo para la aplicación TalentManager son las siguientes:
+
+**Segmento \#1: Supervisores operativos y jefes de área**
+
+* Seguimiento integral del desempeño: Plataforma que centralice información clave como asistencia, faltas, memorándums y observaciones para cada colaborador.
+
+* Evaluación rápida y estructurada: Herramientas para calificar periódicamente a los trabajadores mediante puntajes y comentarios, facilitando la toma de decisiones operativas.
+
+* Reportes automáticos y personalizados: Generación de reportes mensuales o acumulados sobre el rendimiento del equipo, adaptables a las necesidades del área.
+
+* Acceso rápido y organizado a la información: Búsqueda por nombre o cargo para encontrar la ficha de cada trabajador con todos los datos necesarios en un solo lugar.
+
+* Reducción de carga administrativa: Digitalización del proceso de supervisión y seguimiento, evitando el uso de documentos físicos o registros dispersos.
+
+
+**Segmento objetivo \#2: Gerentes de RR. HH. y directivos estratégicos**
+
+* Visibilidad global del rendimiento laboral: Acceso a informes consolidados que permiten monitorear el comportamiento laboral a nivel general y por áreas.
+
+* Soporte para decisiones estratégicas: Información objetiva que respalda promociones, sanciones, despidos o necesidades de intervención.
+
+* Identificación de patrones de desempeño: Detección de colaboradores con bajo o alto rendimiento, ausentismo frecuente o reincidencia en faltas.
+
+* Evaluación flexible y alineada a la cultura organizacional: Sistema que permite ajustar los criterios de evaluación según los valores, prioridades y objetivos de la empresa.
+
+* Facilitación de auditorías y cumplimiento normativo: Registro digital confiable que puede utilizarse como soporte en procesos internos, legales o de auditoría laboral.
+
+### **2.3.1 User Personas** {#2.3.1-user-personas}
+
+Se presentarán los user persona por cada segmento objetivo. Estos son arquetipos de los usuarios ideales para cada uno de los 2 segmentos:
+
+**Segmento \#1: Supervisores operativos y jefes de área**
+
+### 
+
+![][image12]
+
+**Segmento objetivo \#2: Gerentes de RR. HH. y directivos estratégicos**
+
+### 
+
+![][image13]
+
+### **2.3.2 User Task Matrix** {#2.3.2-user-task-matrix}
+
+**Luis Alva:**
+
+![][image14]
+
+**Tatiana Marcela:**
+
+![][image15]
+
+### **2.3.3 User Journey Mapping** {#2.3.3-user-journey-mapping}
+
+**User Persona: Luis Alva:**
+
+**![][image16]**
+
+**User Persona: Tatiana Marcela:**
+
+![][image17]
+
+                      
+
+### **2.3.4 Empathy Mapping** {#2.3.4-empathy-mapping}
+
+**User persona del segmento \#1: Supervisores operativos y jefes de área**
+
+**![][image18]**
+
+**User persona del segmento objetivo \#2: Gerentes de RR. HH. y directivos estratégicos**
+
+![][image19]
+
+### **2.3.5 As-is Scenario Mapping** {#2.3.5-as-is-scenario-mapping}
+
+**Segmento \#1:  Supervisores operativos y jefes de área**
+
+| Phases |  Supervisión diaria del equipo  |  Evaluaciones de desempeño  | Justificación de decisiones (ascensos, sanciones, etc.) |
+| :---: | ----- | ----- | ----- |
+| **Doing** | Lleva notas en papel o Excel sobre el comportamiento y desempeño de los trabajadores. | Intenta recordar situaciones específicas y consultar sus registros dispersos para evaluar al personal. | Busca evidencias que respaldan sus decisiones frente a RRHH o gerencia. |
+| **Thinking** | Pienso que no tengo tiempo de revisar esto todos los días, pero debo hacerlo. | Dudo si estoy siendo justo, tal vez estoy olvidando cosas importantes. | Pienso que me gustaría tener datos sólidos para demostrar por qué tomé esta decisión |
+| **Feeling** | Abrumado, siente que supervisar al equipo es una carga pesada sin herramientas adecuadas. | Inseguro, con miedo de que su evaluación no refleje la realidad. | Nervioso, teme que sus decisiones sean cuestionadas por falta de respaldo objetivo. |
+
+**Segmento objetivo \#2: Gerentes de RR. HH. y directivos estratégicos**
+
+| Phases | Recolección de información del personal | Análisis del rendimiento y toma de decisiones | Presentación de resultados a la alta dirección |
+| :---: | ----- | ----- | ----- |
+| **Doing** | Revisa hojas de cálculo, correos y documentos enviados por distintos departamentos. | Compara datos antiguos y actuales de rendimiento para identificar a los colaboradores destacados o con bajo rendimiento. | Arma reportes manuales con datos dispersos, intentando organizar todo de forma clara. |
+| **Thinking** | Pienso que esto toma mucho tiempo, ¿cómo puedo asegurarme de que toda esta información sea correcta? | Pienso que con esta información limitada, me cuesta justificar cualquier decisión importante. | Espero que esto sea suficiente para que la gerencia entienda lo que estamos logrando. |
+| **Feeling** | Frustrada y preocupada por la falta de precisión y el tiempo que consume el proceso. | Insegura, dudando si sus decisiones realmente se basan en datos objetivos. | Estresada y ansiosa, temiendo que la falta de claridad debilite su propuesta o análisis. |
