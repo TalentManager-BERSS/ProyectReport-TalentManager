@@ -831,3 +831,406 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | **Doing** | Revisa hojas de cálculo, correos y documentos enviados por distintos departamentos. | Compara datos antiguos y actuales de rendimiento para identificar a los colaboradores destacados o con bajo rendimiento. | Arma reportes manuales con datos dispersos, intentando organizar todo de forma clara. |
 | **Thinking** | Pienso que esto toma mucho tiempo, ¿cómo puedo asegurarme de que toda esta información sea correcta? | Pienso que con esta información limitada, me cuesta justificar cualquier decisión importante. | Espero que esto sea suficiente para que la gerencia entienda lo que estamos logrando. |
 | **Feeling** | Frustrada y preocupada por la falta de precisión y el tiempo que consume el proceso. | Insegura, dudando si sus decisiones realmente se basan en datos objetivos. | Estresada y ansiosa, temiendo que la falta de claridad debilite su propuesta o análisis. |
+
+# **2.4 Ubiquitous Language** {#2.4-ubiquitous-language}
+
+# **Capítulo III: Requirements Specification** {#capítulo-iii:-requirements-specification}
+
+# **3.1. To-Be Scenario Mapping** {#3.1.-to-be-scenario-mapping}
+
+**Segmento \#1: Supervisores operativos y jefes de área**
+
+| Phases |  Supervisión diaria del equipo  |  Evaluaciones de desempeño  | Justificación de decisiones (ascensos, sanciones, etc.) |
+| :---: | ----- | ----- | ----- |
+| **Doing** | Registra desde su celular o laptop las asistencias, puntualidad, comportamiento y logros diarios en TalentManager. | Utiliza la plataforma para calificar al personal con criterios predefinidos, observaciones y puntajes con pesos personalizados. | Consulta historial de desempeño y genera reportes con evidencia objetiva para respaldar propuestas de ascenso o sanción. |
+| **Thinking** | Siente que es rápido y sencillo mantener actualizada la información del personal.	 | Cree que este sistema le ayuda a evaluar mejor y de forma más justa a cada trabajador. | Se siente confiado ahora que tiene pruebas concretas para sustentar cada decisión que toma. |
+| **Feeling** | Tranquilo, constante y en control del proceso.	 | Objetivo, profesional y enfocado en la mejora del equipo.	 | Respaldado, seguro y respetado por su liderazgo justo |
+
+**Segmento objetivo \#2: Gerentes de RR. HH. y directivos estratégicos**
+
+| Phases | Recolección de información del personal | Análisis del rendimiento y toma de decisiones | Presentación de resultados a la alta dirección |
+| :---: | ----- | ----- | ----- |
+| **Doing** | Accede a TalentManager para visualizar registros centralizados de asistencia, evaluaciones, observaciones y comentarios de supervisores. | Revisa reportes automáticos con comparativas por trabajador, áreas, meses y criterios personalizados. | Genera informes exportables con visualizaciones claras del desempeño global y propuestas de acción. |
+| **Thinking** | Sienten que tienen toda la información actualizada y en un solo lugar, sin depender de archivos dispersos.	 | Puedo tomar decisiones más objetivas y argumentadas gracias a estos reportes. | Esta presentación será mucho más sólida y profesional con estos gráficos. |
+| **Feeling** | Organizada y aliviada de evitar el caos de hojas de cálculo.	 | Segura, estratégica y respaldada por datos. | Confiada, valorada y satisfecha con su gestión. costos energéticos. |
+
+# **3.2. User Stories** {#3.2.-user-stories}
+
+### **3.2.1 Epics** {#3.2.1-epics}
+
+| EP01 | Experiencia de navegación en la landing page de TalentManager |
+| :---- | :---- |
+| **Descripción:** Como usuario, quiero navegar en una landing page clara, atractiva y funcional, para conocer TalentManager y explorar su propuesta, servicios y medios de contacto de forma intuitiva. |  |
+| User Story ID | Título |
+| US01 | Visualización del mensaje principal en la pantalla de inicio |
+| US02 | Acceso a menú de navegación responsive desde cualquier dispositivo |
+| US03 | Visualización de beneficios principales de TalentManager en la landing page |
+| US04 | Navegación rápida a secciones de Servicios, Contacto, Nosotros y Suscríbete |
+| US05 | Acceso al formulario de contacto para envío de mensajes |
+| US06 | Visualización del apartado de planes y precios de suscripción |
+| US07 | Acceso a la sección "Sobre Nosotros" para conocer la empresa y el proyecto |
+| US08 | Visualización de políticas de privacidad y términos de servicio |
+| US09 | Acceso a redes sociales desde el pie de página (footer) |
+| US10 | Visualización de la galería de slides informativos mediante el carrusel (Swiper) |
+
+### 
+
+| EP02 | Gestión de Información del Empleado |
+| :---- | :---- |
+| **Descripción:** Como responsable de RRHH, quiero registrar y consultar datos clave del personal para tener control detallado de cada trabajador. |  |
+| User Story ID | Título |
+| US11 | Registro básico de empleados |
+| US12 | Edición de información del perfil |
+| US13 | Visualización de perfil completo |
+| US14 | Registro de cargo y área del empleado |
+
+### 
+
+| EP03 | Registro y Seguimiento de Desempeño Diario |
+| :---- | :---- |
+| **Descripción:** Como supervisor, quiero registrar diariamente asistencia, faltas y observaciones para mantener actualizado el desempeño del personal. |  |
+| User Story ID | Título |
+| US15 | Registro diario de asistencia |
+| US16 | Registro de faltas o tardanzas |
+| US17 | Registro de observaciones de comportamiento |
+| US18 | Puntaje diario de desempeño |
+| US19 | Visualización de registros recientes del equipo |
+
+### 
+
+| EP04 | Evaluación Formal del Desempeño |
+| :---- | :---- |
+| **Descripción:** Como gerente de RRHH, quiero realizar evaluaciones periódicas con criterios definidos para analizar el rendimiento de cada colaborador. |  |
+| User Story ID | Título |
+| US20 | Inicio de evaluación de desempeño |
+| US21 | Guardado automático de evaluaciones |
+| US22 | Visualización de resultados por empleado |
+
+### 
+
+| EP05 | Reportes e Indicadores de Gestión |
+| :---- | :---- |
+| **Descripción:** Como directivo, quiero acceder a reportes visuales y datos analíticos para tomar decisiones estratégicas basadas en el rendimiento. |  |
+| User Story ID | Título |
+| US23 | Generación de reportes mensuales |
+| US24 | Reporte por criterio de evaluación |
+| US25 | Exportación de reportes en pantalla |
+| US26 | Reporte de empleados con mejor desempeño |
+
+### 
+
+| EP06 | Interfaz Intuitiva y Fácil de Usar |
+| :---- | :---- |
+| **Descripción:** Como usuario sin experiencia técnica, quiero que la interfaz de la plataforma sea intuitiva, limpia y profesional para poder navegar y utilizar todas las funciones sin dificultad ni entrenamiento extenso. |  |
+| User Story ID | Título |
+| US27 | Interfaz de usuario intuitiva y fácil de usar |
+| US28 | Diseño limpio y profesional que inspire confianza |
+| US29 | Presentación clara y ordenada de la información |
+| US30 | Navegación coherente en todas las secciones de la plataforma |
+
+### 
+
+### **3.2.2 User Stories** {#3.2.2-user-stories}
+
+| ID Épica: | EP01 |
+| :---- | :---- |
+| Épica: | Experiencia de navegación en la landing page de TalentManager |
+| ID Historia de Usuario | US01 |
+| Título Historia de Usuario | Visualización del mensaje principal en la pantalla de inicio |
+| Descripción HU: Como visitante de la página, quiero visualizar un mensaje principal claro y motivador en la pantalla de inicio, para entender rápidamente el propósito de TalentManager. |  |
+| Criterios de aceptación: Escenario 1: Visualización del mensaje principal Dado que un usuario accede a la página de inicio, Cuando se carga la sección principal, Entonces debe visualizar un título llamativo, una línea divisoria y un subtítulo descriptivo sobre la plataforma. |  |
+
+ 
+
+| ID Épica: | EP01 |
+| :---- | :---- |
+| Épica: | Experiencia de navegación en la landing page de TalentManager |
+| ID Historia de Usuario | US02 |
+| Título Historia de Usuario | Acceso a menú de navegación responsive desde cualquier dispositivo |
+| Descripción HU: Como usuario, quiero acceder fácilmente al menú de navegación desde cualquier dispositivo, para moverme por la plataforma sin importar el tamaño de pantalla. |  |
+| Criterios de aceptación: Escenario 1: Acceso al menú en escritorio Dado que un usuario accede desde un computador, Cuando visualiza la barra de navegación superior, Entonces debe poder ver y utilizar el menú directamente.   Escenario 2: Acceso al menú en móvil o tablet Dado que un usuario accede desde un dispositivo móvil o tablet, Cuando presiona el icono de hamburguesa, Entonces debe desplegarse el menú offcanvas para navegar entre las opciones. |  |
+
+ 
+
+| ID Épica: | EP01 |
+| :---- | :---- |
+| Épica: | Experiencia de navegación en la landing page de TalentManager |
+| ID Historia de Usuario | US03 |
+| Título Historia de Usuario | Visualización de beneficios principales de TalentManager en la landing page |
+| Descripción HU: Como visitante, quiero ver los beneficios destacados de TalentManager, para conocer rápidamente las principales ventajas del servicio. |  |
+| Criterios de aceptación: Escenario 1: Visualización de beneficios Dado que un usuario navega por la página, Cuando llega a la sección de beneficios, Entonces debe visualizar al menos cuatro beneficios con íconos y descripciones breves. |  |
+
+ 
+
+| ID Épica: | EP01 |
+| :---- | :---- |
+| Épica: | Experiencia de navegación en la landing page de TalentManager |
+| ID Historia de Usuario | US04 |
+| Título Historia de Usuario | Navegación rápida a secciones de Servicios, Contacto, Nosotros y Suscríbete |
+| Descripción HU: Como usuario, quiero acceder rápidamente a las secciones principales desde el menú de navegación, para encontrar la información que necesito sin perder tiempo. |  |
+| Criterios de aceptación: Escenario 1: Navegación hacia Servicios Dado que un usuario abre el menú, Cuando selecciona "Servicios", Entonces debe ser dirigido a la sección de servicios en la misma página.   Escenario 2: Navegación hacia Contacto Dado que un usuario abre el menú, Cuando selecciona "Contacto", Entonces debe ser redirigido a la página de contacto.   Escenario 3: Navegación hacia Nosotros Dado que un usuario abre el menú, Cuando selecciona "Nosotros", Entonces debe ser redirigido a la página sobre la empresa.   Escenario 4: Navegación hacia Suscríbete Dado que un usuario abre el menú, Cuando selecciona "Suscríbete", Entonces debe ser redirigido a la página de suscripción. |  |
+
+ 
+
+| ID Épica: | EP01 |
+| :---- | :---- |
+| Épica: | Experiencia de navegación en la landing page de TalentManager |
+| ID Historia de Usuario | US05 |
+| Título Historia de Usuario | Acceso al formulario de contacto para envío de mensajes |
+| Descripción HU: Como usuario, quiero llenar un formulario de contacto para enviar mis consultas o dudas a TalentManager de forma sencilla. |  |
+| Criterios de Aceptación: Escenario 1: Visualización del formulario de contacto Dado que un usuario accede a la sección de contacto, Cuando visualiza el formulario, Entonces debe ver los campos de nombre, teléfono, correo, mensaje y la aceptación de política de datos.   Escenario 2: Envío de formulario Dado que un usuario completa todos los campos y acepta las políticas, Cuando hace clic en "Enviar", Entonces su mensaje debe ser procesado correctamente. |  |
+
+ 
+
+| ID Épica: | EP01 |
+| :---- | :---- |
+| Épica: | Experiencia de navegación en la landing page de TalentManager |
+| ID Historia de Usuario | US06 |
+| Título Historia de Usuario | Visualización del apartado de planes y precios de suscripción |
+| Descripción HU: Como potencial cliente, quiero ver claramente los planes de suscripción disponibles, para comparar opciones y tomar una decisión de compra. |  |
+| Criterios de Aceptación: Escenario 1: Visualización de planes Dado que un usuario accede a la sección de suscripción, Cuando se despliega la información, Entonces debe visualizar al menos tres planes distintos con precios, características y botón de compra. |  |
+
+ 
+
+| ID Épica: | EP01 |
+| :---- | :---- |
+| Épica: | Experiencia de navegación en la landing page de TalentManager |
+| ID Historia de Usuario | US07 |
+| Título Historia de Usuario | Acceso a la sección "Sobre Nosotros" para conocer la empresa y el proyecto |
+| Descripción HU: Como visitante, quiero acceder a la sección de "Sobre Nosotros" para saber más sobre la historia de la empresa y el propósito de TalentManager. |  |
+| Criterios de Aceptación: Escenario 1: Acceso a la sección de Sobre Nosotros Dado que un usuario selecciona la opción "Nosotros" en el menú, Cuando accede a la página, Entonces debe visualizar información sobre BERSS y sobre TalentManager, acompañada de imágenes relevantes. |  |
+
+ 
+
+| ID Épica: | EP01 |
+| :---- | :---- |
+| Épica: | Experiencia de navegación en la landing page de TalentManager |
+| ID Historia de Usuario | US08 |
+| Título Historia de Usuario | Visualización de políticas de privacidad y términos de servicio |
+| Descripción HU: Como usuario, quiero acceder a las políticas de privacidad y términos de servicio para comprender las condiciones legales de uso de la plataforma. |  |
+| Criterios de Aceptación: Escenario 1: Acceso a políticas y términos Dado que un usuario accede al pie de página, Cuando selecciona "Políticas y Privacidad" o "Términos del Servicio", Entonces debe visualizar el contenido relacionado. |  |
+
+ 
+
+| ID Épica: | EP01 |
+| :---- | :---- |
+| Épica: | Experiencia de navegación en la landing page de TalentManager |
+| ID Historia de Usuario | US09 |
+| Título Historia de Usuario | Visualización de políticas de privacidad y términos de servicioAcceso a redes sociales desde el pie de página (footer) |
+| Descripción HU: Como usuario, quiero poder visitar las redes sociales oficiales de TalentManager desde el footer de la página para seguir sus novedades. |  |
+| Criterios de Aceptación: Escenario 1: Visualización de enlaces a redes sociales Dado que un usuario accede al footer, Cuando visualiza las opciones de redes sociales, Entonces debe encontrar enlaces hacia Youtube, Instagram y Twitter. |  |
+
+ 
+
+| ID Épica: | EP01 |
+| :---- | :---- |
+| Épica: | Experiencia de navegación en la landing page de TalentManager |
+| ID Historia de Usuario | US10 |
+| Título Historia de Usuario | Visualización de la galería de slides informativos mediante el carrusel (Swiper) |
+| Descripción HU: Como usuario, quiero ver una galería de slides informativos interactivos en la landing page para conocer las principales funciones de TalentManager de forma atractiva. |  |
+| Criterios de Aceptación:   Escenario 1: Visualización del carrusel de slides Dado que un usuario navega hacia la sección de servicios, Cuando carga la sección, Entonces debe visualizar un carrusel que muestra distintos slides informativos con imágenes y descripciones.   Escenario 2: Navegación entre slides Dado que un usuario interactúa con el carrusel, Cuando utiliza los botones de navegación o los indicadores, Entonces debe poder moverse hacia el slide anterior o siguiente. |  |
+
+| ID Épica: | EP02 |
+| :---- | :---- |
+| Épica: | Gestión de Información del Empleado |
+| ID Historia de Usuario | US11 |
+| Título Historia de Usuario | Registro básico de empleados |
+| Descripción HU: Como responsable de RRHH, quiero registrar empleados nuevos con sus datos personales básicos para agregarlos al sistema de gestión. |  |
+| Criterios de aceptación: Escenario 1: Registro exitoso Dado que completo todos los campos requeridos, Cuando guardo el formulario, Entonces el sistema crea un nuevo perfil de empleado. Escenario 2: Validación de campos vacíos Dado que dejo campos obligatorios sin llenar, Cuando intento guardar, Entonces el sistema me muestra un mensaje de error indicando los campos faltantes. Escenario 3: Detección de duplicados Dado que el documento ya fue registrado, Cuando intento guardar el nuevo perfil, Entonces el sistema me alerta que el empleado ya existe. |  |
+
+| ID Épica: | EP02 |
+| :---- | :---- |
+| Épica: | Gestión de Información del Empleado |
+| ID Historia de Usuario | US12 |
+| Título Historia de Usuario | Edición de información del perfil |
+| Descripción HU: Como responsable de RRHH, quiero editar la información de un perfil de empleado para mantenerla actualizada. |  |
+| Criterios de aceptación: Escenario 1: Acceso a edición Dado que estoy viendo un perfil, Cuando hago clic en "Editar", Entonces puedo modificar la información del empleado. Escenario 2: Confirmación de cambios Dado que actualizo un dato, Cuando guardo los cambios, Entonces el sistema me muestra una confirmación. Escenario 3: Validación de errores Dado que ingreso un dato inválido, Cuando intento guardar, Entonces el sistema me notifica el error. |  |
+
+| ID Épica: | EP02 |
+| :---- | :---- |
+| Épica: | Gestión de Información del Empleado |
+| ID Historia de Usuario | US13 |
+| Título Historia de Usuario | Visualización de perfil completo |
+| Descripción HU: Como responsable de RRHH, quiero ver todos los datos del perfil del empleado para tener una vista clara de su información. |  |
+| Criterios de aceptación: Escenario 1: Acceso desde listado Dado que busco a un empleado, Cuando hago clic en su nombre, Entonces accedo a su perfil completo. Escenario 2: Organización de información Dado que ingreso al perfil, Cuando se carga la página, Entonces veo la información separada por secciones (personales, laborales, etc.). Escenario 3: Información actualizada Dado que el perfil fue editado, Cuando lo consulto, Entonces veo los datos modificados reflejados. |  |
+
+| ID Épica: | EP02 |
+| :---- | :---- |
+| Épica: | Gestión de Información del Empleado |
+| ID Historia de Usuario | US14 |
+| Título Historia de Usuario | Registro de cargo y área del empleado |
+| Descripción HU: Como responsable de RRHH, quiero registrar el cargo y área de un empleado para reflejar su posición actual en la organización. |  |
+| Criterios de aceptación: Escenario 1: Asignación inicial Dado que registro un nuevo empleado, Cuando selecciono cargo y área, Entonces esta información queda registrada en su perfil. Escenario 2: Reasignación interna Dado que un empleado cambia de área, Cuando actualizo ese dato, Entonces el sistema conserva el historial del cargo anterior. Escenario 3: Validación obligatoria Dado que omito seleccionar área o cargo, Cuando intento guardar, Entonces el sistema me exige completar esos campos. |  |
+
+| ID Épica: | EP03 |
+| :---- | :---- |
+| Épica: | Registro y Seguimiento de Desempeño Diario |
+| ID Historia de Usuario | US15 |
+| Título Historia de Usuario | Registro diario de asistencia |
+| Descripción HU: Como supervisor, quiero registrar la asistencia de cada empleado para llevar un control diario. |  |
+| Criterios de aceptación: Escenario 1: Registro de presente o ausente Dado que es el inicio del día, Cuando marco a un empleado como presente o ausente, Entonces el sistema guarda la información. Escenario 2: Prevención de duplicados Dado que ya se registró la asistencia, Cuando intento volver a marcar, Entonces el sistema me informa que ya existe un registro. Escenario 3: Registro por fecha Dado un día específico, Cuando consulto la asistencia, Entonces veo el estado registrado para cada empleado. |  |
+
+| ID Épica: | EP03 |
+| :---- | :---- |
+| Épica: | Registro y Seguimiento de Desempeño Diario |
+| ID Historia de Usuario | US16 |
+| Título Historia de Usuario | Registro de faltas o tardanzas |
+| Descripción HU: Como supervisor, quiero registrar faltas y llegadas tardías para evaluar el compromiso del empleado. |  |
+| Criterios de aceptación: Escenario 1: Marcar falta o tardanza Dado que un empleado llegó tarde, Cuando selecciono la opción "Tardanza", Entonces se guarda esa condición en el sistema. Escenario 2: Comentario opcional Dado que marco una ausencia, Cuando agrego una nota, Entonces esta se guarda junto al registro. Escenario 3: Visualización posterior Dado que reviso el historial, Cuando veo la fecha, Entonces se muestra si hubo falta o tardanza. |  |
+
+| ID Épica: | EP03 |
+| :---- | :---- |
+| Épica: | Registro y Seguimiento de Desempeño Diario |
+| ID Historia de Usuario | US17 |
+| Título Historia de Usuario | Registro de observaciones de comportamiento |
+| Descripción HU: Como supervisor, quiero registrar observaciones de comportamiento para mantener constancia de actitudes positivas o negativas. |  |
+| Criterios de aceptación: Escenario 1: Ingreso de observación Dado que quiero hacer un comentario, Cuando ingreso el texto en el formulario, Entonces el sistema guarda la observación. Escenario 2: Asociación por fecha Dado que hago una observación, Cuando se guarda, Entonces queda registrada con la fecha y nombre del autor. Escenario 3: Visualización en historial Dado que consulto el historial, Cuando busco observaciones, Entonces las veo listadas por fecha. |  |
+
+| ID Épica: | EP03 |
+| :---- | :---- |
+| Épica: | Registro y Seguimiento de Desempeño Diario |
+| ID Historia de Usuario | US18 |
+| Título Historia de Usuario | Puntaje diario de desempeño |
+| Descripción HU: Como supervisor, quiero asignar un puntaje diario para valorar el rendimiento general del empleado. |  |
+| Criterios de aceptación: Escenario 1: Asignación de puntaje Dado que evalúo el día, Cuando selecciono un puntaje del 1 al 5, Entonces el sistema lo asocia al empleado y la fecha. Escenario 2: Prevención de duplicado Dado que ya asigné puntaje, Cuando intento registrar de nuevo, Entonces el sistema lo impide o pide confirmación. Escenario 3: Promedio semanal Dado que consulto un rango de fechas, Cuando se muestran los puntajes, Entonces veo el promedio calculado por empleado. |  |
+
+| ID Épica: | EP03 |
+| :---- | :---- |
+| Épica: | Registro y Seguimiento de Desempeño Diario |
+| ID Historia de Usuario | US19 |
+| Título Historia de Usuario | Visualización de registros recientes del equipo |
+| Descripción HU: Como supervisor, quiero ver los registros recientes de mi equipo para revisar rápidamente la actividad reciente. |  |
+| Criterios de aceptación: Escenario 1: Acceso a resumen diario Dado que estoy en la sección de desempeño, Cuando abro el panel del día, Entonces veo asistencia, observaciones y puntajes recientes. Escenario 2: Filtros por tipo de registro Dado que hay muchos registros, Cuando uso los filtros, Entonces solo veo el tipo seleccionado (asistencia, observaciones, etc.). Escenario 3: Orden por fecha Dado que reviso varios días, Cuando se muestran, Entonces aparecen del más reciente al más antiguo. |  |
+
+| ID Épica: | EP04 |
+| :---- | :---- |
+| Épica: | Evaluación Formal del Desempeño |
+| ID Historia de Usuario | US20 |
+| Título Historia de Usuario | Inicio de evaluación de desempeño |
+| Descripción HU: Como gerente de RRHH, quiero iniciar evaluaciones de desempeño para empleados asignados para evaluar su rendimiento en periodos definidos. |  |
+| Criterios de aceptación: Escenario 1: Inicio de nueva evaluación Dado que accedo a la sección de evaluaciones, Cuando selecciono un empleado, Entonces se genera un nuevo formulario. Escenario 2: Restricción por periodo Dado que una evaluación ya existe en el periodo, Cuando intento iniciar otra, Entonces el sistema me lo impide. Escenario 3: Confirmación del inicio Dado que inicio una evaluación, Cuando se crea el formulario, Entonces recibo un mensaje de confirmación. |  |
+
+| ID Épica: | EP04 |
+| :---- | :---- |
+| Épica: | Evaluación Formal del Desempeño |
+| ID Historia de Usuario | US21 |
+| Título Historia de Usuario | Guardado automático de evaluaciones |
+| Descripción HU: Como gerente de RRHH, quiero que la evaluación se guarde automáticamente para evitar pérdida de información. |  |
+| Criterios de aceptación: Escenario 1: Guardado cada cierto tiempo Dado que estoy completando una evaluación, Cuando pasan 2 minutos sin guardar, Entonces el sistema guarda automáticamente. Escenario 2: Aviso de guardado exitoso Dado que se guarda automáticamente, Cuando finaliza la acción, Entonces se muestra un mensaje de éxito. Escenario 3: Recuperación de evaluación Dado que cierro sesión inesperadamente, Cuando regreso a la evaluación, Entonces veo lo último registrado. |  |
+
+| ID Épica: | EP04 |
+| :---- | :---- |
+| Épica: | Evaluación Formal del Desempeño |
+| ID Historia de Usuario | US22 |
+| Título Historia de Usuario | Visualización de resultados por empleado |
+| Descripción HU: Como gerente de RRHH, quiero ver los resultados de cada evaluación por empleado para hacer seguimiento a su progreso. |  |
+| Criterios de aceptación: Escenario 1: Listado de evaluaciones Dado que ingreso al perfil del empleado, Cuando accedo a la pestaña de evaluaciones, Entonces veo un listado con fechas y puntajes. Escenario 2: Visualización de detalles Dado que selecciono una evaluación, Cuando se carga, Entonces veo los criterios, notas y observaciones. Escenario 3: Orden cronológico Dado que hay varias evaluaciones, Cuando se muestran, Entonces aparecen de la más reciente a la más antigua. |  |
+
+| ID Épica: | EP05 |
+| :---- | :---- |
+| Épica: | Reportes e Indicadores de Gestión |
+| ID Historia de Usuario | US23 |
+| Título Historia de Usuario | Generación de reportes mensuales |
+| Descripción HU: Como directivo, quiero generar reportes mensuales de desempeño para revisar la evolución del equipo. |  |
+| Criterios de aceptación: Escenario 1: Selección de periodo Dado que estoy en la sección de reportes, Cuando selecciono un mes, Entonces se genera un reporte con datos de ese periodo. Escenario 2: Contenido del reporte Dado que se genera el reporte, Cuando lo visualizo, Entonces incluye asistencia, desempeño y observaciones. Escenario 3: Almacenamiento automático Dado que genero un reporte, Cuando finaliza el proceso, Entonces se guarda para futuras consultas. |  |
+
+| ID Épica: | EP05 |
+| :---- | :---- |
+| Épica: | Reportes e Indicadores de Gestión |
+| ID Historia de Usuario | US24 |
+| Título Historia de Usuario | Reporte por criterio de evaluación |
+| Descripción HU: Como directivo, quiero ver reportes centrados en criterios específicos para detectar patrones. |  |
+| Criterios de aceptación: Escenario 1: Selección del criterio Dado que estoy en reportes, Cuando elijo un criterio (ej. puntualidad), Entonces veo datos agregados de todos los empleados. Escenario 2: Porcentaje de cumplimiento Dado que hay múltiples empleados, Cuando veo el gráfico, Entonces muestra qué porcentaje obtuvo buenas calificaciones. Escenario 3: Exportación visible en pantalla Dado que no se descarga nada, Cuando se genera el gráfico, Entonces lo visualizo en el navegador. |  |
+
+| ID Épica: | EP05 |
+| :---- | :---- |
+| Épica: | Reportes e Indicadores de Gestión |
+| ID Historia de Usuario | US25 |
+| Título Historia de Usuario | Exportación de reportes en pantalla |
+| Descripción HU: Como directivo, quiero poder exportar lo que veo en pantalla para compartirlo o analizarlo externamente. |  |
+| Criterios de aceptación: Escenario 1: Botón de exportar Dado que veo un reporte, Cuando hago clic en exportar, Entonces se descarga el contenido en formato simple (ej. imagen o texto). Escenario 2: Nombre de archivo automático Dado que se descarga el archivo, Cuando reviso su nombre, Entonces tiene el nombre del reporte y la fecha. Escenario 3: Confirmación de descarga Dado que hago clic, Cuando se genera el archivo, Entonces el sistema me notifica que fue exitoso. |  |
+
+| ID Épica: | EP05 |
+| :---- | :---- |
+| Épica: | Reportes e Indicadores de Gestión |
+| ID Historia de Usuario | US26 |
+| Título Historia de Usuario | Reporte de empleados con mejor desempeño |
+| Descripción HU: Como directivo, quiero identificar a los empleados con mejor desempeño para reconocer su trabajo. |  |
+| Criterios de aceptación: Escenario 1: Generación del listado Dado que accedo al reporte, Cuando elijo la opción "mejor desempeño", Entonces veo una lista ordenada por puntaje. Escenario 2: Detalles del rendimiento Dado que selecciono un nombre, Cuando ingreso, Entonces veo su historial reciente. Escenario 3: Filtro por área Dado que hay muchas personas, Cuando aplico un filtro por área, Entonces solo aparecen los mejores de esa área. |  |
+
+| ID Épica: | EP06 |
+| :---- | :---- |
+| Épica: | Interfaz Intuitiva y Fácil de Usar |
+| ID Historia de Usuario | US27 |
+| Título Historia de Usuario | Interfaz de usuario intuitiva y fácil de usar |
+| Descripción HU: Como usuario nuevo, quiero que la interfaz sea clara e intuitiva para poder usar la plataforma sin ayuda externa. |  |
+| Escenario 1: Navegación fluida en la página principal Dado que un usuario nuevo accede a la plataforma, Cuando recorre la página principal, Entonces debe poder identificar de manera sencilla las principales secciones y botones de acción sin necesidad de instrucciones. Escenario 2: Accesibilidad de las opciones de menú Dado que un usuario interactúa con la barra de navegación, Cuando accede desde un dispositivo de escritorio o móvil, Entonces debe visualizar claramente las opciones principales y navegar entre secciones de forma intuitiva. Escenario 3: Claridad en los formularios y botones Dado que un usuario completa un formulario o utiliza un botón de acción, Cuando visualiza los campos o botones disponibles, Entonces debe entender de inmediato su propósito gracias a etiquetas claras, íconos o textos explicativos. Escenario 4: Retroalimentación visual en interacciones Dado que un usuario realiza una acción como enviar un formulario o hacer clic en un botón, Cuando la acción es procesada, Entonces debe recibir retroalimentación visual inmediata, como mensajes de éxito, errores o cambios de color en los elementos interactivos. |  |
+
+| ID Épica: | EP07 |
+| :---- | :---- |
+| Épica: | Interfaz Intuitiva y Fácil de Usar |
+| ID Historia de Usuario | US28 |
+| Título Historia de Usuario | Diseño limpio y profesional que inspire confianza |
+| Descripción HU: Como usuario, quiero que el diseño sea profesional y ordenado para sentirme cómodo usando la plataforma. |  |
+| Criterios de aceptación: Escenario 1: Uso de colores neutros Dado que accedo a la plataforma, Cuando se carga el entorno, Entonces veo una estética sobria y profesional. Escenario 2: Tipografía legible Dado que leo información, Cuando hay mucho texto, Entonces está en tamaño y fuente adecuados. Escenario 3: Espaciado adecuado Dado que hay distintos bloques, Cuando los veo, Entonces no están saturados ni amontonados. |  |
+
+| ID Épica: | EP05 |
+| :---- | :---- |
+| Épica: | Interfaz Intuitiva y Fácil de Usar |
+| ID Historia de Usuario | US29 |
+| Título Historia de Usuario | Presentación clara y ordenada de la información |
+| Descripción HU: Como usuario, quiero que la información se muestre ordenadamente para encontrar fácilmente lo que necesito. |  |
+| Criterios de aceptación: Escenario 1: Secciones diferenciadas Dado que estoy en un perfil, Cuando lo consulto, Entonces veo pestañas o secciones claramente divididas. Escenario 2: Prioridad de datos importantes Dado que accedo al panel, Cuando se muestran datos, Entonces los más importantes aparecen primero. Escenario 3: Visibilidad móvil optimizada Dado que accedo desde el celular, Cuando navego, Entonces todo sigue ordenado y visible. |  |
+
+| ID Épica: | EP05 |
+| :---- | :---- |
+| Épica: | Interfaz Intuitiva y Fácil de Usar |
+| ID Historia de Usuario | US30 |
+| Título Historia de Usuario | Navegación coherente en todas las secciones de la plataforma |
+| Descripción HU: Como usuario, quiero que la navegación funcione igual en todas partes para no confundirme al moverme por la plataforma. |  |
+| Criterios de aceptación: Escenario 1: Menú visible en todas las páginas Dado que cambio de módulo, Cuando se carga la nueva sección, Entonces el menú principal sigue disponible. Escenario 2: Enlaces activos destacados Dado que navego entre secciones, Cuando estoy en una, Entonces su ítem del menú se resalta. Escenario 3: Flujo de navegación lógico Dado que realizo tareas secuenciales, Cuando avanzo paso a paso, Entonces sigo un flujo coherente sin perderme. |  |
+
+### 
+
+# **3.3. Impact Mapping** {#3.3.-impact-mapping}
+
+<p align="center">
+  <img src="Images/img20.jpg" alt="img" />
+</p>
+
+# **3.4. Product Backlog** {#3.4.-product-backlog}
+
+Para la elaboración de nuestro Product Backlog, hemos utilizado la escala de Fibonacci (1, 2, 3, 5, 8, 13).
+
+| \# Orden | User Story ID | Título | Descripción | Prioridad | Story points |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| 1 | US17 | Registro de observaciones de comportamiento | Como supervisor, quiero registrar observaciones de comportamiento para mantener constancia de actitudes positivas o negativas. | Alta | 13 |
+| 2 | US19 | Visualización de registros recientes del equipo | Como supervisor, quiero ver los registros recientes de mi equipo para revisar rápidamente la actividad reciente. | Alta | 13 |
+| 3 | US23 | Generación de reportes mensuales | Como directivo, quiero generar reportes mensuales de desempeño para revisar la evolución del equipo. | Alta | 13 |
+| 4 | US24 | Reporte por criterio de evaluación | Como directivo, quiero ver reportes centrados en criterios específicos para detectar patrones. | Alta | 13 |
+| 5 | US15 | Registro diario de asistencia | Como supervisor, quiero registrar la asistencia de cada empleado para llevar un control diario. | Alta | 8 |
+| 6 | US18 | Puntaje diario de desempeño | Como supervisor, quiero asignar un puntaje diario para valorar el rendimiento general del empleado. | Alta | 8 |
+| 7 | US20 | Inicio de evaluación de desempeño | Como gerente de RRHH, quiero iniciar evaluaciones de desempeño para empleados asignados para evaluar su rendimiento en periodos definidos. | Alta | 8 |
+| 8 | US21 | Guardado automático de evaluaciones | Como gerente de RRHH, quiero que la evaluación se guarde automáticamente para evitar pérdida de información. | Alta | 8 |
+| 9 | US22 | Visualización de resultados por empleado | Como gerente de RRHH, quiero ver los resultados de cada evaluación por empleado para hacer seguimiento a su progreso. | Alta | 8 |
+| 10 | US25 | Exportación de reportes en pantalla | Como directivo, quiero poder exportar lo que veo en pantalla para compartirlo o analizarlo externamente. | Alta | 8 |
+| 11 | US10 | Visualización de la galería de slides informativos mediante el carrusel (Swiper) | Como usuario, quiero ver una galería de slides informativos interactivos en la landing page para conocer las principales funciones de TalentManager de forma atractiva. | Alta | 5 |
+| 12 | US11 | Registro básico de empleados | Como responsable de RRHH, quiero registrar empleados nuevos con sus datos personales básicos para agregarlos al sistema de gestión. | Alta | 5 |
+| 13 | US12 | Edición de información del perfil | Como responsable de RRHH, quiero editar la información de un perfil de empleado para mantenerla actualizada. | Alta | 5 |
+| 14 | US13 | Visualización de perfil completo | Como responsable de RRHH, quiero ver todos los datos del perfil del empleado para tener una vista clara de su información. | Alta | 5 |
+| 15 | US14 | Registro de cargo y área del empleado | Como responsable de RRHH, quiero registrar el cargo y área de un empleado para reflejar su posición actual en la organización. | Alta | 5 |
+| 16 | US16 | Registro de faltas o tardanzas | Como supervisor, quiero registrar faltas y llegadas tardías para evaluar el compromiso del empleado. | Alta | 5 |
+| 17 | US26 | Reporte de empleados con mejor desempeño | Como directivo, quiero identificar a los empleados con mejor desempeño para reconocer su trabajo. | Alta | 5 |
+| 18 | US02 | Acceso a menú de navegación responsive desde cualquier dispositivo | Como usuario, quiero acceder fácilmente al menú de navegación desde cualquier dispositivo, para moverme por la plataforma sin importar el tamaño de pantalla. | Alta | 3 |
+| 19 | US27 | Interfaz de usuario intuitiva y fácil de usar | Como usuario nuevo, quiero que la interfaz sea clara e intuitiva para poder usar la plataforma sin ayuda externa. | Alta | 3 |
+| 20 | US04 | Navegación rápida a secciones de Servicios, Contacto, Nosotros y Suscríbete | Como usuario, quiero acceder rápidamente a las secciones principales desde el menú de navegación, para encontrar la información que necesito sin perder tiempo. | Alta | 2 |
+| 21 | US05 | Acceso al formulario de contacto para envío de mensajes | Como usuario, quiero llenar un formulario de contacto para enviar mis consultas o dudas a TalentManager de forma sencilla. | Alta | 2 |
+| 22 | US01 | Visualización del mensaje principal en la pantalla de inicio | Como visitante de la página, quiero visualizar un mensaje principal claro y motivador en la pantalla de inicio, para entender rápidamente el propósito de TalentManager. | Alta | 1 |
+| 23 | US03 | Visualización de beneficios principales de TalentManager en la landing page | Como visitante, quiero ver los beneficios destacados de TalentManager, para conocer rápidamente las principales ventajas del servicio. | Alta | 1 |
+| 24 | US06 | Visualización del apartado de planes y precios de suscripción | Como potencial cliente, quiero ver claramente los planes de suscripción disponibles, para comparar opciones y tomar una decisión de compra. | Alta | 1 |
+| 25 | US07 | Acceso a la sección "Sobre Nosotros" para conocer la empresa y el proyecto | Como visitante, quiero acceder a la sección de "Sobre Nosotros" para saber más sobre la historia de la empresa y el propósito de TalentManager. | Alta | 1 |
+| 26 | US08 | Visualización de políticas de privacidad y términos de servicio | Como usuario, quiero acceder a las políticas de privacidad y términos de servicio para comprender las condiciones legales de uso de la plataforma. | Alta | 1 |
+| 27 | US09 | Acceso a redes sociales desde el pie de página (footer) | Como usuario, quiero poder visitar las redes sociales oficiales de TalentManager desde el footer de la página para seguir sus novedades. | Alta | 1 |
+| 28 | US28 | Diseño limpio y profesional que inspire confianza | Como usuario, quiero que el diseño sea profesional y ordenado para sentirme cómodo usando la plataforma. | Alta | 1 |
+| 29 | US29 | Presentación clara y ordenada de la información | Como usuario, quiero que la información se muestre ordenadamente para encontrar fácilmente lo que necesito. | Alta | 1 |
+| 30 | US30 | Navegación coherente en todas las secciones de la plataforma | Como usuario, quiero que la navegación funcione igual en todas partes para no confundirme al moverme por la plataforma. | Alta | 1 |
