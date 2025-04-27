@@ -340,7 +340,7 @@ Las dos preguntas "H" de la técnica “5W+2H” se refieren a "¿Cómo?" y "¿C
 |  | ¿Cómo nos conocieron los compradores? | Los clientes conocen TalentManager a través de diversas estrategias de marketing, como la promoción en redes sociales profesionales (LinkedIn, Facebook, etc.), donde se comparte contenido relevante sobre gestión del talento, productividad laboral y casos de éxito de empresas que ya utilizan la plataforma. Además, se realizan campañas publicitarias digitales dirigidas a líderes de recursos humanos y directivos de empresas medianas y grandes. Asimismo, TalentManager puede ser descubierto en espacios vinculados al ámbito empresarial, como ferias de recursos humanos, conferencias, workshops corporativos o mediante alianzas con consultoras especializadas en gestión del talento. |
 |  | ¿Cómo prefieren los lectores acceder a nuestro contenido? | Los usuarios de TalentManager prefieren acceder a la plataforma de forma rápida, sencilla y personalizada, a través de la aplicación web disponible desde sus dispositivos móviles o computadoras. Esto les permite consultar información clave sobre los trabajadores, realizar evaluaciones y generar reportes desde cualquier lugar en el que se encuentren. Además, valoran el uso de TalentManager por ofrecer un acceso flexible, dinámico y alineado con sus hábitos digitales, donde la gestión del desempeño laboral se convierte en una experiencia eficiente, intuitiva y libre de complicaciones administrativas. |
 |  | ¿Qué llevó a la persona a llegar a esta situación? | ​​La necesidad de implementar TalentManager en una empresa surge de una serie de factores que, acumulados a lo largo del tiempo, han generado deficiencias en la gestión del desempeño laboral. Inicialmente, muchas organizaciones han operado sin sistemas formales de evaluación, lo que dificulta la identificación de áreas de mejora y el reconocimiento de logros. Esta carencia de procesos estructurados impide establecer expectativas claras y ofrecer retroalimentación efectiva a los empleados. Además, la falta de herramientas adecuadas para medir el rendimiento individual y colectivo limita la capacidad de la empresa para tomar decisiones informadas sobre promociones, capacitaciones o ajustes en las responsabilidades laborales. Con el tiempo, estas deficiencias pueden conducir a una disminución en la motivación del personal, afectando negativamente la productividad y el clima organizacional. En este contexto, la adopción de una plataforma como TalentManager se vuelve esencial para centralizar la información del personal, facilitar evaluaciones periódicas y generar reportes automáticos que reflejen el rendimiento, permitiendo así una gestión más eficiente y transparente del talento humano.​ |
-| **How much** ¿Cuánto? | Estadísticas que sustentan la problemática | El informe "Benchmarking de Gestión de Recursos Humanos 2021" de PwC Perú indica que el 46.3% de las empresas realizaron cambios en sus procesos de gestión del desempeño a raíz del COVID-19, evidenciando la necesidad de adaptar y mejorar las metodologías tradicionales de evaluación (PwC, 2021). Según un estudio publicado por la Agencia Andina, el 62% de los líderes de recursos humanos en Perú consideran que el mayor desafío es impulsar la motivación y el compromiso de sus colaboradores, lo que subraya la importancia de contar con sistemas efectivos de evaluación y seguimiento del desempeño (Andina, 2024). **​**Un artículo en El Peruano destaca que medir el desempeño de los colaboradores genera beneficios tanto para ellos como para las empresas, resaltando la relevancia de implementar sistemas de evaluación efectivos (El Peruano, 2023). |
+| **How much** ¿Cuánto? | Estadísticas que sustentan la problemática | El informe "Benchmarking de Gestión de Recursos Humanos 2021" de PwC Perú indica que el 46.3% de las empresas realizaron cambios en sus procesos de gestión del desempeño a raíz del COVID-19, evidenciando la necesidad de adaptar y mejorar las metodologías tradicionales de evaluación (PwC, 2021).<br> Según un estudio publicado por la Agencia Andina, el 62% de los líderes de recursos humanos en Perú consideran que el mayor desafío es impulsar la motivación y el compromiso de sus colaboradores, lo que subraya la importancia de contar con sistemas efectivos de evaluación y seguimiento del desempeño (Andina, 2024).<br> **​**Un artículo en El Peruano destaca que medir el desempeño de los colaboradores genera beneficios tanto para ellos como para las empresas, resaltando la relevancia de implementar sistemas de evaluación efectivos (El Peruano, 2023). |
 
 ### **1.2.2. Lean UX Process** {#1.2.2.-lean-ux-process}
 
@@ -938,7 +938,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US01 |
 | Título Historia de Usuario | Visualización del mensaje principal en la pantalla de inicio |
 | Descripción HU: Como visitante de la página, quiero visualizar un mensaje principal claro y motivador en la pantalla de inicio, para entender rápidamente el propósito de TalentManager. |  |
-| Criterios de aceptación: Escenario 1: Visualización del mensaje principal Dado que un usuario accede a la página de inicio, Cuando se carga la sección principal, Entonces debe visualizar un título llamativo, una línea divisoria y un subtítulo descriptivo sobre la plataforma. |  |
+| Criterios de aceptación:<br> Escenario 1: Visualización del mensaje principal<br> Dado que un usuario accede a la página de inicio, Cuando se carga la sección principal, Entonces debe visualizar un título llamativo, una línea divisoria y un subtítulo descriptivo sobre la plataforma. |  |
 
  
 
@@ -948,7 +948,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US02 |
 | Título Historia de Usuario | Acceso a menú de navegación responsive desde cualquier dispositivo |
 | Descripción HU: Como usuario, quiero acceder fácilmente al menú de navegación desde cualquier dispositivo, para moverme por la plataforma sin importar el tamaño de pantalla. |  |
-| Criterios de aceptación: Escenario 1: Acceso al menú en escritorio Dado que un usuario accede desde un computador, Cuando visualiza la barra de navegación superior, Entonces debe poder ver y utilizar el menú directamente.   Escenario 2: Acceso al menú en móvil o tablet Dado que un usuario accede desde un dispositivo móvil o tablet, Cuando presiona el icono de hamburguesa, Entonces debe desplegarse el menú offcanvas para navegar entre las opciones. |  |
+| Criterios de aceptación:<br> Escenario 1: Acceso al menú en escritorio<br> Dado que un usuario accede desde un computador, Cuando visualiza la barra de navegación superior, Entonces debe poder ver y utilizar el menú directamente.   Escenario 2: Acceso al menú en móvil o tablet<br> Dado que un usuario accede desde un dispositivo móvil o tablet, Cuando presiona el icono de hamburguesa, Entonces debe desplegarse el menú offcanvas para navegar entre las opciones. |  |
 
  
 
@@ -958,7 +958,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US03 |
 | Título Historia de Usuario | Visualización de beneficios principales de TalentManager en la landing page |
 | Descripción HU: Como visitante, quiero ver los beneficios destacados de TalentManager, para conocer rápidamente las principales ventajas del servicio. |  |
-| Criterios de aceptación: Escenario 1: Visualización de beneficios Dado que un usuario navega por la página, Cuando llega a la sección de beneficios, Entonces debe visualizar al menos cuatro beneficios con íconos y descripciones breves. |  |
+| Criterios de aceptación:<br> Escenario 1: Visualización de beneficios<br> Dado que un usuario navega por la página, Cuando llega a la sección de beneficios, Entonces debe visualizar al menos cuatro beneficios con íconos y descripciones breves. |  |
 
  
 
@@ -968,7 +968,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US04 |
 | Título Historia de Usuario | Navegación rápida a secciones de Servicios, Contacto, Nosotros y Suscríbete |
 | Descripción HU: Como usuario, quiero acceder rápidamente a las secciones principales desde el menú de navegación, para encontrar la información que necesito sin perder tiempo. |  |
-| Criterios de aceptación: Escenario 1: Navegación hacia Servicios Dado que un usuario abre el menú, Cuando selecciona "Servicios", Entonces debe ser dirigido a la sección de servicios en la misma página.   Escenario 2: Navegación hacia Contacto Dado que un usuario abre el menú, Cuando selecciona "Contacto", Entonces debe ser redirigido a la página de contacto.   Escenario 3: Navegación hacia Nosotros Dado que un usuario abre el menú, Cuando selecciona "Nosotros", Entonces debe ser redirigido a la página sobre la empresa.   Escenario 4: Navegación hacia Suscríbete Dado que un usuario abre el menú, Cuando selecciona "Suscríbete", Entonces debe ser redirigido a la página de suscripción. |  |
+| Criterios de aceptación:<br> Escenario 1: Navegación hacia Servicios Dado que un usuario abre el menú, Cuando selecciona "Servicios", Entonces debe ser dirigido a la sección de servicios en la misma página.   Escenario 2: Navegación hacia Contacto Dado que un usuario abre el menú, Cuando selecciona "Contacto", Entonces debe ser redirigido a la página de contacto.   Escenario 3: Navegación hacia Nosotros Dado que un usuario abre el menú, Cuando selecciona "Nosotros", Entonces debe ser redirigido a la página sobre la empresa.   Escenario 4: Navegación hacia Suscríbete Dado que un usuario abre el menú, Cuando selecciona "Suscríbete", Entonces debe ser redirigido a la página de suscripción. |  |
 
  
 
@@ -1036,7 +1036,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US11 |
 | Título Historia de Usuario | Registro básico de empleados |
 | Descripción HU: Como responsable de RRHH, quiero registrar empleados nuevos con sus datos personales básicos para agregarlos al sistema de gestión. |  |
-| Criterios de aceptación: Escenario 1: Registro exitoso Dado que completo todos los campos requeridos, Cuando guardo el formulario, Entonces el sistema crea un nuevo perfil de empleado. Escenario 2: Validación de campos vacíos Dado que dejo campos obligatorios sin llenar, Cuando intento guardar, Entonces el sistema me muestra un mensaje de error indicando los campos faltantes. Escenario 3: Detección de duplicados Dado que el documento ya fue registrado, Cuando intento guardar el nuevo perfil, Entonces el sistema me alerta que el empleado ya existe. |  |
+| Criterios de aceptación:<br> Escenario 1: Registro exitoso<br> Dado que completo todos los campos requeridos,<br> Cuando guardo el formulario,<br> Entonces el sistema crea un nuevo perfil de empleado. Escenario 2: Validación de campos vacíos<br> Dado que dejo campos obligatorios sin llenar,<br> Cuando intento guardar,<br> Entonces el sistema me muestra un mensaje de error indicando los campos faltantes. Escenario 3: Detección de duplicados<br> Dado que el documento ya fue registrado,<br> Cuando intento guardar el nuevo perfil,<br> Entonces el sistema me alerta que el empleado ya existe. |  |
 
 | ID Épica: | EP02 |
 | :---- | :---- |
@@ -1044,7 +1044,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US12 |
 | Título Historia de Usuario | Edición de información del perfil |
 | Descripción HU: Como responsable de RRHH, quiero editar la información de un perfil de empleado para mantenerla actualizada. |  |
-| Criterios de aceptación: Escenario 1: Acceso a edición Dado que estoy viendo un perfil, Cuando hago clic en "Editar", Entonces puedo modificar la información del empleado. Escenario 2: Confirmación de cambios Dado que actualizo un dato, Cuando guardo los cambios, Entonces el sistema me muestra una confirmación. Escenario 3: Validación de errores Dado que ingreso un dato inválido, Cuando intento guardar, Entonces el sistema me notifica el error. |  |
+| Criterios de aceptación:<br> Escenario 1: Acceso a edición<br> Dado que estoy viendo un perfil,<br> Cuando hago clic en "Editar",<br> Entonces puedo modificar la información del empleado. Escenario 2: Confirmación de cambios<br> Dado que actualizo un dato,<br> Cuando guardo los cambios,<br> Entonces el sistema me muestra una confirmación. Escenario 3: Validación de errores<br> Dado que ingreso un dato inválido,<br> Cuando intento guardar,<br> Entonces el sistema me notifica el error. |  |
 
 | ID Épica: | EP02 |
 | :---- | :---- |
@@ -1052,7 +1052,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US13 |
 | Título Historia de Usuario | Visualización de perfil completo |
 | Descripción HU: Como responsable de RRHH, quiero ver todos los datos del perfil del empleado para tener una vista clara de su información. |  |
-| Criterios de aceptación: Escenario 1: Acceso desde listado Dado que busco a un empleado, Cuando hago clic en su nombre, Entonces accedo a su perfil completo. Escenario 2: Organización de información Dado que ingreso al perfil, Cuando se carga la página, Entonces veo la información separada por secciones (personales, laborales, etc.). Escenario 3: Información actualizada Dado que el perfil fue editado, Cuando lo consulto, Entonces veo los datos modificados reflejados. |  |
+| Criterios de aceptación:<br> Escenario 1: Acceso desde listado<br> Dado que busco a un empleado,<br> Cuando hago clic en su nombre,<br> Entonces accedo a su perfil completo. Escenario 2: Organización de información<br> Dado que ingreso al perfil,<br> Cuando se carga la página,<br> Entonces veo la información separada por secciones (personales, laborales, etc.). Escenario 3: Información actualizada<br> Dado que el perfil fue editado,<br> Cuando lo consulto,<br> Entonces veo los datos modificados reflejados. |  |
 
 | ID Épica: | EP02 |
 | :---- | :---- |
@@ -1060,7 +1060,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US14 |
 | Título Historia de Usuario | Registro de cargo y área del empleado |
 | Descripción HU: Como responsable de RRHH, quiero registrar el cargo y área de un empleado para reflejar su posición actual en la organización. |  |
-| Criterios de aceptación: Escenario 1: Asignación inicial Dado que registro un nuevo empleado, Cuando selecciono cargo y área, Entonces esta información queda registrada en su perfil. Escenario 2: Reasignación interna Dado que un empleado cambia de área, Cuando actualizo ese dato, Entonces el sistema conserva el historial del cargo anterior. Escenario 3: Validación obligatoria Dado que omito seleccionar área o cargo, Cuando intento guardar, Entonces el sistema me exige completar esos campos. |  |
+| Criterios de aceptación:<br> Escenario 1: Asignación inicial<br> Dado que registro un nuevo empleado,<br> Cuando selecciono cargo y área,<br> Entonces esta información queda registrada en su perfil. Escenario 2: Reasignación interna<br> Dado que un empleado cambia de área,<br> Cuando actualizo ese dato,<br> Entonces el sistema conserva el historial del cargo anterior. Escenario 3: Validación obligatoria<br> Dado que omito seleccionar área o cargo,<br> Cuando intento guardar,<br> Entonces el sistema me exige completar esos campos. |  |
 
 | ID Épica: | EP03 |
 | :---- | :---- |
@@ -1068,7 +1068,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US15 |
 | Título Historia de Usuario | Registro diario de asistencia |
 | Descripción HU: Como supervisor, quiero registrar la asistencia de cada empleado para llevar un control diario. |  |
-| Criterios de aceptación: Escenario 1: Registro de presente o ausente Dado que es el inicio del día, Cuando marco a un empleado como presente o ausente, Entonces el sistema guarda la información. Escenario 2: Prevención de duplicados Dado que ya se registró la asistencia, Cuando intento volver a marcar, Entonces el sistema me informa que ya existe un registro. Escenario 3: Registro por fecha Dado un día específico, Cuando consulto la asistencia, Entonces veo el estado registrado para cada empleado. |  |
+| Criterios de aceptación:<br> Escenario 1: Registro de presente o ausente<br> Dado que es el inicio del día,<br> Cuando marco a un empleado como presente o ausente,<br> Entonces el sistema guarda la información. Escenario 2: Prevención de duplicados<br> Dado que ya se registró la asistencia,<br> Cuando intento volver a marcar,<br> Entonces el sistema me informa que ya existe un registro. Escenario 3: Registro por fecha<br> Dado un día específico,<br> Cuando consulto la asistencia,<br> Entonces veo el estado registrado para cada empleado. |  |
 
 | ID Épica: | EP03 |
 | :---- | :---- |
@@ -1076,7 +1076,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US16 |
 | Título Historia de Usuario | Registro de faltas o tardanzas |
 | Descripción HU: Como supervisor, quiero registrar faltas y llegadas tardías para evaluar el compromiso del empleado. |  |
-| Criterios de aceptación: Escenario 1: Marcar falta o tardanza Dado que un empleado llegó tarde, Cuando selecciono la opción "Tardanza", Entonces se guarda esa condición en el sistema. Escenario 2: Comentario opcional Dado que marco una ausencia, Cuando agrego una nota, Entonces esta se guarda junto al registro. Escenario 3: Visualización posterior Dado que reviso el historial, Cuando veo la fecha, Entonces se muestra si hubo falta o tardanza. |  |
+| Criterios de aceptación:<br> Escenario 1: Marcar falta o tardanza<br> Dado que un empleado llegó tarde,<br> Cuando selecciono la opción "Tardanza",<br> Entonces se guarda esa condición en el sistema. Escenario 2: Comentario opcional<br> Dado que marco una ausencia,<br> Cuando agrego una nota,<br> Entonces esta se guarda junto al registro. Escenario 3: Visualización posterior<br> Dado que reviso el historial,<br> Cuando veo la fecha,<br> Entonces se muestra si hubo falta o tardanza. |  |
 
 | ID Épica: | EP03 |
 | :---- | :---- |
@@ -1084,7 +1084,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US17 |
 | Título Historia de Usuario | Registro de observaciones de comportamiento |
 | Descripción HU: Como supervisor, quiero registrar observaciones de comportamiento para mantener constancia de actitudes positivas o negativas. |  |
-| Criterios de aceptación: Escenario 1: Ingreso de observación Dado que quiero hacer un comentario, Cuando ingreso el texto en el formulario, Entonces el sistema guarda la observación. Escenario 2: Asociación por fecha Dado que hago una observación, Cuando se guarda, Entonces queda registrada con la fecha y nombre del autor. Escenario 3: Visualización en historial Dado que consulto el historial, Cuando busco observaciones, Entonces las veo listadas por fecha. |  |
+| Criterios de aceptación:<br> Escenario 1: Ingreso de observación<br> Dado que quiero hacer un comentario,<br> Cuando ingreso el texto en el formulario,<br> Entonces el sistema guarda la observación. Escenario 2: Asociación por fecha<br> Dado que hago una observación,<br> Cuando se guarda,<br> Entonces queda registrada con la fecha y nombre del autor. Escenario 3: Visualización en historial<br> Dado que consulto el historial,<br> Cuando busco observaciones,<br> Entonces las veo listadas por fecha. |  |
 
 | ID Épica: | EP03 |
 | :---- | :---- |
@@ -1092,7 +1092,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US18 |
 | Título Historia de Usuario | Puntaje diario de desempeño |
 | Descripción HU: Como supervisor, quiero asignar un puntaje diario para valorar el rendimiento general del empleado. |  |
-| Criterios de aceptación: Escenario 1: Asignación de puntaje Dado que evalúo el día, Cuando selecciono un puntaje del 1 al 5, Entonces el sistema lo asocia al empleado y la fecha. Escenario 2: Prevención de duplicado Dado que ya asigné puntaje, Cuando intento registrar de nuevo, Entonces el sistema lo impide o pide confirmación. Escenario 3: Promedio semanal Dado que consulto un rango de fechas, Cuando se muestran los puntajes, Entonces veo el promedio calculado por empleado. |  |
+| Criterios de aceptación:<br> Escenario 1: Asignación de puntaje<br> Dado que evalúo el día,<br> Cuando selecciono un puntaje del 1 al 5,<br> Entonces el sistema lo asocia al empleado y la fecha. Escenario 2: Prevención de duplicado<br> Dado que ya asigné puntaje,<br> Cuando intento registrar de nuevo,<br> Entonces el sistema lo impide o pide confirmación. Escenario 3: Promedio semanal<br> Dado que consulto un rango de fechas,<br> Cuando se muestran los puntajes,<br> Entonces veo el promedio calculado por empleado. |  |
 
 | ID Épica: | EP03 |
 | :---- | :---- |
@@ -1100,7 +1100,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US19 |
 | Título Historia de Usuario | Visualización de registros recientes del equipo |
 | Descripción HU: Como supervisor, quiero ver los registros recientes de mi equipo para revisar rápidamente la actividad reciente. |  |
-| Criterios de aceptación: Escenario 1: Acceso a resumen diario Dado que estoy en la sección de desempeño, Cuando abro el panel del día, Entonces veo asistencia, observaciones y puntajes recientes. Escenario 2: Filtros por tipo de registro Dado que hay muchos registros, Cuando uso los filtros, Entonces solo veo el tipo seleccionado (asistencia, observaciones, etc.). Escenario 3: Orden por fecha Dado que reviso varios días, Cuando se muestran, Entonces aparecen del más reciente al más antiguo. |  |
+| Criterios de aceptación:<br> Escenario 1: Acceso a resumen diario<br> Dado que estoy en la sección de desempeño,<br> Cuando abro el panel del día,<br> Entonces veo asistencia, observaciones y puntajes recientes. Escenario 2: Filtros por tipo de registro<br> Dado que hay muchos registros,<br> Cuando uso los filtros,<br> Entonces solo veo el tipo seleccionado (asistencia, observaciones, etc.). Escenario 3: Orden por fecha<br> Dado que reviso varios días,<br> Cuando se muestran,<br> Entonces aparecen del más reciente al más antiguo. |  |
 
 | ID Épica: | EP04 |
 | :---- | :---- |
@@ -1108,7 +1108,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US20 |
 | Título Historia de Usuario | Inicio de evaluación de desempeño |
 | Descripción HU: Como gerente de RRHH, quiero iniciar evaluaciones de desempeño para empleados asignados para evaluar su rendimiento en periodos definidos. |  |
-| Criterios de aceptación: Escenario 1: Inicio de nueva evaluación Dado que accedo a la sección de evaluaciones, Cuando selecciono un empleado, Entonces se genera un nuevo formulario. Escenario 2: Restricción por periodo Dado que una evaluación ya existe en el periodo, Cuando intento iniciar otra, Entonces el sistema me lo impide. Escenario 3: Confirmación del inicio Dado que inicio una evaluación, Cuando se crea el formulario, Entonces recibo un mensaje de confirmación. |  |
+| Criterios de aceptación:<br> Escenario 1: Inicio de nueva evaluación<br> Dado que accedo a la sección de evaluaciones,<br> Cuando selecciono un empleado,<br> Entonces se genera un nuevo formulario. Escenario 2: Restricción por periodo<br> Dado que una evaluación ya existe en el periodo,<br> Cuando intento iniciar otra,<br> Entonces el sistema me lo impide. Escenario 3: Confirmación del inicio<br> Dado que inicio una evaluación,<br> Cuando se crea el formulario,<br> Entonces recibo un mensaje de confirmación. |  |
 
 | ID Épica: | EP04 |
 | :---- | :---- |
@@ -1116,7 +1116,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US21 |
 | Título Historia de Usuario | Guardado automático de evaluaciones |
 | Descripción HU: Como gerente de RRHH, quiero que la evaluación se guarde automáticamente para evitar pérdida de información. |  |
-| Criterios de aceptación: Escenario 1: Guardado cada cierto tiempo Dado que estoy completando una evaluación, Cuando pasan 2 minutos sin guardar, Entonces el sistema guarda automáticamente. Escenario 2: Aviso de guardado exitoso Dado que se guarda automáticamente, Cuando finaliza la acción, Entonces se muestra un mensaje de éxito. Escenario 3: Recuperación de evaluación Dado que cierro sesión inesperadamente, Cuando regreso a la evaluación, Entonces veo lo último registrado. |  |
+| Criterios de aceptación:<br> Escenario 1: Guardado cada cierto tiempo<br> Dado que estoy completando una evaluación,<br> Cuando pasan 2 minutos sin guardar,<br> Entonces el sistema guarda automáticamente. Escenario 2: Aviso de guardado exitoso<br> Dado que se guarda automáticamente,<br> Cuando finaliza la acción,<br> Entonces se muestra un mensaje de éxito. Escenario 3: Recuperación de evaluación<br> Dado que cierro sesión inesperadamente,<br> Cuando regreso a la evaluación,<br> Entonces veo lo último registrado. |  |
 
 | ID Épica: | EP04 |
 | :---- | :---- |
@@ -1124,7 +1124,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US22 |
 | Título Historia de Usuario | Visualización de resultados por empleado |
 | Descripción HU: Como gerente de RRHH, quiero ver los resultados de cada evaluación por empleado para hacer seguimiento a su progreso. |  |
-| Criterios de aceptación: Escenario 1: Listado de evaluaciones Dado que ingreso al perfil del empleado, Cuando accedo a la pestaña de evaluaciones, Entonces veo un listado con fechas y puntajes. Escenario 2: Visualización de detalles Dado que selecciono una evaluación, Cuando se carga, Entonces veo los criterios, notas y observaciones. Escenario 3: Orden cronológico Dado que hay varias evaluaciones, Cuando se muestran, Entonces aparecen de la más reciente a la más antigua. |  |
+| Criterios de aceptación:<br> Escenario 1: Listado de evaluaciones<br> Dado que ingreso al perfil del empleado,<br> Cuando accedo a la pestaña de evaluaciones,<br> Entonces veo un listado con fechas y puntajes. Escenario 2: Visualización de detalles<br> Dado que selecciono una evaluación,<br> Cuando se carga,<br> Entonces veo los criterios, notas y observaciones. Escenario 3: Orden cronológico<br> Dado que hay varias evaluaciones,<br> Cuando se muestran,<br> Entonces aparecen de la más reciente a la más antigua. |  |
 
 | ID Épica: | EP05 |
 | :---- | :---- |
@@ -1132,7 +1132,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US23 |
 | Título Historia de Usuario | Generación de reportes mensuales |
 | Descripción HU: Como directivo, quiero generar reportes mensuales de desempeño para revisar la evolución del equipo. |  |
-| Criterios de aceptación: Escenario 1: Selección de periodo Dado que estoy en la sección de reportes, Cuando selecciono un mes, Entonces se genera un reporte con datos de ese periodo. Escenario 2: Contenido del reporte Dado que se genera el reporte, Cuando lo visualizo, Entonces incluye asistencia, desempeño y observaciones. Escenario 3: Almacenamiento automático Dado que genero un reporte, Cuando finaliza el proceso, Entonces se guarda para futuras consultas. |  |
+| Criterios de aceptación:<br> Escenario 1: Selección de periodo<br> Dado que estoy en la sección de reportes,<br> Cuando selecciono un mes,<br> Entonces se genera un reporte con datos de ese periodo. Escenario 2: Contenido del reporte<br> Dado que se genera el reporte,<br> Cuando lo visualizo,<br> Entonces incluye asistencia, desempeño y observaciones. Escenario 3: Almacenamiento automático<br> Dado que genero un reporte,<br> Cuando finaliza el proceso,<br> Entonces se guarda para futuras consultas. |  |
 
 | ID Épica: | EP05 |
 | :---- | :---- |
@@ -1140,7 +1140,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US24 |
 | Título Historia de Usuario | Reporte por criterio de evaluación |
 | Descripción HU: Como directivo, quiero ver reportes centrados en criterios específicos para detectar patrones. |  |
-| Criterios de aceptación: Escenario 1: Selección del criterio Dado que estoy en reportes, Cuando elijo un criterio (ej. puntualidad), Entonces veo datos agregados de todos los empleados. Escenario 2: Porcentaje de cumplimiento Dado que hay múltiples empleados, Cuando veo el gráfico, Entonces muestra qué porcentaje obtuvo buenas calificaciones. Escenario 3: Exportación visible en pantalla Dado que no se descarga nada, Cuando se genera el gráfico, Entonces lo visualizo en el navegador. |  |
+| Criterios de aceptación:<br> Escenario 1: Selección del criterio<br> Dado que estoy en reportes,<br> Cuando elijo un criterio (ej. puntualidad),<br> Entonces veo datos agregados de todos los empleados. Escenario 2: Porcentaje de cumplimiento<br> Dado que hay múltiples empleados,<br> Cuando veo el gráfico,<br> Entonces muestra qué porcentaje obtuvo buenas calificaciones. Escenario 3: Exportación visible en pantalla<br> Dado que no se descarga nada,<br> Cuando se genera el gráfico,<br> Entonces lo visualizo en el navegador. |  |
 
 | ID Épica: | EP05 |
 | :---- | :---- |
@@ -1148,7 +1148,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US25 |
 | Título Historia de Usuario | Exportación de reportes en pantalla |
 | Descripción HU: Como directivo, quiero poder exportar lo que veo en pantalla para compartirlo o analizarlo externamente. |  |
-| Criterios de aceptación: Escenario 1: Botón de exportar Dado que veo un reporte, Cuando hago clic en exportar, Entonces se descarga el contenido en formato simple (ej. imagen o texto). Escenario 2: Nombre de archivo automático Dado que se descarga el archivo, Cuando reviso su nombre, Entonces tiene el nombre del reporte y la fecha. Escenario 3: Confirmación de descarga Dado que hago clic, Cuando se genera el archivo, Entonces el sistema me notifica que fue exitoso. |  |
+| Criterios de aceptación:<br> Escenario 1: Botón de exportar<br> Dado que veo un reporte,<br> Cuando hago clic en exportar,<br> Entonces se descarga el contenido en formato simple (ej. imagen o texto). Escenario 2: Nombre de archivo automático<br> Dado que se descarga el archivo,<br> Cuando reviso su nombre,<br> Entonces tiene el nombre del reporte y la fecha. Escenario 3: Confirmación de descarga<br> Dado que hago clic,<br> Cuando se genera el archivo,<br> Entonces el sistema me notifica que fue exitoso. |  |
 
 | ID Épica: | EP05 |
 | :---- | :---- |
@@ -1156,7 +1156,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US26 |
 | Título Historia de Usuario | Reporte de empleados con mejor desempeño |
 | Descripción HU: Como directivo, quiero identificar a los empleados con mejor desempeño para reconocer su trabajo. |  |
-| Criterios de aceptación: Escenario 1: Generación del listado Dado que accedo al reporte, Cuando elijo la opción "mejor desempeño", Entonces veo una lista ordenada por puntaje. Escenario 2: Detalles del rendimiento Dado que selecciono un nombre, Cuando ingreso, Entonces veo su historial reciente. Escenario 3: Filtro por área Dado que hay muchas personas, Cuando aplico un filtro por área, Entonces solo aparecen los mejores de esa área. |  |
+| Criterios de aceptación:<br> Escenario 1: Generación del listado<br> Dado que accedo al reporte,<br> Cuando elijo la opción "mejor desempeño",<br> Entonces veo una lista ordenada por puntaje. Escenario 2: Detalles del rendimiento<br> Dado que selecciono un nombre,<br> Cuando ingreso,<br> Entonces veo su historial reciente. Escenario 3: Filtro por área<br> Dado que hay muchas personas,<br> Cuando aplico un filtro por área,<br> Entonces solo aparecen los mejores de esa área. |  |
 
 | ID Épica: | EP06 |
 | :---- | :---- |
@@ -1164,7 +1164,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US27 |
 | Título Historia de Usuario | Interfaz de usuario intuitiva y fácil de usar |
 | Descripción HU: Como usuario nuevo, quiero que la interfaz sea clara e intuitiva para poder usar la plataforma sin ayuda externa. |  |
-| Escenario 1: Navegación fluida en la página principal Dado que un usuario nuevo accede a la plataforma, Cuando recorre la página principal, Entonces debe poder identificar de manera sencilla las principales secciones y botones de acción sin necesidad de instrucciones. Escenario 2: Accesibilidad de las opciones de menú Dado que un usuario interactúa con la barra de navegación, Cuando accede desde un dispositivo de escritorio o móvil, Entonces debe visualizar claramente las opciones principales y navegar entre secciones de forma intuitiva. Escenario 3: Claridad en los formularios y botones Dado que un usuario completa un formulario o utiliza un botón de acción, Cuando visualiza los campos o botones disponibles, Entonces debe entender de inmediato su propósito gracias a etiquetas claras, íconos o textos explicativos. Escenario 4: Retroalimentación visual en interacciones Dado que un usuario realiza una acción como enviar un formulario o hacer clic en un botón, Cuando la acción es procesada, Entonces debe recibir retroalimentación visual inmediata, como mensajes de éxito, errores o cambios de color en los elementos interactivos. |  |
+| Escenario 1: Navegación fluida en la página principal<br> Dado que un usuario nuevo accede a la plataforma,<br> Cuando recorre la página principal,<br> Entonces debe poder identificar de manera sencilla las principales secciones y botones de acción sin necesidad de instrucciones. Escenario 2: Accesibilidad de las opciones de menú<br> Dado que un usuario interactúa con la barra de navegación,<br> Cuando accede desde un dispositivo de escritorio o móvil,<br> Entonces debe visualizar claramente las opciones principales y navegar entre secciones de forma intuitiva. Escenario 3: Claridad en los formularios y botones<br> Dado que un usuario completa un formulario o utiliza un botón de acción,<br> Cuando visualiza los campos o botones disponibles,<br> Entonces debe entender de inmediato su propósito gracias a etiquetas claras, íconos o textos explicativos. Escenario 4: Retroalimentación visual en interacciones<br> Dado que un usuario realiza una acción como enviar un formulario o hacer clic en un botón,<br> Cuando la acción es procesada,<br> Entonces debe recibir retroalimentación visual inmediata, como mensajes de éxito, errores o cambios de color en los elementos interactivos. |  |
 
 | ID Épica: | EP07 |
 | :---- | :---- |
@@ -1172,7 +1172,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US28 |
 | Título Historia de Usuario | Diseño limpio y profesional que inspire confianza |
 | Descripción HU: Como usuario, quiero que el diseño sea profesional y ordenado para sentirme cómodo usando la plataforma. |  |
-| Criterios de aceptación: Escenario 1: Uso de colores neutros Dado que accedo a la plataforma, Cuando se carga el entorno, Entonces veo una estética sobria y profesional. Escenario 2: Tipografía legible Dado que leo información, Cuando hay mucho texto, Entonces está en tamaño y fuente adecuados. Escenario 3: Espaciado adecuado Dado que hay distintos bloques, Cuando los veo, Entonces no están saturados ni amontonados. |  |
+| Criterios de aceptación:<br> Escenario 1: Uso de colores neutros<br> Dado que accedo a la plataforma,<br> Cuando se carga el entorno,<br> Entonces veo una estética sobria y profesional. Escenario 2: Tipografía legible<br> Dado que leo información,<br> Cuando hay mucho texto,<br> Entonces está en tamaño y fuente adecuados. Escenario 3: Espaciado adecuado<br> Dado que hay distintos bloques,<br> Cuando los veo,<br> Entonces no están saturados ni amontonados. |  |
 
 | ID Épica: | EP05 |
 | :---- | :---- |
@@ -1180,7 +1180,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US29 |
 | Título Historia de Usuario | Presentación clara y ordenada de la información |
 | Descripción HU: Como usuario, quiero que la información se muestre ordenadamente para encontrar fácilmente lo que necesito. |  |
-| Criterios de aceptación: Escenario 1: Secciones diferenciadas Dado que estoy en un perfil, Cuando lo consulto, Entonces veo pestañas o secciones claramente divididas. Escenario 2: Prioridad de datos importantes Dado que accedo al panel, Cuando se muestran datos, Entonces los más importantes aparecen primero. Escenario 3: Visibilidad móvil optimizada Dado que accedo desde el celular, Cuando navego, Entonces todo sigue ordenado y visible. |  |
+| Criterios de aceptación:<br> Escenario 1: Secciones diferenciadas<br> Dado que estoy en un perfil,<br> Cuando lo consulto,<br> Entonces veo pestañas o secciones claramente divididas. Escenario 2: Prioridad de datos importantes<br> Dado que accedo al panel,<br> Cuando se muestran datos,<br> Entonces los más importantes aparecen primero. Escenario 3: Visibilidad móvil optimizada<br> Dado que accedo desde el celular,<br> Cuando navego,<br> Entonces todo sigue ordenado y visible. |  |
 
 | ID Épica: | EP05 |
 | :---- | :---- |
@@ -1188,7 +1188,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | ID Historia de Usuario | US30 |
 | Título Historia de Usuario | Navegación coherente en todas las secciones de la plataforma |
 | Descripción HU: Como usuario, quiero que la navegación funcione igual en todas partes para no confundirme al moverme por la plataforma. |  |
-| Criterios de aceptación: Escenario 1: Menú visible en todas las páginas Dado que cambio de módulo, Cuando se carga la nueva sección, Entonces el menú principal sigue disponible. Escenario 2: Enlaces activos destacados Dado que navego entre secciones, Cuando estoy en una, Entonces su ítem del menú se resalta. Escenario 3: Flujo de navegación lógico Dado que realizo tareas secuenciales, Cuando avanzo paso a paso, Entonces sigo un flujo coherente sin perderme. |  |
+| Criterios de aceptación:<br> Escenario 1: Menú visible en todas las páginas<br> Dado que cambio de módulo,<br> Cuando se carga la nueva sección,<br> Entonces el menú principal sigue disponible. Escenario 2: Enlaces activos destacados<br> Dado que navego entre secciones,<br> Cuando estoy en una,<br> Entonces su ítem del menú se resalta. Escenario 3: Flujo de navegación lógico<br> Dado que realizo tareas secuenciales,<br> Cuando avanzo paso a paso,<br> Entonces sigo un flujo coherente sin perderme. |  |
 
 ### 
 
