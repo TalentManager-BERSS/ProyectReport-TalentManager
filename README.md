@@ -533,15 +533,7 @@ En el ámbito de la gestión del desempeño laboral y recursos humanos, existen 
 | ----- | :---- | ----- | ----- | ----- | ----- |
 | ¿Por qué realizar este análisis? |  | Llevar a cabo este análisis resulta fundamental, ya que nos brinda una comprensión profunda del panorama competitivo al que se enfrenta nuestra startup. Nos permite identificar tanto los riesgos como las posibilidades de crecimiento dentro del mercado, y reconocer en qué aspectos podemos diferenciarnos de otras propuestas similares. Asimismo, facilita el reconocimiento de nuestras ventajas y limitaciones frente a la competencia, lo que contribuye a una toma de decisiones estratégicas más informada y enfocada. |  |  |  |
 | Nombre |  | TalentManager | 15Five | BambooHR | Talentum |
-| Logo |  | <p align="center">
-  <img src="Images/img4.jpg" alt="img" />
-</p> | <p align="center">
-  <img src="Images/img5.jpg" alt="img" />
-</p> | <p align="center">
-  <img src="Images/img6.jpg" alt="img" />
-</p> | <p align="center">
-  <img src="Images/img7.jpg" alt="img" />
-</p> |
+| Logo |  | ![TalentManager](Images/img4.jpg) | ![15Five](Images/img5.jpg) | ![BambooHR](Images/img6.jpg) | ![Talentum](Images/img7.jpg) |
 | Perfil | Overview | Aplicación web que permite a empresas registrar, evaluar y dar seguimiento al desempeño de sus trabajadores con reportes  | Plataforma de Gestión del Rendimiento y Compromiso de Empleados | Plataforma de gestión de recursos humanos en la nube, pensada para pequeñas y medianas empresas.. | Software de gestión humana que ofrece soluciones en la nube para atraer, desarrollar, retener y potenciar el talento humano en las empresas. Sus módulos incluyen gestión del desempeño, diseño organizacional, clima laboral, compensaciones, gestión de competencias, línea de carrera y sucesión, capacitación y desarrollo. ​ |
 |  | Ventaja competitiva ¿Qué valor ofrece a los clientes? | Evaluaciones flexibles, reportes automáticos y criterios personalizables | Gestiona el rendimiento de los empleados, centrada en la retroalimentación continua, el establecimiento de objetivos y el compromiso del personal, mejorando la productividad y la cultura organizacional. | Interfaz intuitiva y fácil de usar, especialización en pymes, datos centralizados y seguros y buen soporte al cliente y experiencia del usuario. | Ofrece una plataforma integral que cubre diversas áreas de recursos humanos, permitiendo una gestión centralizada y eficiente del talento. |
 | Plan de marketing | Mercado objetivo | Empresas medianas y grandes, especialmente en sectores como retail, logística. | Empresas de tamaño medio a grande. | Empresas pequeñas y medianas  | Empresas de diversos tamaños que buscan modernizar su gestión de recursos humanos mediante soluciones digitales. |
