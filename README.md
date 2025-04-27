@@ -1254,3 +1254,638 @@ Para la elaboración de nuestro Product Backlog, hemos utilizado la escala de Fi
 | 28 | US28 | Diseño limpio y profesional que inspire confianza | Como usuario, quiero que el diseño sea profesional y ordenado para sentirme cómodo usando la plataforma. | Alta | 1 |
 | 29 | US29 | Presentación clara y ordenada de la información | Como usuario, quiero que la información se muestre ordenadamente para encontrar fácilmente lo que necesito. | Alta | 1 |
 | 30 | US30 | Navegación coherente en todas las secciones de la plataforma | Como usuario, quiero que la navegación funcione igual en todas partes para no confundirme al moverme por la plataforma. | Alta | 1 |
+
+
+# **Capítulo IV: Product Design** {#capítulo-iv:-product-design}
+
+# **4.1. Style Guidelines.** {#4.1.-style-guidelines.}
+
+TalentManager es una plataforma web diseñada para transformar la manera en que las organizaciones gestionan el desempeño de sus equipos. Integra un sistema digital intuitivo con herramientas que facilitan el seguimiento continuo, la evaluación formal y el análisis de resultados de cada colaborador. TalentManager ofrece una experiencia accesible, profesional y alineada con los flujos de trabajo modernos, permitiendo a las empresas optimizar procesos, tomar decisiones estratégicas y fortalecer el desarrollo de su talento humano.
+
+Además de centralizar información clave del personal, TalentManager promueve una cultura organizacional basada en la mejora continua, la transparencia y el reconocimiento del desempeño. Está orientada a facilitar la labor de supervisores, líderes de RRHH y directivos mediante un entorno digital simple, eficiente y adaptable a distintas estructuras corporativas.
+
+Esta sección presenta una guía estructurada que unifica todos los elementos visuales y de diseño utilizados en la plataforma TalentManager. Se organizan recursos gráficos como tipografías, paletas de colores y otros componentes visuales con el objetivo de mantener una identidad coherente que refleje el propósito de la marca: potenciar la gestión del talento. Las guías de estilo están divididas en tres bloques —General Style Guidelines, Web Style Guidelines y Mobile Style Guidelines—, asegurando una experiencia visual uniforme, clara y funcional tanto en la versión web como móvil. Gracias a esta consistencia en el diseño, la navegación se vuelve más fluida y accesible, lo que mejora significativamente la experiencia del usuario y refuerza los valores estratégicos de la plataforma.
+
+### **4.1.1. General Style Guidelines.** {#4.1.1.-general-style-guidelines.}
+
+El branding de TalentManager es el pilar fundamental de su identidad visual, diseñado para reflejar sus valores clave: desempeño eficiente, accesibilidad digital y crecimiento organizacional. A través de una estética profesional, moderna y cercana, la marca busca capturar la esencia de una experiencia de gestión del talento clara y confiable, ofreciendo una presencia visual que transmita orden, solidez y dinamismo.
+
+El logotipo, la paleta de colores y la tipografía de TalentManager evocan estructura, confianza y simplicidad, elementos que representan la facilidad con la que los usuarios pueden registrar, evaluar y analizar el desempeño de su equipo. El branding está alineado con el espíritu práctico, inclusivo y estratégico de la plataforma, asegurando que líderes, supervisores y responsables de RRHH se sientan parte de una solución tecnológica diseñada para impulsar el desarrollo profesional y fortalecer la cultura organizacional desde una perspectiva eficiente y accesible.
+
+#### **4.1.1.1 Tipografía** {#4.1.1.1-tipografía}
+
+La tipografía de TalentManager nos ayuda a comunicar la imagen de nuestra marca y su identidad en el mercado de una manera sutil y efectiva a la vez. El equipo ha seleccionado una tipografía moderna y visualmente agradable que concuerda con las características y el objetivo de nuestro proyecto, a la vez que garantiza una adecuada legibilidad en los diversos tipos de dispositivos desde los que accederán nuestros clientes.
+
+<p align="center">
+  <img src="Images/img21.jpg" alt="imagen" />
+</p>
+
+Para lograr este objetivo, hemos optado por usar la tipografía Poppins, del tipo Sans Serif, ya que comunica un sentimiento de calma y profesionalismo. Esta tipografía ayuda a comunicar una imagen de modernidad y estabilidad, gracias a su estructura simple, balanceada y minimalista. Nuestro proyecto utiliza diversos pesos tipográficos para representar diferentes posiciones en la jerarquía visual:
+
+* **Light:** Utilizaremos este peso para frases cortas y elementos enlistados, facilitando su distinción de otros textos y reduciendo la carga visual de la interfaz.  
+* **Regular:** Los textos cortos y párrafos descriptivos usarán este peso para llamar más la atención del lector y facilitar su lectura durante el desplazamiento en la página.  
+* **Bold:** Los títulos y subtítulos usarán este peso tipográfico para resaltar más y ser fáciles de ubicar en la interfaz, pues son textos de mayor prioridad.
+
+#### **4.1.1.2 Colores** {#4.1.1.2-colores}
+
+La selección de colores de TalentManager nos ayudará a mejorar la experiencia del usuario y establecer nuestra imagen de marca. Una adecuada selección de colores nos permitirá evocar emociones en el usuario e influir sobre su comportamiento, mejorando su interacción con la interfaz y su satisfacción con el servicio.
+
+La paleta de colores que eligió el equipo es la siguiente:
+
+<p align="center">
+  <img src="Images/img22.jpg" alt="imagen" />
+</p>
+
+El propósito de este repertorio de colores es asemejarse a los que se pueden encontrar dentro de una oficina clásica, con tonos cálidos contrastados con colores más sobrios, siempre buscando mantener un aire profesional y una armonía entre elementos visuales.
+
+* Negro (\#000000): El color negro es muy versátil para generar contraste entre elementos de la pantalla y enfocar secciones relevantes fácilmente. El uso de este color aporta un sentimiento de elegancia y sofisticación, lo que nos ayudará a establecer una imagen de marca mucho más profesional.  
+* Café (\#5A3C28): El color café ayuda a aportar peso visual de una manera más sutil que otros colores oscuros, puede ser utilizado para resaltar secciones específicas sin sobrecargar la interfaz. Este color transmite un aire cálido y evoca el pensamiento de aquella clásica bebida caliente de oficina.  
+* Azul petróleo (\#22333B): El color azul petróleo ayuda a aportar un sentimiento más moderno y elegante, además de ser un color que genera contraste entre el resto. Usar este color nos ayudará a dar estabilidad visual a la interfaz.  
+* Mostaza (\#DCA946): El color mostaza es energético y llamativo, sin llegar a ser chillón o alterar la vista de la interfaz muy agresivamente. Usar este color nos ayudará a resaltar ciertos elementos dentro de la pantalla, a la vez que aporta un aire retro y cálido.  
+* Beige arena (\#C6AC8F): El color beige es neutro y ligero, llega a ser muy versátil para suavizar los contrastes entre los elementos de la interfaz y transmitir calidez de una manera más leve.  
+* Crema suave (\#EAE0D5): El color crema suave es acogedor y transmite un sentimiento de calma y minimalismo, su aspecto limpio y balanceado es ideal para elaborar fondos cálidos y ligeros a la vista del usuario.
+
+#### **4.1.1.3 Espaciado** {#4.1.1.3-espaciado}
+
+El espaciado en la interfaz de TalentManager es de mucha importancia para la forma en la que se relaciona el usuario con la plataforma, pues este aspecto ejerce una mucho mayor influencia en cómo se interactúa con los elementos en pantalla.
+
+En el caso de nuestro proyecto, el equipo decidió usar un diseño seccionado, lo que quiere decir que tanto la Landing Page como la aplicación tendrán una distribución de elementos visuales en diferentes áreas específicas, facilitando su organización en diferentes tamaños de pantalla.
+
+<p align="center">
+  <img src="Images/img23.jpg" alt="imagen" />
+</p>
+
+Para la Landing Page, hemos elegido por un espaciado regular (de 40 a 60 píxeles) para diferentes secciones y un espaciado reducido (de 30 píxeles a menos) para elementos dentro de dichas secciones, esto facilita una rápida legibilidad y una fácil interacción con los elementos en pantalla, además de aportar mayor legibilidad a la jerarquía visual planteada.
+
+<p align="center">
+  <img src="Images/img24.jpg" alt="imagen" />
+</p>
+
+En el caso de la aplicación, se usa un espaciado más amplio entre las secciones y sus elementos, debido a que se tiene que priorizar una interactividad más cómoda con los diversos botones en pantalla, sin dejar de lado la legibilidad y jerarquía visual de los elementos.
+
+De esta manera nuestra aplicación, que está principalmente orientada a dispositivos de escritorio, será mucho más fácil de utilizar y brindará una mejor experiencia al usuario, manteniendo un equilibrio visual en toda la pantalla y una claridad que lo ayudará a familiarizarse con las diferentes herramientas disponibles.
+
+#### **4.1.1.4 Iconografía** {#4.1.1.4-iconografía}
+
+Los íconos utilizados en la interfaz de nuestro proyecto nos ayudarán a representar visualmente las diversas funcionalidades o acciones a las que el usuario puede acceder mediante los botones disponibles en cada pantalla. Estas simples pero efectivas figuras simbólicas ayudan a mejorar la experiencia de uso y a comunicar significados sin necesidad de textos descriptivos, alivianando la carga visual en la interfaz e incluso trascendiendo la barrera lingüística en algunos casos.
+
+En el caso de nuestro proyecto, los íconos son utilizados como complementos para el diseño de los botones de la interfaz, con un tamaño regular (60x60 píxeles) para la mayoría de figuras.
+
+Los íconos presentes en la Landing Page y aplicación de TalentManager son los siguientes:
+
+<p align="center">
+  <img src="Images/img25.jpg" alt="imagen" />
+</p>
+
+Los tamaños de íconos usados en la interfaz son:
+
+* **200x200:** Reservado únicamente para pantallas que no presentan muchos botones ni secciones interactivas de gran tamaño, como podría ser la pantalla de inicio de sesión, no son botones, pues podrían causar inconvenientes al momento de scrollear en dispositivos de pantallas más pequeñas.  
+* **160x160:** Reservado para íconos presentes en secciones con texto dentro de la interfaz, su propósito es ilustrar visualmente la función o aspecto que se está describiendo.  
+* **60x60:** Tamaño regular de los íconos de la interfaz de la aplicación, se encontrarán dentro de los botones interactivos, favoreciendo una legibilidad más rápida de la pantalla y los elementos que contiene.
+
+#### **4.1.1.5 Tono de Comunicación y Lenguaje Aplicado** {#4.1.1.5-tono-de-comunicación-y-lenguaje-aplicado}
+
+El tono de TalentManager es profesional, empático y motivador, diseñado para generar una conexión de confianza con los usuarios. La plataforma busca acompañar a las organizaciones en el fortalecimiento de sus equipos, ya sea en procesos de evaluación, seguimiento o crecimiento del talento. Por ello, el tono se mantiene cercano y alentador, transmitiendo claridad y compromiso con la mejora continua del desempeño laboral.
+
+En cuanto al lenguaje, se utiliza un estilo directo y comprensible, evitando tecnicismos innecesarios o estructuras complejas. Todo el contenido está pensado para ser accesible a usuarios con distintos niveles de experiencia tecnológica o de gestión. Se emplea un lenguaje positivo que resalta los beneficios de una gestión eficiente del talento, con una voz cercana pero orientada a resultados. Además, cuando es pertinente, se recurre a ejemplos prácticos o situaciones comunes en entornos laborales, facilitando la identificación del usuario con los mensajes.
+
+Este enfoque comunicativo busca crear una experiencia clara, motivadora y funcional, alineada con los valores de TalentManager: impulsar la productividad, fortalecer la cultura organizacional y facilitar decisiones estratégicas basadas en información precisa y accesible.
+
+### **4.1.2. Web Style Guidelines.** {#4.1.2.-web-style-guidelines.}
+
+Los Web Style Guidelines de la Landing Page de TalentManager fueron diseñados con el propósito de facilitar el acceso a la información para los usuarios, mejorando su experiencia de uso y facilitando su proceso de familiarización con la plataforma.
+
+<p align="center">
+  <img src="Images/img26.jpg" alt="imagen" />
+</p>
+
+En la pantalla principal de la Landing Page, el usuario se encontrará con 3 secciones que contienen elementos interactivos: El encabezado (header), la sección de servicios (slider) y el pie de página (footer).
+
+<p align="center">
+  <img src="Images/img27.jpg" alt="imagen" />
+</p>
+
+En el encabezado, el usuario encontrará las etiquetas “Inicio”, “Servicios”, “Nosotros”, “Iniciar sesión” y “Suscríbete”, que servirán para redirigir al usuario a otras pantallas o secciones del sitio web.
+
+<p align="center">
+  <img src="Images/img28.jpg" alt="imagen" />
+</p>
+
+En la sección de servicios, el usuario podrá interactuar con un elemento “slider” mediante las flechas que se ubican en ambos lados del área designada, dándole la posibilidad de leer párrafos descriptivos sobre las herramientas de la aplicación, acompañados por una imagen representativa. Esto nos ayudará a optimizar el uso del espacio en la pantalla y ofrecer información clara sobre el funcionamiento de nuestro servicio.
+
+<p align="center">
+  <img src="Images/img29.jpg" alt="imagen" />
+</p>
+
+En el pie de página, el usuario podrá interactuar con etiquetas que lo ayudarán a navegar entre diferentes secciones del sitio web e hipervínculos externos relacionados a la marca, como nuestras redes sociales y formas de contacto adicionales.
+
+Esta selección de elementos interactivos permitirá al usuario tener una experiencia fluida e intuitiva con la interfaz, familiarizándose rápidamente con su uso y elaborando rutas óptimas para localizar la información requerida dentro del sitio web.
+
+# **4.2. Information Architecture.** {#4.2.-information-architecture.}
+
+### **4.2.1. Organization Systems.** {#4.2.1.-organization-systems.}
+
+* Landing Page:
+
+<p align="center">
+  <img src="Images/img30.jpg" alt="imagen" />
+</p>
+
+* Aplicación:
+
+<p align="center">
+  <img src="Images/img31.jpg" alt="imagen" />
+</p>
+
+### **4.2.2. Labeling Systems.** {#4.2.2.-labeling-systems.}
+
+La interfaz de TalentManager fue diseñada para usar el espacio en pantalla eficientemente y de manera ordenada, buscando ofrecer al usuario una experiencia de uso más intuitiva y dinámica, que permita tanto a usuarios principiantes como experimentados una navegación más cómoda, fácil de entender y con rutas optimizadas. Para lograr esto, el equipo propuso un diseño que emplea etiquetas concisas y efectivas, que nos ayuden a comunicarle al usuario diferentes significados con una lectura rápida.
+
+Landing Page:
+
+<p align="center">
+  <img src="Images/img32.jpg" alt="imagen" />
+</p>
+
+En el encabezado de la Landing Page, encontramos las primeras etiquetas que podrá reconocer el usuario, en esta sección de la pantalla, podrá interactuar con las etiquetas “Inicio”, “Servicios”, “Nosotros”, “Iniciar sesión” y “Suscríbete”, sus funcionalidades serán descritas a continuación:
+
+* **Inicio:** Servirá como un acceso rápido a la pantalla principal de la Landing Page, ayudando al usuario a ubicarse dentro del sitio web y acceder rápidamente a la presentación de la plataforma.  
+* **Servicios:** Esta etiqueta servirá como un acceso rápido a la sección de servicios, donde el usuario podrá familiarizarse con las diversas herramientas que ofrece la aplicación mediante breves párrafos descriptivos e imágenes representativas.  
+* **Nosotros:** Esta etiqueta servirá para proveer al usuario con un acceso rápido a la sección de “Nosotros”, donde podrá acceder a información acerca de la startup y la aplicación.  
+* **Iniciar sesión:** Esta etiqueta cumple con la función de ser un acceso directo a la pantalla de inicio de sesión, donde podrá acceder a la versión web de la plataforma luego de ingresar un usuario y contraseña válidos.  
+* **Suscríbete:** Esta etiqueta tiene la funcionalidad de redirigir al usuario a la página de registro del servicio, donde podrá crear una cuenta y suscribirse al servicio.
+
+<p align="center">
+  <img src="Images/img33.jpg" alt="imagen" />
+</p>
+
+* **Youtube, Instagram, Twitter:** Estas etiquetas cumplen la misma función, que es la de redirigir al usuario a la página de TalentManager en cada respectiva red social.  
+* **Nuestra historia:** Esta etiqueta servirá para redirigir al usuario a la sección de “Nuestra historia”, donde podrá familiarizarse con los anteriores proyectos de la startup y nuestra trayectoria como equipo.  
+* **Misión, visión y valores:** Redirigirá al usuario hacia la pantalla de misión y visión de nuestra startup, acompañada por la lista de valores representativos de nuestro equipo.  
+* **Políticas de Privacidad:** Redirige al usuario a la pantalla de políticas de privacidad y manejo de datos.  
+* **Términos del Servicio:** Redigirirá al usuario a la pantalla de términos y condiciones del servicio.  
+* **Atención al cliente:** Redirige al usuario a la interfaz de atención al cliente, donde podrá reportar un problema o encontrar información de ayuda.  
+* **Preguntas frecuentes:** Redirige al usuario a la sección de preguntas frecuentes del sitio web.  
+* **Contacto:** Redirige al usuario a la pantalla que contiene el formulario de contacto dentro del sitio web.
+
+Aplicación:
+
+<p align="center">
+  <img src="Images/img34.jpg" alt="imagen" />
+</p>
+
+El sistema de etiquetas de la interfaz principal de Talent Manager es constituido por los siguientes elementos interactivos:
+
+<p align="center">
+  <img src="Images/img35.jpg" alt="imagen" />
+</p>
+Logo: El logo de Talent Manager servirá como un botón de acceso rápido a la página de inicio, tanto en la Landing Page como en el sitio web. Esto facilitará la navegación de usuarios principiantes y experimentados, al brindarles una ruta rápida hacia la pantalla inicial, desde donde podrá encontrar una ruta directa hacia la información que desea consultar.
+
+<p align="center">
+  <img src="Images/img36.jpg" alt="imagen" />
+</p>
+Home: El botón Home también servirá como una manera de acceso rápido a la pantalla principal de la aplicación, brindándole al usuario dos maneras diferentes de navegar hacia esta pantalla, permitiéndole elegir la que le parezca más cómoda.
+
+<p align="center">
+  <img src="Images/img37.jpg" alt="imagen" />
+</p>
+Reports: Este botón sirve para acceder a la pantalla de “Reportes”, donde podrá visualizar un informe rápido realizado automáticamente por la aplicación sobre el desempeño de la organización.
+
+<p align="center">
+  <img src="Images/img38.jpg" alt="imagen" />
+</p>
+Dashboard: Este botón sirve para acceder rápidamente a la pantalla de “Panel de análisis”, donde el usuario podrá visualizar estadísticas de la organización, acompañados por información sobre el aporte de cada equipo.
+
+<p align="center">
+  <img src="Images/img39.jpg" alt="imagen" />
+</p>
+Support: Este botón servirá para ofrecerle al usuario una ruta directa a la sección de “Soporte” de TalentManager, que contiene formas de contacto y enlaces directos al sitio web para recibir ayuda.
+
+<p align="center">
+  <img src="Images/img40.jpg" alt="imagen" />
+</p>
+Log out: El botón de Log out servirá para que el usuario pueda cerrar sesión directamente dentro de la aplicación o sitio web, facilitando un rápido acceso a esta acción.
+
+### **4.2.3. SEO Tags and Meta Tags** {#4.2.3.-seo-tags-and-meta-tags}
+
+Title:
+
+\<title\>TalentManager\</title\>
+
+En este meta tag, se define el título que tendrá la página web del servicio, en el caso de nuestro proyecto, el equipo decidió utilizar el nombre de la aplicación sin ningún texto adicional, optando por una mayor simplicidad que facilite la lectura por parte del usuario.
+
+Meta tags:
+
+\<meta *charset*\="UTF-8" /\>
+
+\<meta *name*\="viewport" *content*\="width=device-width, initial-scale=1.0" /\>
+
+El equipo no realizó cambios sobre los meta tags por defecto del archivo HTML, debido a que no fueron considerados necesarios para el funcionamiento del sitio web.
+
+Description:
+
+\<meta *name*\="description" *content*\="Plataforma inteligente para la gestión del desempeño laboral."\>
+
+El meta tag designado para la descripción del sitio web contiene una frase que resume el funcionamiento de la plataforma, con el objetivo de informar a los nuevos usuarios sobre cómo se utiliza esta herramienta, en caso no sean familiares con la marca de TalentManager.
+
+Keywords:  
+\<meta *name*\="keywords" *content*\="gestión laboral, empresa, equipo, colaboradores, colaboración, organización"\>
+
+Estos meta tags sirven para optimizar la facilidad de búsqueda del sitio web, trabajando con navegadores para admitir un mayor repertorio de términos que coincidan con la información contenida en este. En el caso de nuestro proyecto, se emplearon palabras relacionadas con la gestión laboral en organizaciones, resaltando la utilidad de esta herramienta para la colaboración en equipo.
+
+Author:
+
+\<meta *name*\="author" *content*\="BERSS"\>
+
+El equipo decidió usar el nombre de la startup para llenar el meta tag de autor, debido a que la creación de la Landing Page fue un trabajo colaborativo entre todos los miembros, y para establecer nuestra propiedad sobre la solución dentro del sitio web.
+
+### **4.2.4. Searching Systems.** {#4.2.4.-searching-systems.}
+
+<p align="center">
+  <img src="Images/img41.jpg" alt="imagen" />
+</p>
+
+En la plataforma de TalentManager, los Searching Systems fueron diseñados con el propósito de ofrecer una experiencia de búsqueda cómoda, eficiente y sencilla. Siguiendo lo propuesto en la sección de características, la aplicación contará con una herramienta de búsqueda avanzada que permitirá a los usuarios encontrar las fichas de trabajador o equipo que quiere consultar de manera rápida, realizando una búsqueda por nombre, área o equipo.
+
+Los usuarios podrán encontrar resultados rápidamente al ingresar palabras en la barra de búsqueda, ya que la aplicación se encargará de encontrar coincidencias en nombres de colaboradores y equipos, mostrándolos en una interfaz designada en forma de accesos directos.
+
+### **4.2.5. Navigation Systems.** {#4.2.5.-navigation-systems.}
+
+Landing Page:
+
+<p align="center">
+  <img src="Images/img42.jpg" alt="imagen" />
+</p>
+
+Los Navigation Systems de la Landing Page fueron diseñados para facilitar el acceso a la información por parte del usuario y brindar control total sobre las secciones que puede visualizar. Las herramientas de navegación se concentran en la sección del encabezado, que contiene elementos interactivos que ayudarán a acceder a diferentes pantallas dentro del sitio web.
+
+Aplicación:
+
+Los Navigation Systems de TalentManager fueron diseñados para ayudar al usuario a encontrar las herramientas que quiere utilizar rápidamente, ahorrando tiempo y mejorando su experiencia de uso. En el caso de nuestra aplicación, en la interfaz se podrán visualizar 4 botones diferentes en el lado superior izquierdo, estos servirán como accesos directos a diferentes pantallas con herramientas que el usuario podrá utilizar. Separar las funcionalidades nos ayudará a organizar de una mejor manera la interfaz y reducir la carga visual, evitando que el usuario se sienta abrumado o confundido.
+
+<p align="center">
+  <img src="Images/img43.jpg" alt="imagen" />
+</p>
+
+La principal herramienta de navegación que utilizará el usuario dentro de la aplicación es la barra lateral ubicada en el lado izquierdo de la interfaz. Esta barra contiene diversas etiquetas que ayudarán al usuario a desplazarse entre pantallas de manera organizada, ya que cada etiqueta y botón se encontrará en una sección que agrupará elementos relacionados a funciones específicas, como la información de colaboradores o el sistema de reportes.
+
+<p align="center">
+  <img src="Images/img44.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img45.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img46.jpg" alt="imagen" />
+</p>
+
+Además de la barra de navegación, el usuario dispondrá de otros medios de desplazamiento dentro de la interfaz de la aplicación, como podrían ser los elementos interactivos dentro de las secciones de la pantalla, que lo ayudarán a acceder a diferentes pantallas de manera cómoda e intuitiva.
+
+# **4.3. Landing Page UI Design.** {#4.3.-landing-page-ui-design.}
+
+### **4.3.1. Landing Page Wireframe.** {#4.3.1.-landing-page-wireframe.}
+
+<p align="center">
+  <img src="Images/img47.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img48.jpg" alt="imagen" />
+</p>
+
+En la pantalla principal de la Landing Page de TalentManager, el usuario visualizará una sección de encabezado con herramientas de navegación, una sección de introducción con una imagen representativa (hero section), un listado de beneficios de TalentManager y un slider interactivo con párrafos descriptivos sobre los servicios que ofrece la aplicación. Finalmente, podrá ubicar una sección de pie de página con etiquetas de navegación adicionales.
+
+<p align="center">
+  <img src="Images/img49.jpg" alt="imagen" />
+</p>
+
+Al presionar la etiqueta de “Suscríbete”, el usuario será transportado a la pantalla de planes de suscripción, donde podrá obtener información adicional sobre los beneficios de cada nivel de suscripción.
+
+<p align="center">
+  <img src="Images/img50.jpg" alt="imagen" />
+</p>
+
+Si el usuario presiona la etiqueta “Nosotros”, será redirigido a la pantalla de información sobre la startup y el producto, la cual contendrá breves párrafos introductorios que ayudarán al usuario a familiarizarse con la marca.
+
+<p align="center">
+  <img src="Images/img51.jpg" alt="imagen" />
+</p>
+
+Al presionar la etiqueta “Contáctanos”, el usuario será redirigido al formulario de contacto, donde podrá introducir un mensaje dirigido al equipo detrás del proyecto.
+
+<p align="center">
+  <img src="Images/img52.jpg" alt="imagen" />
+</p>
+
+Finalmente, si el usuario presiona la etiqueta de iniciar sesión, será redirigido a la interfaz de login, donde podrá acceder a la herramienta al introducir credenciales válidas.
+
+### **4.3.2. Landing Page Mock-up.** {#4.3.2.-landing-page-mock-up.}
+
+No se realizaron cambios significativos en la distribución de elementos para el diseño de los Mock-ups de la Landing Page, por lo que los únicos cambios realizados fueron la inclusión de la paleta de colores y el texto de ejemplo.
+
+<p align="center">
+  <img src="Images/img53.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img54.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img55.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img56.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img57.jpg" alt="imagen" />
+</p>
+
+# **4.4. Web Applications UX/UI Design.** {#4.4.-web-applications-ux/ui-design.}
+
+### **4.4.1. Web Applications Wireframes.** {#4.4.1.-web-applications-wireframes.}
+
+<p align="center">
+  <img src="Images/img58.jpg" alt="imagen" />
+</p>
+
+Al ingresar a la aplicación de TalentManager, el usuario será presentado con la pantalla de inicio de sesión, que le permitirá acceder a su cuenta al ingresar las credenciales correctas.
+
+<p align="center">
+  <img src="Images/img59.jpg" alt="imagen" />
+</p>
+
+En la página de inicio, el usuario podrá acceder a las funcines de búsqueda de colaborador, registro de colaborador y gestión de colaboradores.
+
+<p align="center">
+  <img src="Images/img60.jpg" alt="imagen" />
+</p>
+
+Al presionar en el elemento interactivo designado para la función de registro de colaboradores, el usuario accederá a la interfaz de creación de perfil.
+
+<p align="center">
+  <img src="Images/img61.jpg" alt="imagen" />
+</p>
+
+Al presionar el botón designado para acceder a la pantalla de gestión de colaboradores, el usuario accederá a su respectiva pantalla, donde podrá visualizar la información de todos los colaboradores registrados en la organización.
+
+<p align="center">
+  <img src="Images/img62.jpg" alt="imagen" />
+</p>
+
+El usuario podrá acceder a la pantalla de información específica de un colaborador al presionar la etiqueta de su nombre en la interfaz de gestión de colaboradores.
+
+<p align="center">
+  <img src="Images/img63.jpg" alt="imagen" />
+</p>
+
+Al ingresar a la sección de “Dashboard”, el usuario podrá observar un panel de análisis que contiene estadísticas sobre la organización y los equipos que la conforman.
+
+<p align="center">
+  <img src="Images/img64.jpg" alt="imagen" />
+</p>
+
+Dentro de la pantalla de “Dashboard”, el usuario podrá encontrar un elemento interactivo que lo ayudará a seleccionar un periodo de tiempo para observar las estadísticas del negocio durante ese rango de fechas.
+
+<p align="center">
+  <img src="Images/img65.jpg" alt="imagen" />
+</p>
+
+Dentro de la misma interfaz, el usuario también podrá ubicar un elemento interactivo que lo redirigirá a la pantalla de análisis detallado, donde podrá ver valores específicos del aporte de cada equipo registrado en la organización.
+
+<p align="center">
+  <img src="Images/img66.jpg" alt="imagen" />
+</p>
+
+Al presionar la etiqueta de “Reports”, el usuario se desplazará hacia la pantalla de reportes, donde podrá acceder al historial de reportes y la función de generar reporte.
+
+<p align="center">
+  <img src="Images/img67.jpg" alt="imagen" />
+</p>
+
+Al interactuar con el elemento designado como acceso a la pantalla de generar reporte, el usuario podrá acceder a esta interfaz y consultar estadísticas de la organización.
+
+<p align="center">
+  <img src="Images/img68.jpg" alt="imagen" />
+</p>
+
+El usuario podrá acceder a la lista de reportes generados en la aplicación mediante la etiqueta  “Record” dentro de la sección de reportes.
+
+<p align="center">
+  <img src="Images/img69.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img70.jpg" alt="imagen" />
+</p>
+
+Finalmente, el usuario podrá acceder rápidamente a la pantalla de soporte a través del elemento designado en la barra de navegación.
+
+### **4.4.2. Web Applications Wireflow Diagrams.** {#4.4.2.-web-applications-wireflow-diagrams.}
+
+Segmento 1: Supervisores operativos y jefes de área
+
+User Goal:
+
+Como usuario, quiero poder consultar las estadísticas de la organización en cualquier momento del día.
+
+Task Flow:
+
+<p align="center">
+  <img src="Images/img71.jpg" alt="imagen" />
+</p>
+
+Wireflow:
+
+Para consultar con las estadísticas en cualquier momento del día el usuario tendrá que loguearse. Para eso se tendrá que ingresar el nombre del usuario, luego el password y finalmente ingresar. Luego buscar en la barra de navegación "Dashboard" y presionarlo. Ahí se podrá ver las estadísticas de la organización.
+
+Segmento 2: Gerentes de RR. HH. y directivos estratégicos
+
+User Goal:
+
+Como usuario, quiero poder registrar colaboradores con datos precisos y de manera organizada.
+
+Task Flow:
+
+<p align="center">
+  <img src="Images/img72.jpg" alt="imagen" />
+</p>
+
+Wireflow:
+
+<p align="center">
+  <img src="Images/img73.jpg" alt="imagen" />
+</p>
+
+Para poder registrar colaboradores con datos precisos y de manera organizada el usuario primero deberá ingresar su nombre y su contraseña para así luego entrar a TalentManager. Luego, viendo la barra de navegación se debe entrar al apartado de "Home" y seleccionar la opción de añadir. En "Add Employee" podrás registrar los datos de un colaborador nuevo.
+
+### **4.4.2. Web Applications Mock-ups.** {#4.4.2.-web-applications-mock-ups.}
+
+El equipo no realizó cambios de distribución para la elaboración de los Mock-ups de la aplicación web, limitándose a implementar la paleta de colores e incluir textos de ejemplo dentro del diseño.
+
+<p align="center">
+  <img src="Images/img74.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img75.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img76.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img77.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img78.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img79.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img80.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img81.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img82.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img83.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img84.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img85.jpg" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/img86.jpg" alt="imagen" />
+</p>
+
+### **4.4.3. Web Applications User Flow Diagrams.** {#4.4.3.-web-applications-user-flow-diagrams.}
+
+**Segmento 1: Supervisores operativos y jefes de área**
+
+* Como usuario, quiero poder acceder rápidamente al soporte oficial de la aplicación.
+
+
+* Como usuario, quiero poder generar y tener un historial de registros
+
+
+  **Segmento 2: Gerentes de RR. HH. y directivos estratégicos**
+
+* Como usuario, quiero registrar y acceder a la información de desempeño de colaboradores y equipos.
+
+
+* Como usuario, quiero ver una estadística de comparación acerca del rendimiento en un periodo
+
+
+# **4.5. Web Applications Prototyping.** {#4.5.-web-applications-prototyping.}
+
+Se desarrolló un prototipo interactivo de TalentManager enfocado en la navegación web para evaluar y optimizar la accesibilidad y la experiencia de usuario antes de su lanzamiento oficial. Este modelo, que simula fielmente los principales recorridos de la plataforma, permite explorar funciones como la gestión de trabajadores y generación de reportes, replicando el uso real. Diseñado con una arquitectura clara, jerarquía visual coherente y principios de diseño inclusivo, garantiza una navegación intuitiva y accesible para supervisores, gerentes de recursos humanos y directivos estratégicos. Gracias a sus maquetas de alta fidelidad, el prototipo ha permitido validar decisiones de diseño, identificar fricciones en la interacción y asegurar una experiencia de uso consistente, alineada con la visión de ofrecer una solución ágil, eficiente y centrada en el usuario para la gestión del talento humano.
+
+Link al prototipo: [https://www.figma.com/proto/lvqSuexiI0BCRGWkHxNRQH/TalentManager?node-id=417-2896\&t=CY5Iwb7XKnDUs0lo-1\&scaling=contain\&content-scaling=fixed\&page-id=417%3A2684\&starting-point-node-id=417%3A2896](https://www.figma.com/proto/lvqSuexiI0BCRGWkHxNRQH/TalentManager?node-id=417-2896&t=CY5Iwb7XKnDUs0lo-1&scaling=contain&content-scaling=fixed&page-id=417%3A2684&starting-point-node-id=417%3A2896)
+
+Link del video explicativo
+
+[https://drive.google.com/file/d/1GRfeLymV1EFuw5QDZCRLVLX6TdZq2hxF/view?usp=sharing](https://drive.google.com/file/d/1GRfeLymV1EFuw5QDZCRLVLX6TdZq2hxF/view?usp=sharing)
+
+# **4.6. Domain-Driven Software Architecture.** {#4.6.-domain-driven-software-architecture.}
+
+El Domain Driven Design (DDD) busca lograr una comprensión común del dominio específico relacionado con el problema que se quiere resolver. Este enfoque facilita una mejor colaboración entre los desarrolladores y los especialistas en el tema, promoviendo una comunicación más efectiva. Más allá del uso de un lenguaje compartido, DDD incorpora una serie de patrones, metodologías y diagramas arquitectónicos que ayudan a alinear el desarrollo del software con las particularidades del dominio, fortaleciendo así una visión coherente y conjunta entre todos los involucrados.
+
+### **4.6.1. Software Architecture Context Diagram.** {#4.6.1.-software-architecture-context-diagram.}
+
+<p align="center">
+  <img src="Images/img87.jpg" alt="imagen" />
+</p>
+
+### **4.6.2. Software Architecture Container Diagrams.** {#4.6.2.-software-architecture-container-diagrams.}
+
+<p align="center">
+  <img src="Images/img88.jpg" alt="imagen" />
+</p>
+
+### **4.6.3. Software Architecture Components Diagrams.** {#4.6.3.-software-architecture-components-diagrams.}
+
+<p align="center">
+  <img src="Images/img89.jpg" alt="imagen" />
+</p>
+
+# **4.7.Software Object-Oriented Design.** {#4.7.software-object-oriented-design.}
+
+### **4.7.1. Class Diagrams.** {#4.7.1.-class-diagrams.}
+
+### **4.7.2. Class Dictionary.** {#4.7.2.-class-dictionary.}
+
+# **4.8. Database Design.** {#4.8.-database-design.}
+
+La base de datos de TalentManager ha sido diseñada bajo un enfoque relacional, con el objetivo de asegurar la integridad de los datos, la trazabilidad del desempeño de los empleados y la eficiencia en la gestión del talento humano en las organizaciones. Cada tabla representa una entidad clave dentro del ecosistema del sistema, permitiendo una administración integral de usuarios, empleados, observaciones, reportes y jerarquías laborales. La arquitectura considera aspectos fundamentales como asignación de cargos, áreas de trabajo, generación de reportes de asistencia y evaluaciones de desempeño, promoviendo una gestión estructurada, precisa y flexible.
+
+### **4.8.1. Database Diagram.** {#4.8.1.-database-diagram.}
+
+**Usuario**
+
+* id\_usuario: INT (PK)  
+* nombre: VARCHAR(100)  
+* email: VARCHAR(100) (UNIQUE)  
+* contraseña: VARCHAR(255)  
+* área: VARCHAR(100)  
+  **Cargo**  
+* id\_cargo: INT (PK)  
+* nombre: VARCHAR(100)  
+* descripción: VARCHAR(100)  
+  **Área**  
+* id\_area: INT (PK)  
+* nombre: VARCHAR(100)  
+* descripción: VARCHAR(100)  
+  **Empleado**  
+* id\_empleado: INT (PK)  
+* nombre: VARCHAR(100)  
+* apellido: VARCHAR(100)  
+* fecha\_ingreso: DATE  
+* hora\_ingreso: TIME  
+* hora\_salida: TIME  
+* id\_usuario: INT (FK)  
+* id\_cargo: INT (FK)  
+* id\_area: INT (FK)  
+  **ReporteAsistencia**  
+* id\_reporteasistencia: INT (PK)  
+* hora\_ingreso: TIME  
+* hora\_salida: TIME  
+* fecha: DATE  
+* puntaje: FLOAT  
+* id\_empleado: INT (FK)  
+  **ReporteGuardado**  
+* id\_reporte: INT (PK)  
+* fecha\_generacion: DATE  
+* datos: NVARCHAR(MAX)  
+* id\_usuario: INT (FK)  
+* id\_empleado: INT (FK)  
+  **Observacion**  
+* id\_observacion: INT (PK)  
+* fecha\_emision: DATE  
+* contenido: VARCHAR(100)  
+* id\_usuario: INT (FK)  
+* id\_empleado: INT(FK)
+
+<p align="center">
+  <img src="Images/img90.jpg" alt="imagen" />
+</p>
