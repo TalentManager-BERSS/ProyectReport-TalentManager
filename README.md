@@ -46,7 +46,7 @@
 
 **[Capítulo I: Introducción	](#capítulo-i:-introducción)**
 
-[**1.1.  Startup Profile	**](#1.1.-startup-profile)
+[**1.1.  Startup Profile**](#1.1.-startup-profile)
 
 [1.1.1. Descripción de la startup	](#1.1.1.-descripción-de-la-startup)
 
@@ -106,7 +106,7 @@
 
 [**1.3 Segmentos objetivo	**](#1.3-segmentos-objetivo)
 
-[**Capítulo II: Requirements Elicitation & Analysis	**](#capítulo-ii:-requirements-elicitation-&-analysis)
+[**Capítulo II: Requirements Elicitation & Analysis**](#capítulo-ii:-requirements-elicitation-&-analysis)
 
 [**2.1 Competidores	**](#2.1-competidores)
 
@@ -142,7 +142,7 @@
 
 [**2.4 Ubiquitous Language	**](#2.4-ubiquitous-language)
 
-[**Capítulo III: Requirements Specification	**](#capítulo-iii:-requirements-specification)
+[**Capítulo III: Requirements Specification**](#capítulo-iii:-requirements-specification)
 
 [3.1. To-Be Scenario Mapping	](#3.1.-to-be-scenario-mapping)
 
@@ -156,7 +156,7 @@
 
 [3.4. Product Backlog	](#3.4.-product-backlog)
 
-[**Capítulo IV: Product Design	**](#capítulo-iv:-product-design)
+[**Capítulo IV: Product Design**](#capítulo-iv:-product-design)
 
 [4.1. Style Guidelines.	](#4.1.-style-guidelines.)
 
@@ -222,7 +222,7 @@
 
 [4.8.1. Database Diagram.	](#4.8.1.-database-diagram.)
 
-[**Capítulo V: Product Implementation, Validation & Deployment	**](#capítulo-v:-product-implementation,-validation-&-deployment)
+[**Capítulo V: Product Implementation, Validation & Deployment**](#capítulo-v:-product-implementation,-validation-&-deployment)
 
 [**5.1. Software Configuration Management.	**](#5.1.-software-configuration-management.)
 
@@ -254,7 +254,7 @@
 
 [5.2.1.8. Team Collaboration Insights during Sprint.	](#5.2.1.8.-team-collaboration-insights-during-sprint.)
 
-[**Conclusiones y recomendaciones:	**](#conclusiones-y-recomendaciones:)
+[**Conclusiones y recomendaciones:**](#conclusiones-y-recomendaciones:)
 
 # **STUDENT OUTCOME**
 
