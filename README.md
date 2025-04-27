@@ -1224,10 +1224,10 @@ Para la elaboración de nuestro Product Backlog, hemos utilizado la escala de Fi
 
 | \# Orden | User Story ID | Título | Descripción | Prioridad | Story points |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| 1 | US17 | Registro de observaciones de comportamiento | Como supervisor, quiero registrar observaciones de comportamiento para mantener constancia de actitudes positivas o negativas. | Alta | 13 |
-| 2 | US19 | Visualización de registros recientes del equipo | Como supervisor, quiero ver los registros recientes de mi equipo para revisar rápidamente la actividad reciente. | Alta | 13 |
-| 3 | US23 | Generación de reportes mensuales | Como directivo, quiero generar reportes mensuales de desempeño para revisar la evolución del equipo. | Alta | 13 |
-| 4 | US24 | Reporte por criterio de evaluación | Como directivo, quiero ver reportes centrados en criterios específicos para detectar patrones. | Alta | 13 |
+| 1 | US17 | Registro de observaciones de comportamiento | Como supervisor, quiero registrar observaciones de comportamiento para mantener constancia de actitudes positivas o negativas. | Alta | 8 |
+| 2 | US19 | Visualización de registros recientes del equipo | Como supervisor, quiero ver los registros recientes de mi equipo para revisar rápidamente la actividad reciente. | Alta | 8 |
+| 3 | US23 | Generación de reportes mensuales | Como directivo, quiero generar reportes mensuales de desempeño para revisar la evolución del equipo. | Alta | 8 |
+| 4 | US24 | Reporte por criterio de evaluación | Como directivo, quiero ver reportes centrados en criterios específicos para detectar patrones. | Alta | 8 |
 | 5 | US15 | Registro diario de asistencia | Como supervisor, quiero registrar la asistencia de cada empleado para llevar un control diario. | Alta | 8 |
 | 6 | US18 | Puntaje diario de desempeño | Como supervisor, quiero asignar un puntaje diario para valorar el rendimiento general del empleado. | Alta | 8 |
 | 7 | US20 | Inicio de evaluación de desempeño | Como gerente de RRHH, quiero iniciar evaluaciones de desempeño para empleados asignados para evaluar su rendimiento en periodos definidos. | Alta | 8 |
