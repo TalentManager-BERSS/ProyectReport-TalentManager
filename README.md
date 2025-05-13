@@ -270,7 +270,7 @@ Insights TB1 (todos participaron):
 
 | Criterio Específico | Acciones realizadas | Conclusiones |
 | ----- | ----- | ----- |
-| Diseñar soluciones en ingeniería de software (productos, procesos y/o servicios) que satisfagan necesidades específicas considerando el impacto en salud pública, seguridad, bienestar, así como factores globales, culturales, sociales, ambientales y económicos | Cárdenas Concha, Santiago Iván Suárez Romero, Santiago Suárez Luis Gustavo Roman Pajuelo  Gabriel Sebastian Borja Molino Roman Pajuelo, Luis Gustavo  Avance TB1 | Avance: En conclusión,  es esencial comprender exhaustivamente las necesidades de nuestros usuarios para definir estrategias precisas en el diseño de TalentManager. Este análisis e identificación nos ha permitido implementar ideas innovadoras. Durante la presentación, la respuesta positiva de los usuarios confirma que la combinación de planificación y diseño contribuye significativamente. |
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería | Cárdenas Concha, Santiago Iván Suárez Romero, Santiago Suárez Luis Gustavo Roman Pajuelo  Gabriel Sebastian Borja Molino Roman Pajuelo, Luis Gustavo  Avance TB1 | Avance: En conclusión,  es esencial comprender exhaustivamente las necesidades de nuestros usuarios para definir estrategias precisas en el diseño de TalentManager. Este análisis e identificación nos ha permitido implementar ideas innovadoras. Durante la presentación, la respuesta positiva de los usuarios confirma que la combinación de planificación y diseño contribuye significativamente. |
 
 # 
 
