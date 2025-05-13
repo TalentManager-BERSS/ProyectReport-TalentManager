@@ -37,8 +37,8 @@
 
 | Versión  | Fecha  | Autores | Descripción de Modificación      |
 | :---: | :---: | ----- | ----- |
-| 1 (TB1) | 27/04/2025 | Gabriel Sebastián Borja Molina Santiago Iván Cárdenas Concha Luis Piero Rodríguez Rodríguez Luis Gustavo Román Pajuelo Santiago Manuel Suárez Romero | Desarrollo de capitulos 1, 2, 3, 4 y 5 |
-| 2 (TP1) | 16/05/2025 | Gabriel Sebastián Borja Molina Santiago Iván Cárdenas Concha Luis Piero Rodríguez Rodríguez Luis Gustavo Román Pajuelo Santiago Manuel Suárez Romero | Desarrollo de frontend de la aplicación y segundo sprint  |
+| 1 (TB1) | 27/04/2025 | Gabriel Sebastián Borja Molina, Santiago Iván Cárdenas Concha, Luis Piero Rodríguez Rodríguez, Luis Gustavo Román Pajuelo, Santiago Manuel Suárez Romero | Desarrollo de capitulos 1, 2, 3, 4 y 5 |
+| 2 (TP1) | 16/05/2025 | Gabriel Sebastián Borja Molina, Santiago Iván Cárdenas Concha, Luis Piero Rodríguez Rodríguez, Luis Gustavo Román Pajuelo, Santiago Manuel Suárez Romero | Desarrollo de frontend de la aplicación y segundo sprint  |
 | 3 (TB2) |  |  |  |
 | 4 (TF1) |  |  |  |
 
