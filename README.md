@@ -12,7 +12,7 @@
  
  <h3 align="center">Startup: BERSS</h3>
  <p align="center"><strong>Producto: TalentManager</strong></p>
- <p align="center"><strong>Ciclo: 2025-1</strong></p>
+ <p align="center"><strong>Ciclo: 2025-01</strong></p>
  
  <h3 align="center">Team Members:</h3>
  
