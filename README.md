@@ -38,7 +38,7 @@
 | Versión  | Fecha  | Autores | Descripción de Modificación      |
 | :---: | :---: | ----- | ----- |
 | 1 (TB1) | 27/04/2025 | Gabriel Sebastián Borja Molina Santiago Iván Cárdenas Concha Luis Piero Rodríguez Rodríguez Luis Gustavo Román Pajuelo Santiago Manuel Suárez Romero | Desarrollo de capitulos 1, 2, 3, 4 y 5 |
-| 2 (TP1) |  |  |  |
+| 2 (TP1) | 16/05/2025 | Gabriel Sebastián Borja Molina Santiago Iván Cárdenas Concha Luis Piero Rodríguez Rodríguez Luis Gustavo Román Pajuelo Santiago Manuel Suárez Romero | Desarrollo de frontend de la aplicación y segundo sprint  |
 | 3 (TB2) |  |  |  |
 | 4 (TF1) |  |  |  |
 
@@ -272,6 +272,8 @@ Insights TB1 (todos participaron):
 | ----- | ----- | ----- |
 | Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería | Cárdenas Concha, Santiago Iván Suárez Romero, Santiago Suárez Luis Gustavo Roman Pajuelo  Gabriel Sebastian Borja Molino Roman Pajuelo, Luis Gustavo  Avance TB1 | Se completó el trabajo cumpliendo con los aspectos necesarios, permitiendo así entregar un resultado adecuado. El documento redactado sirve como referencia para quienes deseen conocer el proceso seguido en la planificación, desarrollo y puesta en producción del proyecto. |
 | Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | Cárdenas Concha, Santiago Iván Suárez Romero, Santiago Suárez Luis Gustavo Roman Pajuelo  Gabriel Sebastian Borja Molino Roman Pajuelo, Luis Gustavo  Avance TB1 | Como equipo logramos implementar formas de comunicación efectivas que nos permitieron presentar un trabajo integral, a pesar del reto que implicaron los plazos ajustados para su entrega. Asimismo, se compartieron los resultados obtenidos mediante entrevistas, donde se evidenció una respuesta positiva hacia el programa. |
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería | Cárdenas Concha, Santiago Iván Suárez Romero, Santiago Suárez Luis Gustavo Roman Pajuelo  Gabriel Sebastian Borja Molino Roman Pajuelo, Luis Gustavo  Avance TP | Se completó el trabajo cumpliendo con los aspectos necesarios, permitiendo así entregar un resultado adecuado. El documento redactado sirve como referencia para quienes deseen conocer el proceso seguido en la planificación, desarrollo y puesta en producción del proyecto. |
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | Cárdenas Concha, Santiago Iván Suárez Romero, Santiago Suárez Luis Gustavo Roman Pajuelo  Gabriel Sebastian Borja Molino Roman Pajuelo, Luis Gustavo  Avance TP | Como equipo logramos implementar formas de comunicación efectivas que nos permitieron presentar un trabajo integral, a pesar del reto que implicaron los plazos ajustados para su entrega. Asimismo, se compartieron los resultados obtenidos mediante entrevistas, donde se evidenció una respuesta positiva hacia el programa. |
 
 # 
 
