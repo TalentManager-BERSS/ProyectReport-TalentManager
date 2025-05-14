@@ -1621,7 +1621,7 @@ La base de datos de TalentManager ha sido diseñada bajo un enfoque relacional, 
 * id\_empleado: INT(FK)
 
 <p align="center">
-  <img src="Images/img95.jpg" alt="imagen" />
+  <img src="Images/diagramaBDcorregido.jpg" alt="imagen" />
 </p>
 
 # **Capítulo V: Product Implementation, Validation & Deployment** {#capítulo-v:-product-implementation,-validation-&-deployment}
