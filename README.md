@@ -1892,7 +1892,7 @@ En este sprint, el equipo realizó el despliegue de la aplicación web del proye
 
 1. Se creó un repositorio público en github: https://github.com/TalentManager-BERSS/WebApplication-TalentManager
 
-2. Se configuró la rama master como fuente y /root como origen de contenido, de tal forma la landing page es pública desde el siguiente enlace: https://talentmanager-berss.github.io/LandingPage-TalentManager/index.html
+2. En este link se puede ver la aplicación publicada en la nube: 
 
 3. Gracias al uso de GitHub (y por ende, GitHub Pages), la landing page se actualiza de forma automática después de cada commit, de esta forma no hay problema para avanzar la misma.
 
