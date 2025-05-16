@@ -113,11 +113,11 @@ Insights TB1 (todos participaron):
 
 [1.2.2.4. Lean UX Canvas	](#1.2.2.4.-lean-ux-canvas)
 
-[**1.3 Segmentos objetivo	**](#1.3-segmentos-objetivo)
+[1.3 Segmentos objetivo](#1.3-segmentos-objetivo)
 
 [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii:-requirements-elicitation-&-analysis)
 
-[**2.1 Competidores	**](#2.1-competidores)
+[2.1 Competidores](#2.1-competidores)
 
 [2.1.1 Análisis competitivo	](#2.1.1-análisis-competitivo)
 
@@ -129,7 +129,7 @@ Insights TB1 (todos participaron):
 
 [Pruebas Piloto y Testimonios	](#pruebas-piloto-y-testimonios)
 
-[**2.2 Entrevistas	**](#2.2-entrevistas)
+[2.2 Entrevistas](#2.2-entrevistas)
 
 [2.2.1 Diseño de entrevistas	](#2.2.1-diseño-de-entrevistas)
 
