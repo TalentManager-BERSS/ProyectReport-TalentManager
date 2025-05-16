@@ -612,9 +612,13 @@ Luego de realizar un análisis de los usuarios, se decidió formar dos segmentos
 </p>
 
 Nombre: Fabrizio Huamaní
+
 **Ocupación:** Trabajador de Plaza Vea y Estudiante 
+
 **Edad:** 21
+
 **Distrito:** Cercado de Lima, Lima 
+
 **Duración:** 0:00-3:27
 
 **Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EagAc4RfKEZNspjWy3uYg-oB2QNwVzJ2qw0apDfM370IHA?e=HH0Svu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
@@ -630,9 +634,13 @@ Fabrizio opina que TalentManager le sería muy útil, ya que permitiría central
 </p>
 
 Nombre: Bruno Cárdenas  
+
 **Ocupación:** Trabajador de konecta  
+
 **Edad:** 21  
+
 **Distrito:** Cercado de Lima, Lima   
+
 **Duración:** 3:27-7:54
 
 Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EagAc4RfKEZNspjWy3uYg-oB2QNwVzJ2qw0apDfM370IHA?e=HH0Svu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
@@ -646,9 +654,13 @@ Resumen: En la siguiente entrevista, Santiago Cárdenas presenta a Bruno Cárden
 </p>
 
 Nombre: Paulo Quincho
+
 **Ocupación:** Gerente de RR.HH en Expro
+
 **Edad:** 24
+
 **Distrito:** Surco, Lima 
+
 **Duración:** 7:54-13:21
 
 Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EagAc4RfKEZNspjWy3uYg-oB2QNwVzJ2qw0apDfM370IHA?e=HH0Svu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
@@ -666,10 +678,15 @@ Considera que *Talent Manager* sería muy útil para centralizar datos en tiempo
 </p>
 
 Nombre: Francisco Reyes
+
 **Ocupación:** Gerente de RR.HH en Expro
+
 **Edad:** 55
+
 **Distrito:** La Molina, Lima 
+
 **Duración:** 13:21-20:11
+
 Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EagAc4RfKEZNspjWy3uYg-oB2QNwVzJ2qw0apDfM370IHA?e=HH0Svu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 En la entrevista, se conversó con Francisco Reyes, gerente administrativo de una empresa importadora de repuestos. Se le presenta TalentManager, una plataforma web que permite registrar, evaluar y dar seguimiento al desempeño de los trabajadores mediante reportes automáticos y criterios personalizados.
