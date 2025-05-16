@@ -1940,7 +1940,7 @@ Gracias a este avance, se puede visualizar la landing page y con ello la propues
 A continuación, presentaremos evidencia de la participación de los integrantes en el GitHub:
 
 <p align="center">
-  <img src="Images/img109.jpg" alt="imagen" />
+  <img src="Images/commitstp.jpg" alt="imagen" />
 </p>
 
 
