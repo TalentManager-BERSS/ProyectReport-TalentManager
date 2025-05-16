@@ -669,7 +669,9 @@ Revisa reportes de forma mensual o trimestral, dependiendo del indicador, y menc
 
 Considera que *Talent Manager* sería muy útil para centralizar datos en tiempo real, personalizar reportes y facilitar la toma de decisiones. Afirma que usaría la plataforma, ya que le permitiría ahorrar tiempo y mejorar la calidad del análisis estratégico en la gestión del talento.
 
-![][image11]
+<p align="center">
+  <img src="Images/img11.jpg" alt="img" />
+</p>
 
 Nombre: Francisco Reyes
 
