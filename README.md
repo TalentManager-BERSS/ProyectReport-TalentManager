@@ -53,15 +53,15 @@ Insights TB1 (todos participaron):
 
 **CONTENT** 
 
-**[Capítulo I: Introducción	](#capítulo-i:-introducción)**
+[Capítulo I: Introducción	](#capítulo-i:-introducción)
 
-[**1.1.  Startup Profile**](#1.1.-startup-profile)
+[1.1.  Startup Profile](#1.1.-startup-profile)
 
 [1.1.1. Descripción de la startup	](#1.1.1.-descripción-de-la-startup)
 
 [1.1.2. Perfiles de integrantes de grupo	](#heading=)
 
-[**1.2 Solution Profile	**](#1.2-solution-profile)
+[1.2 Solution Profile](#1.2-solution-profile)
 
 [1.2.1. Antecedentes y problemática	](#1.2.1.-antecedentes-y-problemática)
 
@@ -115,7 +115,7 @@ Insights TB1 (todos participaron):
 
 [**1.3 Segmentos objetivo	**](#1.3-segmentos-objetivo)
 
-[**Capítulo II: Requirements Elicitation & Analysis**](#capítulo-ii:-requirements-elicitation-&-analysis)
+[Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii:-requirements-elicitation-&-analysis)
 
 [**2.1 Competidores	**](#2.1-competidores)
 
@@ -137,7 +137,7 @@ Insights TB1 (todos participaron):
 
 [2.2.3 Análisis de entrevistas	](#2.2.3-análisis-de-entrevistas)
 
-[**2.3 Needfinding	**](#2.3-needfinding)
+[2.3 Needfinding](#2.3-needfinding)
 
 [2.3.1 User Personas	](#2.3.1-user-personas)
 
@@ -149,9 +149,9 @@ Insights TB1 (todos participaron):
 
 [2.3.5 As-is Scenario Mapping	](#2.3.5-as-is-scenario-mapping)
 
-[**2.4 Ubiquitous Language	**](#2.4-ubiquitous-language)
+[2.4 Ubiquitous Language](#2.4-ubiquitous-language)
 
-[**Capítulo III: Requirements Specification**](#capítulo-iii:-requirements-specification)
+[Capítulo III: Requirements Specification](#capítulo-iii:-requirements-specification)
 
 [3.1. To-Be Scenario Mapping	](#3.1.-to-be-scenario-mapping)
 
@@ -161,7 +161,7 @@ Insights TB1 (todos participaron):
 
 [3.4. Product Backlog	](#3.4.-product-backlog)
 
-[**Capítulo IV: Product Design**](#capítulo-iv:-product-design)
+[Capítulo IV: Product Design](#capítulo-iv:-product-design)
 
 [4.1. Style Guidelines.	](#4.1.-style-guidelines.)
 
@@ -197,7 +197,7 @@ Insights TB1 (todos participaron):
 
 [4.3.2. Landing Page Mock-up.	](#4.3.2.-landing-page-mock-up.)
 
-[**4.4. Web Applications UX/UI Design.	**](#4.4.-web-applications-ux/ui-design.)
+[4.4. Web Applications UX/UI Design.](#4.4.-web-applications-ux/ui-design.)
 
 [4.4.1. Web Applications Wireframes.	](#4.4.1.-web-applications-wireframes.)
 
@@ -207,9 +207,9 @@ Insights TB1 (todos participaron):
 
 [4.4.3. Web Applications User Flow Diagrams.	](#4.4.3.-web-applications-user-flow-diagrams.)
 
-[**4.5. Web Applications Prototyping.	**](#4.5.-web-applications-prototyping.)
+[4.5. Web Applications Prototyping.](#4.5.-web-applications-prototyping.)
 
-[**4.6. Domain-Driven Software Architecture.	**](#4.6.-domain-driven-software-architecture.)
+[4.6. Domain-Driven Software Architecture.](#4.6.-domain-driven-software-architecture.)
 
 [4.6.1. Software Architecture Context Diagram.	](#4.6.1.-software-architecture-context-diagram.)
 
@@ -217,21 +217,21 @@ Insights TB1 (todos participaron):
 
 [4.6.3. Software Architecture Components Diagrams.	](#4.6.3.-software-architecture-components-diagrams.)
 
-[**4.7.Software Object-Oriented Design.	**](#4.7.software-object-oriented-design.)
+[4.7.Software Object-Oriented Design.](#4.7.software-object-oriented-design.)
 
 [4.7.1. Class Diagrams.	](#4.7.1.-class-diagrams.)
 
 [4.7.2. Class Dictionary.	](#4.7.2.-class-dictionary.)
 
-[**4.8. Database Design.	**](#4.8.-database-design.)
+[4.8. Database Design.](#4.8.-database-design.)
 
 [4.8.1. Database Diagram.	](#4.8.1.-database-diagram.)
 
-[**Capítulo V: Product Implementation, Validation & Deployment**](#capítulo-v:-product-implementation,-validation-&-deployment)
+[Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v:-product-implementation,-validation-&-deployment)
 
-[**5.1. Software Configuration Management.	**](#5.1.-software-configuration-management.)
+[5.1. Software Configuration Management.](#5.1.-software-configuration-management.)
 
-[5.1.1. Software Development Environment Configuration.	](#5.1.1.-software-development-environment-configuration.)
+[5.1.1. Software Development Environment Configuration.](#5.1.1.-software-development-environment-configuration.)
 
 [5.1.2. Source Code Management.	](#5.1.2.-source-code-management.)
 
@@ -239,7 +239,7 @@ Insights TB1 (todos participaron):
 
 [5.1.4. Software Deployment Configuration.	](#5.1.4.-software-deployment-configuration.)
 
-[**5.2. Landing Page, Services & Applications Implementation.	**](#5.2.-landing-page,-services-&-applications-implementation.)
+[5.2. Landing Page, Services & Applications Implementation.](#5.2.-landing-page,-services-&-applications-implementation.)
 
 [5.2.1. Sprint 1	](#5.2.1.-sprint-1)
 
@@ -259,9 +259,9 @@ Insights TB1 (todos participaron):
 
 [5.2.1.8. Team Collaboration Insights during Sprint.	](#5.2.1.8.-team-collaboration-insights-during-sprint.)
 
-[**Conclusiones y recomendaciones:**](#conclusiones-y-recomendaciones:)
+[Conclusiones y recomendaciones](#conclusiones-y-recomendaciones:)
 
-# **STUDENT OUTCOME**
+# STUDENT OUTCOME
 
 | Criterio Específico | Acciones realizadas | Conclusiones |
 | ----- | ----- | ----- |
