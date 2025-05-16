@@ -1444,25 +1444,19 @@ El equipo no realizó cambios de distribución para la elaboración de los Mock-
 
 * Como usuario, quiero poder acceder rápidamente al soporte oficial de la aplicación.
 <p align="center">
-  <img src="Images/img88.jpg" alt="imagen" />
+  <img src="Images/nuevo88.jpg" alt="imagen" />
 </p>
 
 * Como usuario, quiero poder generar y tener un historial de registros
 <p align="center">
-  <img src="Images/img89.jpg" alt="imagen" />
+  <img src="Images/nuevo89.jpg" alt="imagen" />
 </p>
 
   **Segmento 2: Gerentes de RR. HH. y directivos estratégicos**
 
 * Como usuario, quiero registrar y acceder a la información de desempeño de colaboradores y equipos.
 <p align="center">
-  <img src="Images/img90.jpg" alt="imagen" />
-</p>
-
-
-* Como usuario, quiero ver una estadística de comparación acerca del rendimiento en un periodo
-<p align="center">
-  <img src="Images/img91.jpg" alt="imagen" />
+  <img src="Images/nuevo90.jpg" alt="imagen" />
 </p>
 
 
