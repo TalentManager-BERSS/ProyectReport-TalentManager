@@ -1832,7 +1832,7 @@ A continuación se podrá apreciar la tabla del sprint planificado:
 | Sprint \# | Sprint 2 |
 | :---- | :---- |
 | **Sprint Planning Background**  |  |
-| Date | 2025-04-11 |
+| Date | 2025-05-15 |
 | Time | 9:30 PM |
 | Location | Reunión virtual |
 | Prepared By | Santiago Cárdenas, Gustavo Román |
