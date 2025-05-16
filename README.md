@@ -1801,9 +1801,9 @@ En este sprint, el equipo realizó el despliegue de la landing page del proyecto
 
 1. Se creó un repositorio público en github: [https://github.com/TalentManager-BERSS/LandingPage-TalentManager](https://github.com/TalentManager-BERSS/LandingPage-TalentManager)
 
-2. Se configuró la rama master como fuente y /root como origen de contenido, de tal forma la landing page es pública desde el siguiente enlace: https://talentmanager-berss.github.io/LandingPage-TalentManager/index.html
+2. Se publicó la landing page en netlify: 
 
-3. Gracias al uso de GitHub (y por ende, GitHub Pages), la landing page se actualiza de forma automática después de cada commit, de esta forma no hay problema para avanzar la misma.
+3. Gracias al uso de netlify, la landing page está en nube.
 
 4. Se evaluó el rendimiento de la landing page y se verificó que todo estaba óptimo.
 
@@ -1927,9 +1927,9 @@ En este sprint, el equipo realizó el despliegue de la aplicación web del proye
 
 2. En este link se puede ver la aplicación publicada en la nube: 
 
-3. Gracias al uso de GitHub (y por ende, GitHub Pages), la landing page se actualiza de forma automática después de cada commit, de esta forma no hay problema para avanzar la misma.
+3. Gracias al uso de Netlif, se puede ver todo desde la nube.
 
-4. Se evaluó el rendimiento de la landing page y se verificó que todo estaba óptimo.
+4. Se evaluó el rendimiento de la aplicación web y se verificó que todo estaba óptimo.
 
 Gracias a este avance, se puede visualizar la landing page y con ello la propuesta de TalentManager, así como un primer paso para avanzar el frontend de la plataforma futura a realizar.
 
