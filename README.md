@@ -1910,7 +1910,14 @@ El equipo cumplió con todas las historias planeadas desde un apartado frontend,
 
 #### **5.2.1.6. Services Documentation Evidence for Sprint Review.**
 
-.
+Durante el Sprint 2, se desarrolló el frontend de TalentManager enfocado en las funcionalidades relacionadas a la gestión de empleados y visualización de reportes, utilizando endpoints simulados. Para este propósito se usaron fake APIs provistas por MockAPI, las cuales permitieron trabajar con datos de prueba que simulan una base de datos real sin requerir infraestructura backend inmediata.
+
+Las fake APIs fueron integradas desde dos fuentes principales:
+
+| Endpoint Simulado (Fake API)                           | Entidad Principal Gestionado                            | Operaciones CRUD (Simuladas) vía JSON Server | Futuro Alcance con OpenAPI                                                                                     |
+|--------------------------------------------------------|----------------------------------------------------------|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| https://681fc1f272e59f922ef71049.mockapi.io/api/v1/employee          | Empleado (Employee)                                        | GET, POST, PUT, DELETE                                      | Permitir gestión completa de colaboradores en la organización: alta, edición, eliminación y consulta con filtros.                                     |
+| https://6824f9c70f0188d7e72b99b7.mockapi.io/reports | Reportes (Reports)                  | 	GET, POST, DELETE                                           | Visualización y descarga de reportes de desempeño para análisis estratégico.                              |
 
 #### **5.2.1.7. Software Deployment Evidence for Sprint Review.**
 
