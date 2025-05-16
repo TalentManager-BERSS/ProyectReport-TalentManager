@@ -27,10 +27,9 @@
  |Santiago Manuel Suárez Romero    |  U202311532  |
  
  
- 
  </div>
  
- <p align="center"><strong>Abril, 2025-1</strong></p>
+ <p align="center"><strong>Mayo, 2025-01</strong></p>
 
  
 **REGISTRO DE VERSIONES DEL INFORME**
@@ -273,11 +272,11 @@ Insights TB1 (todos participaron):
 
 # 
 
-# **Capítulo I: Introducción** {#capítulo-i:-introducción}
+# **Capítulo I: Introducción** 
 
-## 1.1. 	Startup Profile {#1.1.-startup-profile}
+## 1.1. 	Startup Profile
 
-### **1.1.1. Descripción de la startup** {#1.1.1.-descripción-de-la-startup}
+### **1.1.1. Descripción de la startup** 
 
 BERSS es una startup conformada por estudiantes de la Universidad Peruana de Ciencias Aplicadas (UPC), unidos por la convicción de que la tecnología puede transformar positivamente la gestión del talento humano en las organizaciones. Nuestro equipo multidisciplinario integra habilidades en desarrollo de software, diseño de experiencia de usuario, análisis de datos y gestión empresarial, con el objetivo común de crear soluciones digitales que impulsen el desempeño y el crecimiento profesional de las personas.
 
@@ -319,11 +318,11 @@ Soy una persona optimista, dedicada y que trata de mejorar |
 **Descripción:**
 Soy responsable y siempre busco cumplir mis objetivos.
 
-## 1.2 Solution Profile {#1.2-solution-profile}
+## 1.2 Solution Profile 
 
 TalentManager es una aplicación web que permite a las empresas registrar, calificar y dar seguimiento al desempeño de los trabajadores. La plataforma funciona como una base de datos con una interfaz intuitiva, donde los supervisores pueden buscar empleados por nombre y acceder a toda su información, incluyendo datos personales, asistencia, faltas, memorándums y comentarios relevantes. Cada trabajador puede ser evaluado periódicamente mediante un sistema de puntajes y observaciones, lo cual permite generar reportes automáticos que reflejen su rendimiento mensual o acumulado. Estos reportes son útiles para la toma de decisiones por parte de la empresa, ya que ofrecen una visión clara y cuantificable del comportamiento laboral de cada persona. Además, se contempla que algunos criterios puedan tener mayor peso según la prioridad de cada organización, haciendo que la evaluación sea flexible y personalizada. La plataforma está pensada especialmente para empresas medianas o grandes donde el control manual del desempeño se vuelve poco práctico, y se ofrece bajo un modelo de suscripción mensual o anual.
 
-### **1.2.1. Antecedentes y problemática** {#1.2.1.-antecedentes-y-problemática}
+### **1.2.1. Antecedentes y problemática** 
 
 Con el fin de entender con claridad las necesidades de los usuarios, resulta esencial examinar los antecedentes y las problemáticas mediante la técnica de las 5W's & 2H's. Según Alvarez (2020), citado por Lean Construction México, esta herramienta es crucial para definir y estructurar un plan de acción o estrategia. La información presentada a continuación ha sido obtenida aplicando dicha metodología.
 
@@ -351,11 +350,11 @@ Las dos preguntas "H" de la técnica “5W+2H” se refieren a "¿Cómo?" y "¿C
 |  | ¿Qué llevó a la persona a llegar a esta situación? | ​​La necesidad de implementar TalentManager en una empresa surge de una serie de factores que, acumulados a lo largo del tiempo, han generado deficiencias en la gestión del desempeño laboral. Inicialmente, muchas organizaciones han operado sin sistemas formales de evaluación, lo que dificulta la identificación de áreas de mejora y el reconocimiento de logros. Esta carencia de procesos estructurados impide establecer expectativas claras y ofrecer retroalimentación efectiva a los empleados. Además, la falta de herramientas adecuadas para medir el rendimiento individual y colectivo limita la capacidad de la empresa para tomar decisiones informadas sobre promociones, capacitaciones o ajustes en las responsabilidades laborales. Con el tiempo, estas deficiencias pueden conducir a una disminución en la motivación del personal, afectando negativamente la productividad y el clima organizacional. En este contexto, la adopción de una plataforma como TalentManager se vuelve esencial para centralizar la información del personal, facilitar evaluaciones periódicas y generar reportes automáticos que reflejen el rendimiento, permitiendo así una gestión más eficiente y transparente del talento humano.​ |
 | **How much** ¿Cuánto? | Estadísticas que sustentan la problemática | El informe "Benchmarking de Gestión de Recursos Humanos 2021" de PwC Perú indica que el 46.3% de las empresas realizaron cambios en sus procesos de gestión del desempeño a raíz del COVID-19, evidenciando la necesidad de adaptar y mejorar las metodologías tradicionales de evaluación (PwC, 2021).<br> Según un estudio publicado por la Agencia Andina, el 62% de los líderes de recursos humanos en Perú consideran que el mayor desafío es impulsar la motivación y el compromiso de sus colaboradores, lo que subraya la importancia de contar con sistemas efectivos de evaluación y seguimiento del desempeño (Andina, 2024).<br> **​**Un artículo en El Peruano destaca que medir el desempeño de los colaboradores genera beneficios tanto para ellos como para las empresas, resaltando la relevancia de implementar sistemas de evaluación efectivos (El Peruano, 2023). |
 
-### **1.2.2. Lean UX Process** {#1.2.2.-lean-ux-process}
+### **1.2.2. Lean UX Process** 
 
 Lean UX se fundamenta en un enfoque colaborativo orientado a la creación de productos de alta calidad. En lugar de priorizar la perfección del diseño desde el inicio, su énfasis está en el aprendizaje constante, la mejora continua de la experiencia del usuario y en responder adecuadamente a las necesidades del cliente. Esta metodología favorece resultados más efectivos al permitir una comprensión profunda de la visión del negocio, ofreciendo al mismo tiempo flexibilidad para integrar ideas y lograr entregables eficientes (Lean UX y Lean Startup: potencia experiencia y diseño de producto, 2023).
 
-#### **1.2.2.1. Lean UX Problem Statements** {#1.2.2.1.-lean-ux-problem-statements}
+#### **1.2.2.1. Lean UX Problem Statements** 
 
 TalentManager es una plataforma que combina la precisión de una herramienta de recursos humanos con la comodidad y eficiencia de una solución digital accesible desde cualquier lugar. Más que un sistema de evaluación, busca transformar la gestión del talento humano al facilitar el registro, seguimiento y análisis del desempeño laboral, adaptándose a las dinámicas digitales de las organizaciones actuales.
 
@@ -363,13 +362,13 @@ Se ha identificado que la evaluación del desempeño enfrenta múltiples desafí
 
 ¿Cómo podemos mejorar la experiencia de evaluación y gestión del talento humano para facilitar el seguimiento del desempeño, optimizar los procesos de toma de decisiones, mejorar la productividad y conectar a los equipos en una plataforma moderna, dinámica y accesible?
 
-#### **1.2.2.2. Lean UX Assumptions** {#1.2.2.2.-lean-ux-assumptions}
+#### **1.2.2.2. Lean UX Assumptions** 
 
-##### **1.2.2.2.1 Resultados del usuario** {#1.2.2.2.1-resultados-del-usuario}
+##### **1.2.2.2.1 Resultados del usuario**
 
 Los usuarios de TalentManager esperan una solución que les permita gestionar y monitorear el desempeño laboral de manera rápida, clara y accesible. Buscan una plataforma intuitiva que centralice la información de cada trabajador, con reportes automáticos, observaciones detalladas y puntajes de evaluación que faciliten el seguimiento constante. También desean poder personalizar los criterios de evaluación según los objetivos y prioridades de la empresa, recibiendo así datos relevantes y precisos para la toma de decisiones. El resultado esperado es una mayor confianza en los procesos de evaluación, una mejora en la productividad organizacional y una experiencia de usuario que haga más eficiente y transparente la gestión del talento humano.
 
-##### **1.2.2.2.2 Features** {#1.2.2.2.2-features}
+##### **1.2.2.2.2 Features**
 
 * Fichas completas y personalizadas por trabajador.
 
@@ -385,7 +384,7 @@ Los usuarios de TalentManager esperan una solución que les permita gestionar y 
 
 * Compatibilidad con dispositivos móviles y acceso desde la nube.
 
-##### **1.2.2.2.3 Business Outcomes** {#1.2.2.2.3-business-outcomes}
+##### **1.2.2.2.3 Business Outcomes** 
 
 * Optimizar la gestión del desempeño laboral: El principal objetivo de TalentManager es mejorar la forma en que las empresas medianas y grandes gestionan, evalúan y hacen seguimiento al rendimiento de sus trabajadores. Nuestra plataforma facilita este proceso al centralizar toda la información relevante de cada empleado, permitiendo evaluaciones periódicas con puntajes y observaciones personalizables, reportes automáticos y criterios ajustables según las prioridades organizacionales. De esta manera, contribuimos a una gestión más eficiente, transparente y alineada con los objetivos de la empresa.
 
@@ -395,7 +394,7 @@ Los usuarios de TalentManager esperan una solución que les permita gestionar y 
 
 * Toma de decisiones basada en datos: TalentManager permite a las empresas contar con información confiable y actualizada para tomar decisiones estratégicas sobre promociones, capacitaciones, reestructuraciones o reconocimiento del personal. Al automatizar reportes y facilitar el análisis del rendimiento, se fortalece la capacidad de liderazgo dentro de la organización y se optimiza la planificación del talento humano con base en datos objetivos y medibles.
 
-  ##### **1.2.2.2.4 User Benefits** {#1.2.2.2.4-user-benefits}
+  ##### **1.2.2.2.4 User Benefits** 
 
 * Acceso rápido y centralizado a toda la información relevante de cada trabajador, permitiendo evaluaciones claras y ordenadas desde una sola plataforma.
 
@@ -413,23 +412,23 @@ Los usuarios de TalentManager esperan una solución que les permita gestionar y 
 
 * Aumento de la transparencia en la evaluación del personal, generando mayor confianza dentro de la organización y facilitando el reconocimiento del buen rendimiento.
 
-  ##### **1.2.2.2.5 ¿Quién es el usuario?** {#1.2.2.2.5-¿quién-es-el-usuario?}
+  ##### **1.2.2.2.5 ¿Quién es el usuario?**
 
 El usuario de TalentManager es una persona involucrada en la gestión del talento humano, motivada por el deseo de optimizar el desempeño laboral dentro de su organización. Estos usuarios valoran el acceso rápido a información clave sobre los trabajadores, la posibilidad de realizar evaluaciones personalizadas y la capacidad de tomar decisiones informadas que contribuyan al crecimiento y eficiencia de sus equipos.
 
-##### **1.2.2.2.6 ¿Dónde encaja nuestro producto en su trabajo o vida?** {#1.2.2.2.6-¿dónde-encaja-nuestro-producto-en-su-trabajo-o-vida?}
+##### **1.2.2.2.6 ¿Dónde encaja nuestro producto en su trabajo o vida?** 
 
 TalentManager encaja en la vida de sus usuarios como una herramienta accesible y práctica que facilita la gestión del desempeño laboral desde cualquier lugar y en cualquier momento. Se adapta a sus rutinas diarias dentro del entorno empresarial, ya sea durante reuniones, evaluaciones periódicas o momentos de planificación, permitiéndoles registrar información, consultar reportes y tomar decisiones de forma ágil. De este modo, TalentManager se convierte en un recurso esencial para mantener un control constante y ordenado sobre el rendimiento del equipo.
 
-##### **1.2.2.2.7 ¿Qué problemas tiene nuestro producto y cómo se pueden resolver?** {#1.2.2.2.7-¿qué-problemas-tiene-nuestro-producto-y-cómo-se-pueden-resolver?}
+##### **1.2.2.2.7 ¿Qué problemas tiene nuestro producto y cómo se pueden resolver?**
 
 Un desafío que podría enfrentar TalentManager es la competencia con otras plataformas de gestión de desempeño laboral, especialmente si sus funcionalidades no logran destacar o no se adaptan lo suficiente a las necesidades específicas de cada empresa. Este problema puede resolverse fortaleciendo continuamente la experiencia del usuario, optimizando la interfaz para hacerla más intuitiva, ampliando las opciones de personalización en las evaluaciones y reportes, y reforzando los elementos diferenciadores del producto, como la facilidad de uso, la accesibilidad desde cualquier dispositivo y la capacidad de adaptación a distintos modelos organizacionales.
 
-##### **1.2.2.2.8 ¿Cuándo y cómo es usado nuestro producto?** {#1.2.2.2.8-¿cuándo-y-cómo-es-usado-nuestro-producto?}
+##### **1.2.2.2.8 ¿Cuándo y cómo es usado nuestro producto?** 
 
 TalentManager es utilizado principalmente durante jornadas laborales, en momentos clave como evaluaciones de desempeño, reuniones de planificación, revisiones mensuales o procesos de toma de decisiones internas. La plataforma permite a los usuarios consultar información por trabajador, área o período, generar reportes automáticos y registrar observaciones personalizadas, facilitando una gestión eficiente del talento humano. Está diseñada para utilizarse en cualquier momento del día, ya sea desde la oficina o en modalidad remota, brindando acceso inmediato a todos los datos necesarios desde cualquier dispositivo con conexión a internet.
 
-##### **1.2.2.2.9 ¿Qué características son importantes?** {#1.2.2.2.9-¿qué-características-son-importantes?}
+##### **1.2.2.2.9 ¿Qué características son importantes?** 
 
 * **Perfiles de desempeño detallados:** Proporcionan una vista completa del historial laboral y evaluaciones de cada trabajador, desglosado por áreas, cargos y periodos, lo que facilita la identificación de fortalezas, debilidades y oportunidades de mejora.
 
@@ -457,7 +456,7 @@ TalentManager es utilizado principalmente durante jornadas laborales, en momento
 
 * **Segura y protegida:** Implementa autenticación segura, cifrado de datos sensibles y permisos diferenciados por usuario, asegurando la confidencialidad de la información y previniendo accesos no autorizados.
 
-  #### **1.2.2.3. Lean UX Hypothesis Statements** {#1.2.2.3.-lean-ux-hypothesis-statements}
+  #### **1.2.2.3. Lean UX Hypothesis Statements** 
 
 1. Creemos que, al ofrecer perfiles de desempeño detallados, los usuarios tendrán una comprensión más profunda del rendimiento de sus trabajadores y podrán identificar áreas clave para la mejora.  
    Sabremos que esto es cierto cuando el 80% de los supervisores accedan y consulten los perfiles de sus colaboradores al menos una vez por semana, utilizando esta información como base para brindar retroalimentación o tomar decisiones de gestión.
@@ -474,7 +473,7 @@ TalentManager es utilizado principalmente durante jornadas laborales, en momento
 5. Creemos que, al integrar una experiencia intuitiva, accesible y adaptable, aumentaremos la adopción de la plataforma y facilitaremos su incorporación en la rutina laboral.  
    Sabremos que esto es cierto cuando el 75% de los usuarios utilicen TalentManager de forma continua dentro de las primeras cuatro semanas y manifiesten una mayor satisfacción con la organización del proceso de evaluación.
 
-   #### **1.2.2.4. Lean UX Canvas** {#1.2.2.4.-lean-ux-canvas}
+   #### **1.2.2.4. Lean UX Canvas** 
 
 <p align="center">
   <img src="Images/img1.jpg" alt="imagen" />
@@ -482,7 +481,7 @@ TalentManager es utilizado principalmente durante jornadas laborales, en momento
 
 Link del Lean UX Canvas: [https://docs.google.com/presentation/d/1ZuQGHHF-bz5lqgT6a14uyj3nKRctpDh4E8dbKhN6guM/edit?usp=sharing](https://docs.google.com/presentation/d/1ZuQGHHF-bz5lqgT6a14uyj3nKRctpDh4E8dbKhN6guM/edit?usp=sharing)
 
-## 1.3 Segmentos objetivo {#1.3-segmentos-objetivo}
+## 1.3 Segmentos objetivo 
 
 Con el objetivo de alcanzar a futuros clientes de manera eficiente y ofrecer un producto que satisfaga realmente sus necesidades, hemos identificado los siguientes dos segmentos objetivos.
 
@@ -528,15 +527,14 @@ Profesionales encargados de tomar decisiones estratégicas relacionadas con la g
 * Estilo de vida: Profesionales orientados a resultados, acostumbrados a usar dashboards, informes ejecutivos y herramientas de análisis. Participan en la toma de decisiones clave para el crecimiento de la empresa.  
 * Actitudes: Valoran la precisión, la confiabilidad de los datos, y el acceso rápido a reportes útiles. Buscan soluciones que integren tecnología, análisis y planificación sin añadir complejidad innecesaria.
 
-# **2.1 Competidores** {#2.1-competidores}
-
+# **2.1 Competidores** 
 En el ámbito de la gestión del desempeño laboral y recursos humanos, existen varias plataformas que ofrecen servicios similares a TalentManager. A continuación, se presentan los principales competidores directos reconocidos:
 
 * **15Five:** Plataforma internacional de gestión del rendimiento y compromiso del empleado, que se destaca por su enfoque en el feedback continuo y el desarrollo personal. 15Five está diseñada para empresas medianas y grandes que desean fortalecer la cultura organizacional a través de herramientas como encuestas de compromiso, establecimiento de objetivos y retroalimentación regular. Aunque es una solución robusta y ampliamente utilizada, sus precios pueden resultar altos para empresas pequeñas o con presupuestos ajustados. Ofrece aplicación web y móvil, además de integraciones con otras plataformas de RR. HH.  
 * **BambooHR:** Diseñada especialmente para pequeñas y medianas empresas, BambooHR es una plataforma integral de recursos humanos en la nube que abarca desde la gestión de empleados hasta ausencias, incorporación, evaluaciones y reportes. Su principal fortaleza es la facilidad de uso y el excelente soporte al cliente. A pesar de su buena automatización e interfaz amigable, su capacidad de personalización es más limitada frente a soluciones más complejas. Opera bajo un modelo de suscripción mensual y se distribuye tanto por web como por aplicaciones móviles.  
 * **Talentum:** Es un software regional especializado en la gestión humana, con soluciones modulares que abarcan desde la evaluación del desempeño hasta el clima laboral, compensaciones, capacitación, línea de carrera y sucesión. Su enfoque integral lo convierte en una opción atractiva para empresas que buscan centralizar múltiples áreas de RR. HH. Sin embargo, su principal debilidad es la falta de información pública sobre precios y casos de éxito, lo que puede dificultar la comparación con otras alternativas en el mercado. Su distribución se da vía plataforma online accesible desde cualquier dispositivo.
 
-  ### **2.1.1 Análisis competitivo** {#2.1.1-análisis-competitivo}
+  ### **2.1.1 Análisis competitivo** 
 
 | Competitive Analysis Landscape |  |  |  |  |  |
 | ----- | :---- | ----- | ----- | ----- | ----- |
@@ -555,9 +553,9 @@ En el ámbito de la gestión del desempeño laboral y recursos humanos, existen 
 |  | Debilidades | Menor reconocimiento frente a grandes marcas, resistencia al cambio en empresas tradicionales. | Precios relativamente altos para pequeñas empresas, dependencia de internet para su funcionamiento y la posible resistencia a cambiar de sistemas tradicionales de gestión de recursos | Su capacidad de personalización es limitada en comparación con soluciones más complejas, lo que puede ser un inconveniente para empresas con necesidades más específicas.. | Falta de información pública sobre precios y casos de éxito que respalden su efectividad. |
 |  | Amenazas | Competencia con soluciones más conocidas o gratuitas, preocupaciones de seguridad si no se gestiona bien. | Competencia en el mercado de plataformas de gestión de rendimiento y la posible saturación del mercado con opciones similares a precios más bajos. | La necesidad de actualizaciones constantes debido a cambios en la legislación laboral puede generar desafíos para mantener la competitividad. | Competencia con otras plataformas más reconocidas o con mayor presencia en el mercado local.​ |
 
-  ### **2.1.2 Estrategias y tácticas frente a competidores** {#2.1.2-estrategias-y-tácticas-frente-a-competidores}
+  ### **2.1.2 Estrategias y tácticas frente a competidores**
 
-  ### **Innovación Continua en Tecnología** {#innovación-continua-en-tecnología}
+  ### **Innovación Continua en Tecnología** 
 
 * Fortaleza Utilizada: Flexibilidad en soluciones y enfoque personalizado.
 
@@ -577,10 +575,7 @@ En el ámbito de la gestión del desempeño laboral y recursos humanos, existen 
 
 * Táctica: Definir precios fijos mensuales según número de empleados y ofrecer una opción gratuita o demo limitada.
 
-  
-
-
-  ### **Pruebas Piloto y Testimonios** {#pruebas-piloto-y-testimonios}
+  ### **Pruebas Piloto y Testimonios** 
 
 * Fortaleza Utilizada: Soluciones personalizadas y enfoque cercano al cliente.
 
@@ -590,11 +585,11 @@ En el ámbito de la gestión del desempeño laboral y recursos humanos, existen 
 
 * Táctica: Implementar el sistema con 1 o 2 empresas pequeñas y recopilar testimonios.
 
-# **2.2 Entrevistas** {#2.2-entrevistas}
+# **2.2 Entrevistas** 
 
 Luego de realizar un análisis de los usuarios, se decidió formar dos segmentos para realizar las entrevistas.
 
-### **2.2.1 Diseño de entrevistas** {#2.2.1-diseño-de-entrevistas}
+### **2.2.1 Diseño de entrevistas** 
 
 |  Supervisores operativos y jefes de área |  |
 | :---: | ----- |
@@ -614,7 +609,7 @@ Luego de realizar un análisis de los usuarios, se decidió formar dos segmentos
 | **Pregunta 5** | ¿Qué problemas tienen para manejar los costos de energía cuando los precios cambian mucho? |
 | **Pregunta 6** | ¿Están utilizando actualmente alguna tecnología para optimizar el consumo energético? Si es así, ¿cuáles? |
 
-### **2.2.2 Registro de entrevistas** {#2.2.2-registro-de-entrevistas}
+### **2.2.2 Registro de entrevistas** 
 
 **Segmento objetivo \#1: Supervisores operativos y jefes de área**
 
@@ -694,7 +689,7 @@ Revisa reportes de asistencia y comportamiento mensualmente, pero las evaluacion
 
 Considera que Talent Manager sería muy útil para obtener reportes actualizados, centralizados y objetivos en tiempo real. Afirma que usaría la plataforma si garantiza criterios justos de evaluación y cumple con la normativa laboral vigente, ya que le permitiría tomar mejores decisiones estratégicas y reducir el margen de error humano.
 
-### **2.2.3 Análisis de entrevistas** {#2.2.3-análisis-de-entrevistas}
+### **2.2.3 Análisis de entrevistas** 
 
 **Segmento objetivo \#1: Supervisores operativos y jefes de área**
 
@@ -732,7 +727,7 @@ TalentManager tiene una gran oportunidad de posicionarse como una solución esen
 
 TalentManager tiene una oportunidad clara de posicionarse como una solución estratégica para la gestión del talento si ofrece información en tiempo real, criterios justos de evaluación y opciones de personalización. Esto no solo optimizaría los procesos de RR. HH., sino que también reduciría el margen de error humano en decisiones clave como promociones, despidos o capacitaciones.
 
-# **2.3 Needfinding** {#2.3-needfinding}
+# **2.3 Needfinding** 
 
 Las necesidades identificadas en los segmentos objetivo para la aplicación TalentManager son las siguientes:
 
@@ -761,7 +756,7 @@ Las necesidades identificadas en los segmentos objetivo para la aplicación Tale
 
 * Facilitación de auditorías y cumplimiento normativo: Registro digital confiable que puede utilizarse como soporte en procesos internos, legales o de auditoría laboral.
 
-### **2.3.1 User Personas** {#2.3.1-user-personas}
+### **2.3.1 User Personas** 
 
 Se presentarán los user persona por cada segmento objetivo. Estos son arquetipos de los usuarios ideales para cada uno de los 2 segmentos:
 
@@ -781,7 +776,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
   <img src="Images/img13.jpg" alt="img" />
 </p>
 
-### **2.3.2 User Task Matrix** {#2.3.2-user-task-matrix}
+### **2.3.2 User Task Matrix** 
 
 **Luis Alva:**
 
@@ -795,7 +790,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
   <img src="Images/img15.jpg" alt="img" />
 </p>
 
-### **2.3.3 User Journey Mapping** {#2.3.3-user-journey-mapping}
+### **2.3.3 User Journey Mapping**
 
 **User Persona: Luis Alva:**
 
@@ -809,7 +804,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
   <img src="Images/img17.jpg" alt="img" />
 </p>
                       
-### **2.3.4 Empathy Mapping** {#2.3.4-empathy-mapping}
+### **2.3.4 Empathy Mapping** 
 
 **User persona del segmento \#1: Supervisores operativos y jefes de área**
 
@@ -823,7 +818,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
   <img src="Images/img19.jpg" alt="img" />
 </p>
 
-### **2.3.5 As-is Scenario Mapping** {#2.3.5-as-is-scenario-mapping}
+### **2.3.5 As-is Scenario Mapping**
 
 **Segmento \#1:  Supervisores operativos y jefes de área**
 
@@ -841,7 +836,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | **Thinking** | Pienso que esto toma mucho tiempo, ¿cómo puedo asegurarme de que toda esta información sea correcta? | Pienso que con esta información limitada, me cuesta justificar cualquier decisión importante. | Espero que esto sea suficiente para que la gerencia entienda lo que estamos logrando. |
 | **Feeling** | Frustrada y preocupada por la falta de precisión y el tiempo que consume el proceso. | Insegura, dudando si sus decisiones realmente se basan en datos objetivos. | Estresada y ansiosa, temiendo que la falta de claridad debilite su propuesta o análisis. |
 
-# **2.4 Ubiquitous Language** {#2.4-ubiquitous-language}
+# **2.4 Ubiquitous Language**
 | **Término**                  | **Definición**                                                                                                                                              |
 |-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TalentManager                 | Plataforma web para registrar, evaluar y dar seguimiento al desempeño de trabajadores, facilitando decisiones estratégicas mediante reportes automáticos y centralización de datos. |
@@ -863,9 +858,9 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | Seguimiento diario            | Registro constante de eventos como asistencia, desempeño y comportamiento de los trabajadores.                                                              |
 
 
-# **Capítulo III: Requirements Specification** {#capítulo-iii:-requirements-specification}
+# **Capítulo III: Requirements Specification** 
 
-# **3.1. To-Be Scenario Mapping** {#3.1.-to-be-scenario-mapping}
+# **3.1. To-Be Scenario Mapping** 
 
 **Segmento \#1: Supervisores operativos y jefes de área**
 
@@ -883,7 +878,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | **Thinking** | Sienten que tienen toda la información actualizada y en un solo lugar, sin depender de archivos dispersos.	 | Puedo tomar decisiones más objetivas y argumentadas gracias a estos reportes. | Esta presentación será mucho más sólida y profesional con estos gráficos. |
 | **Feeling** | Organizada y aliviada de evitar el caos de hojas de cálculo.	 | Segura, estratégica y respaldada por datos. | Confiada, valorada y satisfecha con su gestión. costos energéticos. |
 
-# **3.2. User Stories** {#3.2.-user-stories}
+# **3.2. User Stories**
 
 | Epic / Story ID | Título | Descripción | Criterios de aceptación | Relacionado con (Epic ID) |
 |------------------|--------|-------------|---------------------------|----------------------------|
@@ -920,13 +915,13 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 
 ### 
 
-# **3.3. Impact Mapping** {#3.3.-impact-mapping}
+# **3.3. Impact Mapping**
 
 <p align="center">
   <img src="Images/img20.jpg" alt="img" />
 </p>
 
-# **3.4. Product Backlog** {#3.4.-product-backlog}
+# **3.4. Product Backlog** 
 
 Para la elaboración de nuestro Product Backlog, hemos utilizado la escala de Fibonacci (1, 2, 3, 5, 8, 13).
 
@@ -964,9 +959,9 @@ Para la elaboración de nuestro Product Backlog, hemos utilizado la escala de Fi
 | 30 | US30 | Navegación coherente en todas las secciones de la plataforma | Como usuario, quiero que la navegación funcione igual en todas partes para no confundirme al moverme por la plataforma. | Alta | 1 |
 
 
-# **Capítulo IV: Product Design** {#capítulo-iv:-product-design}
+# **Capítulo IV: Product Design** 
 
-# **4.1. Style Guidelines.** {#4.1.-style-guidelines.}
+# **4.1. Style Guidelines.**
 
 TalentManager es una plataforma web diseñada para transformar la manera en que las organizaciones gestionan el desempeño de sus equipos. Integra un sistema digital intuitivo con herramientas que facilitan el seguimiento continuo, la evaluación formal y el análisis de resultados de cada colaborador. TalentManager ofrece una experiencia accesible, profesional y alineada con los flujos de trabajo modernos, permitiendo a las empresas optimizar procesos, tomar decisiones estratégicas y fortalecer el desarrollo de su talento humano.
 
@@ -974,13 +969,13 @@ Además de centralizar información clave del personal, TalentManager promueve u
 
 Esta sección presenta una guía estructurada que unifica todos los elementos visuales y de diseño utilizados en la plataforma TalentManager. Se organizan recursos gráficos como tipografías, paletas de colores y otros componentes visuales con el objetivo de mantener una identidad coherente que refleje el propósito de la marca: potenciar la gestión del talento. Las guías de estilo están divididas en tres bloques —General Style Guidelines, Web Style Guidelines y Mobile Style Guidelines—, asegurando una experiencia visual uniforme, clara y funcional tanto en la versión web como móvil. Gracias a esta consistencia en el diseño, la navegación se vuelve más fluida y accesible, lo que mejora significativamente la experiencia del usuario y refuerza los valores estratégicos de la plataforma.
 
-### **4.1.1. General Style Guidelines.** {#4.1.1.-general-style-guidelines.}
+### **4.1.1. General Style Guidelines.** 
 
 El branding de TalentManager es el pilar fundamental de su identidad visual, diseñado para reflejar sus valores clave: desempeño eficiente, accesibilidad digital y crecimiento organizacional. A través de una estética profesional, moderna y cercana, la marca busca capturar la esencia de una experiencia de gestión del talento clara y confiable, ofreciendo una presencia visual que transmita orden, solidez y dinamismo.
 
 El logotipo, la paleta de colores y la tipografía de TalentManager evocan estructura, confianza y simplicidad, elementos que representan la facilidad con la que los usuarios pueden registrar, evaluar y analizar el desempeño de su equipo. El branding está alineado con el espíritu práctico, inclusivo y estratégico de la plataforma, asegurando que líderes, supervisores y responsables de RRHH se sientan parte de una solución tecnológica diseñada para impulsar el desarrollo profesional y fortalecer la cultura organizacional desde una perspectiva eficiente y accesible.
 
-#### **4.1.1.1 Tipografía** {#4.1.1.1-tipografía}
+#### **4.1.1.1 Tipografía**
 
 La tipografía de TalentManager nos ayuda a comunicar la imagen de nuestra marca y su identidad en el mercado de una manera sutil y efectiva a la vez. El equipo ha seleccionado una tipografía moderna y visualmente agradable que concuerda con las características y el objetivo de nuestro proyecto, a la vez que garantiza una adecuada legibilidad en los diversos tipos de dispositivos desde los que accederán nuestros clientes.
 
@@ -994,7 +989,7 @@ Para lograr este objetivo, hemos optado por usar la tipografía Poppins, del tip
 * **Regular:** Los textos cortos y párrafos descriptivos usarán este peso para llamar más la atención del lector y facilitar su lectura durante el desplazamiento en la página.  
 * **Bold:** Los títulos y subtítulos usarán este peso tipográfico para resaltar más y ser fáciles de ubicar en la interfaz, pues son textos de mayor prioridad.
 
-#### **4.1.1.2 Colores** {#4.1.1.2-colores}
+#### **4.1.1.2 Colores**
 
 La selección de colores de TalentManager nos ayudará a mejorar la experiencia del usuario y establecer nuestra imagen de marca. Una adecuada selección de colores nos permitirá evocar emociones en el usuario e influir sobre su comportamiento, mejorando su interacción con la interfaz y su satisfacción con el servicio.
 
@@ -1012,7 +1007,7 @@ El propósito de este repertorio de colores es buscar un atractivo visual y rete
 * Gris claro neutro (#D9D9D9): El gris claro es perfecto para estructurar secciones sin sobrecargar la vista. Funciona bien como fondo para formularios, tablas o paneles secundarios, permitiendo que los elementos más importantes resalten con claridad.
 Blanco puro (#FFFFFF): El blanco es el color de base que permite mantener una interfaz limpia, amplia y luminosa. Se utiliza como fondo general para maximizar el contraste con elementos oscuros y dar al usuario una experiencia visual clara y ordenada.
 
-#### **4.1.1.3 Espaciado** {#4.1.1.3-espaciado}
+#### **4.1.1.3 Espaciado**
 
 El espaciado en la interfaz de TalentManager es de mucha importancia para la forma en la que se relaciona el usuario con la plataforma, pues este aspecto ejerce una mucho mayor influencia en cómo se interactúa con los elementos en pantalla.
 
@@ -1024,7 +1019,7 @@ En el caso de la aplicación, se usa un espaciado más amplio entre las seccione
 
 De esta manera nuestra aplicación, que está principalmente orientada a dispositivos de escritorio, será mucho más fácil de utilizar y brindará una mejor experiencia al usuario, manteniendo un equilibrio visual en toda la pantalla y una claridad que lo ayudará a familiarizarse con las diferentes herramientas disponibles.
 
-#### **4.1.1.4 Iconografía** {#4.1.1.4-iconografía}
+#### **4.1.1.4 Iconografía** 
 
 Los íconos utilizados en la interfaz de nuestro proyecto nos ayudarán a representar visualmente las diversas funcionalidades o acciones a las que el usuario puede acceder mediante los botones disponibles en cada pantalla. Estas simples pero efectivas figuras simbólicas ayudan a mejorar la experiencia de uso y a comunicar significados sin necesidad de textos descriptivos, alivianando la carga visual en la interfaz e incluso trascendiendo la barrera lingüística en algunos casos.
 
@@ -1042,7 +1037,7 @@ Los tamaños de íconos usados en la interfaz son:
 * **160x160:** Reservado para íconos presentes en secciones con texto dentro de la interfaz, su propósito es ilustrar visualmente la función o aspecto que se está describiendo.  
 * **60x60:** Tamaño regular de los íconos de la interfaz de la aplicación, se encontrarán dentro de los botones interactivos, favoreciendo una legibilidad más rápida de la pantalla y los elementos que contiene.
 
-#### **4.1.1.5 Tono de Comunicación y Lenguaje Aplicado** {#4.1.1.5-tono-de-comunicación-y-lenguaje-aplicado}
+#### **4.1.1.5 Tono de Comunicación y Lenguaje Aplicado**
 
 El tono de TalentManager es profesional, empático y motivador, diseñado para generar una conexión de confianza con los usuarios. La plataforma busca acompañar a las organizaciones en el fortalecimiento de sus equipos, ya sea en procesos de evaluación, seguimiento o crecimiento del talento. Por ello, el tono se mantiene cercano y alentador, transmitiendo claridad y compromiso con la mejora continua del desempeño laboral.
 
@@ -1050,7 +1045,7 @@ En cuanto al lenguaje, se utiliza un estilo directo y comprensible, evitando tec
 
 Este enfoque comunicativo busca crear una experiencia clara, motivadora y funcional, alineada con los valores de TalentManager: impulsar la productividad, fortalecer la cultura organizacional y facilitar decisiones estratégicas basadas en información precisa y accesible.
 
-### **4.1.2. Web Style Guidelines.** {#4.1.2.-web-style-guidelines.}
+### **4.1.2. Web Style Guidelines.** 
 
 Los Web Style Guidelines de la Landing Page de TalentManager fueron diseñados con el propósito de facilitar el acceso a la información para los usuarios, mejorando su experiencia de uso y facilitando su proceso de familiarización con la plataforma.
 
@@ -1080,9 +1075,9 @@ En el pie de página, el usuario podrá interactuar con etiquetas que lo ayudar�
 
 Esta selección de elementos interactivos permitirá al usuario tener una experiencia fluida e intuitiva con la interfaz, familiarizándose rápidamente con su uso y elaborando rutas óptimas para localizar la información requerida dentro del sitio web.
 
-# **4.2. Information Architecture.** {#4.2.-information-architecture.}
+# **4.2. Information Architecture.** 
 
-### **4.2.1. Organization Systems.** {#4.2.1.-organization-systems.}
+### **4.2.1. Organization Systems.** 
 
 * Landing Page:
 
@@ -1096,7 +1091,7 @@ Esta selección de elementos interactivos permitirá al usuario tener una experi
   <img src="Images/img31.jpg" alt="imagen" />
 </p>
 
-### **4.2.2. Labeling Systems.** {#4.2.2.-labeling-systems.}
+### **4.2.2. Labeling Systems.** 
 
 La interfaz de TalentManager fue diseñada para usar el espacio en pantalla eficientemente y de manera ordenada, buscando ofrecer al usuario una experiencia de uso más intuitiva y dinámica, que permita tanto a usuarios principiantes como experimentados una navegación más cómoda, fácil de entender y con rutas optimizadas. Para lograr esto, el equipo propuso un diseño que emplea etiquetas concisas y efectivas, que nos ayuden a comunicarle al usuario diferentes significados con una lectura rápida.
 
@@ -1165,7 +1160,7 @@ Support: Este botón servirá para ofrecerle al usuario una ruta directa a la se
 </p>
 Log out: El botón de Log out servirá para que el usuario pueda cerrar sesión directamente dentro de la aplicación o sitio web, facilitando un rápido acceso a esta acción.
 
-### **4.2.3. SEO Tags and Meta Tags** {#4.2.3.-seo-tags-and-meta-tags}
+### **4.2.3. SEO Tags and Meta Tags**
 
 Title:
 
@@ -1198,13 +1193,13 @@ Author:
 
 El equipo decidió usar el nombre de la startup para llenar el meta tag de autor, debido a que la creación de la Landing Page fue un trabajo colaborativo entre todos los miembros, y para establecer nuestra propiedad sobre la solución dentro del sitio web.
 
-### **4.2.4. Searching Systems.** {#4.2.4.-searching-systems.}
+### **4.2.4. Searching Systems.**
 
 En la plataforma de TalentManager, los Searching Systems fueron diseñados con el propósito de ofrecer una experiencia de búsqueda cómoda, eficiente y sencilla. Siguiendo lo propuesto en la sección de características, la aplicación contará con una herramienta de búsqueda avanzada que permitirá a los usuarios encontrar las fichas de trabajador o equipo que quiere consultar de manera rápida, realizando una búsqueda por nombre, área o equipo.
 
 Los usuarios podrán encontrar resultados rápidamente al ingresar palabras en la barra de búsqueda, ya que la aplicación se encargará de encontrar coincidencias en nombres de colaboradores y equipos, mostrándolos en una interfaz designada en forma de accesos directos.
 
-### **4.2.5. Navigation Systems.** {#4.2.5.-navigation-systems.}
+### **4.2.5. Navigation Systems.**
 
 Landing Page:
 
@@ -1218,9 +1213,9 @@ La principal herramienta de navegación que utilizará el usuario dentro de la a
 
 Además de la barra de navegación, el usuario dispondrá de otros medios de desplazamiento dentro de la interfaz de la aplicación, como podrían ser los elementos interactivos dentro de las secciones de la pantalla, que lo ayudarán a acceder a diferentes pantallas de manera cómoda e intuitiva.
 
-# **4.3. Landing Page UI Design.** {#4.3.-landing-page-ui-design.}
+# **4.3. Landing Page UI Design.** 
 
-### **4.3.1. Landing Page Wireframe.** {#4.3.1.-landing-page-wireframe.}
+### **4.3.1. Landing Page Wireframe.** 
 
 <p align="center">
   <img src="Images/img47.jpg" alt="imagen" />
@@ -1276,9 +1271,9 @@ No se realizaron cambios significativos en la distribución de elementos para el
   <img src="Images/nuevo57.jpg" alt="imagen" />
 </p>
 
-# **4.4. Web Applications UX/UI Design.** {#4.4.-web-applications-ux/ui-design.}
+# **4.4. Web Applications UX/UI Design.** 
 
-### **4.4.1. Web Applications Wireframes.** {#4.4.1.-web-applications-wireframes.}
+### **4.4.1. Web Applications Wireframes.** 
 
 <p align="center">
   <img src="Images/img58.jpg" alt="imagen" />
@@ -1356,7 +1351,7 @@ El usuario podrá acceder a la lista de reportes generados en la aplicación med
 
 Finalmente, el usuario podrá acceder rápidamente a la pantalla de soporte a través del elemento designado en la barra de navegación.
 
-### **4.4.2. Web Applications Wireflow Diagrams.** {#4.4.2.-web-applications-wireflow-diagrams.}
+### **4.4.2. Web Applications Wireflow Diagrams.** 
 
 Segmento 1: Supervisores operativos y jefes de área
 
@@ -1394,7 +1389,7 @@ Wireflow:
 
 Para poder registrar colaboradores con datos precisos y de manera organizada el usuario primero deberá ingresar su nombre y su contraseña para así luego entrar a TalentManager. Luego, viendo la barra de navegación se debe entrar al apartado de "Home" y seleccionar la opción de añadir. En "Add Employee" podrás registrar los datos de un colaborador nuevo.
 
-### **4.4.2. Web Applications Mock-ups.** {#4.4.2.-web-applications-mock-ups.}
+### **4.4.2. Web Applications Mock-ups.**
 
 El equipo no realizó cambios de distribución para la elaboración de los Mock-ups de la aplicación web, limitándose a implementar la paleta de colores e incluir textos de ejemplo dentro del diseño.
 
@@ -1438,7 +1433,7 @@ El equipo no realizó cambios de distribución para la elaboración de los Mock-
   <img src="Images/nuevo87.jpg" alt="imagen" />
 </p>
 
-### **4.4.3. Web Applications User Flow Diagrams.** {#4.4.3.-web-applications-user-flow-diagrams.}
+### **4.4.3. Web Applications User Flow Diagrams.**
 
 **Segmento 1: Supervisores operativos y jefes de área**
 
@@ -1460,42 +1455,42 @@ El equipo no realizó cambios de distribución para la elaboración de los Mock-
 </p>
 
 
-# **4.5. Web Applications Prototyping.** {#4.5.-web-applications-prototyping.}
+# **4.5. Web Applications Prototyping.**
 
 Se desarrolló un prototipo interactivo de TalentManager enfocado en la navegación web para evaluar y optimizar la accesibilidad y la experiencia de usuario antes de su lanzamiento oficial. Este modelo, que simula fielmente los principales recorridos de la plataforma, permite explorar funciones como la gestión de trabajadores y generación de reportes, replicando el uso real. Diseñado con una arquitectura clara, jerarquía visual coherente y principios de diseño inclusivo, garantiza una navegación intuitiva y accesible para supervisores, gerentes de recursos humanos y directivos estratégicos. Gracias a sus maquetas de alta fidelidad, el prototipo ha permitido validar decisiones de diseño, identificar fricciones en la interacción y asegurar una experiencia de uso consistente, alineada con la visión de ofrecer una solución ágil, eficiente y centrada en el usuario para la gestión del talento humano.
 
 Link al prototipo: https://www.figma.com/design/lvqSuexiI0BCRGWkHxNRQH/TalentManager?node-id=417-2684&p=f&t=uK36VeYhzyeBDdXD-0
 
-# **4.6. Domain-Driven Software Architecture.** {#4.6.-domain-driven-software-architecture.}
+# **4.6. Domain-Driven Software Architecture.** 
 
 El Domain Driven Design (DDD) busca lograr una comprensión común del dominio específico relacionado con el problema que se quiere resolver. Este enfoque facilita una mejor colaboración entre los desarrolladores y los especialistas en el tema, promoviendo una comunicación más efectiva. Más allá del uso de un lenguaje compartido, DDD incorpora una serie de patrones, metodologías y diagramas arquitectónicos que ayudan a alinear el desarrollo del software con las particularidades del dominio, fortaleciendo así una visión coherente y conjunta entre todos los involucrados.
 
-### **4.6.1. Software Architecture Context Diagram.** {#4.6.1.-software-architecture-context-diagram.}
+### **4.6.1. Software Architecture Context Diagram.** 
 
 <p align="center">
   <img src="Images/img92.jpg" alt="imagen" />
 </p>
 
-### **4.6.2. Software Architecture Container Diagrams.** {#4.6.2.-software-architecture-container-diagrams.}
+### **4.6.2. Software Architecture Container Diagrams.** 
 
 <p align="center">
   <img src="Images/img93.jpg" alt="imagen" />
 </p>
 
-### **4.6.3. Software Architecture Components Diagrams.** {#4.6.3.-software-architecture-components-diagrams.}
+### **4.6.3. Software Architecture Components Diagrams.** 
 
 <p align="center">
   <img src="Images/img94.jpg" alt="imagen" />
 </p>
 
-# **4.7.Software Object-Oriented Design.** {#4.7.software-object-oriented-design.}
+# **4.7.Software Object-Oriented Design.** 
 
-### **4.7.1. Class Diagrams.** {#4.7.1.-class-diagrams.}
+### **4.7.1. Class Diagrams.** 
 <p align="center">
   <img src="Images/diagramaclases.png" alt="imagen" />
 </p>
 
-### **4.7.2. Class Dictionary.** {#4.7.2.-class-dictionary.}
+### **4.7.2. Class Dictionary.** 
 * ColaboratorManagement	Clase que gestiona el registro, actualización, eliminación y listado de colaboradores en el sistema.
 * Colaborator	Representa a un colaborador individual, incluyendo sus datos básicos como ID, nombre, cargo y correo electrónico.
 * User	Representa a un usuario del sistema, manejando su nombre de usuario, nombre real, correo, contraseña, y operaciones de actualización y desactivación.
@@ -1510,11 +1505,11 @@ El Domain Driven Design (DDD) busca lograr una comprensión común del dominio e
 * Support	Clase que gestiona el soporte a usuarios, permitiendo crear, actualizar y cerrar tickets de ayuda o consultas dentro del sistema.
 * AttendanceReport	Clase que maneja la generación de reportes de asistencia de empleados en un rango de fechas específico, con opciones de exportación.
 
-# **4.8. Database Design.** {#4.8.-database-design.}
+# **4.8. Database Design.**
 
 La base de datos de TalentManager ha sido diseñada bajo un enfoque relacional, con el objetivo de asegurar la integridad de los datos, la trazabilidad del desempeño de los empleados y la eficiencia en la gestión del talento humano en las organizaciones. Cada tabla representa una entidad clave dentro del ecosistema del sistema, permitiendo una administración integral de usuarios, empleados, observaciones, reportes y jerarquías laborales. La arquitectura considera aspectos fundamentales como asignación de cargos, áreas de trabajo, generación de reportes de asistencia y evaluaciones de desempeño, promoviendo una gestión estructurada, precisa y flexible.
 
-### **4.8.1. Database Diagram.** {#4.8.1.-database-diagram.}
+### **4.8.1. Database Diagram.** 
 
 **Usuario**
 
@@ -1565,11 +1560,11 @@ La base de datos de TalentManager ha sido diseñada bajo un enfoque relacional, 
   <img src="Images/diagramaBDcorregido.jpg" alt="imagen" />
 </p>
 
-# **Capítulo V: Product Implementation, Validation & Deployment** {#capítulo-v:-product-implementation,-validation-&-deployment}
+# **Capítulo V: Product Implementation, Validation & Deployment**
 
 # **5.1. Software Configuration Management.** {#5.1.-software-configuration-management.}
 
-### **5.1.1. Software Development Environment Configuration.** {#5.1.1.-software-development-environment-configuration.
+### **5.1.1. Software Development Environment Configuration.** 
 **Product UX/UI Design**
 
 Figma: Se trata de una aplicación online centrada en el diseño de interfaces y elaboración de prototipos interactivos. Para este proyecto, se empleará como la herramienta principal para crear la maqueta visual de la plataforma.  
@@ -1599,7 +1594,7 @@ GitHub: Plataforma de alojamiento de código fuente que facilitará el trabajo c
 GitHub: Además de usarse para control de versiones, también servirá como repositorio de documentación técnica del sistema. Su interfaz permite centralizar el contenido del proyecto y hacer seguimiento colaborativo.  
 [https://github.com/](https://github.com/)
 
-### **5.1.2. Source Code Management.** {#5.1.2.-source-code-management.}
+### **5.1.2. Source Code Management.**
 
 El control del código fuente resulta esencial para el trabajo colaborativo en cualquier proyecto de software. En esta sección se planteará un esquema definido de organización y control de versiones, haciendo uso de GitHub.
 
@@ -1647,7 +1642,7 @@ Para asegurar un código limpio, comprensible y fácil de mantener en el desarro
 
 Estas convenciones permiten que el desarrollo y mantenimiento de TalentManager se realice de forma eficiente, garantizando escalabilidad y facilidad de lectura para cualquier miembro del equipo.
 
-### **5.1.4. Software Deployment Configuration.** {#5.1.4.-software-deployment-configuration.}
+### **5.1.4. Software Deployment Configuration.** 
 
 La Landing Page de TalentManager es de facil acceso para el publico, presentamos aquí las formas para entrar a nuestra Landing Page:
 
@@ -1680,9 +1675,9 @@ Una vez extraído, navega dentro de la carpeta del proyecto y abre el archivo in
 
 # **5.2. Landing Page, Services & Applications Implementation.** {#5.2.-landing-page,-services-&-applications-implementation.}
 
-### **5.2.1. Sprint 1** {#5.2.1.-sprint-1}
+### **5.2.1. Sprint 1**
 
-#### **5.2.1.1. Sprint Planning 1\.** {#5.2.1.1.-sprint-planning-1.}
+#### **5.2.1.1. Sprint Planning 1\.** 
 
 La reunión de planificación del sprint marca el inicio del mismo y establece qué se va a desarrollar y cómo se llevará a cabo. Su propósito es reunir al equipo para definir una meta específica (Sprint Goal), elegir las historias de usuario y dividirlas en tareas. Esta sesión permite que se distribuya el trabajo de manera organizada y se mantenga al grupo enfocado en ofrecer valor real al usuario final.
 
@@ -1705,7 +1700,7 @@ A continuación se podrá apreciar la tabla del sprint planificado:
 
 #### 
 
-#### **5.2.1.2. Aspect Leaders and Collaborators.** {#5.2.1.2.-aspect-leaders-and-collaborators.}
+#### **5.2.1.2. Aspect Leaders and Collaborators.**
 
 En esta sección, el equipo desarrolló una Leadership and Collaboration Matrix (LACX) adaptada al contexto de TalentManager, con el propósito de mejorar la claridad y eficiencia en la comunicación interna. Este artefacto asigna de forma explícita a una persona líder y a sus colaboradores por cada aspecto relevante del Sprint. Dichos aspectos representan áreas clave del alcance funcional trabajado en esta iteración, tales como secciones específicas de la landing page o funcionalidades principales. La sección incluye una introducción que describe los componentes priorizados durante el Sprint y cómo el LACX permite identificar con claridad las responsabilidades compartidas y los puntos de coordinación en el equipo.
 
@@ -1730,7 +1725,7 @@ Los aspectos que se han tenido en cuenta para este sprint son:
 
 #### 
 
-   #### **5.2.1.3. Sprint Backlog 1\.** {#5.2.1.3.-sprint-backlog-1.}
+   #### **5.2.1.3. Sprint Backlog 1\.**
 
 En este sprint se muestran los trabajos realizados para desplegar la primera versión de nuestro landing page.
 
@@ -1750,7 +1745,7 @@ En este sprint se muestran los trabajos realizados para desplegar la primera ver
 | US09 | 1 | Add social media links to footer | 1 | Developer Team | To-Do |
 | US10 | 1 | Implement interactive slide carousel (Swiper) | 3 | Developer Team | Done |
 
-#### **5.2.1.4. Development Evidence for Sprint Review.** {#5.2.1.4.-development-evidence-for-sprint-review.}
+#### **5.2.1.4. Development Evidence for Sprint Review.**
 
 #### 
 
@@ -1764,17 +1759,17 @@ En este sprint se muestran los trabajos realizados para desplegar la primera ver
 
 #### 
 
-#### **5.2.1.5. Execution Evidence for Sprint Review.** {#5.2.1.5.-execution-evidence-for-sprint-review.}
+#### **5.2.1.5. Execution Evidence for Sprint Review.**
 
 Durante el Sprint 1, se desarrollaron 10 historias de usuario centradas en la construcción integral de la landing page de TalentManager.
 
 El equipo cumplió con 8 de las 10 historias planeadas, faltando la redirección a términos legales y redes sociales, páginas las cuales aún no han sido creadas y por ende no hay enlace.
 
-#### **5.2.1.6. Services Documentation Evidence for Sprint Review.** {#5.2.1.6.-services-documentation-evidence-for-sprint-review.}
+#### **5.2.1.6. Services Documentation Evidence for Sprint Review.**
 
 Durante el presente Sprint, el equipo de desarrollo centró sus esfuerzos exclusivamente en el diseño e implementación de la landing page de la plataforma TalentManager, estableciendo así la base visual y estructural del proyecto. Como parte de esta primera etapa, se priorizó la construcción de la interfaz pública inicial, enfocándose en aspectos como el diseño responsive, la navegación fluida, la presentación clara de los servicios, planes de suscripción y la recopilación visual de reseñas y datos de contacto. En consecuencia, aún no se ha iniciado el desarrollo ni la documentación de endpoints relacionados con servicios web, por lo que no se cuenta con especificaciones OpenAPI, verbos HTTP implementados, parámetros, ni ejemplos de respuesta o interacción de APIs. La integración de servicios backend y la documentación correspondiente a Web Services están planificadas para sprints posteriores, una vez completada la capa visual y definidas las funcionalidades clave del sistema. Por tanto, esta sección no contiene por el momento URLs de endpoints, commits asociados a la documentación, ni capturas de interacción con APIs, dado que su desarrollo aún no ha comenzado.
 
-#### **5.2.1.7. Software Deployment Evidence for Sprint Review.** {#5.2.1.7.-software-deployment-evidence-for-sprint-review.}
+#### **5.2.1.7. Software Deployment Evidence for Sprint Review.**
 
 En este sprint, el equipo realizó el despliegue de la landing page del proyecto.
 
@@ -1788,7 +1783,7 @@ En este sprint, el equipo realizó el despliegue de la landing page del proyecto
 
 Gracias a este avance, se puede visualizar la landing page y con ello la propuesta de TalentManager, así como un primer paso para avanzar el frontend de la plataforma futura a realizar.
 
-#### **5.2.1.8. Team Collaboration Insights during Sprint.** {#5.2.1.8.-team-collaboration-insights-during-sprint.}
+#### **5.2.1.8. Team Collaboration Insights during Sprint.** 
 
 A lo largo de este Sprint, el equipo concentró sus esfuerzos en el desarrollo inicial de la página principal del proyecto TalentManager. Se llevaron a cabo actividades relacionadas con el diseño estético, organización del contenido, codificación con tecnologías como HTML y CSS, y la incorporación de funcionalidades mediante JavaScript. Además, se completó la integración y publicación del sitio a través de GitHub. Todos los integrantes del equipo contribuyeron activamente en la creación colaborativa de este primer entregable visual del proyecto, se definieron los diseños, se desarrolló el codigo HTML con sus estilos CSS, añadimos funcionalidades en JavaScript, configuramos el repositorio en GitHub, y finalmente, como grupo hicimos revisiones de todo el trabajo para asegurarnos de hacer un buen trabajo.
 
@@ -1800,9 +1795,125 @@ A continuación, presentaremos evidencia de la participación de los integrantes
   <img src="Images/img109.jpg" alt="imagen" />
 </p>
 
+### **5.2.2. Sprint 2**
+
+#### **5.2.2.1. Sprint Planning 2\.** 
+
+La reunión de planificación del sprint marca el inicio del mismo y establece qué se va a desarrollar y cómo se llevará a cabo. Su propósito es reunir al equipo para definir una meta específica (Sprint Goal), elegir las historias de usuario y dividirlas en tareas. Esta sesión permite que se distribuya el trabajo de manera organizada y se mantenga al grupo enfocado en ofrecer valor real al usuario final.
+
+A continuación se podrá apreciar la tabla del sprint planificado:
+
+| Sprint \# | Sprint 2 |
+| :---- | :---- |
+| **Sprint Planning Background**  |  |
+| Date | 2025-04-11 |
+| Time | 9:30 PM |
+| Location | Reunión virtual |
+| Prepared By | Santiago Cárdenas, Gustavo Román |
+| Attendees (to planning meeting) | Santiago Cárdenas / Gustavo Román / Luis Rodríguez / Santiago Suárez / Gabriel Borja |
+| Sprint n – 1 Review Summary | A lo largo del Sprint, se implementaron historias de usuario centradas en la creación del frontend de la aplicación web. El equipo de desarrollo (integrado por Luis Rodríguez, Gustavo Román y Santiago Cárdenas) resaltó que una adecuada estimación de Story Points y la definición precisa de las tareas contribuyeron a sostener un flujo de trabajo equilibrado y sostenido. Por su parte, el diseñador UX/UI (Santiago Suárez), enfatizó que el enfoque modular adoptado favoreció una organización visual coherente y flexible. Finalmente, el product owner (Gabriel Borja) manifestó su conformidad con los avances logrados durante el Sprint. |
+| Sprint n – 1 Retrospective Summary | Durante el transcurso del Sprint, el equipo subrayó varios aspectos positivos, entre ellos la eficiente organización de las tareas, una adecuada estimación temporal basada en Story Points, y una comunicación fluida que facilitó la pronta resolución de obstáculos. Se destacó además la colaboración activa al momento de definir los criterios de aceptación, lo cual fortaleció la alineación del equipo. Como aspecto a mejorar, se reconoció la importancia de afinar la estimación de tiempos, especialmente en tareas relacionadas con el diseño visual, así como de optimizar las sesiones de revisión para enfocarse con mayor profundidad en los aprendizajes obtenidos y en la retroalimentación proporcionada por el product owner. |
+| **Sprint Goal & User Stories**  |  |
+| Sprint n Goal | Our focus is on designing and implementing the complete frontend views of TalentManager's internal platform, including login, registration, home, employee management, support, reports, and dashboard modules. We believe this will provide a consistent and fully navigable interface that reflects the expected user journey within the system. This will be confirmed when users can visually interact with all screens including login, add/manage employees, access reports, view dashboards, and submit support queries through a responsive and cohesive UI layout.|
+| Sprint n Velocity | 20 |
+| Sum of Story Points | 20 |
+
+#### 
+
+#### **5.2.2.2. Aspect Leaders and Collaborators.**
+
+En esta sección, el equipo desarrolló una Leadership and Collaboration Matrix (LACX) adaptada al contexto de TalentManager, con el propósito de mejorar la claridad y eficiencia en la comunicación interna. Este artefacto asigna de forma explícita a una persona líder y a sus colaboradores por cada aspecto relevante del Sprint. Dichos aspectos representan áreas clave del alcance funcional trabajado en esta iteración. La sección incluye una introducción que describe los componentes priorizados durante el Sprint y cómo el LACX permite identificar con claridad las responsabilidades compartidas y los puntos de coordinación en el equipo.
+
+Se han definido los roles de líder (L) y colaborador (C) para los integrantes del grupo en cada aspecto definido del sprint
+
+Los aspectos que se han tenido en cuenta para este sprint son:
+
+1. Login
+2. Home  
+3. Añadir empleado y mostrarlo
+4. Reportes
+5. Soporte
+6. Dashboard
+
+| Team Member (Last Name, First Name) | GitHub Username | Login | Home | Añadir empleado y mostrarlo | Reportes  | Soporte | Dashboard |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| Cárdenas Concha, Santiago Iván | Sack136 | C | C | C | L | C | C |
+| Román Pajuelo, Luis Gustavo | Raizo400 | C | L | C | C | C | C |
+| Suárez Romero, Santiago Manuel | SDarXx | C | C | L | C | C | C |
+| Borja Molina, Gabriel Sebastián | borj410 | C | C | C | C | C | L |
+| Rodríguez Rodríguez, Luis Piero | luissssrr | L | C | C | C | C | C |
+
+#### 
+
+   #### **5.2.2.3. Sprint Backlog 2\.**
+
+En este sprint se muestran los trabajos realizados para desplegar la primera versión de nuestro landing page.
+
+| Sprint \# 2 |  |  |  |  |  |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| Work-Item / Task | User Story ID | Description | Estimation (Hours) | Estimation (Hours) | Assigned To / Status |
+| US11 | 1 | Registro básico de empleados | 1 | Developer Team | In Progress |
+| US12 | 1 | Edición de información del perfil | 3 | Developer Team | In Progress |
+| US13 | 1 | Visualización de perfil completo | 3 | Developer Team | In Progress |
+| US19 | 1 | Visualización de registros recientes del equipo | 1 | Developer Team | In Progress |
+| US20 | 1 | Inicio de evaluación de desempeño | 1 | Developer Team | In Progress |
+| US25 | 1 | Exportación de reportes en pantalla | 1 | Developer Team | In Progress |
+| US28 | 1 | Diseño limpio y profesional que inspire confianza | 1 | Developer Team | In Progress |
+| US29 | 1 | Presentación clara y ordenada de la información | 1 | Developer Team | In Progress |
+| US30 | 1 | Navegación coherente en todas las secciones de la plataforma | 1 | Developer Team | In Progress |
+
+#### **5.2.1.4. Development Evidence for Sprint Review.**
+
+#### 
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| Raizo400/TalentManager-BERSS/WebApplication-TalentManager | master | x8d2r9 | \- | \- | 15/05/2025 |
+| SDarXx/TalentManager-BERSS/WebApplication-TalentManager | master | a7m4k1 | \- | \- | 15/05/2025 |
+| borj410/TalentManager-BERSS/WebApplication-TalentManager | master | q9b6z3 | \- | \- | 15/05/2025 |
+| Sack136/TalentManager-BERSS/WebApplication-TalentManager | master | e2t5n8 | \- | \- | 15/05/2025 |
+| luissssrr/TalentManager-BERSS/WebApplication-TalentManager | master | l3y7v0 | \- | \- | 15/05/2025 |
+
+#### 
+
+#### **5.2.1.5. Execution Evidence for Sprint Review.**
+
+Durante el Sprint 2, se desarrollaron 9 historias de usuario centradas en la construcción del apartado frontend de TalentManager
+
+El equipo cumplió con todas las historias planeadas desde un apartado frontend, dejandolo las tareas como in progress a falta de implementación de backend.
+
+#### **5.2.1.6. Services Documentation Evidence for Sprint Review.**
+
+.
+
+#### **5.2.1.7. Software Deployment Evidence for Sprint Review.**
+
+En este sprint, el equipo realizó el despliegue de la aplicación web del proyecto
+
+1. Se creó un repositorio público en github: https://github.com/TalentManager-BERSS/WebApplication-TalentManager
+
+2. Se configuró la rama master como fuente y /root como origen de contenido, de tal forma la landing page es pública desde el siguiente enlace: https://talentmanager-berss.github.io/LandingPage-TalentManager/index.html
+
+3. Gracias al uso de GitHub (y por ende, GitHub Pages), la landing page se actualiza de forma automática después de cada commit, de esta forma no hay problema para avanzar la misma.
+
+4. Se evaluó el rendimiento de la landing page y se verificó que todo estaba óptimo.
+
+Gracias a este avance, se puede visualizar la landing page y con ello la propuesta de TalentManager, así como un primer paso para avanzar el frontend de la plataforma futura a realizar.
+
+#### **5.2.1.8. Team Collaboration Insights during Sprint.** 
+
+**Análiticas de colaboración GitHub:**
+
+A continuación, presentaremos evidencia de la participación de los integrantes en el GitHub:
+
+<p align="center">
+  <img src="Images/img109.jpg" alt="imagen" />
+</p>
+
+
 # **CONCLUSIONES**
 
-# **Conclusiones y recomendaciones:** {#conclusiones-y-recomendaciones:}
+# **Conclusiones y recomendaciones:**
 1. Fuerte necesidad de centralización de datos: Tanto supervisores como gerentes destacan que actualmente manejan la información del desempeño de manera dispersa (cuadernos, Excel, múltiples plataformas), dificultando el control y análisis eficiente.
 
 2. Alta disposición a adoptar TalentManager: Los usuarios entrevistados (supervisores y gerentes) muestran interés real en usar una plataforma que automatice evaluaciones, facilite reportes y permita ahorrar tiempo.
