@@ -179,7 +179,7 @@ Insights TB1 (todos participaron):
 
 [4.1.2. Web Style Guidelines.	](#4.1.2.-web-style-guidelines.)
 
-[**4.2. Information Architecture.	**](#4.2.-information-architecture.)
+[4.2. Information Architecture.](#4.2.-information-architecture.)
 
 [4.2.1. Organization Systems.	](#4.2.1.-organization-systems.)
 
@@ -191,7 +191,7 @@ Insights TB1 (todos participaron):
 
 [4.2.5. Navigation Systems.	](#4.2.5.-navigation-systems.)
 
-[**4.3. Landing Page UI Design.	**](#4.3.-landing-page-ui-design.)
+[4.3. Landing Page UI Design.](#4.3.-landing-page-ui-design.)
 
 [4.3.1. Landing Page Wireframe.	](#4.3.1.-landing-page-wireframe.)
 
