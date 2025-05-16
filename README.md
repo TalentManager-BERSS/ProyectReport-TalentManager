@@ -45,7 +45,7 @@
 
 Link del repositorio: https://github.com/TalentManager-BERSS/ProyectReport-TalentManager
 
-Insights TB1 (todos participaron): 
+Insights (todos participaron): 
 
 <p align="center">
   <img src="Images/insightstb1.jpg" alt="imagen" />
