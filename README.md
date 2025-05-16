@@ -1797,7 +1797,7 @@ En este sprint, el equipo realizó el despliegue de la landing page del proyecto
 
 1. Se creó un repositorio público en github: [https://github.com/TalentManager-BERSS/LandingPage-TalentManager](https://github.com/TalentManager-BERSS/LandingPage-TalentManager)
 
-2. Se publicó la landing page en netlify: 
+2. Se publicó la landing page en netlify: https://landingpagetalentmanager.netlify.app/
 
 3. Gracias al uso de netlify, la landing page está en nube.
 
@@ -1921,9 +1921,9 @@ En este sprint, el equipo realizó el despliegue de la aplicación web del proye
 
 1. Se creó un repositorio público en github: https://github.com/TalentManager-BERSS/WebApplication-TalentManager
 
-2. En este link se puede ver la aplicación publicada en la nube: 
+2. En este link se puede ver la aplicación publicada en la nube: https://talentmanagerpage.netlify.app/
 
-3. Gracias al uso de Netlif, se puede ver todo desde la nube.
+3. Gracias al uso de Netlify, se puede ver todo desde la nube.
 
 4. Se evaluó el rendimiento de la aplicación web y se verificó que todo estaba óptimo.
 
