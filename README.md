@@ -612,14 +612,12 @@ Luego de realizar un análisis de los usuarios, se decidió formar dos segmentos
 </p>
 
 Nombre: Fabrizio Huamaní
-
 **Ocupación:** Trabajador de Plaza Vea y Estudiante 
-
 **Edad:** 21
-
 **Distrito:** Cercado de Lima, Lima 
+**Duración:** 0:00-3:27
 
-**Link:** [Segmento 1 \- Entrevista 1.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/EZPhSNIYbU9KhLGvCrIKZuMBN1ttf0Txe_CiazA9julInw?e=sV0ns8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EagAc4RfKEZNspjWy3uYg-oB2QNwVzJ2qw0apDfM370IHA?e=HH0Svu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 Resumen: En la entrevista, Gustavo Román presenta a Fabrizio Guamaní, supervisor del área de sala en Plaza Vea, y le explica que TalentManager es una aplicación web para empresas que permite registrar y evaluar el desempeño de los trabajadores. La plataforma permite ver datos personales, asistencias, evaluaciones y generar reportes automáticos para facilitar decisiones sobre el personal.
 
@@ -635,7 +633,9 @@ Nombre: Bruno Cárdenas
 **Ocupación:** Trabajador de konecta  
 **Edad:** 21  
 **Distrito:** Cercado de Lima, Lima   
-[Segmento 1 \- Entrevista 2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/ET1IBsvyWpNIjbq6Lt_sCv8BNW-I0iWM7sK-7Nq3nkNnvA?e=4hyG4H&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**Duración:** 3:27-7:54
+
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EagAc4RfKEZNspjWy3uYg-oB2QNwVzJ2qw0apDfM370IHA?e=HH0Svu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 Resumen: En la siguiente entrevista, Santiago Cárdenas presenta a Bruno Cárdenas, supervisor en el área de call center Konecta. Él  opina que debido a que es jefe de área, tiene que hacer observaciones hacia las personas que tiene a cargo. Las anotaciones las hace a mano en un cuaderno o crea un excel donde puede almacenar información de cada uno de sus integrantes de su equipo. Bruno afirma que TalentManager sería una aplicación de gran ayuda debido a que no tendría que calcular el rendimiento independiente de cada uno, debido a que la app te lo da en un reporte automáticamente.
 
@@ -646,14 +646,12 @@ Resumen: En la siguiente entrevista, Santiago Cárdenas presenta a Bruno Cárden
 </p>
 
 Nombre: Paulo Quincho
-
 **Ocupación:** Gerente de RR.HH en Expro
-
 **Edad:** 24
-
 **Distrito:** Surco, Lima 
+**Duración:** 7:54-13:21
 
-[**Segmento 2 \- Entrevista 1.mp4**](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/EVnWsZMSuKpBiHMviSaiGVUBD0a9_I9wBzsjLKWKCGU3YQ?e=TCLgfk&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EagAc4RfKEZNspjWy3uYg-oB2QNwVzJ2qw0apDfM370IHA?e=HH0Svu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 En la entrevista, Santiago conversa con Pablo Quincho, profesional con dos años de experiencia en el área administrativa de Recursos Humanos en la empresa Expro. Se le presenta *Talent Manager*, una plataforma web que permite registrar, evaluar y dar seguimiento al desempeño de los trabajadores mediante reportes automáticos y criterios personalizados.
 
@@ -668,14 +666,11 @@ Considera que *Talent Manager* sería muy útil para centralizar datos en tiempo
 </p>
 
 Nombre: Francisco Reyes
-
 **Ocupación:** Gerente de RR.HH en Expro
-
 **Edad:** 55
-
 **Distrito:** La Molina, Lima 
-
-Link: [Segmento 2 \- Entrevista 2.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/ETnIr0hhFX5OnC6ZxduAWJ4BKWoLsxBY7SSGfAss0LgHAA?e=nhzVEq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+**Duración:** 13:21-20:11
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EagAc4RfKEZNspjWy3uYg-oB2QNwVzJ2qw0apDfM370IHA?e=HH0Svu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 En la entrevista, se conversó con Francisco Reyes, gerente administrativo de una empresa importadora de repuestos. Se le presenta TalentManager, una plataforma web que permite registrar, evaluar y dar seguimiento al desempeño de los trabajadores mediante reportes automáticos y criterios personalizados.
 
