@@ -1513,23 +1513,19 @@ El Domain Driven Design (DDD) busca lograr una comprensión común del dominio e
 
 ### **4.7.1. Class Diagrams.** 
 <p align="center">
-  <img src="Images/diagramaclases.png" alt="imagen" />
+  <img src="Images/diagramaclasesnuevo.jpg" alt="imagen" />
 </p>
 
 ### **4.7.2. Class Dictionary.** 
-* ColaboratorManagement	Clase que gestiona el registro, actualización, eliminación y listado de colaboradores en el sistema.
-* Colaborator	Representa a un colaborador individual, incluyendo sus datos básicos como ID, nombre, cargo y correo electrónico.
-* User	Representa a un usuario del sistema, manejando su nombre de usuario, nombre real, correo, contraseña, y operaciones de actualización y desactivación.
-* ValidateUser	Clase encargada de validar las credenciales de acceso (usuario y contraseña) y de manejar errores de validación y control de intentos.
-* PerformanceReport	Clase que utiliza un repositorio para generar reportes de desempeño de colaboradores.
-* Validation	Clase que gestiona la validación de formatos de datos, como correos electrónicos, y la recolección de errores de validación.
-* History	Clase que almacena las acciones y fechas importantes realizadas por los usuarios o colaboradores en el sistema.
-* Date	Clase que maneja información de fechas y horas (día, mes, año, hora, minutos y segundos) y permite configurar estos valores.
-* ReportDataProcessor	Clase que calcula métricas específicas como el promedio de tardanzas y promedio de horas trabajadas usando datos de reportes.
-* RepositoryReport	Clase que actúa como repositorio para obtener datos de reportes de desempeño.
-* Report	Clase que almacena métricas detalladas sobre el rendimiento de los colaboradores, como horas trabajadas, asistencias, desempeño, etc.
-* Support	Clase que gestiona el soporte a usuarios, permitiendo crear, actualizar y cerrar tickets de ayuda o consultas dentro del sistema.
-* AttendanceReport	Clase que maneja la generación de reportes de asistencia de empleados en un rango de fechas específico, con opciones de exportación.
+* Employee: Entidad que representa a un trabajador registrado en la plataforma. Contiene datos como nombre, posición, email y equipo. Puede actualizar su información y retornar un resumen.
+* EmployeeManagementService: Servicio responsable de registrar, actualizar, eliminar y listar empleados. Encapsula la lógica relacionada a la gestión del ciclo de vida del empleado.
+* User: Entidad que representa a un usuario registrado en la plataforma, con credenciales y datos personales. Puede actualizar su perfil, cambiar su contraseña y ser activado/desactivado.
+* UserValidationService: Servicio encargado de validar las credenciales del usuario y gestionar intentos fallidos de autenticación.
+* SupportTicket: Entidad que representa una solicitud de soporte técnico generada por un usuario. Contiene el estado, asunto, mensaje y fechas de creación y resolución.
+* AttendanceRecord: Entidad que representa el registro de asistencia de un empleado en una fecha determinada. Indica si estuvo presente y si llegó tarde.
+* AttendanceReport: Raíz de agregado que agrupa varios registros de asistencia de un empleado dentro de un rango de fechas. Genera y exporta reportes de asistencia.
+* Report: Objeto de valor que representa el resumen del desempeño de un empleado, incluyendo métricas como horas trabajadas, tardanzas y puntaje de desempeño.
+* PerformanceReportService: Servicio que calcula métricas de desempeño (horas trabajadas, tardanzas) y genera un reporte de rendimiento completo para un empleado.
 
 # **4.8. Database Design.**
 
