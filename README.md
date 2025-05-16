@@ -123,12 +123,6 @@ Insights TB1 (todos participaron):
 
 [2.1.2 Estrategias y tácticas frente a competidores	](#2.1.2-estrategias-y-tácticas-frente-a-competidores)
 
-[Innovación Continua en Tecnología	](#innovación-continua-en-tecnología)
-
-[Modelo de Negocio Asequible y Escalable	](#modelo-de-negocio-asequible-y-escalable)
-
-[Pruebas Piloto y Testimonios	](#pruebas-piloto-y-testimonios)
-
 [2.2 Entrevistas](#2.2-entrevistas)
 
 [2.2.1 Diseño de entrevistas	](#2.2.1-diseño-de-entrevistas)
