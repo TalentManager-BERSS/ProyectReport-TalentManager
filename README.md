@@ -29,7 +29,7 @@
  
  </div>
  
- <p align="center"><strong>Mayo, 2025</strong></p>
+ <p align="center"><strong>Junio, 2025</strong></p>
 
  
 **REGISTRO DE VERSIONES DEL INFORME**
