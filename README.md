@@ -271,6 +271,34 @@ Insights (todos participaron):
 
 [5.2.2.8. Team Collaboration Insights during Sprint.	](#5.2.2.8.-team-collaboration-insights-during-sprint.)
 
+[5.2.3. Sprint 3	](#5.2.3.-sprint-3)
+
+[5.2.3.1. Sprint Planning ](#5.2.3.1.-sprint-planning)
+
+[5.2.3.2. Aspect Leaders and Collaborators.	](#5.2.3.2.-aspect-leaders-and-collaborators)
+
+[5.2.3.3. Sprint Backlog 3\.	](#5.2.3.3.-sprint-backlog-3)
+
+[5.2.3.4. Development Evidence for Sprint Review.	](#5.2.3.4.-development-evidence-for-sprint-review)
+
+[5.2.3.5. Execution Evidence for Sprint Review.	](#5.2.3.5.-execution-evidence-for-sprint-review)
+
+[5.2.3.6. Services Documentation Evidence for Sprint Review.	](#5.2.3.6.-services-documentation-evidence-for-sprint-review)
+
+[5.2.3.7. Software Deployment Evidence for Sprint Review.	](#5.2.3.7.-software-deployment-evidence-for-sprint-review)
+
+[5.2.3.8. Team Collaboration Insights during Sprint.	](#5.2.3.8.-team-collaboration-insights-during-sprint)
+
+[5.3. Validation Interviews](#5.3.-validation-interviews)
+
+[5.3.1. Diseño de Entrevistas](#5.3.1.-diseño-de-entrevistas)
+
+[5.3.2. Registro de Entrevistas](#5.3.2.-registro-de-entrevistas)
+
+[5.3.3. Evaluaciones según heurísticas](#5.3.3.-evaluaciones-según-heurísticas)
+
+[5.4. Video About-the-Product](#5.4.-video-about-the-product)
+
 [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones:)
 
 # STUDENT OUTCOME
@@ -281,7 +309,8 @@ Insights (todos participaron):
 | Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | Cárdenas Concha, Santiago Iván Suárez Romero, Santiago Suárez Luis Gustavo Roman Pajuelo  Gabriel Sebastian Borja Molino Roman Pajuelo, Luis Gustavo  Avance TB1 | Como equipo logramos implementar formas de comunicación efectivas que nos permitieron presentar un trabajo integral, a pesar del reto que implicaron los plazos ajustados para su entrega. Asimismo, se compartieron los resultados obtenidos mediante entrevistas, donde se evidenció una respuesta positiva hacia el programa. |
 | Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería | Cárdenas Concha, Santiago Iván Suárez Romero, Santiago Suárez Luis Gustavo Roman Pajuelo  Gabriel Sebastian Borja Molino Roman Pajuelo, Luis Gustavo  Avance TP | Se completó el trabajo cumpliendo con los aspectos necesarios, permitiendo así entregar un resultado adecuado. El documento redactado sirve como referencia para quienes deseen conocer el proceso seguido en la planificación, desarrollo y puesta en producción del proyecto. |
 | Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | Cárdenas Concha, Santiago Iván Suárez Romero, Santiago Suárez Luis Gustavo Roman Pajuelo  Gabriel Sebastian Borja Molino Roman Pajuelo, Luis Gustavo  Avance TP | Como equipo logramos implementar formas de comunicación efectivas que nos permitieron presentar un trabajo integral, a pesar del reto que implicaron los plazos ajustados para su entrega. Asimismo, se compartieron los resultados obtenidos mediante entrevistas, donde se evidenció una respuesta positiva hacia el programa. |
-
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería | Cárdenas Concha, Santiago Iván Suárez Romero, Santiago Suárez Luis Gustavo Roman Pajuelo  Gabriel Sebastian Borja Molino Roman Pajuelo, Luis Gustavo  Avance TB2 | Se completó el trabajo cumpliendo con los aspectos necesarios, permitiendo así entregar un resultado adecuado. El documento redactado sirve como referencia para quienes deseen conocer el proceso seguido en la planificación, desarrollo y puesta en producción del proyecto. |
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | Cárdenas Concha, Santiago Iván Suárez Romero, Santiago Suárez Luis Gustavo Roman Pajuelo  Gabriel Sebastian Borja Molino Roman Pajuelo, Luis Gustavo  Avance TB2 | Como equipo logramos implementar formas de comunicación efectivas que nos permitieron presentar un trabajo integral, a pesar del reto que implicaron los plazos ajustados para su entrega. Asimismo, se compartieron los resultados obtenidos mediante entrevistas, donde se evidenció una respuesta positiva hacia el programa. |
 # 
 
 # **Capítulo I: Introducción** 
@@ -1880,9 +1909,9 @@ En este sprint se muestran los trabajos realizados para desplegar la primera ver
 | US19 | 1 | Visualización de registros recientes del equipo | 1 | Developer Team | In Progress |
 | US20 | 1 | Inicio de evaluación de desempeño | 1 | Developer Team | In Progress |
 | US25 | 1 | Exportación de reportes en pantalla | 1 | Developer Team | In Progress |
-| US28 | 1 | Diseño limpio y profesional que inspire confianza | 1 | Developer Team | In Progress |
-| US29 | 1 | Presentación clara y ordenada de la información | 1 | Developer Team | In Progress |
-| US30 | 1 | Navegación coherente en todas las secciones de la plataforma | 1 | Developer Team | In Progress |
+| US28 | 1 | Diseño limpio y profesional que inspire confianza | 1 | Developer Team | Done |
+| US29 | 1 | Presentación clara y ordenada de la información | 1 | Developer Team | Done |
+| US30 | 1 | Navegación coherente en todas las secciones de la plataforma | 1 | Developer Team | Done |
 
 #### **5.2.1.4. Development Evidence for Sprint Review.**
 
@@ -1939,11 +1968,181 @@ A continuación, presentaremos evidencia de la participación de los integrantes
   <img src="Images/commitstp.jpg" alt="imagen" />
 </p>
 
+u64646464646464646464uuuuuuuuuuuuuuuuffffffffffffffffffffffffffffffffffffffffffffffffffffffffkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhkikkkkkkkkkkkkkkkkkkkk7666666666666666667645454545444444444
+
+### **5.2.3. Sprint 3**
+
+#### **5.2.3.1. Sprint Planning 3\.** 
+
+A continuación se podrá apreciar la tabla del sprint planificado:
+
+| Sprint \# | Sprint 3 |
+| :---- | :---- |
+| **Sprint Planning Background**  |  |
+| Date | 2025-06-18 |
+| Time | 9:30 PM |
+| Location | Reunión virtual |
+| Prepared By | Luis Rodríguez, Gabriel Borja |
+| Attendees (to planning meeting) | Santiago Cárdenas / Gustavo Román / Luis Rodríguez / Santiago Suárez / Gabriel Borja |
+| Sprint 3 – 1 Review Summary | Durante el Sprint 3, se desarrollaron 11 historias de usuario enfocadas en el desarrollo del backend de la aplicación TalentManager. Este trabajo permitió consolidar la arquitectura de la base de datos y habilitar funcionalidades clave del sistema, como la gestión de empleados, reportes, observaciones y usuarios. Se implementaron endpoints RESTful para las entidades principales, incluyendo empleados, áreas, cargos y reportes, facilitando una integración eficaz entre el frontend y el backend. El programador Gustavo Román desempeñó un papel fundamental en la optimización de las consultas SQL y en la mejora de la estructura de la base de datos, lo que incrementó la eficiencia de las operaciones en MySQL. Gracias a estos ajustes, las operaciones de lectura y escritura se ejecutan ahora con mayor rapidez y precisión. Gabriel Borja y Luis Rodríguez colaboraron activamente en la definición de las relaciones entre tablas y en la correcta normalización de la base de datos, lo cual garantizó la integridad referencial y evitó redundancias, asegurando una estructura robusta, mantenible y escalable. Por su parte, Santiago Cárdenas y Santiago Suárez contribuyeron significativamente con la implementación de los servicios API RESTful para la gestión de reportes, observaciones y asistencias, asegurando una comunicación segura y eficiente entre los distintos componentes del sistema. Adicionalmente, se avanzó en la documentación de los endpoints utilizando Swagger y OpenAPI, lo que permitió estandarizar las rutas, mejorar la colaboración entre equipos y facilitar futuras integraciones con servicios externos. Finalmente, también se dedicaron esfuerzos a pulir aspectos del frontend previamente implementado, mejorando la coherencia visual, corrigiendo errores menores de navegación y ajustando componentes para ofrecer una experiencia de usuario más fluida e intuitiva. |
+| Sprint 3 – 1 Retrospective Summary | Durante el Sprint 3, se consolidó una base robusta para el backend de la plataforma TalentManager. El equipo avanzó significativamente en la integración de los servicios esenciales del sistema. Entre los principales logros se encuentra la optimización de la base de datos, con consultas SQL ajustadas correctamente que mejoraron considerablemente el rendimiento general del backend. La colaboración entre los integrantes permitió completar las tareas backend de forma coordinada y eficiente. En cuanto a la estructuración de las APIs, se implementaron los servicios necesarios para la gestión de empleados, reportes, observaciones y otras funcionalidades clave del sistema. En el ámbito de documentación, la implementación de Swagger y el uso del estándar OpenAPI facilitaron la integración y prueba de los endpoints, aumentando la claridad y transparencia del desarrollo. Para el siguiente sprint, se proyecta continuar con la mejora progresiva de las consultas SQL y la estructura de la base de datos, realizar correcciones menores si se detectan durante las pruebas del backend, ampliar la documentación especialmente en los endpoints más complejos, y reforzar la seguridad de la API y del acceso a datos sensibles. |
+| **Sprint Goal & User Stories**  |  |
+| Sprint 3 Goal | Our focus is on the development of the backend infrastructure for the TalentManager platform, particularly in implementing key RESTful APIs and optimizing database queries. This involves managing core entities such as employees, reports, observations, user accounts, and attendance records. We believe it delivers a robust backend system capable of handling internal interactions, processing employee-related data efficiently, and providing essential API endpoints for seamless frontend integration. Furthermore, the use of OpenAPI and Swagger supports clear documentation and paves the way for future scalability and integrations. This will be confirmed when all user stories related to backend functionalities—such as employee registration, report generation, observation logging, and attendance tracking—are fully implemented and tested. We will also validate the efficiency of the APIs and database operations to ensure they meet performance and reliability standards. |
+| Sprint 3 Velocity | 60 |
+| Sum of Story Points | 60 |
+
+#### 
+
+#### **5.2.3.2. Aspect Leaders and Collaborators.**
+
+En esta sección, el equipo desarrolló una Leadership and Collaboration Matrix (LACX) adaptada al contexto de TalentManager, con el propósito de mejorar la claridad y eficiencia en la comunicación interna. Este artefacto asigna de forma explícita a una persona líder y a sus colaboradores por cada aspecto relevante del Sprint. Dichos aspectos representan áreas clave del alcance funcional trabajado en esta iteración. La sección incluye una introducción que describe los componentes priorizados durante el Sprint y cómo el LACX permite identificar con claridad las responsabilidades compartidas y los puntos de coordinación en el equipo.
+
+Se han definido los roles de líder (L) y colaborador (C) para los integrantes del grupo en cada aspecto definido del sprint
+
+Los aspectos que se han tenido en cuenta para este sprint son:
+
+1. Bounded Context de Support
+2. Bounded Context de Employees  
+3. Bounded Context de Profiles
+4. Bounded Context de Reports
+5. Desarrollo de la base de datos
+6. Correciones frontend
+
+| Team Member (Last Name, First Name) | GitHub Username | Bounded Context de Support | Bounded Context de Employees | Bounded Context de Profiles | Bounded Context de Reports | Desarrollo de la base de datos | Correciones frontend |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| Cárdenas Concha, Santiago Iván | Sack136 | C | C | C | L | C | C |
+| Román Pajuelo, Luis Gustavo | Raizo400 | L | C | C | C | C | C |
+| Suárez Romero, Santiago Manuel | SDarXx | C | C | L | C | C | C |
+| Borja Molina, Gabriel Sebastián | borj410 | C | L | C | C | C | L |
+| Rodríguez Rodríguez, Luis Piero | luissssrr | C | C | C | C | L | C |
+
+#### 
+
+   #### **5.2.3.3. Sprint Backlog 3\.**
+
+En este sprint se muestran los trabajos realizados para desplegar la primera versión de nuestro landing page.
+
+| Sprint \# 3 |  |  |  |  |  |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| Work-Item / Task | User Story ID | Description | Estimation (Hours) | Estimation (Hours) | Assigned To / Status |
+| US17 | 1 | Registro de observaciones de comportamiento | 1 | Developer Team | In Progress |
+| US19 | 1 | Visualización de registros recientes del equipo | 3 | Developer Team | In Progress |
+| US23 | 1 | Generación de reportes mensuales | 3 | Developer Team | In Progress |
+| US24 | 1 | Reporte por criterio de evaluación | 1 | Developer Team | In Progress |
+| US20 | 1 | Inicio de evaluación de desempeño | 1 | Developer Team | In Progress |
+| US21 | 1 | Guardado automático de evaluaciones | 1 | Developer Team | In Progress |
+| US22 | 1 | Visualización de resultados por empleado | 1 | Developer Team | In Progress |
+| US25 | 1 | Exportación de reportes en pantalla | 1 | Developer Team | In Progress |
+| US11 | 1 | Registro básico de empleados | 1 | Developer Team | In Progress |
+| US12 | 1 | Edición de información del perfil | 1 | Developer Team | In Progress |
+| US13 | 1 | Visualización de perfil completo | 1 | Developer Team | In Progress |
+
+#### **5.2.3.4. Development Evidence for Sprint Review.**
+
+#### 
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| Raizo400/TalentManager-BERSS/Backend-TalentManager | master | jrn3u4 | \- | \- | 18/06/2025 |
+| SDarXx/TalentManager-BERSS/Backend-TalentManager | master | p2mf2l | \- | \- | 18/06/2025 |
+| borj410/TalentManager-BERSS/Backend-TalentManager | master | m24bd8 | \- | \- | 20/06/2025 |
+| Sack136/TalentManager-BERSS/Backend-TalentManager | master | sjf73l | \- | \- | 20/06/2025 |
+| luissssrr/TalentManager-BERSS/Backend-TalentManager | master | 4lay5i | \- | \- | 20/06/2025 |
+
+#### 
+
+#### **5.2.3.5. Execution Evidence for Sprint Review.**
+
+Durante el Sprint 3, se desarrollaron 11 historias de usuario centradas en la elaboración del apartado backend de las mismas, asi mismo se corrigieron cosas del apartado frontend.
+
+#### **5.2.3.6. Services Documentation Evidence for Sprint Review.**
+
+
+#### **5.2.3.7. Software Deployment Evidence for Sprint Review.**
+
+
+#### **5.2.3.8. Team Collaboration Insights during Sprint.** 
+
+## **5.3. Validation Interviews.**
+
+
+
+### **5.3.1. Diseño de Entrevistas.**
+
+**Segmento Objetivo #1: Supervisores operativos y jefes de área**
+
+- Acerca del entrevistado:
+
+¿Cuál es tu nombre y cuál es tu rol actual dentro de la empresa?
+¿Con cuántas personas tienes que trabajar directamente a cargo tuyo?
+¿Cómo sueles llevar el registro del desempeño de tu equipo? (por ejemplo: asistencia, observaciones, cumplimiento)
+¿Usas actualmente alguna herramienta o app para estas tareas? ¿Cuál y qué ventajas/desventajas tiene?
+
+- Landing Page:
+
+¿Qué entendiste que ofrece TalentManager?
+¿Crees que esta plataforma te ayudaría en tu día a día como supervisor?
+¿Qué mejorarías en la página para que sea más clara o útil para alguien como tú?
+
+- Aplicación web:
+
+¿Qué impresión general te dio la plataforma TalentManager?
+¿Te parece útil para evaluar el desempeño del equipo y hacer seguimiento de manera rápida?
+¿Fue sencillo identificar dónde dejar observaciones, ver asistencias o consultar reportes?
+¿Qué tan útil te resultaría automatizar reportes y tener acceso a toda la información desde un solo lugar?
+¿Agregarías alguna función o mejorarías algo para que sea más funcional en tus labores diarias?
+
+- Cierre:
+
+¿Qué es lo que más te gustó de TalentManager?
+¿Lo usarías para gestionar el rendimiento de tu equipo? ¿Por qué?
+
+**Segmento Objetivo #2: Gerentes de RR. HH. y directivos estratégicos**
+
+- Acerca del entrevistado:
+
+¿Cuál es tu nombre y en qué área trabajas actualmente?
+¿Qué tipo de decisiones estratégicas sueles tomar respecto al personal (evaluaciones, ascensos, capacitaciones...)?
+¿Qué herramientas usas hoy para acceder a información clave del personal?
+¿Qué tan difícil o fácil es actualmente obtener datos precisos sobre el desempeño de los empleados?
+
+- Landing Page:
+
+¿Qué entendiste que ofrece TalentManager?
+¿Consideras que esta plataforma aporta valor para la toma de decisiones en gestión del talento?
+¿Qué mejorarías en la página para que transmita mejor su propuesta estratégica?
+
+- Aplicación web:
+
+¿Qué impresión general te dio TalentManager?
+¿Crees que facilita la obtención de datos cuantificables y actualizados para tus decisiones?
+¿Fue clara la presentación de los módulos de evaluación, reportes y visualización de desempeño?
+¿Te resultaría útil personalizar criterios de evaluación y generar reportes automáticos por área o perfil?
+¿Qué características te parecerían esenciales para asegurar su adopción en el entorno corporativo?
+
+- Cierre:
+
+¿Qué fue lo que más te llamó la atención de TalentManager?
+¿Considerarías implementar esta plataforma en tu organización? ¿Por qué?
+
+### **5.3.2. Registro de Entrevistas.**
+
+
+
+### **5.3.3. Evaluaciones según heurísticas.**
+
+
+
+### **5.4. Video About-the-Product**
+
+
+
+### **5.5. Video About-the-Team**
 
 # **CONCLUSIONES**
 
 # **Conclusiones y recomendaciones:**
-1. Fuerte necesidad de centralización de datos: Tanto supervisores como gerentes destacan que actualmente manejan la información del desempeño de manera dispersa (cuadernos, Excel, múltiples plataformas), dificultando el control y análisis eficiente.
+1. Fuerte necesidad de centralización de datos: Tanto supervisores como gerentes destacan que actualmente manejan la información del desempeño de manera dispersa, dificultando el control y análisis eficiente.
 
 2. Alta disposición a adoptar TalentManager: Los usuarios entrevistados (supervisores y gerentes) muestran interés real en usar una plataforma que automatice evaluaciones, facilite reportes y permita ahorrar tiempo.
 
