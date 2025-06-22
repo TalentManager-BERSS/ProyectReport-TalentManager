@@ -1991,8 +1991,6 @@ A continuación, presentaremos evidencia de la participación de los integrantes
   <img src="Images/commitstp.jpg" alt="imagen" />
 </p>
 
-u64646464646464646464uuuuuuuuuuuuuuuuffffffffffffffffffffffffffffffffffffffffffffffffffffffffkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhkikkkkkkkkkkkkkkkkkkkk7666666666666666667645454545444444444
-
 ### **5.2.3. Sprint 3**
 
 #### **5.2.3.1. Sprint Planning 3\.** 
