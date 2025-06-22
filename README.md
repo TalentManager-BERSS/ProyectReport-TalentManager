@@ -2107,8 +2107,6 @@ Durante el Sprint 3, se desarrollaron 11 historias de usuario centradas en la el
 
 ¿Qué impresión general te dio la plataforma TalentManager?
 ¿Te parece útil para evaluar el desempeño del equipo y hacer seguimiento de manera rápida?
-¿Fue sencillo identificar dónde dejar observaciones, ver asistencias o consultar reportes?
-¿Qué tan útil te resultaría automatizar reportes y tener acceso a toda la información desde un solo lugar?
 ¿Agregarías alguna función o mejorarías algo para que sea más funcional en tus labores diarias?
 
 - Cierre:
@@ -2121,7 +2119,7 @@ Durante el Sprint 3, se desarrollaron 11 historias de usuario centradas en la el
 - Acerca del entrevistado:
 
 ¿Cuál es tu nombre y en qué área trabajas actualmente?
-¿Qué tipo de decisiones estratégicas sueles tomar respecto al personal (evaluaciones, ascensos, capacitaciones...)?
+¿Qué tipo de decisiones estratégicas sueles tomar respecto al personal?
 ¿Qué herramientas usas hoy para acceder a información clave del personal?
 ¿Qué tan difícil o fácil es actualmente obtener datos precisos sobre el desempeño de los empleados?
 
@@ -2135,8 +2133,6 @@ Durante el Sprint 3, se desarrollaron 11 historias de usuario centradas en la el
 
 ¿Qué impresión general te dio TalentManager?
 ¿Crees que facilita la obtención de datos cuantificables y actualizados para tus decisiones?
-¿Fue clara la presentación de los módulos de evaluación, reportes y visualización de desempeño?
-¿Te resultaría útil personalizar criterios de evaluación y generar reportes automáticos por área o perfil?
 ¿Qué características te parecerían esenciales para asegurar su adopción en el entorno corporativo?
 
 - Cierre:
