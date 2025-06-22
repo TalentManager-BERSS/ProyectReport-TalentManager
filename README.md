@@ -2464,9 +2464,9 @@ MySQL fue configurado en el servidor de producción para manejar un volumen de d
 
 La base de datos está en MySQL y se implementaron todas las relaciones necesarias entre las tablas para garantizar la integridad de los datos. Además, se llevaron a cabo pruebas de rendimiento en las consultas de la base de datos para asegurar que las operaciones de lectura y escritura fueran rápidas y escalables.
 
-5. Despliegue en Azure:
+5. Despliegue en Netlify:
 
-El proyecto fue publicado en Azure, configurando los recursos necesarios para garantizar el funcionamiento correcto de la API en la nube, con escalabilidad y alta disponibilidad.
+Si bien el equipo planeaba subirlo en Azure, se terminó eligiendo netlify por problemas en los intentos.
 
 Este conjunto de actividades garantizó que el backend de TalentManager estuviera correctamente implementado, optimizado para el entorno de producción y disponible para su uso continuo.
 
