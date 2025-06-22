@@ -2442,6 +2442,8 @@ Durante el Sprint 3, el equipo se centró en el desarrollo y despliegue de las f
 
 1. Se creo el repositorio para el backend: [https://github.com/TalentManager-BERSS/Backend-TalentManager](https://github.com/TalentManager-BERSS/Backend-TalentManager)
 
+2. Se logró publicar los web services del backend: [https://backend-talentmanager-production.up.railway.app/swagger-ui/index.html](https://backend-talentmanager-production.up.railway.app/swagger-ui/index.html) 
+
 Actividades de Despliegue:
 
 1. Desarrollo de la API Backend:
@@ -2935,3 +2937,5 @@ Link del video About-the-Product: [https://upcedupe-my.sharepoint.com/personal/u
 Aplicación Web en Netlify: [https://talentmanager.netlify.app/](https://talentmanager.netlify.app/)
 
 Repositorio de backend: [https://github.com/TalentManager-BERSS/Backend-TalentManager](https://github.com/TalentManager-BERSS/Backend-TalentManager)
+
+Link de web services de backend publicado: [https://backend-talentmanager-production.up.railway.app/swagger-ui/index.html](https://backend-talentmanager-production.up.railway.app/swagger-ui/index.html)
