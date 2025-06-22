@@ -1899,7 +1899,7 @@ En este sprint, el equipo realizó el despliegue de la landing page del proyecto
 
 1. Se creó un repositorio público en github: [https://github.com/TalentManager-BERSS/LandingPage-TalentManager](https://github.com/TalentManager-BERSS/LandingPage-TalentManager)
 
-2. Se publicó la landing page en netlify: https://landingpagetalentmanager.netlify.app/
+2. Se publicó la landing page en netlify: [https://talentmanagerlandingpage.netlify.app/](https://talentmanagerlandingpage.netlify.app/)
 
 3. Gracias al uso de netlify, la landing page está en nube.
 
@@ -2021,9 +2021,9 @@ Las fake APIs fueron integradas desde dos fuentes principales:
 
 En este sprint, el equipo realizó el despliegue de la aplicación web del proyecto
 
-1. Se creó un repositorio público en github: https://github.com/TalentManager-BERSS/WebApplication-TalentManager
+1. Se creó un repositorio público en github: [https://github.com/TalentManager-BERSS/WebApplication-TalentManager](https://github.com/TalentManager-BERSS/WebApplication-TalentManager)
 
-2. En este link se puede ver la aplicación publicada en la nube: https://talentmanagerpage.netlify.app/
+2. En este link se puede ver la aplicación publicada en la nube: [https://talentmanager.netlify.app/](https://talentmanager.netlify.app/)
 
 3. Gracias al uso de Netlify, se puede ver todo desde la nube.
 
@@ -2152,7 +2152,7 @@ Durante el Sprint 3, se desarrollaron 11 historias de usuario centradas en la el
 Durante el Sprint 3, el equipo de desarrollo centró sus esfuerzos en consolidar el backend de TalentManager, utilizando Java con Spring Boot como tecnología principal y MySQL como sistema gestor de base de datos. Se implementaron múltiples endpoints RESTful conforme a las rutas documentadas en Swagger, lo cual permitió una interacción clara, estructurada y eficiente con los datos de reportes y resúmenes mensuales de rendimiento del personal.
 
 Actividades realizadas:
-Arquitectura Backend: Se definieron y desarrollaron los endpoints necesarios para gestionar entidades clave como reportes y resúmenes mensuales de empleados. Los endpoints siguen una estructura clara y RESTful, tales como:
+Arquitectura Backend: Se definieron y desarrollaron los endpoints necesarios para gestionar entidades clave como reportes y resúmenes mensuales de empleados. Los endpoints siguen una estructura clara y RESTful, tales como por ejemplo:
 
 - /api/v1/reports para el manejo de reportes individuales y por empresa.
 
@@ -2378,6 +2378,9 @@ Santiago Campos, director estratégico de desarrollo organizacional, indicó que
 # **CONCLUSIONES**
 
 # **Conclusiones y recomendaciones:**
+
+**Conclusiones:**
+
 1. Fuerte necesidad de centralización de datos: Tanto supervisores como gerentes destacan que actualmente manejan la información del desempeño de manera dispersa, dificultando el control y análisis eficiente.
 
 2. Alta disposición a adoptar TalentManager: Los usuarios entrevistados (supervisores y gerentes) muestran interés real en usar una plataforma que automatice evaluaciones, facilite reportes y permita ahorrar tiempo.
@@ -2397,6 +2400,30 @@ Santiago Campos, director estratégico de desarrollo organizacional, indicó que
 9.Oportunidad de destacar frente a la competencia: TalentManager tiene una ventaja competitiva si refuerza su diferenciador de "reportes automáticos personalizados" y "flexibilidad de uso en cualquier dispositivo".
 
 10. Contribución a mejorar el clima organizacional: Al facilitar procesos de evaluación más transparentes y rápidos, TalentManager puede ayudar indirectamente a mejorar la motivación, la percepción de justicia interna y la productividad laboral.
+
+11. Backend robusto con Java/Spring Boot: El proyecto cuenta con un backend sólido desarrollado en Java utilizando el framework Spring Boot como núcleo tecnológico. Esta elección ha permitido implementar la lógica de negocio de forma estructurada y escalable, consolidándose gradualmente a lo largo de los sprints para garantizar un rendimiento confiable. La arquitectura backend establecida sienta las bases para integrar eficientemente las demás capas del sistema y manejar un volumen considerable de operaciones sin degradar la performance.
+
+12. Base de datos relacional en MySQL optimizada: La plataforma emplea MySQL como sistema gestor de base de datos, con un esquema relacional cuidadosamente diseñado y normalizado para asegurar integridad y eficiencia. Durante el desarrollo se optimizaron las consultas SQL y se definieron apropiadamente las relaciones entre tablas, garantizando la integridad referencial y minimizando redundancias. Gracias a estas mejoras en la estructura de datos, las operaciones de lectura y escritura son más rápidas y confiables, incluso al manejar conjuntos de datos crecientes relacionados con evaluaciones y reportes de desempeño.
+   
+13. APIs RESTful bien definidas e integradas: El sistema expone una interfaz de servicios web RESTful que conecta el frontend con el backend de manera clara y consistente. Se implementaron múltiples endpoints REST para las principales entidades del dominio (como empleados, reportes, asistencias, etc.), siguiendo convenciones estandarizadas y documentadas (usando Swagger) que facilitan la comunicación estructurada entre cliente y servidor. Esta integración API-first permitió una interacción eficiente con los datos de desempeño y sienta las bases para extender la plataforma o integrarla con servicios externos en el futuro.
+    
+14. Experiencia de usuario enfocada en la usabilidad: El frontend de TalentManager ofrece una interfaz intuitiva y amigable, resultado de un diseño coherente centrado en la usabilidad. Se aplicaron guías de estilo uniformes que garantizan consistencia visual en todas las secciones, y a lo largo del proyecto se introdujeron mejoras como la optimización de formularios, la corrección de errores de navegación y la incorporación de componentes visuales (ej. paneles gráficos de rendimiento). Estas acciones han producido una experiencia de usuario más fluida, responsiva y accesible, facilitando la interacción con los datos de evaluación de forma sencilla y rápida
+
+15. Validación con usuarios finales y retroalimentación positiva: El equipo llevó a cabo entrevistas y pruebas de concepto con usuarios reales de los segmentos objetivo (supervisores operativos y gerentes de RR.HH.) para validar la propuesta. Los supervisores enfatizaron la necesidad de centralizar la información dispersa y automatizar los reportes de desempeño, manifestando una alta disposición a adoptar TalentManager siempre que cumpliera con la promesa de mejorar la eficiencia y simplicidad de sus tareas diarias. De igual modo, los gerentes de recursos humanos valoraron la generación de métricas objetivas en tiempo real y la personalización de criterios, considerando la plataforma como una solución estratégica que implementarían si garantiza estos aspectos clave, dado que les permitiría tomar decisiones más informadas y reducir la subjetividad en la evaluación del personal
+
+**Recomendaciones:**
+
+1. Reforzar la seguridad de la plataforma, implementando autenticación robusta (p. ej., OAuth2/JWT) y encriptación de datos sensibles; además, establecer controles de acceso más granulares para proteger la información confidencial en todas las capas del sistema.
+   
+2. Optimizar el rendimiento y la escalabilidad, realizando pruebas de carga y ajustando las consultas SQL y la estructura de la base de datos; considerar mecanismos de caché y balanceo de carga que aseguren respuestas ágiles incluso con un volumen creciente de usuarios y datos.
+   
+3. Ampliar las capacidades de reporte y análisis, incorporando métricas avanzadas e indicadores personalizables, así como funciones de analítica predictiva que identifiquen tendencias de desempeño y brinden alertas o recomendaciones proactivas para la toma de decisiones en gestión de talento.
+   
+4. Integrar la plataforma con sistemas externos de RR.HH., mediante APIs o servicios web, para automatizar el intercambio de datos con herramientas de nómina, asistencia u otros sistemas corporativos y evitar la duplicidad de información en diferentes plataformas.
+   
+5. Perfeccionar la experiencia de usuario, incorporando mejoras sugeridas por los usuarios (por ejemplo, interfaces aún más simplificadas, ayudas interactivas en pantalla) e implementando una aplicación móvil nativa o una versión web progresiva que facilite el acceso y uso de TalentManager desde cualquier dispositivo.
+   
+6. Fortalecer la documentación y soporte al usuario, elaborando manuales de uso claros y tutoriales prácticos para administradores y empleados, así como ampliando la documentación técnica (incluyendo guías de instalación, APIs y mejores prácticas de desarrollo). Esto facilitará la adopción de la plataforma en nuevas organizaciones y simplificará el mantenimiento evolutivo por parte del equipo de desarrollo.
 
 # **BIBLIOGRAFÍA**
 
@@ -2419,4 +2446,12 @@ Diseño en Figma (Landing Page y Aplicación): [https://www.figma.com/design/lvq
 
 Diseño de diagrama de clases en Lucidchart: [https://lucid.app/lucidchart/7d41f66c-c90d-4228-8ea3-ba014fa01a78/edit?viewport\_loc=-11%2C-11%2C2217%2C1095%2C0\_0\&invitationId=inv\_f4654d3b-896d-4f20-afe1-43cb9da45fda](https://lucid.app/lucidchart/7d41f66c-c90d-4228-8ea3-ba014fa01a78/edit?viewport_loc=-11%2C-11%2C2217%2C1095%2C0_0&invitationId=inv_f4654d3b-896d-4f20-afe1-43cb9da45fda)
 
-Link del video de exposición TB1: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/ETT6y7080ZNMrHRvPkg200sBo9hlJ-gUACmhu079nKifUw?e=viqfna&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Link del video de exposición TB1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/ETT6y7080ZNMrHRvPkg200sBo9hlJ-gUACmhu079nKifUw?e=viqfna&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/ETT6y7080ZNMrHRvPkg200sBo9hlJ-gUACmhu079nKifUw?e=viqfna&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Repositorio de landing page: [https://github.com/TalentManager-BERSS/LandingPage-TalentManager](https://github.com/TalentManager-BERSS/LandingPage-TalentManager)
+
+Landing Page en Netlify: [https://talentmanagerlandingpage.netlify.app/](https://talentmanagerlandingpage.netlify.app/)
+
+Repositorio de aplicación web: [https://github.com/TalentManager-BERSS/WebApplication-TalentManager](https://github.com/TalentManager-BERSS/WebApplication-TalentManager)
+
+Aplicación Web en Netlify: [https://talentmanager.netlify.app/](https://talentmanager.netlify.app/)
