@@ -2781,7 +2781,9 @@ Recomendación: Incluir testimonios con resultados (por ejemplo: “Aumentamos e
 
 ### **5.5. Video About-the-Team**
 
+Para conocer mejor al equipo, se elaboró un video About-the-Team con todos los integrantes, presentadose a si mismos y explicando su labor en el trabajo, asi mismo, se explicó como fue la experiencia del trabajo en equipo
 
+Link del video About-the-Team: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/EUisLAnTMFhAgK0LQpmiF6kBO1tJuY9vsLStgvH9K053AA?e=NtbUv8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/EUisLAnTMFhAgK0LQpmiF6kBO1tJuY9vsLStgvH9K053AA?e=NtbUv8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 # **CONCLUSIONES**
 
@@ -2866,6 +2868,8 @@ Repositorio de frontend: [https://github.com/TalentManager-BERSS/WebApplication-
 
 Link de video de entrevistas de validación: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EY11eVZoW1ZDjzjTdxHHFGMBwDXMHBpD5Opcfmf_nfb31g?e=EekSdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EY11eVZoW1ZDjzjTdxHHFGMBwDXMHBpD5Opcfmf_nfb31g?e=EekSdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Link del video About-the-Team: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/EUisLAnTMFhAgK0LQpmiF6kBO1tJuY9vsLStgvH9K053AA?e=NtbUv8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/EUisLAnTMFhAgK0LQpmiF6kBO1tJuY9vsLStgvH9K053AA?e=NtbUv8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 Aplicación Web en Netlify: [https://talentmanager.netlify.app/](https://talentmanager.netlify.app/)
 
