@@ -2242,6 +2242,61 @@ En lugar de depender de una API falsa, el equipo implementó una API RESTful con
   <img src="Images/api5.png" alt="imagen" />
 </p>
 
+<p align="center">
+  <img src="Images/develop1.png" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/develop2.png" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/develop3.png" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/develop4.png" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/develop5.png" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/develop6.png" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/develop7.png" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/develop8.png" alt="imagen" />
+</p>
+<p align="center">
+  <img src="Images/develop9.png" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/develop10.png" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/develop11.png" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/develop12.png" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/develop13.png" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/develop14.png" alt="imagen" />
+</p>
+
 1. Empleados (Employees)
 Operaciones CRUD soportadas:
 
