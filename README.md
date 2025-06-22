@@ -2338,6 +2338,10 @@ En lugar de depender de una API falsa, el equipo implementó una API RESTful con
   <img src="Images/develop14.png" alt="imagen" />
 </p>
 
+<p align="center">
+  <img src="Images/develop15.png" alt="imagen" />
+</p>
+
 1. Empleados (Employees)
 Operaciones CRUD soportadas:
 
@@ -2764,7 +2768,13 @@ Heurística violada: Flexibilidad y eficiencia de uso
 
 Problema: Usuarios como supervisores desean usar la aplicación desde el celular.
 
-Recomendación: Implementar una versión móvil con acceso rápido a funciones básicas como faltas o comentarios del día.
+Figura:
+
+<p align="center">
+  <img src="Images/figura1.png" alt="img" />
+</p>
+
+Recomendación: Implementar una versión móvil.
 
 - PROBLEMA #2
   
@@ -2773,6 +2783,10 @@ Severidad: 3
 Heurística violada: Control y libertad del usuario
 
 Problema: No existe un botón para registrar incidentes o eventos críticos rápidamente.
+
+<p align="center">
+  <img src="Images/figura2.png" alt="img" />
+</p>
 
 Recomendación: Agregar un botón flotante o accesible desde el menú lateral para registrar incidentes urgentes.
 
@@ -2784,6 +2798,10 @@ Heurística violada: Ayuda y documentación
 
 Problema: La landing page no contiene ejemplos de reportes o testimonios visuales.
 
+<p align="center">
+  <img src="Images/figura3.png" alt="img" />
+</p>
+
 Recomendación: Agregar capturas o videos de dashboards y testimonios reales en la primera vista.
 
 - PROBLEMA #4
@@ -2793,6 +2811,10 @@ Severidad: 3
 Heurística violada: Visibilidad del estado del sistema
 
 Problema: No se visualiza ninguna alerta automática de bajo rendimiento, lo que impide una acción proactiva.
+
+<p align="center">
+  <img src="Images/figura4.png" alt="img" />
+</p>
 
 Recomendación: Integrar alertas visuales automáticas cuando ciertos indicadores (ej. asistencia o cumplimiento) bajen de un umbral.
 
@@ -2804,15 +2826,21 @@ Heurística violada: Ayuda y documentación
 
 Problema: No se incluyen cifras de impacto ni casos de éxito en el proceso de incorporación.
 
+<p align="center">
+  <img src="Images/figura5.png" alt="img" />
+</p>
+
 Recomendación: Incluir testimonios con resultados (por ejemplo: “Aumentamos el control operativo en 40%”) en la landing inicial.
 
 ### **5.4. Video About-the-Product**
 
+Para ofrecer de buena manera el producto, se realizó un video About-the-Product:
 
+Link del video About-the-Product: [https://upcedupe-my.sharepoint.com/personal/u202311532_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202311532%5Fupc%5Fedu%5Fpe%2FDocuments%2F2025%2D06%2D22%2013%2D56%2D22%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E73f0ac0b%2D7253%2D4c13%2D86ac%2D11576cc80a6f](https://upcedupe-my.sharepoint.com/personal/u202311532_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202311532%5Fupc%5Fedu%5Fpe%2FDocuments%2F2025%2D06%2D22%2013%2D56%2D22%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E73f0ac0b%2D7253%2D4c13%2D86ac%2D11576cc80a6f)
 
 ### **5.5. Video About-the-Team**
 
-Para conocer mejor al equipo, se elaboró un video About-the-Team con todos los integrantes, presentadose a si mismos y explicando su labor en el trabajo, asi mismo, se explicó como fue la experiencia del trabajo en equipo
+Para conocer mejor al equipo, se elaboró un video About-the-Team con todos los integrantes, presentadose a si mismos y explicando su labor en el trabajo, asi mismo, se explicó como fue la experiencia del trabajo en equipo:
 
 Link del video About-the-Team: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/EUisLAnTMFhAgK0LQpmiF6kBO1tJuY9vsLStgvH9K053AA?e=NtbUv8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/EUisLAnTMFhAgK0LQpmiF6kBO1tJuY9vsLStgvH9K053AA?e=NtbUv8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
@@ -2901,6 +2929,8 @@ Link de video de entrevistas de validación: [https://upcedupe-my.sharepoint.com
 ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EY11eVZoW1ZDjzjTdxHHFGMBwDXMHBpD5Opcfmf_nfb31g?e=EekSdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 Link del video About-the-Team: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/EUisLAnTMFhAgK0LQpmiF6kBO1tJuY9vsLStgvH9K053AA?e=NtbUv8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/EUisLAnTMFhAgK0LQpmiF6kBO1tJuY9vsLStgvH9K053AA?e=NtbUv8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Link del video About-the-Product: [https://upcedupe-my.sharepoint.com/personal/u202311532_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202311532%5Fupc%5Fedu%5Fpe%2FDocuments%2F2025%2D06%2D22%2013%2D56%2D22%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E73f0ac0b%2D7253%2D4c13%2D86ac%2D11576cc80a6f](https://upcedupe-my.sharepoint.com/personal/u202311532_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202311532%5Fupc%5Fedu%5Fpe%2FDocuments%2F2025%2D06%2D22%2013%2D56%2D22%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E73f0ac0b%2D7253%2D4c13%2D86ac%2D11576cc80a6f)
 
 Aplicación Web en Netlify: [https://talentmanager.netlify.app/](https://talentmanager.netlify.app/)
 
