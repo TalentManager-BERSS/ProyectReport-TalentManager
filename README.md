@@ -1582,6 +1582,13 @@ Diagrama de contexto de front-end:
   <img src="Images/contextofrontend.png" alt="imagen" />
 </p>
 
+Diagrama de contexto de back-end:
+
+<p align="center">
+  <img src="Images/contextobackend.png" alt="imagen" />
+</p>
+
+
 ### **4.6.2. Software Architecture Container Diagrams.** 
 
 <p align="center">
@@ -1594,6 +1601,12 @@ Diagrama de contenedores de front-end:
   <img src="Images/contenedoresfrontend.png" alt="imagen" />
 </p>
 
+Diagrama de contenedores de back-end:
+
+<p align="center">
+  <img src="Images/contenedoresbackend.png" alt="imagen" />
+</p>
+
 ### **4.6.3. Software Architecture Components Diagrams.** 
 
 <p align="center">
@@ -1604,6 +1617,12 @@ Diagrama de componentes de front-end:
 
 <p align="center">
   <img src="Images/componentesfrontend.png" alt="imagen" />
+</p>
+
+Diagrama de componentes de back-end:
+
+<p align="center">
+  <img src="Images/componentesbackend.png" alt="imagen" />
 </p>
 
 # **4.7.Software Object-Oriented Design.** 
@@ -1620,7 +1639,7 @@ Diagrama de componentes de front-end:
 
 **Diagrama de clases de back-end:**
 <p align="center">
-  <img src="Images/diagramaclasesbackend.jpg" alt="imagen" />
+  <img src="Images/diagramaclasesbackend.png" alt="imagen" />
 </p>
 
 ### **4.7.2. Class Dictionary.** 
