@@ -2748,7 +2748,7 @@ TABLA RESUMEN:
 
 | #  | Problema                                                                                          | Escala de severidad | Heurística violada                    |
 |----|---------------------------------------------------------------------------------------------------|---------------------|---------------------------------------|
-| 1  | No hay versión móvil funcional para registrar observaciones rápidamente.                         | 3                   | Flexibilidad y eficiencia de uso      |
+| 1  | No hay versión móvil funcional                                                                   | 3                   | Flexibilidad y eficiencia de uso      |
 | 2  | No existe opción rápida para registrar incidentes urgentes.                                      | 3                   | Control y libertad del usuario        |
 | 3  | No se visualizan ejemplos visuales ni dashboards en la landing inicial.                          | 2                   | Ayuda y documentación                 |
 | 4  | No hay sistema de alertas de bajo rendimiento.                                                   | 3                   | Visibilidad del estado del sistema    |
@@ -2762,7 +2762,7 @@ Severidad: 3
 
 Heurística violada: Flexibilidad y eficiencia de uso
 
-Problema: Usuarios como supervisores desean registrar observaciones o marcar faltas rápidamente desde el celular.
+Problema: Usuarios como supervisores desean usar la aplicación desde el celular.
 
 Recomendación: Implementar una versión móvil con acceso rápido a funciones básicas como faltas o comentarios del día.
 
