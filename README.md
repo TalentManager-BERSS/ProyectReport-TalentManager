@@ -2367,6 +2367,97 @@ Lukas Coronado, gerente de Recursos Humanos, expresó que se encarga de promocio
 
 Santiago Campos, director estratégico de desarrollo organizacional, indicó que suele tomar decisiones clave como reestructuras, promociones y definiciones de perfiles. Actualmente depende de Power BI y reportes manuales, lo que dificulta obtener datos estandarizados y actualizados. Al revisar la landing page, comprendió que TalentManager centraliza evaluaciones y trazabilidad de desempeño. Considera que añadir casos de éxito con resultados visibles ayudaría a reforzar su propuesta estratégica. Destacó que la plataforma se ve moderna y funcional, con paneles que permiten un análisis rápido. Valora especialmente la disponibilidad móvil y la auditoría de datos como factores esenciales. Para él, lo más atractivo fue su enfoque estratégico que convierte la información operativa en decisiones sólidas. La adoptaría sin dudar, ya que ayudaría a escalar la gestión del talento con precisión.
 
+### **5.3.3. Evaluaciones según heurísticas**
+
+TAREAS A EVALUAR:
+
+- Ingreso y autenticación de usuarios
+
+- Navegación por panel lateral
+
+- Registro de empleados
+
+- Gestión de empleados
+
+- Generación de reportes y métricas
+
+- Panel de análisis por ingresos
+
+- Visualización de equipos e ingresos
+
+- Acceso a soporte técnico
+
+ESCALA DE SEVERIDAD:
+
+| Nivel | Descripción                                             |
+|-------|---------------------------------------------------------|
+| 1     | Problema superficial, fácilmente evitable.              |
+| 2     | Problema menor, poco frecuente pero molesto.            |
+| 3     | Problema mayor, frecuente o difícil de sortear.         |
+| 4     | Problema muy grave, impide continuar con el uso.        |
+
+TABLA RESUMEN:
+
+| #  | Problema                                                                                          | Escala de severidad | Heurística violada                    |
+|----|---------------------------------------------------------------------------------------------------|---------------------|---------------------------------------|
+| 1  | No hay versión móvil funcional para registrar observaciones rápidamente.                         | 3                   | Flexibilidad y eficiencia de uso      |
+| 2  | No existe opción rápida para registrar incidentes urgentes.                                      | 3                   | Control y libertad del usuario        |
+| 3  | No se visualizan ejemplos visuales ni dashboards en la landing inicial.                          | 2                   | Ayuda y documentación                 |
+| 4  | No hay sistema de alertas de bajo rendimiento.                                                   | 3                   | Visibilidad del estado del sistema    |
+| 5  | No se muestra trazabilidad ni historial de cambios.                                              | 2                   | Prevención de errores                 |
+| 6  | El sistema no muestra compatibilidad con otros sistemas (ej. Excel, Power BI).                   | 2                   | Flexibilidad y eficiencia de uso      |
+| 7  | No hay casos de éxito ni cifras de impacto visibles en el onboarding.                            | 1                   | Ayuda y documentación                 |
+
+- PROBLEMA #1
+  
+Severidad: 3
+
+Heurística violada: Flexibilidad y eficiencia de uso
+
+Problema: Usuarios como supervisores desean registrar observaciones o marcar faltas rápidamente desde el celular.
+
+Recomendación: Implementar una versión móvil con acceso rápido a funciones básicas como faltas o comentarios del día.
+
+- PROBLEMA #2
+  
+Severidad: 3
+
+Heurística violada: Control y libertad del usuario
+
+Problema: No existe un botón para registrar incidentes o eventos críticos rápidamente.
+
+Recomendación: Agregar un botón flotante o accesible desde el menú lateral para registrar incidentes urgentes.
+
+- PROBLEMA #3
+  
+Severidad: 2
+
+Heurística violada: Ayuda y documentación
+
+Problema: La landing page no contiene ejemplos de reportes o testimonios visuales.
+
+Recomendación: Agregar capturas o videos de dashboards y testimonios reales en la primera vista.
+
+- PROBLEMA #4
+
+Severidad: 3
+
+Heurística violada: Visibilidad del estado del sistema
+
+Problema: No se visualiza ninguna alerta automática de bajo rendimiento, lo que impide una acción proactiva.
+
+Recomendación: Integrar alertas visuales automáticas cuando ciertos indicadores (ej. asistencia o cumplimiento) bajen de un umbral.
+
+- PROBLEMA #5
+
+Severidad: 1
+
+Heurística violada: Ayuda y documentación
+
+Problema: No se incluyen cifras de impacto ni casos de éxito en el proceso de incorporación.
+
+Recomendación: Incluir testimonios con resultados (por ejemplo: “Aumentamos el control operativo en 40%”) en la landing inicial.
+
 ### **5.4. Video About-the-Product**
 
 
