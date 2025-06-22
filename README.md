@@ -1618,6 +1618,11 @@ Diagrama de componentes de front-end:
   <img src="Images/diagramadeclasesfrontend.png" alt="img" />
 </p>
 
+**Diagrama de clases de back-end:**
+<p align="center">
+  <img src="Images/diagramaclasesbackend.jpg" alt="imagen" />
+</p>
+
 ### **4.7.2. Class Dictionary.** 
 * Employee: Entidad que representa a un trabajador registrado en la plataforma. Contiene datos como nombre, posición, email y equipo. Puede actualizar su información y retornar un resumen.
 * EmployeeManagementService: Servicio responsable de registrar, actualizar, eliminar y listar empleados. Encapsula la lógica relacionada a la gestión del ciclo de vida del empleado.
