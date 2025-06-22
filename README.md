@@ -2222,6 +2222,26 @@ En lugar de depender de una API falsa, el equipo implementó una API RESTful con
 | /api/v1/notifications/{id} | Obtener una notificación específica. | GET | GET /api/v1/notifications/{id} | id (Integer) | GET /api/v1/notifications/1 | `{"id":1,"title":"Nuevo mensaje","content":"Tienes un nuevo mensaje en tu cuenta","isRead":false}` | Obtiene los detalles de una notificación utilizando su ID. |
 | /api/v1/notifications/hide-all | Ocultar todas las notificaciones de un usuario. | PATCH | PATCH /api/v1/notifications/hide-all | userClientId (Integer) | PATCH /api/v1/notifications/hide-all | `{"message": "Todas las notificaciones se han ocultado."}` | Oculta todas las notificaciones activas de un usuario sin eliminarlas físicamente. |
 
+<p align="center">
+  <img src="Images/api1.png" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/api2.png" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/api3.png" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/api4.png" alt="imagen" />
+</p>
+
+<p align="center">
+  <img src="Images/api5.png" alt="imagen" />
+</p>
+
 1. Empleados (Employees)
 Operaciones CRUD soportadas:
 
@@ -2319,6 +2339,8 @@ El Sprint 3 ha sido fundamental para el backend de TalentManager, estableciendo 
 #### **5.2.3.7. Software Deployment Evidence for Sprint Review.**
 
 Durante el Sprint 3, el equipo se centró en el desarrollo y despliegue de las funcionalidades backend para la aplicación web TalentManager. A continuación, se detallan los pasos realizados para asegurar que el backend estuviera correctamente implementado y desplegado en el entorno de producción.
+
+1. Se creo el repositorio para el backend: [https://github.com/TalentManager-BERSS/Backend-TalentManager](https://github.com/TalentManager-BERSS/Backend-TalentManager)
 
 Actividades de Despliegue:
 
@@ -2742,6 +2764,8 @@ Repositorio de landing page: [https://github.com/TalentManager-BERSS/LandingPage
 
 Landing Page en Netlify: [https://talentmanagerlandingpage.netlify.app/](https://talentmanagerlandingpage.netlify.app/)
 
-Repositorio de aplicación web: [https://github.com/TalentManager-BERSS/WebApplication-TalentManager](https://github.com/TalentManager-BERSS/WebApplication-TalentManager)
+Repositorio de frontend: [https://github.com/TalentManager-BERSS/WebApplication-TalentManager](https://github.com/TalentManager-BERSS/WebApplication-TalentManager)
 
 Aplicación Web en Netlify: [https://talentmanager.netlify.app/](https://talentmanager.netlify.app/)
+
+Repositorio de backend: [https://github.com/TalentManager-BERSS/Backend-TalentManager](https://github.com/TalentManager-BERSS/Backend-TalentManager)
