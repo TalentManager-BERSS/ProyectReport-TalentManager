@@ -2093,25 +2093,33 @@ Durante el Sprint 3, se desarrollaron 11 historias de usuario centradas en la el
 - Acerca del entrevistado:
 
 ¿Cuál es tu nombre y cuál es tu rol actual dentro de la empresa?
+
 ¿Con cuántas personas tienes que trabajar directamente a cargo tuyo?
-¿Cómo sueles llevar el registro del desempeño de tu equipo? (por ejemplo: asistencia, observaciones, cumplimiento)
+
+¿Cómo sueles llevar el registro del desempeño de tu equipo?
+
 ¿Usas actualmente alguna herramienta o app para estas tareas? ¿Cuál y qué ventajas/desventajas tiene?
 
 - Landing Page:
 
 ¿Qué entendiste que ofrece TalentManager?
+
 ¿Crees que esta plataforma te ayudaría en tu día a día como supervisor?
+
 ¿Qué mejorarías en la página para que sea más clara o útil para alguien como tú?
 
 - Aplicación web:
 
 ¿Qué impresión general te dio la plataforma TalentManager?
+
 ¿Te parece útil para evaluar el desempeño del equipo y hacer seguimiento de manera rápida?
+
 ¿Agregarías alguna función o mejorarías algo para que sea más funcional en tus labores diarias?
 
 - Cierre:
 
 ¿Qué es lo que más te gustó de TalentManager?
+
 ¿Lo usarías para gestionar el rendimiento de tu equipo? ¿Por qué?
 
 **Segmento Objetivo #2: Gerentes de RR. HH. y directivos estratégicos**
@@ -2119,25 +2127,34 @@ Durante el Sprint 3, se desarrollaron 11 historias de usuario centradas en la el
 - Acerca del entrevistado:
 
 ¿Cuál es tu nombre y en qué área trabajas actualmente?
+
 ¿Qué tipo de decisiones estratégicas sueles tomar respecto al personal?
+
 ¿Qué herramientas usas hoy para acceder a información clave del personal?
+
 ¿Qué tan difícil o fácil es actualmente obtener datos precisos sobre el desempeño de los empleados?
 
 - Landing Page:
 
 ¿Qué entendiste que ofrece TalentManager?
+
 ¿Consideras que esta plataforma aporta valor para la toma de decisiones en gestión del talento?
+
 ¿Qué mejorarías en la página para que transmita mejor su propuesta estratégica?
+
 
 - Aplicación web:
 
 ¿Qué impresión general te dio TalentManager?
+
 ¿Crees que facilita la obtención de datos cuantificables y actualizados para tus decisiones?
+
 ¿Qué características te parecerían esenciales para asegurar su adopción en el entorno corporativo?
 
 - Cierre:
 
 ¿Qué fue lo que más te llamó la atención de TalentManager?
+
 ¿Considerarías implementar esta plataforma en tu organización? ¿Por qué?
 
 ### **5.3.2. Registro de Entrevistas.**
