@@ -2687,7 +2687,7 @@ Recomendación: Incluir testimonios con resultados (por ejemplo: “Aumentamos e
 
 8. Expectativas de cumplimiento legal: Gerentes como Francisco Reyes resaltan que la plataforma debe garantizar evaluaciones justas y cumplir normativas laborales vigentes para su adopción corporativa.
 
-9.Oportunidad de destacar frente a la competencia: TalentManager tiene una ventaja competitiva si refuerza su diferenciador de "reportes automáticos personalizados" y "flexibilidad de uso en cualquier dispositivo".
+9. Oportunidad de destacar frente a la competencia: TalentManager tiene una ventaja competitiva si refuerza su diferenciador de "reportes automáticos personalizados" y "flexibilidad de uso en cualquier dispositivo".
 
 10. Contribución a mejorar el clima organizacional: Al facilitar procesos de evaluación más transparentes y rápidos, TalentManager puede ayudar indirectamente a mejorar la motivación, la percepción de justicia interna y la productividad laboral.
 
