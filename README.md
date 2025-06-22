@@ -2686,6 +2686,37 @@ Santiago Campos, director estratégico de desarrollo organizacional, indicó que
 
 ### **5.3.3. Evaluaciones según heurísticas**
 
+UX Heuristics & Principles Evaluation
+
+Usability – Inclusive Design – Information Architecture
+
+CARRERA: Ingeniería de Software
+
+CURSO: Desarrollo de Aplicaciones Open Source
+
+SECCIÓN: 4289
+
+PROFESORES: Efraín Ricardo Bautista Ubillús
+
+AUDITOR: Nombre del Grupo que ejecuta la Sesión de evaluación
+
+CLIENTE(S): 
+- Ernesto Rodas
+
+- Andre Espinoza
+
+- William Ciurlizza
+
+- Juan Córdova
+
+- Lukas Coronado
+
+- Santiago Campos
+
+APP A EVALUAR:
+
+TalentManager
+
 TAREAS A EVALUAR:
 
 - Ingreso y autenticación de usuarios
