@@ -2139,13 +2139,188 @@ En este sprint se muestran los trabajos realizados para desplegar la primera ver
 
 #### **5.2.3.5. Execution Evidence for Sprint Review.**
 
-Durante el Sprint 3, se desarrollaron 11 historias de usuario centradas en la elaboración del apartado backend de las mismas, asi mismo se corrigieron cosas del apartado frontend.
+Durante el Sprint 3, se completaron varias tareas clave en el desarrollo del backend de TalentManager (además de correciones de frontend), con un enfoque principal en la implementación de funcionalidades críticas para la gestión de empleados, reportes, soporte y la integración de un sistema robusto de notificaciones. Este sprint se centró en la mejora de la infraestructura backend y la integración de funcionalidades esenciales, como la gestión de empleados, reportes mensuales y mensajes de soporte.
+
+Se implementaron además las APIs necesarias, con documentación clara y accesible a través de OpenAPI y Swagger, lo que facilita la interacción con el backend y permite la prueba eficiente de todos los endpoints disponibles. La documentación de las APIs también garantiza la facilidad para los desarrolladores al agregar nuevas funcionalidades y al interactuar con el sistema de manera coherente.
+
+Avances Realizados:
+
+1. Empleados:
+
+Gestión de Empleados: Se implementaron las funcionalidades para obtener información de empleados (GetAll, GetById), crear nuevos empleados (Create), actualizar datos existentes (Update) y eliminar empleados (Delete).
+
+Gestión de Equipos: Además de la gestión de empleados, se integró la funcionalidad para asignar y actualizar equipos (TeamName) de los empleados.
+
+2. Reportes:
+
+Gestión de Reportes: Se habilitaron las funcionalidades para crear reportes (Create), obtener detalles de reportes específicos (GetById), y actualizar (Update) los reportes ya existentes, asociados a la compañía correspondiente.
+
+3. Soporte:
+
+Gestión de Mensajes de Soporte: Se implementaron las funcionalidades para gestionar los mensajes de soporte, con capacidad para crear nuevos mensajes (Create), actualizar mensajes (Update) y registrar la fecha de solicitud (RequestDate).
+
+Visibilidad de Mensajes de Soporte: Se introdujo la gestión de una vista de soporte que incluye la capacidad de ver el estado de cada solicitud de soporte y su procesamiento.
+
+4. Notificaciones:
+
+Gestión de Notificaciones: Se implementaron funcionalidades clave para la creación de notificaciones (Create), la visualización de todas las notificaciones (GetAll) y la capacidad de actualizar el estado de las notificaciones (Patch).
+
+5. Contribuciones del Equipo:
+
+Modelado y Entidades: Se trabajó en la implementación de entidades y value objects (por ejemplo, Employee, Report, CompanyId, SupportMessageId), garantizando la coherencia en la estructura de dominio a través de la arquitectura de DDD.
+
+Validaciones y Data Annotations: Se añadieron validaciones para asegurar que los datos ingresados cumplieran con las reglas de negocio, como la validación de fechas en EntryDate, RequestDate y la validación de los valores de los ID de empresa y equipo.
+
+Internacionalización (i18n): Se trabajó en la implementación de soporte multilingüe, garantizando que la plataforma pueda ser utilizada en diferentes idiomas.
+
+Mejoras en la Infraestructura: El equipo optimizó la configuración de la base de datos y completó las configuraciones necesarias para la persistencia, utilizando la estrategia de nomenclatura de "Snake Case" y pluralización de las tablas para asegurar coherencia en el esquema de base de datos.
+
+El Sprint 3 ha sido clave para establecer una base sólida en el backend de TalentManager. Se implementaron funcionalidades esenciales para la gestión de empleados, reportes y soporte, además de trabajar en la validación de los datos, la mejora en la estructura de la base de datos y la integración de notificaciones. La documentación y las pruebas de las APIs a través de OpenAPI y Swagger han permitido una mayor transparencia y facilidad para la interacción con el sistema, lo que será crucial para futuras expansiones y ajustes de la plataforma.
 
 #### **5.2.3.6. Services Documentation Evidence for Sprint Review.**
 
+Durante el Sprint 3, se centró el desarrollo del backend de la aplicación TalentManager, reemplazando la API simulada con servicios backend completamente funcionales. La plataforma ahora está conectada a una base de datos real y las operaciones CRUD para gestionar empleados, reportes, mensajes de soporte y notificaciones están completamente implementadas y operativas.
+
+En lugar de depender de una API falsa, el equipo implementó una API RESTful construida con Spring Boot y conectada a MySQL. A continuación, se detallan los endpoints de la nueva API, sus métodos implementados y la documentación correspondiente.
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Request | Ejemplo de Response | Explicación |
+|----------|--------|------------|----------------------|------------|---------------------|----------------------|-------------|
+| /api/v1/employees | Obtener los datos de todos los empleados. | GET | GET /api/v1/employees | Ninguno | GET /api/v1/employees | `[{"id":1,"fullName":"Juan Pérez","occupation":"Developer"}]` | Obtiene los datos de todos los empleados en el sistema. |
+| /api/v1/employees | Crear un nuevo empleado. | POST | POST /api/v1/employees | Nombre, ocupación | `{"firstName": "Juan", "lastName": "Pérez", "occupation": "Developer"}` | `{"id": 1,"fullName":"Juan Pérez","occupation":"Developer"}` | Crea un nuevo empleado en el sistema. Permite registrar un empleado con su nombre, apellido y ocupación. |
+| /api/v1/employees/{id} | Obtener los datos de un empleado específico. | GET | GET /api/v1/employees/{id} | id (Integer) | GET /api/v1/employees/1 | `{"id":1,"fullName":"Juan Pérez","occupation":"Developer"}` | Obtiene los datos de un empleado específico, usando su ID. |
+| /api/v1/employees/{id} | Actualizar los datos de un empleado. | PUT | PUT /api/v1/employees/{id} | id (Integer) | `{"occupation": "Senior Developer"}` | `{"id":1,"fullName":"Juan Pérez","occupation":"Senior Developer"}` | Actualiza los datos de un empleado existente usando su ID. Permite modificar la ocupación del empleado. |
+| /api/v1/employees/{id} | Eliminar un empleado. | DELETE | DELETE /api/v1/employees/{id} | id (Integer) | DELETE /api/v1/employees/1 | Empleado eliminado exitosamente. | Elimina un empleado del sistema utilizando su ID. |
+| /api/v1/support-messages | Crear un nuevo mensaje de soporte. | POST | POST /api/v1/support-messages | message, companyId | `{"message": "Necesito asistencia", "companyId": 1}` | `{"id": 1,"message":"Necesito asistencia","companyId":1}` | Crea un nuevo mensaje de soporte en el sistema. Permite que un empleado envíe un mensaje a soporte. |
+| /api/v1/support-messages/{id} | Obtener un mensaje de soporte específico. | GET | GET /api/v1/support-messages/{id} | id (Integer) | GET /api/v1/support-messages/1 | `{"id":1,"message":"Necesito asistencia","companyId":1}` | Obtiene un mensaje de soporte específico utilizando su ID. |
+| /api/v1/support-messages/{id} | Actualizar el contenido de un mensaje. | PUT | PUT /api/v1/support-messages/{id} | id (Integer) | `{"message": "Ya he recibido ayuda"}` | `{"id":1,"message":"Ya he recibido ayuda","companyId":1}` | Actualiza el contenido de un mensaje de soporte. |
+| /api/v1/notifications | Obtener todas las notificaciones. | GET | GET /api/v1/notifications | Ninguno | GET /api/v1/notifications | `[{"id":1,"title":"Nuevo mensaje","content":"Tienes un nuevo mensaje en tu cuenta","isRead":false}]` | Obtiene todas las notificaciones generadas en el sistema. |
+| /api/v1/notifications/user/{userClientId} | Obtener las notificaciones de un usuario. | GET | GET /api/v1/notifications/user/{userClientId} | userClientId (Integer) | GET /api/v1/notifications/user/2 | `[{"id": 1, "title": "Nuevo mensaje", "content": "Tienes un nuevo mensaje", "isRead": false}]` | Obtiene todas las notificaciones para un usuario específico. |
+| /api/v1/notifications/{id} | Obtener una notificación específica. | GET | GET /api/v1/notifications/{id} | id (Integer) | GET /api/v1/notifications/1 | `{"id":1,"title":"Nuevo mensaje","content":"Tienes un nuevo mensaje en tu cuenta","isRead":false}` | Obtiene los detalles de una notificación utilizando su ID. |
+| /api/v1/notifications/hide-all | Ocultar todas las notificaciones de un usuario. | PATCH | PATCH /api/v1/notifications/hide-all | userClientId (Integer) | PATCH /api/v1/notifications/hide-all | `{"message": "Todas las notificaciones se han ocultado."}` | Oculta todas las notificaciones activas de un usuario sin eliminarlas físicamente. |
+
+1. Empleados (Employees)
+Operaciones CRUD soportadas:
+
+GET: Obtener los datos de todos los empleados.
+
+GET: Obtener los datos de un empleado en específico por ID.
+
+POST: Crear un nuevo empleado.
+
+PUT: Actualizar los datos de un empleado.
+
+DELETE: Eliminar un empleado existente.
+
+Descripción: Permite gestionar la información de los empleados, incluyendo creación, actualización, consulta y eliminación.
+
+2. Reportes (Reports)
+Operaciones CRUD soportadas:
+
+GET: Obtener los datos de todos los reportes.
+
+GET: Obtener los datos de un reporte en específico por ID.
+
+POST: Crear un nuevo reporte.
+
+PUT: Actualizar un reporte existente.
+
+Descripción: Gestiona la creación y consulta de reportes, incluyendo la capacidad de obtener detalles de reportes específicos asociados a una compañía.
+
+3. Soporte (SupportMessages)
+Operaciones CRUD soportadas:
+
+POST: Crear un nuevo mensaje de soporte.
+
+GET: Obtener todos los mensajes de soporte.
+
+GET: Obtener un mensaje de soporte específico.
+
+PUT: Actualizar un mensaje de soporte.
+
+Descripción: Permite la gestión de mensajes de soporte enviados por los empleados a la plataforma para su resolución.
+
+4. Notificaciones (Notifications)
+Operaciones CRUD soportadas:
+
+GET: Obtener todas las notificaciones activas de un usuario.
+
+GET: Obtener los datos de una notificación específica.
+
+POST: Crear una nueva notificación.
+
+PATCH: Ocultar todas las notificaciones de un usuario.
+
+Descripción: Permite gestionar las notificaciones generadas dentro de la plataforma, incluyendo la visualización de las activas, creación de nuevas y ocultar notificaciones no deseadas.
+
+5. Usuarios Administradores (UserAdmins)
+Operaciones CRUD soportadas:
+
+GET: Obtener los datos del usuario administrador.
+
+PUT: Actualizar los datos de un administrador.
+
+Descripción: Gestiona los datos del usuario administrador, permitiendo su consulta y actualización de detalles.
+
+6. Usuarios Clientes (UserClients)
+Operaciones CRUD soportadas:
+
+GET: Obtener todos los usuarios.
+
+GET: Obtener los datos de un usuario específico.
+
+POST: Añadir un nuevo cliente.
+
+POST: Agregar un libro favorito a un cliente.
+
+PUT: Actualizar los datos de un cliente existente.
+
+DELETE: Eliminar un cliente.
+
+DELETE: Eliminar un libro favorito de un cliente.
+
+Descripción: Permite gestionar la información de los usuarios clientes, con la capacidad de agregar, actualizar o eliminar información, así como gestionar los favoritos de los usuarios.
+
+7. Recomendaciones (Recommendations)
+Operaciones CRUD soportadas:
+
+GET: Obtener las recomendaciones de libros para un usuario específico.
+
+Descripción: Permite obtener una lista de libros recomendados para un usuario basado en sus preferencias y actividad dentro de la plataforma.
+
+8. Integración con Swagger y OpenAPI
+La documentación de la API ha sido completamente integrada utilizando OpenAPI y Swagger, proporcionando una interfaz interactiva para explorar y probar todos los endpoints de la API. Esto permite a los desarrolladores verificar las operaciones soportadas, los parámetros requeridos y las respuestas esperadas para cada endpoint. Con la interfaz de Swagger, los desarrolladores pueden realizar pruebas de las funcionalidades en tiempo real, mejorando la eficiencia y reduciendo los errores de integración al interactuar con el sistema backend de TalentManager.
+
+El Sprint 3 ha sido fundamental para el backend de TalentManager, estableciendo una base sólida de operaciones CRUD que gestionan empleados, reportes, soporte, notificaciones y usuarios. La integración de Swagger y OpenAPI facilita a los desarrolladores explorar y probar los endpoints de manera interactiva, mejorando la experiencia de integración y el desarrollo continuo de la plataforma.
 
 #### **5.2.3.7. Software Deployment Evidence for Sprint Review.**
 
+Durante el Sprint 3, el equipo se centró en el desarrollo y despliegue de las funcionalidades backend para la aplicación web TalentManager. A continuación, se detallan los pasos realizados para asegurar que el backend estuviera correctamente implementado y desplegado en el entorno de producción.
+
+Actividades de Despliegue:
+
+1. Desarrollo de la API Backend:
+
+La API RESTful fue desarrollada utilizando Spring Boot como el marco principal de trabajo y MySQL como sistema de gestión de bases de datos. La API permite gestionar las entidades clave del sistema, como empleados, reportes, mensajes de soporte, notificaciones y usuarios.
+
+2. Despliegue en el Entorno de Desarrollo:
+
+Se utilizó Swagger para documentar la API y proporcionar una interfaz interactiva que permite explorar y probar todos los endpoints. Esto facilita el trabajo de los desarrolladores, quienes pueden validar el comportamiento de la API en tiempo real.
+
+3. Despliegue en el Entorno de Producción:
+
+La API fue desplegada en el entorno de producción. Se configuraron las instancias necesarias en el servidor para asegurar la disponibilidad continua y garantizar que la API esté operativa sin interrupciones.
+
+MySQL fue configurado en el servidor de producción para manejar un volumen de datos moderado, optimizando las consultas y asegurando un rendimiento eficiente.
+
+4. Configuración y Gestión de la Base de Datos:
+
+La base de datos está en MySQL y se implementaron todas las relaciones necesarias entre las tablas para garantizar la integridad de los datos. Además, se llevaron a cabo pruebas de rendimiento en las consultas de la base de datos para asegurar que las operaciones de lectura y escritura fueran rápidas y escalables.
+
+5. Despliegue en Azure:
+
+El proyecto fue publicado en Azure, configurando los recursos necesarios para garantizar el funcionamiento correcto de la API en la nube, con escalabilidad y alta disponibilidad.
+
+Este conjunto de actividades garantizó que el backend de TalentManager estuviera correctamente implementado, optimizado para el entorno de producción y disponible para su uso continuo.
 
 #### **5.2.3.8. Team Collaboration Insights during Sprint.** 
 
