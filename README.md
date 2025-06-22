@@ -2096,13 +2096,13 @@ En este sprint se muestran los trabajos realizados para desplegar la primera ver
 | Sprint \# 3 |  |  |  |  |  |
 | :---- | :---- | :---- | :---- | :---- | :---- |
 | Work-Item / Task | User Story ID | Description | Estimation (Hours) | Estimation (Hours) | Assigned To / Status |
-| US17 | 1 | Registro de observaciones de comportamiento | 1 | Developer Team | Done |
+| US17 | 1 | Registro de observaciones de comportamiento | 1 | Developer Team | In Progress |
 | US19 | 1 | Visualización de registros recientes del equipo | 3 | Developer Team | Done |
 | US23 | 1 | Generación de reportes mensuales | 3 | Developer Team | Done |
-| US24 | 1 | Reporte por criterio de evaluación | 1 | Developer Team | Done |
-| US20 | 1 | Inicio de evaluación de desempeño | 1 | Developer Team | Done |
+| US24 | 1 | Reporte por criterio de evaluación | 1 | Developer Team | In Progress |
+| US20 | 1 | Inicio de evaluación de desempeño | 1 | Developer Team | In Progress |
 | US21 | 1 | Guardado automático de evaluaciones | 1 | Developer Team | Done |
-| US22 | 1 | Visualización de resultados por empleado | 1 | Developer Team | Done |
+| US22 | 1 | Visualización de resultados por empleado | 1 | Developer Team | In Progress |
 | US25 | 1 | Exportación de reportes en pantalla | 1 | Developer Team | Done |
 | US11 | 1 | Registro básico de empleados | 1 | Developer Team | Done |
 | US12 | 1 | Edición de información del perfil | 1 | Developer Team | Done |
@@ -2112,13 +2112,28 @@ En este sprint se muestran los trabajos realizados para desplegar la primera ver
 
 #### 
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | :---- | :---- | :---- | :---- | :---- | :---- |
-| Raizo400/TalentManager-BERSS/Backend-TalentManager | master | jrn3u4 | \- | \- | 18/06/2025 |
-| SDarXx/TalentManager-BERSS/Backend-TalentManager | master | p2mf2l | \- | \- | 18/06/2025 |
-| borj410/TalentManager-BERSS/Backend-TalentManager | master | m24bd8 | \- | \- | 21/06/2025 |
-| Sack136/TalentManager-BERSS/Backend-TalentManager | master | sjf73l | \- | \- | 21/06/2025 |
-| luissssrr/TalentManager-BERSS/Backend-TalentManager | master | 4lay5i | \- | \- | 21/06/2025 |
+| Raizo400/TalentManager-BERSS/Backend-TalentManager | master | jrn3u4 |  |  | 18/06/2025 |
+| borj410/TalentManager-BERSS/Backend-TalentManager | feature/reports | d5kbm9 |  |  | 18/06/2025 |
+| Sack136/TalentManager-BERSS/Backend-TalentManager | feature/reports | l0nc2z |  |  | 18/06/2025 |
+| SDarXx/TalentManager-BERSS/Backend-TalentManager | master | p2mf2l |  |  | 18/06/2025 |
+| luissssrr/TalentManager-BERSS/Backend-TalentManager | develop | x9phte |  |  | 18/06/2025 |
+| borj410/TalentManager-BERSS/Backend-TalentManager | master | z6fr5c |  |  | 19/06/2025 |
+| SDarXx/TalentManager-BERSS/Backend-TalentManager | develop | e9l0cz |  |  | 19/06/2025 |
+| Raizo400/TalentManager-BERSS/Backend-TalentManager | develop | a8r2lg |  |  | 19/06/2025 |
+| luissssrr/TalentManager-BERSS/Backend-TalentManager | feature/reports | c0s4ru |  |  | 19/06/2025 |
+| Sack136/TalentManager-BERSS/Backend-TalentManager | master | w9dl7x |  |  | 19/06/2025 |
+| luissssrr/TalentManager-BERSS/Backend-TalentManager | develop | m3gz1e |  |  | 20/06/2025 |
+| Raizo400/TalentManager-BERSS/Backend-TalentManager | feature/reports | b52fma |  |  | 20/06/2025 |
+| Sack136/TalentManager-BERSS/Backend-TalentManager | develop | g3yw8k |  |  | 20/06/2025 |
+| luissssrr/TalentManager-BERSS/Backend-TalentManager | develop | t7n1wv |  |  | 20/06/2025 |
+| SDarXx/TalentManager-BERSS/Backend-TalentManager | feature/reports | q4ms2v |  |  | 20/06/2025 |
+| SDarXx/TalentManager-BERSS/Backend-TalentManager | develop | u18hd3 |  |  | 21/06/2025 |
+| Raizo400/TalentManager-BERSS/Backend-TalentManager | master | p49dqp |  |  | 21/06/2025 |
+| borj410/TalentManager-BERSS/Backend-TalentManager | master | m24bd8 |  |  | 21/06/2025 |
+| Sack136/TalentManager-BERSS/Backend-TalentManager | master | sjf73l |  |  | 21/06/2025 |
+| borj410/TalentManager-BERSS/Backend-TalentManager | master | 4lay5i |  |  | 21/06/2025 |
 
 #### 
 
@@ -2133,6 +2148,25 @@ Durante el Sprint 3, se desarrollaron 11 historias de usuario centradas en la el
 
 
 #### **5.2.3.8. Team Collaboration Insights during Sprint.** 
+
+Durante el Sprint 3, el equipo de desarrollo centró sus esfuerzos en consolidar el backend de TalentManager, utilizando Java con Spring Boot como tecnología principal y MySQL como sistema gestor de base de datos. Se implementaron múltiples endpoints RESTful conforme a las rutas documentadas en Swagger, lo cual permitió una interacción clara, estructurada y eficiente con los datos de reportes y resúmenes mensuales de rendimiento del personal.
+
+Actividades realizadas:
+Arquitectura Backend: Se definieron y desarrollaron los endpoints necesarios para gestionar entidades clave como reportes y resúmenes mensuales de empleados. Los endpoints siguen una estructura clara y RESTful, tales como:
+
+- /api/v1/reports para el manejo de reportes individuales y por empresa.
+
+- /api/v1/monthly-summaries para los resúmenes mensuales generales, por empleado o por empresa.
+
+Operaciones CRUD: Se implementaron las funcionalidades completas de creación, lectura, actualización y eliminación para ambas entidades principales (reports y monthly summaries), asegurando la gestión integral del rendimiento del personal desde múltiples dimensiones (individual, mensual, y organizacional).
+
+Documentación con Swagger y OpenAPI: Toda la API fue documentada usando Swagger UI, lo que permitió al equipo visualizar, probar y validar el comportamiento de los endpoints en tiempo real. Esta integración facilitó una comunicación más clara entre frontend y backend y mejoró la trazabilidad del desarrollo.
+
+Base de Datos MySQL: Se utilizó una estructura relacional eficiente, centrada en el soporte de operaciones de alto rendimiento, alineada con las necesidades de consulta de datos de evaluaciones y reportes. La estructura permite acceder rápidamente a los resúmenes por empleado o compañía, reduciendo los tiempos de respuesta en las consultas clave.
+
+Mejoras en el Frontend: Se realizaron ajustes visuales y funcionales en el frontend, principalmente en los formularios de generación de reportes y visualización de datos. Se mejoró la experiencia de usuario para facilitar la interacción con los datos evaluativos desde distintas vistas.
+
+Dashboard de rendimiento: Se integró un dashboard visual que presenta un gráfico general sobre el rendimiento del personal, ofreciendo una visualización rápida del comportamiento global de los equipos evaluados durante el mes.
 
 ## **5.3. Validation Interviews.**
 
