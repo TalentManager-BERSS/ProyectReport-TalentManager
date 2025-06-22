@@ -1659,53 +1659,94 @@ La base de datos de TalentManager ha sido diseñada bajo un enfoque relacional, 
 
 ### **4.8.1. Database Diagram.** 
 
-**Usuario**
+- users:
 
-* id\_usuario: INT (PK)  
-* nombre: VARCHAR(100)  
-* email: VARCHAR(100) (UNIQUE)  
-* contraseña: VARCHAR(255)  
-* área: VARCHAR(100)  
-  **Cargo**  
-* id\_cargo: INT (PK)  
-* nombre: VARCHAR(100)  
-* descripción: VARCHAR(100)  
-  **Área**  
-* id\_area: INT (PK)  
-* nombre: VARCHAR(100)  
-* descripción: VARCHAR(100)  
-  **Empleado**  
-* id\_empleado: INT (PK)  
-* nombre: VARCHAR(100)  
-* apellido: VARCHAR(100)  
-* fecha\_ingreso: DATE  
-* hora\_ingreso: TIME  
-* hora\_salida: TIME  
-* id\_usuario: INT (FK)  
-* id\_cargo: INT (FK)  
-* id\_area: INT (FK)  
-  **ReporteAsistencia**  
-* id\_reporteasistencia: INT (PK)  
-* hora\_ingreso: TIME  
-* hora\_salida: TIME  
-* fecha: DATE  
-* puntaje: FLOAT  
-* id\_empleado: INT (FK)  
-  **ReporteGuardado**  
-* id\_reporte: INT (PK)  
-* fecha\_generacion: DATE  
-* datos: NVARCHAR(MAX)  
-* id\_usuario: INT (FK)  
-* id\_empleado: INT (FK)  
-  **Observacion**  
-* id\_observacion: INT (PK)  
-* fecha\_emision: DATE  
-* contenido: VARCHAR(100)  
-* id\_usuario: INT (FK)  
-* id\_empleado: INT(FK)
+id_user: INT (PK)
+
+name: VARCHAR(100)
+
+email: VARCHAR(100) (UNIQUE)
+
+password: VARCHAR(255)
+
+department: VARCHAR(100)
+
+- positions:
+
+id_position: INT (PK)
+
+name: VARCHAR(100)
+
+description: VARCHAR(100)
+
+- departments:
+
+id_department: INT (PK)
+
+name: VARCHAR(100)
+
+description: VARCHAR(100)
+
+- employees:
+
+id_employee: INT (PK)
+
+name: VARCHAR(100)
+
+lastname: VARCHAR(100)
+
+entry_date: DATE
+
+entry_time: TIME
+
+exit_time: TIME
+
+id_user: INT (FK)
+
+id_position: INT (FK)
+
+id_department: INT (FK)
+
+- attendance_reports:
+
+id_attendancereport: INT (PK)
+
+entry_time: TIME
+
+exit_time: TIME
+
+date: DATE
+
+score: FLOAT
+
+id_employee: INT (FK)
+
+- saved_reports:
+  
+id_report: INT (PK)
+
+generation_date: DATE
+
+data: NVARCHAR(MAX)
+
+id_user: INT (FK)
+
+id_employee: INT (FK)
+
+- notes:
+  
+id_note: INT (PK)
+
+issue_date: DATE
+
+content: VARCHAR(100)
+
+id_user: INT (FK)
+
+id_employee: INT (FK
 
 <p align="center">
-  <img src="Images/diagramaBDcorregido.jpg" alt="imagen" />
+  <img src="Images/diagramabding.png" alt="imagen" />
 </p>
 
 # **Capítulo V: Product Implementation, Validation & Deployment**
