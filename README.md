@@ -668,7 +668,7 @@ Nombre: Fabrizio Huamaní
 
 **Duración:** 0:00-3:27
 
-**Link:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EagAc4RfKEZNspjWy3uYg-oB2QNwVzJ2qw0apDfM370IHA?e=HH0Svu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+**Link:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/ESiS_GqtEflFrv3VzwGnP1EBypPrJpGgXPQa_cLLW4y7DA?e=Edh1XX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/ESiS_GqtEflFrv3VzwGnP1EBypPrJpGgXPQa_cLLW4y7DA?e=Edh1XX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 Resumen: En la entrevista, Gustavo Román presenta a Fabrizio Guamaní, supervisor del área de sala en Plaza Vea, y le explica que TalentManager es una aplicación web para empresas que permite registrar y evaluar el desempeño de los trabajadores. La plataforma permite ver datos personales, asistencias, evaluaciones y generar reportes automáticos para facilitar decisiones sobre el personal.
 
@@ -690,9 +690,35 @@ Nombre: Bruno Cárdenas
 
 **Duración:** 3:27-7:54
 
-Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EagAc4RfKEZNspjWy3uYg-oB2QNwVzJ2qw0apDfM370IHA?e=HH0Svu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/ESiS_GqtEflFrv3VzwGnP1EBypPrJpGgXPQa_cLLW4y7DA?e=Edh1XX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/ESiS_GqtEflFrv3VzwGnP1EBypPrJpGgXPQa_cLLW4y7DA?e=Edh1XX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 Resumen: En la siguiente entrevista, Santiago Cárdenas presenta a Bruno Cárdenas, supervisor en el área de call center Konecta. Él  opina que debido a que es jefe de área, tiene que hacer observaciones hacia las personas que tiene a cargo. Las anotaciones las hace a mano en un cuaderno o crea un excel donde puede almacenar información de cada uno de sus integrantes de su equipo. Bruno afirma que TalentManager sería una aplicación de gran ayuda debido a que no tendría que calcular el rendimiento independiente de cada uno, debido a que la app te lo da en un reporte automáticamente.
+
+<p align="center">
+  <img src="Images/entrevistalorenzo.png" alt="img" />
+</p>
+
+Nombre: Lorenzo Balicco
+
+**Ocupación:** Supervisor de área administrativa
+
+**Edad:** 24
+
+**Distrito:** Cercado de Lima, Lima 
+
+**Duración:** 7:54-14:57
+
+**Link:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/ESiS_GqtEflFrv3VzwGnP1EBypPrJpGgXPQa_cLLW4y7DA?e=Edh1XX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/ESiS_GqtEflFrv3VzwGnP1EBypPrJpGgXPQa_cLLW4y7DA?e=Edh1XX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Resumen: Lorenzo Balicco, supervisor de área administrativa, nos comenta que actualmente evalúa el desempeño de su equipo observando los resultados obtenidos y el impacto económico positivo que generan en la empresa. Además, destaca que estudia Ingeniería de Sistemas y apoya en la gestión de datos relacionados con el stock de productos, lo cual le permite aplicar su gusto por la organización y la eficiencia.
+
+Durante la entrevista, Lorenzo indicó que realiza evaluaciones frecuentes del personal, ya que considera que el seguimiento constante es clave para lograr mejoras continuas y aumentar las utilidades. Sin embargo, reconoce que uno de los aspectos más tediosos es la gestión de la información debido a la gran cantidad de empleados, lo que dificulta mantener todo organizado de forma óptima.
+
+Entre los criterios más importantes que utiliza al evaluar a los trabajadores están los resultados obtenidos, más allá de aspectos como la puntualidad o la actitud. Para él, el rendimiento medible es esencial para la sostenibilidad de cualquier negocio, ya que un mal desempeño puede afectar directamente a las ganancias.
+
+Respecto a TalentManager, consideró muy útil la posibilidad de contar con una herramienta que automatice reportes y facilite la recolección de observaciones desde una sola plataforma. Afirmó que le gustaría probar una solución así, ya que considera fundamental que los procesos sean rápidos y prácticos, lo cual contribuye directamente a la eficiencia organizacional.
+
+En resumen, Lorenzo valora una gestión orientada a resultados y considera que herramientas como TalentManager podrían optimizar significativamente la evaluación del desempeño si logran adaptarse al contexto de su empresa.
 
 **Segmento objetivo \#2: Gerentes de RR. HH. y directivos estratégicos**
 
@@ -708,9 +734,9 @@ Nombre: Paulo Quincho
 
 **Distrito:** Surco, Lima 
 
-**Duración:** 7:54-13:21
+**Duración:** 14:57-20:23
 
-Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EagAc4RfKEZNspjWy3uYg-oB2QNwVzJ2qw0apDfM370IHA?e=HH0Svu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/ESiS_GqtEflFrv3VzwGnP1EBypPrJpGgXPQa_cLLW4y7DA?e=Edh1XX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/ESiS_GqtEflFrv3VzwGnP1EBypPrJpGgXPQa_cLLW4y7DA?e=Edh1XX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 En la entrevista, Santiago conversa con Pablo Quincho, profesional con dos años de experiencia en el área administrativa de Recursos Humanos en la empresa Expro. Se le presenta *Talent Manager*, una plataforma web que permite registrar, evaluar y dar seguimiento al desempeño de los trabajadores mediante reportes automáticos y criterios personalizados.
 
@@ -732,9 +758,9 @@ Nombre: Francisco Reyes
 
 **Distrito:** La Molina, Lima 
 
-**Duración:** 13:21-20:11
+**Duración:** 20:23-27:13
 
-Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EagAc4RfKEZNspjWy3uYg-oB2QNwVzJ2qw0apDfM370IHA?e=HH0Svu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/ESiS_GqtEflFrv3VzwGnP1EBypPrJpGgXPQa_cLLW4y7DA?e=Edh1XX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/ESiS_GqtEflFrv3VzwGnP1EBypPrJpGgXPQa_cLLW4y7DA?e=Edh1XX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 En la entrevista, se conversó con Francisco Reyes, gerente administrativo de una empresa importadora de repuestos. Se le presenta TalentManager, una plataforma web que permite registrar, evaluar y dar seguimiento al desempeño de los trabajadores mediante reportes automáticos y criterios personalizados.
 
@@ -743,6 +769,30 @@ Francisco comenta que la información esencial para tomar decisiones estratégic
 Revisa reportes de asistencia y comportamiento mensualmente, pero las evaluaciones de desempeño se realizan cada seis meses o una vez al año. Como principal reto al planificar capacitaciones o reestructuraciones menciona la falta de motivación en ciertas áreas del personal, especialmente aquellas sin incentivos económicos adicionales.
 
 Considera que Talent Manager sería muy útil para obtener reportes actualizados, centralizados y objetivos en tiempo real. Afirma que usaría la plataforma si garantiza criterios justos de evaluación y cumple con la normativa laboral vigente, ya que le permitiría tomar mejores decisiones estratégicas y reducir el margen de error humano.
+
+<p align="center">
+  <img src="Images/entrevistapaula.png" alt="img" />
+</p>
+
+Nombre: Paula Luyo
+
+**Ocupación:** Gerente de RR.HH
+
+**Edad:** 22
+
+**Distrito:** San Isidro, Lima
+
+**Duración:** 27:13-30:40
+
+Link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/ESiS_GqtEflFrv3VzwGnP1EBypPrJpGgXPQa_cLLW4y7DA?e=Edh1XX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/ESiS_GqtEflFrv3VzwGnP1EBypPrJpGgXPQa_cLLW4y7DA?e=Edh1XX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+Paula, gerente de Recursos Humanos, nos brindó información valiosa sobre su experiencia en la gestión del talento dentro de su organización. Ella destaca que para tomar decisiones estratégicas necesita acceder a información clara y consolidada sobre el rendimiento individual y grupal, incluyendo indicadores de productividad, ausentismo, rotación, cumplimiento de tareas, desarrollo de competencias, clima laboral y feedback sobre liderazgo. Esta información le permite tomar decisiones informadas sobre promociones, despidos y nuevas contrataciones.
+
+Sin embargo, uno de los principales retos que enfrenta es la falta de acceso unificado y confiable a estos datos. Actualmente depende de diversas plataformas y hojas de Excel, lo cual genera demoras y dudas respecto a la veracidad de la información. Además, señala que revisa reportes individuales trimestralmente y globales cada seis meses o en momentos de evaluación estratégica, pero le gustaría poder hacerlo con mayor frecuencia si contara con una herramienta adecuada.
+
+Paula también menciona que planificar promociones o reestructuraciones es complejo debido a la falta de datos en tiempo real y a la necesidad de justificar decisiones ante la alta dirección. En ese sentido, considera fundamental contar con una plataforma que le permita visualizar reportes ejecutivos personalizados, filtrables por variables clave como área, desempeño o tipo de contrato, lo que haría que las decisiones sean más estratégicas y menos intuitivas.
+
+En conclusión, Paula considera que una herramienta como TalentManager, que centralice la información, automatice reportes y permita una visualización clara y personalizada del desempeño, respondería directamente a las necesidades actuales de su gestión. Afirma que, de cumplir con estas funcionalidades, sin duda la implementaría en su área.
 
 ### **2.2.3 Análisis de entrevistas** 
 
@@ -2159,7 +2209,129 @@ Durante el Sprint 3, se desarrollaron 11 historias de usuario centradas en la el
 
 ### **5.3.2. Registro de Entrevistas.**
 
+**Segmento objetivo \#1: Supervisores operativos y jefes de área**
 
+<p align="center">
+  <img src="Images/entrevistaernesto.png" alt="img" />
+</p>
+
+**Nombre:** Ernesto Rodas
+
+**Ocupación:** Supervisor de almacén en una empresa de distribución
+
+**Edad:** 23
+
+**Distrito:** Jesús María, Lima
+
+**Duración:** 0:00-4:56
+
+**Link:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EY11eVZoW1ZDjzjTdxHHFGMBwDXMHBpD5Opcfmf_nfb31g?e=EekSdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EY11eVZoW1ZDjzjTdxHHFGMBwDXMHBpD5Opcfmf_nfb31g?e=EekSdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen de entrevista:**
+
+Ernesto Rodas, supervisor de almacén, indicó que lidera a 100 personas por turnos. Registra desempeño en Excel y cuadernos, pero la información se dispersa. TalentManager, según su percepción, permitiría supervisar, dejar observaciones y generar reportes fácilmente. Mejoraría la landing page agregando ejemplos visuales de reportes. Señaló que la plataforma es clara y moderna, y le facilitaría el seguimiento del equipo. Le gustaría tener una función rápida para marcar faltas desde el celular. Lo que más valoró fue el ahorro de tiempo con los reportes centralizados. Confirmó que lo usaría porque sería mucho más eficiente que su sistema manual actual.
+
+<p align="center">
+  <img src="Images/entrevistaandre.png" alt="img" />
+</p>
+
+**Nombre:** André Espinoza
+
+**Ocupación:** Supervisor técnico en una empresa de mantenimiento industrial.
+
+**Edad:** 25
+
+**Distrito:** San Borja, Lima
+
+**Duración:** 4:56-9:06
+
+**Link:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EY11eVZoW1ZDjzjTdxHHFGMBwDXMHBpD5Opcfmf_nfb31g?e=EekSdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EY11eVZoW1ZDjzjTdxHHFGMBwDXMHBpD5Opcfmf_nfb31g?e=EekSdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen de entrevista:**
+
+André Espinoza, supervisor técnico en mantenimiento industrial, supervisa a 100 técnicos por proyecto. Usa hojas impresas que se digitalizan tarde y sin actualización precisa. Interpreta que TalentManager permite registrar asistencia, evaluaciones y reportes desde un solo lugar. Propuso incluir testimonios reales en la landing page para mayor claridad. Dijo que la plataforma es directa y útil para quienes tienen poco tiempo. Añadiría un botón rápido de incidentes para registrar eventos urgentes. Le gustó la agilidad para registrar lo que ocurre en el día a día. Confirmó que lo implementaría porque mejoraría su organización y permitiría decisiones basadas en evidencia.
+
+<p align="center">
+  <img src="Images/entrevistawilliam.png" alt="img" />
+</p>
+
+**Nombre:** William Ciurlizza
+
+**Ocupación:** Jefe de producción en una planta de empaquetado.
+
+**Edad:** 27
+
+**Distrito:** San Borja, Lima
+
+**Duración:** 9:06-13:09
+
+**Link:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EY11eVZoW1ZDjzjTdxHHFGMBwDXMHBpD5Opcfmf_nfb31g?e=EekSdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EY11eVZoW1ZDjzjTdxHHFGMBwDXMHBpD5Opcfmf_nfb31g?e=EekSdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen de entrevista:**
+
+William Ciurlizza, jefe de producción, mencionó que gestiona 100 operarios por turno. Usa un cuaderno y Excel semanal para registrar el desempeño, pero suele perder información. Identificó que TalentManager le permitiría centralizar registros y evitar archivos dispersos. Propuso añadir un video explicativo en la página para ilustrar su uso. Afirmó que la plataforma es práctica y le facilitaría su trabajo desde distintos dispositivos. Agregaría alertas de bajo rendimiento para actuar a tiempo. Destacó la ventaja de reducir papeleo y centralizar la información. Confirmó que usaría TalentManager porque le daría más orden y control operativo.
+
+**Segmento objetivo \#2: Gerentes de RR. HH. y directivos estratégicos**
+
+<p align="center">
+  <img src="Images/entrevistajuan.png" alt="img" />
+</p>
+
+**Nombre:** Juan Córdova
+
+**Ocupación:** Gerente de Recursos Humanos en una empresa de logística.
+
+**Edad:** 26
+
+**Distrito:** Surquillo, Lima
+
+**Duración:** 13:09-18:48
+
+**Link:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EY11eVZoW1ZDjzjTdxHHFGMBwDXMHBpD5Opcfmf_nfb31g?e=EekSdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EY11eVZoW1ZDjzjTdxHHFGMBwDXMHBpD5Opcfmf_nfb31g?e=EekSdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen de entrevista:**
+
+Juan Córdova, también gerente de Recursos Humanos, comentó que toma decisiones sobre evaluaciones, promociones y capacitaciones. Usa reportes de Excel de cada área, pero le resulta complicado por su dispersión. Entendió que TalentManager ofrece reportes automáticos y acceso inmediato a información clave. Sugirió incluir ejemplos visuales como dashboards y resúmenes ejecutivos. Opinó que la plataforma es profesional y muy adaptada al entorno corporativo. Considera clave su compatibilidad con otros sistemas y respaldo legal para evaluaciones. Destacó que el seguimiento del personal en tiempo real le pareció lo más relevante. La implementaría porque eliminaría varios cuellos de botella actuales.
+
+<p align="center">
+  <img src="Images/entrevistalukas.png" alt="img" />
+</p>
+
+**Nombre:** Lukas Coronado
+
+**Ocupación:** Gerente de Recursos Humanos en una empresa de logística.
+
+**Edad:** 29
+
+**Distrito:** La Victoria, Lima
+
+**Duración:** 18:48-23:48
+
+**Link:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EY11eVZoW1ZDjzjTdxHHFGMBwDXMHBpD5Opcfmf_nfb31g?e=EekSdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EY11eVZoW1ZDjzjTdxHHFGMBwDXMHBpD5Opcfmf_nfb31g?e=EekSdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen de entrevista:**
+
+Lukas Coronado, gerente de Recursos Humanos, expresó que se encarga de promociones, capacitaciones y reestructuraciones. Actualmente usa Excel y formularios, pero la información llega tarde y es subjetiva. Comprendió que TalentManager centraliza reportes y permite decisiones más confiables. Sugirió que se añadan cifras de impacto para hacer más clara la propuesta. Opinó que la plataforma es profesional y facilita el acceso a históricos de desempeño. Considera esencial contar con trazabilidad de cambios e integración con sistemas existentes. Le impresionó que permite presentar dashboards directamente a comités sin preparación adicional. Confirmó que implementaría TalentManager para dejar atrás procesos manuales y mejorar la eficiencia en la toma de decisiones.
+
+<p align="center">
+  <img src="Images/entrevistacampos.png" alt="img" />
+</p>
+
+**Nombre:** Santiago Campos
+
+**Ocupación:** Director estratégico de desarrollo organizacional.
+
+**Edad:** 28
+
+**Distrito:** La Victoria, Lima
+
+**Duración:** 23:48-28:51
+
+**Link:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EY11eVZoW1ZDjzjTdxHHFGMBwDXMHBpD5Opcfmf_nfb31g?e=EekSdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EY11eVZoW1ZDjzjTdxHHFGMBwDXMHBpD5Opcfmf_nfb31g?e=EekSdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Resumen de entrevista:**
+
+Santiago Campos, director estratégico de desarrollo organizacional, indicó que suele tomar decisiones clave como reestructuras, promociones y definiciones de perfiles. Actualmente depende de Power BI y reportes manuales, lo que dificulta obtener datos estandarizados y actualizados. Al revisar la landing page, comprendió que TalentManager centraliza evaluaciones y trazabilidad de desempeño. Considera que añadir casos de éxito con resultados visibles ayudaría a reforzar su propuesta estratégica. Destacó que la plataforma se ve moderna y funcional, con paneles que permiten un análisis rápido. Valora especialmente la disponibilidad móvil y la auditoría de datos como factores esenciales. Para él, lo más atractivo fue su enfoque estratégico que convierte la información operativa en decisiones sólidas. La adoptaría sin dudar, ya que ayudaría a escalar la gestión del talento con precisión.
 
 ### **5.4. Video About-the-Product**
 
