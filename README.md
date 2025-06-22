@@ -1545,6 +1545,11 @@ El Domain Driven Design (DDD) busca lograr una comprensión común del dominio e
   <img src="Images/diagramaclasesnuevo.jpg" alt="imagen" />
 </p>
 
+**Diagrama de clases de front-end:**
+<p align="center">
+  <img src="Images/diagramadeclasesfrontend.png" alt="img" />
+</p>
+
 ### **4.7.2. Class Dictionary.** 
 * Employee: Entidad que representa a un trabajador registrado en la plataforma. Contiene datos como nombre, posición, email y equipo. Puede actualizar su información y retornar un resumen.
 * EmployeeManagementService: Servicio responsable de registrar, actualizar, eliminar y listar empleados. Encapsula la lógica relacionada a la gestión del ciclo de vida del empleado.
@@ -2025,17 +2030,17 @@ En este sprint se muestran los trabajos realizados para desplegar la primera ver
 | Sprint \# 3 |  |  |  |  |  |
 | :---- | :---- | :---- | :---- | :---- | :---- |
 | Work-Item / Task | User Story ID | Description | Estimation (Hours) | Estimation (Hours) | Assigned To / Status |
-| US17 | 1 | Registro de observaciones de comportamiento | 1 | Developer Team | In Progress |
-| US19 | 1 | Visualización de registros recientes del equipo | 3 | Developer Team | In Progress |
-| US23 | 1 | Generación de reportes mensuales | 3 | Developer Team | In Progress |
-| US24 | 1 | Reporte por criterio de evaluación | 1 | Developer Team | In Progress |
-| US20 | 1 | Inicio de evaluación de desempeño | 1 | Developer Team | In Progress |
-| US21 | 1 | Guardado automático de evaluaciones | 1 | Developer Team | In Progress |
-| US22 | 1 | Visualización de resultados por empleado | 1 | Developer Team | In Progress |
-| US25 | 1 | Exportación de reportes en pantalla | 1 | Developer Team | In Progress |
-| US11 | 1 | Registro básico de empleados | 1 | Developer Team | In Progress |
-| US12 | 1 | Edición de información del perfil | 1 | Developer Team | In Progress |
-| US13 | 1 | Visualización de perfil completo | 1 | Developer Team | In Progress |
+| US17 | 1 | Registro de observaciones de comportamiento | 1 | Developer Team | Done |
+| US19 | 1 | Visualización de registros recientes del equipo | 3 | Developer Team | Done |
+| US23 | 1 | Generación de reportes mensuales | 3 | Developer Team | Done |
+| US24 | 1 | Reporte por criterio de evaluación | 1 | Developer Team | Done |
+| US20 | 1 | Inicio de evaluación de desempeño | 1 | Developer Team | Done |
+| US21 | 1 | Guardado automático de evaluaciones | 1 | Developer Team | Done |
+| US22 | 1 | Visualización de resultados por empleado | 1 | Developer Team | Done |
+| US25 | 1 | Exportación de reportes en pantalla | 1 | Developer Team | Done |
+| US11 | 1 | Registro básico de empleados | 1 | Developer Team | Done |
+| US12 | 1 | Edición de información del perfil | 1 | Developer Team | Done |
+| US13 | 1 | Visualización de perfil completo | 1 | Developer Team | Done |
 
 #### **5.2.3.4. Development Evidence for Sprint Review.**
 
@@ -2045,9 +2050,9 @@ En este sprint se muestran los trabajos realizados para desplegar la primera ver
 | :---- | :---- | :---- | :---- | :---- | :---- |
 | Raizo400/TalentManager-BERSS/Backend-TalentManager | master | jrn3u4 | \- | \- | 18/06/2025 |
 | SDarXx/TalentManager-BERSS/Backend-TalentManager | master | p2mf2l | \- | \- | 18/06/2025 |
-| borj410/TalentManager-BERSS/Backend-TalentManager | master | m24bd8 | \- | \- | 20/06/2025 |
-| Sack136/TalentManager-BERSS/Backend-TalentManager | master | sjf73l | \- | \- | 20/06/2025 |
-| luissssrr/TalentManager-BERSS/Backend-TalentManager | master | 4lay5i | \- | \- | 20/06/2025 |
+| borj410/TalentManager-BERSS/Backend-TalentManager | master | m24bd8 | \- | \- | 21/06/2025 |
+| Sack136/TalentManager-BERSS/Backend-TalentManager | master | sjf73l | \- | \- | 21/06/2025 |
+| luissssrr/TalentManager-BERSS/Backend-TalentManager | master | 4lay5i | \- | \- | 21/06/2025 |
 
 #### 
 
@@ -2064,8 +2069,6 @@ Durante el Sprint 3, se desarrollaron 11 historias de usuario centradas en la el
 #### **5.2.3.8. Team Collaboration Insights during Sprint.** 
 
 ## **5.3. Validation Interviews.**
-
-
 
 ### **5.3.1. Diseño de Entrevistas.**
 
@@ -2129,15 +2132,13 @@ Durante el Sprint 3, se desarrollaron 11 historias de usuario centradas en la el
 
 
 
-### **5.3.3. Evaluaciones según heurísticas.**
-
-
-
 ### **5.4. Video About-the-Product**
 
 
 
 ### **5.5. Video About-the-Team**
+
+
 
 # **CONCLUSIONES**
 
