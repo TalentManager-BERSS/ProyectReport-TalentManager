@@ -1526,16 +1526,34 @@ El Domain Driven Design (DDD) busca lograr una comprensión común del dominio e
   <img src="Images/img92.jpg" alt="imagen" />
 </p>
 
+Diagrama de contexto de front-end:
+
+<p align="center">
+  <img src="Images/contextofrontend.jpg" alt="imagen" />
+</p>
+
 ### **4.6.2. Software Architecture Container Diagrams.** 
 
 <p align="center">
   <img src="Images/img93.jpg" alt="imagen" />
 </p>
 
+Diagrama de contenedores de front-end:
+
+<p align="center">
+  <img src="Images/contenedoresfrontend.jpg" alt="imagen" />
+</p>
+
 ### **4.6.3. Software Architecture Components Diagrams.** 
 
 <p align="center">
   <img src="Images/img94.jpg" alt="imagen" />
+</p>
+
+Diagrama de componentes de front-end:
+
+<p align="center">
+  <img src="Images/componentesfrontend.jpg" alt="imagen" />
 </p>
 
 # **4.7.Software Object-Oriented Design.** 
