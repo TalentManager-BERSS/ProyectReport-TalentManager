@@ -2850,6 +2850,8 @@ Recomendación: Incluir testimonios con resultados (por ejemplo: “Aumentamos e
 
 # **ANEXOS**
 
+Link de video de entrevistas: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/ESiS_GqtEflFrv3VzwGnP1EBypPrJpGgXPQa_cLLW4y7DA?e=Edh1XX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/ESiS_GqtEflFrv3VzwGnP1EBypPrJpGgXPQa_cLLW4y7DA?e=Edh1XX&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
 Diseño en Figma (Landing Page y Aplicación): [https://www.figma.com/design/lvqSuexiI0BCRGWkHxNRQH/TalentManager?node-id=417-3699\&t=XJw9vIX6hp28gLZD-1](https://www.figma.com/design/lvqSuexiI0BCRGWkHxNRQH/TalentManager?node-id=417-3699&t=XJw9vIX6hp28gLZD-1)
 
 Diseño de diagrama de clases en Lucidchart: [https://lucid.app/lucidchart/7d41f66c-c90d-4228-8ea3-ba014fa01a78/edit?viewport\_loc=-11%2C-11%2C2217%2C1095%2C0\_0\&invitationId=inv\_f4654d3b-896d-4f20-afe1-43cb9da45fda](https://lucid.app/lucidchart/7d41f66c-c90d-4228-8ea3-ba014fa01a78/edit?viewport_loc=-11%2C-11%2C2217%2C1095%2C0_0&invitationId=inv_f4654d3b-896d-4f20-afe1-43cb9da45fda)
@@ -2861,6 +2863,9 @@ Repositorio de landing page: [https://github.com/TalentManager-BERSS/LandingPage
 Landing Page en Netlify: [https://talentmanagerlandingpage.netlify.app/](https://talentmanagerlandingpage.netlify.app/)
 
 Repositorio de frontend: [https://github.com/TalentManager-BERSS/WebApplication-TalentManager](https://github.com/TalentManager-BERSS/WebApplication-TalentManager)
+
+Link de video de entrevistas de validación: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EY11eVZoW1ZDjzjTdxHHFGMBwDXMHBpD5Opcfmf_nfb31g?e=EekSdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311334_upc_edu_pe/EY11eVZoW1ZDjzjTdxHHFGMBwDXMHBpD5Opcfmf_nfb31g?e=EekSdU&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 Aplicación Web en Netlify: [https://talentmanager.netlify.app/](https://talentmanager.netlify.app/)
 
