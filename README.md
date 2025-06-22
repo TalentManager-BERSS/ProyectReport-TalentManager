@@ -2939,3 +2939,5 @@ Aplicación Web en Netlify: [https://talentmanager.netlify.app/](https://talentm
 Repositorio de backend: [https://github.com/TalentManager-BERSS/Backend-TalentManager](https://github.com/TalentManager-BERSS/Backend-TalentManager)
 
 Link de web services de backend publicado: [https://backend-talentmanager-production.up.railway.app/swagger-ui/index.html](https://backend-talentmanager-production.up.railway.app/swagger-ui/index.html)
+
+Link del video de exposición TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/EWgO2d8ROdVMrdLdf1OsQBoBA_SlcHa0nJ_NqW2W4T9Xag?e=kSTrai&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/EWgO2d8ROdVMrdLdf1OsQBoBA_SlcHa0nJ_NqW2W4T9Xag?e=kSTrai&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
