@@ -6,7 +6,7 @@
  
  <p align="center"><strong>Ingeniería de Software</strong><br>
  Desarrollo de Aplicaciones Open Source <br>
- <strong>Profesor:</strong> Código del curso: 1ASI0729</p>
+ <strong>Código del curso:</strong> 1ASI0729
  <strong>Profesor:</strong> Efraín Ricardo Bautista Ubillús</p>
  
  <h2 align="center">INFORME DE TRABAJO FINAL</h2>
