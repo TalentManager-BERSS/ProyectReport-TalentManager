@@ -4,12 +4,13 @@
  
  <p align="center"><strong>Universidad Peruana de Ciencias Aplicadas</strong></p>
  
- <p align="center"><strong>Ingeniería de Software</strong><br>
- Curso: Desarrollo de Aplicaciones Open Source <br>
-    
- <strong>Código del curso:</strong> 1ASI0729
-    
- <strong>Profesor:</strong> Efraín Ricardo Bautista Ubillús</p>
+<p align="center">
+  <strong>Ingeniería de Software</strong><br>
+  Curso: Desarrollo de Aplicaciones Open Source <br>
+  <strong>Código del curso:</strong> 1ASI0729<br>
+  <strong>Profesor:</strong> Efraín Ricardo Bautista Ubillús
+</p>
+
  
  <h2 align="center">INFORME DE TRABAJO FINAL</h2>
  
