@@ -6,7 +6,7 @@
  
 <p align="center">
   <strong>Ingeniería de Software</strong><br>
-  <strong>Curso: Desarrollo de Aplicaciones Open Source</strong><br>
+  <strong>Curso: </strong>Desarrollo de Aplicaciones Open Source<br>
   <strong>Código del curso:</strong> 1ASI0729<br>
   <strong>Profesor:</strong> Efraín Ricardo Bautista Ubillús
 </p>
