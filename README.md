@@ -1625,9 +1625,6 @@ Diagrama de componentes de back-end:
 # **4.7.Software Object-Oriented Design.** 
 
 ### **4.7.1. Class Diagrams.** 
-<p align="center">
-  <img src="Images/diagramaclasesnuevo.jpg" alt="imagen" />
-</p>
 
 **Diagrama de clases de front-end:**
 <p align="center">
