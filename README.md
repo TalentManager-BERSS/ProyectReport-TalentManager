@@ -6,12 +6,14 @@
  
  <p align="center"><strong>Ingeniería de Software</strong><br>
  Desarrollo de Aplicaciones Open Source <br>
+ <strong>Profesor:</strong> Código del curso: 1ASI0729</p>
  <strong>Profesor:</strong> Efraín Ricardo Bautista Ubillús</p>
  
- <h2 align="center">INFORME</h2>
+ <h2 align="center">INFORME DE TRABAJO FINAL</h2>
  
  <h3 align="center">Startup: BERSS</h3>
  <p align="center"><strong>Producto: TalentManager</strong></p>
+ <p align="center"><strong>NRC: 4289</strong></p>
  <p align="center"><strong>Ciclo: 2025-10</strong></p>
  
  <h3 align="center">Team Members:</h3>
@@ -29,7 +31,7 @@
  
  </div>
  
- <p align="center"><strong>Junio, 2025</strong></p>
+ <p align="center"><strong>Julio, 2025</strong></p>
 
  
 **REGISTRO DE VERSIONES DEL INFORME**
@@ -39,17 +41,30 @@
 | 1 (TB1) | 27/04/2025 | Gabriel Sebastián Borja Molina, Santiago Iván Cárdenas Concha, Luis Piero Rodríguez Rodríguez, Luis Gustavo Román Pajuelo, Santiago Manuel Suárez Romero | Desarrollo de capitulos 1, 2, 3, 4 y 5 |
 | 2 (TP1) | 16/05/2025 | Gabriel Sebastián Borja Molina, Santiago Iván Cárdenas Concha, Luis Piero Rodríguez Rodríguez, Luis Gustavo Román Pajuelo, Santiago Manuel Suárez Romero | Desarrollo de frontend de la aplicación y segundo sprint  |
 | 3 (TB2) | 22/06/2025 | Gabriel Sebastián Borja Molina, Santiago Iván Cárdenas Concha, Luis Piero Rodríguez Rodríguez, Luis Gustavo Román Pajuelo, Santiago Manuel Suárez Romero | Desarrollo de backend de la aplicación y tercer sprint  |
-| 4 (TF1) |  |  |  |
+| 4 (TF1) | 08/07/2025 | Gabriel Sebastián Borja Molina, Santiago Iván Cárdenas Concha, Luis Piero Rodríguez Rodríguez, Luis Gustavo Román Pajuelo, Santiago Manuel Suárez Romero | integración frontend y backend de la aplicación y cuarto sprint |
 
 **PROJECT REPORT COLLABORATION INSIGHTS**
 
 Link del repositorio: https://github.com/TalentManager-BERSS/ProyectReport-TalentManager
 
-Insights (todos participaron): 
+Insights TB1 (todos participaron): 
 
 <p align="center">
   <img src="Images/insightstb1.jpg" alt="imagen" />
 </p>
+
+Insights TP1 (todos participaron):
+
+<p align="center">
+  <img src="Images/insightstp1.png" alt="imagen" />
+</p>
+
+Insights TB2 (todos participaron):
+
+<p align="center">
+  <img src="Images/insightstb2.png" alt="imagen" />
+</p>
+
 
 **CONTENT** 
 
@@ -1572,39 +1587,18 @@ El Domain Driven Design (DDD) busca lograr una comprensión común del dominio e
 
 ### **4.6.1. Software Architecture Context Diagram.** 
 
+Diagrama de contexto:
+
 <p align="center">
   <img src="Images/img92.jpg" alt="imagen" />
 </p>
 
-Diagrama de contexto de front-end:
-
-<p align="center">
-  <img src="Images/contextofrontend.png" alt="imagen" />
-</p>
-
-Diagrama de contexto de back-end:
-
-<p align="center">
-  <img src="Images/contextobackend.png" alt="imagen" />
-</p>
-
-
 ### **4.6.2. Software Architecture Container Diagrams.** 
+
+Diagrama de contenedores:
 
 <p align="center">
   <img src="Images/img93.jpg" alt="imagen" />
-</p>
-
-Diagrama de contenedores de front-end:
-
-<p align="center">
-  <img src="Images/contenedoresfrontend.png" alt="imagen" />
-</p>
-
-Diagrama de contenedores de back-end:
-
-<p align="center">
-  <img src="Images/contenedoresbackend.png" alt="imagen" />
 </p>
 
 ### **4.6.3. Software Architecture Components Diagrams.** 
@@ -1658,92 +1652,6 @@ Diagrama de componentes de back-end:
 La base de datos de TalentManager ha sido diseñada bajo un enfoque relacional, con el objetivo de asegurar la integridad de los datos, la trazabilidad del desempeño de los empleados y la eficiencia en la gestión del talento humano en las organizaciones. Cada tabla representa una entidad clave dentro del ecosistema del sistema, permitiendo una administración integral de usuarios, empleados, observaciones, reportes y jerarquías laborales. La arquitectura considera aspectos fundamentales como asignación de cargos, áreas de trabajo, generación de reportes de asistencia y evaluaciones de desempeño, promoviendo una gestión estructurada, precisa y flexible.
 
 ### **4.8.1. Database Diagram.** 
-
-- users:
-
-id_user: INT (PK)
-
-name: VARCHAR(100)
-
-email: VARCHAR(100) (UNIQUE)
-
-password: VARCHAR(255)
-
-department: VARCHAR(100)
-
-- positions:
-
-id_position: INT (PK)
-
-name: VARCHAR(100)
-
-description: VARCHAR(100)
-
-- departments:
-
-id_department: INT (PK)
-
-name: VARCHAR(100)
-
-description: VARCHAR(100)
-
-- employees:
-
-id_employee: INT (PK)
-
-name: VARCHAR(100)
-
-lastname: VARCHAR(100)
-
-entry_date: DATE
-
-entry_time: TIME
-
-exit_time: TIME
-
-id_user: INT (FK)
-
-id_position: INT (FK)
-
-id_department: INT (FK)
-
-- attendance_reports:
-
-id_attendancereport: INT (PK)
-
-entry_time: TIME
-
-exit_time: TIME
-
-date: DATE
-
-score: FLOAT
-
-id_employee: INT (FK)
-
-- saved_reports:
-  
-id_report: INT (PK)
-
-generation_date: DATE
-
-data: NVARCHAR(MAX)
-
-id_user: INT (FK)
-
-id_employee: INT (FK)
-
-- notes:
-  
-id_note: INT (PK)
-
-issue_date: DATE
-
-content: VARCHAR(100)
-
-id_user: INT (FK)
-
-id_employee: INT (FK
 
 <p align="center">
   <img src="Images/diagramabding.png" alt="imagen" />
