@@ -1122,19 +1122,6 @@ En el encabezado de la Landing Page, encontramos las primeras etiquetas que podr
 * **Iniciar sesión:** Esta etiqueta cumple con la función de ser un acceso directo a la pantalla de inicio de sesión, donde podrá acceder a la versión web de la plataforma luego de ingresar un usuario y contraseña válidos.  
 * **Suscríbete:** Esta etiqueta tiene la funcionalidad de redirigir al usuario a la página de registro del servicio, donde podrá crear una cuenta y suscribirse al servicio.
 
-<p align="center">
-  <img src="Images/nueva29.jpg" alt="imagen" />
-</p>
-
-* **Youtube, Instagram, Twitter:** Estas etiquetas cumplen la misma función, que es la de redirigir al usuario a la página de TalentManager en cada respectiva red social.  
-* **Nuestra historia:** Esta etiqueta servirá para redirigir al usuario a la sección de “Nuestra historia”, donde podrá familiarizarse con los anteriores proyectos de la startup y nuestra trayectoria como equipo.  
-* **Misión, visión y valores:** Redirigirá al usuario hacia la pantalla de misión y visión de nuestra startup, acompañada por la lista de valores representativos de nuestro equipo.  
-* **Políticas de Privacidad:** Redirige al usuario a la pantalla de políticas de privacidad y manejo de datos.  
-* **Términos del Servicio:** Redigirirá al usuario a la pantalla de términos y condiciones del servicio.  
-* **Atención al cliente:** Redirige al usuario a la interfaz de atención al cliente, donde podrá reportar un problema o encontrar información de ayuda.  
-* **Preguntas frecuentes:** Redirige al usuario a la sección de preguntas frecuentes del sitio web.  
-* **Contacto:** Redirige al usuario a la pantalla que contiene el formulario de contacto dentro del sitio web.
-
 Aplicación:
 
 <p align="center">
