@@ -196,14 +196,10 @@ Insights TB2 (todos participaron):
 
 # STUDENT OUTCOME
 
-| Criterio Específico | Acciones realizadas | Conclusiones |
-| ----- | ----- | ----- |
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería | Cárdenas Concha, Santiago Iván Suárez Romero, Santiago Suárez Luis Gustavo Roman Pajuelo  Gabriel Sebastian Borja Molino Roman Pajuelo, Luis Gustavo  Avance TB1 | Se completó el trabajo cumpliendo con los aspectos necesarios, permitiendo así entregar un resultado adecuado. El documento redactado sirve como referencia para quienes deseen conocer el proceso seguido en la planificación, desarrollo y puesta en producción del proyecto. |
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | Cárdenas Concha, Santiago Iván Suárez Romero, Santiago Suárez Luis Gustavo Roman Pajuelo  Gabriel Sebastian Borja Molino Roman Pajuelo, Luis Gustavo  Avance TB1 | Como equipo logramos implementar formas de comunicación efectivas que nos permitieron presentar un trabajo integral, a pesar del reto que implicaron los plazos ajustados para su entrega. Asimismo, se compartieron los resultados obtenidos mediante entrevistas, donde se evidenció una respuesta positiva hacia el programa. |
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería | Cárdenas Concha, Santiago Iván Suárez Romero, Santiago Suárez Luis Gustavo Roman Pajuelo  Gabriel Sebastian Borja Molino Roman Pajuelo, Luis Gustavo  Avance TP | Se completó el trabajo cumpliendo con los aspectos necesarios, permitiendo así entregar un resultado adecuado. El documento redactado sirve como referencia para quienes deseen conocer el proceso seguido en la planificación, desarrollo y puesta en producción del proyecto. |
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | Cárdenas Concha, Santiago Iván Suárez Romero, Santiago Suárez Luis Gustavo Roman Pajuelo  Gabriel Sebastian Borja Molino Roman Pajuelo, Luis Gustavo  Avance TP | Como equipo logramos implementar formas de comunicación efectivas que nos permitieron presentar un trabajo integral, a pesar del reto que implicaron los plazos ajustados para su entrega. Asimismo, se compartieron los resultados obtenidos mediante entrevistas, donde se evidenció una respuesta positiva hacia el programa. |
-| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerarquicos, en el marco del desarrollo de un proyecto en ingeniería | Cárdenas Concha, Santiago Iván Suárez Romero, Santiago Suárez Luis Gustavo Roman Pajuelo  Gabriel Sebastian Borja Molino Roman Pajuelo, Luis Gustavo  Avance TB2 | Se completó el trabajo cumpliendo con los aspectos necesarios, permitiendo así entregar un resultado adecuado. El documento redactado sirve como referencia para quienes deseen conocer el proceso seguido en la planificación, desarrollo y puesta en producción del proyecto. |
-| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | Cárdenas Concha, Santiago Iván Suárez Romero, Santiago Suárez Luis Gustavo Roman Pajuelo  Gabriel Sebastian Borja Molino Roman Pajuelo, Luis Gustavo  Avance TB2 | Como equipo logramos implementar formas de comunicación efectivas que nos permitieron presentar un trabajo integral, a pesar del reto que implicaron los plazos ajustados para su entrega. Asimismo, se compartieron los resultados obtenidos mediante entrevistas, donde se evidenció una respuesta positiva hacia el programa. |
+| Criterio específico | Acciones realizadas | Conclusiones |
+|---------------------|---------------------|--------------|
+| Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería | Cárdenas Concha, Santiago Iván; Suárez Romero, Santiago; Suárez Luis Gustavo; Roman Pajuelo, Gabriel Sebastián; Borja Molino; Roman Pajuelo, Luis Gustavo participaron en la redacción de los documentos correspondientes a los avances TB1, TP y TB2. En todos los entregables se cuidó el lenguaje técnico, se mantuvo coherencia en la estructura del informe y se desarrollaron secciones clave como: introducción, marco teórico, metodología, resultados, entrevistas, impacto, conclusiones y anexos. Se realizaron revisiones grupales para asegurar calidad ortográfica y de redacción. Además, se compartieron responsabilidades para describir con precisión el desarrollo de la solución propuesta, permitiendo reflejar la planificación, la toma de decisiones y los criterios de diseño seguidos en el proyecto TalentManager. | Se completó el trabajo cumpliendo con los aspectos necesarios, permitiendo así entregar un resultado adecuado. El documento redactado sirve como referencia para quienes deseen conocer el proceso seguido en la planificación, desarrollo y puesta en producción del proyecto. |
+| Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería. | Cárdenas Concha, Santiago Iván; Suárez Romero, Santiago; Suárez Luis Gustavo; Roman Pajuelo, Gabriel Sebastián; Borja Molino; Roman Pajuelo, Luis Gustavo realizaron exposiciones orales correspondientes a los avances TB1, TP y TB2. Como equipo, lograron implementar formas de comunicación efectivas para presentar el trabajo integralmente, incluso frente a plazos ajustados. Se elaboraron discursos grupales, se practicaron presentaciones y se distribuyó el uso de la palabra durante las exposiciones. Se presentaron entrevistas a usuarios y stakeholders, explicando su relevancia y evidenciando una respuesta positiva hacia el sistema propuesto. Se utilizaron recursos visuales como maquetas, prototipos y diagramas para acompañar la presentación. Además, se reforzó la argumentación técnica con ejemplos de uso y resultados obtenidos. | Como equipo logramos implementar formas de comunicación efectivas que nos permitieron presentar un trabajo integral, a pesar del reto que implicaron los plazos ajustados para su entrega. Asimismo, se compartieron los resultados obtenidos mediante entrevistas, donde se evidenció una respuesta positiva hacia el programa. |
 # 
 
 # **Capítulo I: Introducción** 
@@ -1663,11 +1659,9 @@ A continuación se podrá apreciar la tabla del sprint planificado:
 | Location | Reunión virtual |
 | Prepared By | Santiago Cárdenas, Gustavo Román |
 | Attendees (to planning meeting) | Santiago Cárdenas / Gustavo Román / Luis Rodríguez / Santiago Suárez / Gabriel Borja |
-| Sprint n – 1 Review Summary | A lo largo del Sprint, se implementaron historias de usuario centradas en la creación de la landing page, lo que permitió consolidar una primera impresión robusta de la plataforma. El equipo de desarrollo (integrado por Luis Rodríguez, Gustavo Román y Santiago Cárdenas) resaltó que una adecuada estimación de Story Points y la definición precisa de las tareas contribuyeron a sostener un flujo de trabajo equilibrado y sostenido. Por su parte, el diseñador UX/UI (Santiago Suárez), enfatizó que el enfoque modular adoptado favoreció una organización visual coherente y flexible. Finalmente, el product owner (Gabriel Borja) manifestó su conformidad con los avances logrados durante el Sprint. |
-| Sprint n – 1 Retrospective Summary | Durante el transcurso del Sprint, el equipo subrayó varios aspectos positivos, entre ellos la eficiente organización de las tareas, una adecuada estimación temporal basada en Story Points, y una comunicación fluida que facilitó la pronta resolución de obstáculos. Se destacó además la colaboración activa al momento de definir los criterios de aceptación, lo cual fortaleció la alineación del equipo. Como aspecto a mejorar, se reconoció la importancia de afinar la estimación de tiempos, especialmente en tareas relacionadas con el diseño visual, así como de optimizar las sesiones de revisión para enfocarse con mayor profundidad en los aprendizajes obtenidos y en la retroalimentación proporcionada por el product owner. |
 | **Sprint Goal & User Stories**  |  |
-| Sprint n Goal | **Our focus is** on delivering a functional and visually appealing landing page that presents TalentManager’s value proposition, facilitates intuitive access to all core sections, and enables contact with the company and subscription to services. **We believe it delivers** clarity and trust to new visitors and helps convert them into users by clearly explaining what TalentManager offers and how to begin engaging with the platform. **This will be confirmed when** users can navigate through sections like “About Us,” “Services,” and “Subscribe,” explore subscription plans, access contact options, view key benefits, and interact with the responsive navigation from any device. |
-| Sprint n Velocity | 20 |
+| Sprint 1 Goal | **Our focus is** on delivering a functional and visually appealing landing page that presents TalentManager’s value proposition, facilitates intuitive access to all core sections, and enables contact with the company and subscription to services. **We believe it delivers** clarity and trust to new visitors and helps convert them into users by clearly explaining what TalentManager offers and how to begin engaging with the platform. **This will be confirmed when** users can navigate through sections like “About Us,” “Services,” and “Subscribe,” explore subscription plans, access contact options, view key benefits, and interact with the responsive navigation from any device. |
+| Sprint 1 Velocity | 20 |
 | Sum of Story Points | 20 |
 
 #### 
@@ -1783,11 +1777,11 @@ A continuación se podrá apreciar la tabla del sprint planificado:
 | Location | Reunión virtual |
 | Prepared By | Santiago Cárdenas, Gustavo Román |
 | Attendees (to planning meeting) | Santiago Cárdenas / Gustavo Román / Luis Rodríguez / Santiago Suárez / Gabriel Borja |
-| Sprint n – 1 Review Summary | A lo largo del Sprint, se implementaron historias de usuario centradas en la creación del frontend de la aplicación web. El equipo de desarrollo (integrado por Luis Rodríguez, Gustavo Román y Santiago Cárdenas) resaltó que una adecuada estimación de Story Points y la definición precisa de las tareas contribuyeron a sostener un flujo de trabajo equilibrado y sostenido. Por su parte, el diseñador UX/UI (Santiago Suárez), enfatizó que el enfoque modular adoptado favoreció una organización visual coherente y flexible. Finalmente, el product owner (Gabriel Borja) manifestó su conformidad con los avances logrados durante el Sprint. |
-| Sprint n – 1 Retrospective Summary | Durante el transcurso del Sprint, el equipo subrayó varios aspectos positivos, entre ellos la eficiente organización de las tareas, una adecuada estimación temporal basada en Story Points, y una comunicación fluida que facilitó la pronta resolución de obstáculos. Se destacó además la colaboración activa al momento de definir los criterios de aceptación, lo cual fortaleció la alineación del equipo. Como aspecto a mejorar, se reconoció la importancia de afinar la estimación de tiempos, especialmente en tareas relacionadas con el diseño visual, así como de optimizar las sesiones de revisión para enfocarse con mayor profundidad en los aprendizajes obtenidos y en la retroalimentación proporcionada por el product owner. |
+| Sprint 2 – 1 Review Summary | A lo largo del Sprint 1, se implementaron historias de usuario centradas en la creación de la landing page, lo que permitió consolidar una primera impresión robusta de la plataforma. El equipo de desarrollo (integrado por Luis Rodríguez, Gustavo Román y Santiago Cárdenas) resaltó que una adecuada estimación de Story Points y la definición precisa de las tareas contribuyeron a sostener un flujo de trabajo equilibrado y sostenido. Por su parte, el diseñador UX/UI (Santiago Suárez), enfatizó que el enfoque modular adoptado favoreció una organización visual coherente y flexible. Finalmente, el product owner (Gabriel Borja) manifestó su conformidad con los avances logrados durante el Sprint. |
+| Sprint 2 – 1 Retrospective Summary | Durante el transcurso del Sprint 1, el equipo subrayó varios aspectos positivos, entre ellos la eficiente organización de las tareas, una adecuada estimación temporal basada en Story Points, y una comunicación fluida que facilitó la pronta resolución de obstáculos. Se destacó además la colaboración activa al momento de definir los criterios de aceptación, lo cual fortaleció la alineación del equipo. Como aspecto a mejorar, se reconoció la importancia de afinar la estimación de tiempos, especialmente en tareas relacionadas con el diseño visual, así como de optimizar las sesiones de revisión para enfocarse con mayor profundidad en los aprendizajes obtenidos y en la retroalimentación proporcionada por el product owner. |
 | **Sprint Goal & User Stories**  |  |
-| Sprint n Goal | Our focus is on designing and implementing the complete frontend views of TalentManager's internal platform, including login, registration, home, employee management, support, reports, and dashboard modules. We believe this will provide a consistent and fully navigable interface that reflects the expected user journey within the system. This will be confirmed when users can visually interact with all screens including login, add/manage employees, access reports, view dashboards, and submit support queries through a responsive and cohesive UI layout.|
-| Sprint n Velocity | 20 |
+| Sprint 2 Goal | Our focus is on designing and implementing the complete frontend views of TalentManager's internal platform, including login, registration, home, employee management, support, reports, and dashboard modules. We believe this will provide a consistent and fully navigable interface that reflects the expected user journey within the system. This will be confirmed when users can visually interact with all screens including login, add/manage employees, access reports, view dashboards, and submit support queries through a responsive and cohesive UI layout.|
+| Sprint 2 Velocity | 20 |
 | Sum of Story Points | 20 |
 
 #### 
@@ -1903,8 +1897,8 @@ A continuación se podrá apreciar la tabla del sprint planificado:
 | Location | Reunión virtual |
 | Prepared By | Luis Rodríguez, Gabriel Borja |
 | Attendees (to planning meeting) | Santiago Cárdenas / Gustavo Román / Luis Rodríguez / Santiago Suárez / Gabriel Borja |
-| Sprint 3 – 1 Review Summary | Durante el Sprint 3, se desarrollaron 11 historias de usuario enfocadas en el desarrollo del backend de la aplicación TalentManager. Este trabajo permitió consolidar la arquitectura de la base de datos y habilitar funcionalidades clave del sistema, como la gestión de empleados, reportes, observaciones y usuarios. Se implementaron endpoints RESTful para las entidades principales, incluyendo empleados, áreas, cargos y reportes, facilitando una integración eficaz entre el frontend y el backend. El programador Gustavo Román desempeñó un papel fundamental en la optimización de las consultas SQL y en la mejora de la estructura de la base de datos, lo que incrementó la eficiencia de las operaciones en MySQL. Gracias a estos ajustes, las operaciones de lectura y escritura se ejecutan ahora con mayor rapidez y precisión. Gabriel Borja y Luis Rodríguez colaboraron activamente en la definición de las relaciones entre tablas y en la correcta normalización de la base de datos, lo cual garantizó la integridad referencial y evitó redundancias, asegurando una estructura robusta, mantenible y escalable. Por su parte, Santiago Cárdenas y Santiago Suárez contribuyeron significativamente con la implementación de los servicios API RESTful para la gestión de reportes, observaciones y asistencias, asegurando una comunicación segura y eficiente entre los distintos componentes del sistema. Adicionalmente, se avanzó en la documentación de los endpoints utilizando Swagger y OpenAPI, lo que permitió estandarizar las rutas, mejorar la colaboración entre equipos y facilitar futuras integraciones con servicios externos. Finalmente, también se dedicaron esfuerzos a pulir aspectos del frontend previamente implementado, mejorando la coherencia visual, corrigiendo errores menores de navegación y ajustando componentes para ofrecer una experiencia de usuario más fluida e intuitiva. |
-| Sprint 3 – 1 Retrospective Summary | Durante el Sprint 3, se consolidó una base robusta para el backend de la plataforma TalentManager. El equipo avanzó significativamente en la integración de los servicios esenciales del sistema. Entre los principales logros se encuentra la optimización de la base de datos, con consultas SQL ajustadas correctamente que mejoraron considerablemente el rendimiento general del backend. La colaboración entre los integrantes permitió completar las tareas backend de forma coordinada y eficiente. En cuanto a la estructuración de las APIs, se implementaron los servicios necesarios para la gestión de empleados, reportes, observaciones y otras funcionalidades clave del sistema. En el ámbito de documentación, la implementación de Swagger y el uso del estándar OpenAPI facilitaron la integración y prueba de los endpoints, aumentando la claridad y transparencia del desarrollo. Para el siguiente sprint, se proyecta continuar con la mejora progresiva de las consultas SQL y la estructura de la base de datos, realizar correcciones menores si se detectan durante las pruebas del backend, ampliar la documentación especialmente en los endpoints más complejos, y reforzar la seguridad de la API y del acceso a datos sensibles. |
+| Sprint 3 – 1 Review Summary | A lo largo del Sprint 2, se implementaron historias de usuario centradas en la creación del frontend de la aplicación web. El equipo de desarrollo (integrado por Luis Rodríguez, Gustavo Román y Santiago Cárdenas) resaltó que una adecuada estimación de Story Points y la definición precisa de las tareas contribuyeron a sostener un flujo de trabajo equilibrado y sostenido. Por su parte, el diseñador UX/UI (Santiago Suárez), enfatizó que el enfoque modular adoptado favoreció una organización visual coherente y flexible. Finalmente, el product owner (Gabriel Borja) manifestó su conformidad con los avances logrados durante el Sprint. |
+| Sprint 3 – 1 Retrospective Summary | Durante el transcurso del Sprint 2, el equipo subrayó varios aspectos positivos, entre ellos la eficiente organización de las tareas, una adecuada estimación temporal basada en Story Points, y una comunicación fluida que facilitó la pronta resolución de obstáculos. Se destacó además la colaboración activa al momento de definir los criterios de aceptación, lo cual fortaleció la alineación del equipo. Como aspecto a mejorar, se reconoció la importancia de afinar la estimación de tiempos, especialmente en tareas relacionadas con el diseño visual, así como de optimizar las sesiones de revisión para enfocarse con mayor profundidad en los aprendizajes obtenidos y en la retroalimentación proporcionada por el product owner. |
 | **Sprint Goal & User Stories**  |  |
 | Sprint 3 Goal | Our focus is on the development of the backend infrastructure for the TalentManager platform, particularly in implementing key RESTful APIs and optimizing database queries. This involves managing core entities such as employees, reports, observations, user accounts, and attendance records. We believe it delivers a robust backend system capable of handling internal interactions, processing employee-related data efficiently, and providing essential API endpoints for seamless frontend integration. Furthermore, the use of OpenAPI and Swagger supports clear documentation and paves the way for future scalability and integrations. This will be confirmed when all user stories related to backend functionalities—such as employee registration, report generation, observation logging, and attendance tracking—are fully implemented and tested. We will also validate the efficiency of the APIs and database operations to ensure they meet performance and reliability standards. |
 | Sprint 3 Velocity | 60 |
@@ -2128,91 +2122,90 @@ En lugar de depender de una API falsa, el equipo implementó una API RESTful con
 1. Empleados (Employees)
 Operaciones CRUD soportadas:
 
-GET: Obtener los datos de todos los empleados.
+GET /api/v1/employees: Obtener todos los empleados.
 
-GET: Obtener los datos de un empleado en específico por ID.
+GET /api/v1/employees/{employeeId}: Obtener empleado por ID.
 
-POST: Crear un nuevo empleado.
+POST /api/v1/employees: Crear un nuevo empleado.
 
-PUT: Actualizar los datos de un empleado.
+PUT /api/v1/employees/{employeeId}: Actualizar datos de un empleado.
 
-DELETE: Eliminar un empleado existente.
+DELETE /api/v1/employees/{employeeId}: Eliminar empleado.
 
-Descripción: Permite gestionar la información de los empleados, incluyendo creación, actualización, consulta y eliminación.
+Descripción:
+Permite gestionar la información del personal de la empresa: creación, edición, consulta y eliminación de registros individuales. Esta entidad es clave para administrar el talento humano dentro del sistema.
 
 2. Reportes (Reports)
 Operaciones CRUD soportadas:
 
-GET: Obtener los datos de todos los reportes.
+GET /api/v1/reports: Obtener todos los reportes.
 
-GET: Obtener los datos de un reporte en específico por ID.
+GET /api/v1/reports/{reportId}: Obtener reporte por ID.
 
-POST: Crear un nuevo reporte.
+GET /api/v1/reports/by-company/{companyId}: Obtener reportes por empresa.
 
-PUT: Actualizar un reporte existente.
+POST /api/v1/reports: Crear un nuevo reporte.
 
-Descripción: Gestiona la creación y consulta de reportes, incluyendo la capacidad de obtener detalles de reportes específicos asociados a una compañía.
+PUT /api/v1/reports/{reportId}: Actualizar reporte.
 
-3. Soporte (SupportMessages)
+DELETE /api/v1/reports/{reportId}: Eliminar reporte.
+
+Descripción:
+Gestiona los reportes de desempeño generados para empleados o empresas. Esto facilita el seguimiento y evaluación del rendimiento individual y colectivo.
+
+3. Resúmenes Mensuales (Monthly Summaries)
 Operaciones CRUD soportadas:
 
-POST: Crear un nuevo mensaje de soporte.
+GET /api/v1/monthly-summaries: Obtener todos los resúmenes mensuales.
 
-GET: Obtener todos los mensajes de soporte.
+GET /api/v1/monthly-summaries/{monthlySummaryId}: Obtener resumen por ID.
 
-GET: Obtener un mensaje de soporte específico.
+GET /api/v1/monthly-summaries/by-employee/{employeeId}: Resúmenes por empleado.
 
-PUT: Actualizar un mensaje de soporte.
+GET /api/v1/monthly-summaries/by-company/{companyId}: Resúmenes por empresa.
 
-Descripción: Permite la gestión de mensajes de soporte enviados por los empleados a la plataforma para su resolución.
+POST /api/v1/monthly-summaries: Crear un nuevo resumen mensual.
 
-4. Notificaciones (Notifications)
+PUT /api/v1/monthly-summaries/{monthlySummaryId}: Actualizar resumen.
+
+DELETE /api/v1/monthly-summaries/{monthlySummaryId}: Eliminar resumen.
+
+Descripción:
+Registra y centraliza los resúmenes mensuales que reflejan la productividad, metas alcanzadas y puntos a mejorar de cada empleado o empresa en un período determinado.
+
+4. Perfiles (Profiles)
 Operaciones CRUD soportadas:
 
-GET: Obtener todas las notificaciones activas de un usuario.
+GET /api/v1/profiles: Obtener todos los perfiles.
 
-GET: Obtener los datos de una notificación específica.
+GET /api/v1/profiles/{profileId}: Obtener perfil por ID.
 
-POST: Crear una nueva notificación.
+POST /api/v1/profiles: Crear nuevo perfil.
 
-PATCH: Ocultar todas las notificaciones de un usuario.
+PUT /api/v1/profiles/{profileId}: Actualizar nombre de usuario.
 
-Descripción: Permite gestionar las notificaciones generadas dentro de la plataforma, incluyendo la visualización de las activas, creación de nuevas y ocultar notificaciones no deseadas.
+DELETE /api/v1/profiles/{profileId}: Eliminar perfil.
 
-5. Usuarios Administradores (UserAdmins)
+Descripción:
+Define los perfiles asociados a los usuarios del sistema. Incluye información como nombre de usuario y roles, facilitando la personalización de la experiencia de cada tipo de usuario.
+
+5. Mensajes de Soporte (Support Messages)
 Operaciones CRUD soportadas:
 
-GET: Obtener los datos del usuario administrador.
+GET /api/v1/support-messages: Obtener todos los mensajes.
 
-PUT: Actualizar los datos de un administrador.
+GET /api/v1/support-messages/{id}: Obtener mensaje específico.
 
-Descripción: Gestiona los datos del usuario administrador, permitiendo su consulta y actualización de detalles.
+GET /api/v1/support-messages/company/{companyId}: Mensajes por empresa.
 
-6. Usuarios Clientes (UserClients)
-Operaciones CRUD soportadas:
+POST /api/v1/support-messages: Crear mensaje de soporte.
 
-GET: Obtener todos los usuarios.
+PUT /api/v1/support-messages/{id}: Actualizar mensaje.
 
-GET: Obtener los datos de un usuario específico.
+DELETE /api/v1/support-messages/{id}: Eliminar mensaje.
 
-POST: Añadir un nuevo cliente.
-
-POST: Agregar un libro favorito a un cliente.
-
-PUT: Actualizar los datos de un cliente existente.
-
-DELETE: Eliminar un cliente.
-
-DELETE: Eliminar un libro favorito de un cliente.
-
-Descripción: Permite gestionar la información de los usuarios clientes, con la capacidad de agregar, actualizar o eliminar información, así como gestionar los favoritos de los usuarios.
-
-7. Recomendaciones (Recommendations)
-Operaciones CRUD soportadas:
-
-GET: Obtener las recomendaciones de libros para un usuario específico.
-
-Descripción: Permite obtener una lista de libros recomendados para un usuario basado en sus preferencias y actividad dentro de la plataforma.
+Descripción:
+Facilita la comunicación entre empleados y administradores o personal de TI, permitiendo enviar y gestionar mensajes relacionados con dudas, incidentes o problemas técnicos.
 
 8. Integración con Swagger y OpenAPI
 La documentación de la API ha sido completamente integrada utilizando OpenAPI y Swagger, proporcionando una interfaz interactiva para explorar y probar todos los endpoints de la API. Esto permite a los desarrolladores verificar las operaciones soportadas, los parámetros requeridos y las respuestas esperadas para cada endpoint. Con la interfaz de Swagger, los desarrolladores pueden realizar pruebas de las funcionalidades en tiempo real, mejorando la eficiencia y reduciendo los errores de integración al interactuar con el sistema backend de TalentManager.
@@ -2260,11 +2253,11 @@ Durante el Sprint 3, el equipo de desarrollo centró sus esfuerzos en consolidar
 Actividades realizadas:
 Arquitectura Backend: Se definieron y desarrollaron los endpoints necesarios para gestionar entidades clave como reportes y resúmenes mensuales de empleados. Los endpoints siguen una estructura clara y RESTful, tales como por ejemplo:
 
-- /api/v1/reports para el manejo de reportes individuales y por empresa.
+- /api/v1/reports para el manejo de reportes.
 
-- /api/v1/monthly-summaries para los resúmenes mensuales generales, por empleado o por empresa.
+- /api/v1/monthly-summaries para los resúmenes mensuales generales.
 
-Operaciones CRUD: Se implementaron las funcionalidades completas de creación, lectura, actualización y eliminación para ambas entidades principales (reports y monthly summaries), asegurando la gestión integral del rendimiento del personal desde múltiples dimensiones (individual, mensual, y organizacional).
+Operaciones CRUD: Se implementaron las funcionalidades para las entidades principales (reports y monthly summaries).
 
 Documentación con Swagger y OpenAPI: Toda la API fue documentada usando Swagger UI, lo que permitió al equipo visualizar, probar y validar el comportamiento de los endpoints en tiempo real. Esta integración facilitó una comunicación más clara entre frontend y backend y mejoró la trazabilidad del desarrollo.
 
