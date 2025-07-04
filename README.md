@@ -44,7 +44,7 @@
 | 1 (TB1) | 27/04/2025 | Gabriel Sebastián Borja Molina, Santiago Iván Cárdenas Concha, Luis Piero Rodríguez Rodríguez, Luis Gustavo Román Pajuelo, Santiago Manuel Suárez Romero | Desarrollo de capitulos 1, 2, 3, 4 y 5 |
 | 2 (TP1) | 16/05/2025 | Gabriel Sebastián Borja Molina, Santiago Iván Cárdenas Concha, Luis Piero Rodríguez Rodríguez, Luis Gustavo Román Pajuelo, Santiago Manuel Suárez Romero | Desarrollo de frontend de la aplicación y segundo sprint  |
 | 3 (TB2) | 22/06/2025 | Gabriel Sebastián Borja Molina, Santiago Iván Cárdenas Concha, Luis Piero Rodríguez Rodríguez, Luis Gustavo Román Pajuelo, Santiago Manuel Suárez Romero | Desarrollo de backend de la aplicación y tercer sprint  |
-| 4 (TF1) | 08/07/2025 | Gabriel Sebastián Borja Molina, Santiago Iván Cárdenas Concha, Luis Piero Rodríguez Rodríguez, Luis Gustavo Román Pajuelo, Santiago Manuel Suárez Romero | integración frontend y backend de la aplicación y cuarto sprint |
+| 4 (TF1) | 08/07/2025 | Gabriel Sebastián Borja Molina, Santiago Iván Cárdenas Concha, Luis Piero Rodríguez Rodríguez, Luis Gustavo Román Pajuelo, Santiago Manuel Suárez Romero | Integración frontend y backend de la aplicación y cuarto sprint |
 
 **PROJECT REPORT COLLABORATION INSIGHTS**
 
