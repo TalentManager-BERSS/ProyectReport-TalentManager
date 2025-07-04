@@ -942,26 +942,35 @@ Para la elaboración de nuestro Product Backlog, hemos utilizado la escala de Fi
 | 8 | US21 | Guardado automático de evaluaciones | Como gerente de RRHH, quiero que la evaluación se guarde automáticamente para evitar pérdida de información. | Alta | 8 |
 | 9 | US22 | Visualización de resultados por empleado | Como gerente de RRHH, quiero ver los resultados de cada evaluación por empleado para hacer seguimiento a su progreso. | Alta | 8 |
 | 10 | US25 | Exportación de reportes en pantalla | Como directivo, quiero poder exportar lo que veo en pantalla para compartirlo o analizarlo externamente. | Alta | 8 |
-| 11 | US10 | Visualización de la galería de slides informativos mediante el carrusel (Swiper) | Como usuario, quiero ver una galería de slides informativos interactivos en la landing page para conocer las principales funciones de TalentManager de forma atractiva. | Alta | 5 |
-| 12 | US11 | Registro básico de empleados | Como responsable de RRHH, quiero registrar empleados nuevos con sus datos personales básicos para agregarlos al sistema de gestión. | Alta | 5 |
-| 13 | US12 | Edición de información del perfil | Como responsable de RRHH, quiero editar la información de un perfil de empleado para mantenerla actualizada. | Alta | 5 |
-| 14 | US13 | Visualización de perfil completo | Como responsable de RRHH, quiero ver todos los datos del perfil del empleado para tener una vista clara de su información. | Alta | 5 |
-| 15 | US14 | Registro de cargo y área del empleado | Como responsable de RRHH, quiero registrar el cargo y área de un empleado para reflejar su posición actual en la organización. | Alta | 5 |
-| 16 | US16 | Registro de faltas o tardanzas | Como supervisor, quiero registrar faltas y llegadas tardías para evaluar el compromiso del empleado. | Alta | 5 |
-| 17 | US26 | Reporte de empleados con mejor desempeño | Como directivo, quiero identificar a los empleados con mejor desempeño para reconocer su trabajo. | Alta | 5 |
-| 18 | US02 | Acceso a menú de navegación responsive desde cualquier dispositivo | Como usuario, quiero acceder fácilmente al menú de navegación desde cualquier dispositivo, para moverme por la plataforma sin importar el tamaño de pantalla. | Alta | 3 |
-| 19 | US27 | Interfaz de usuario intuitiva y fácil de usar | Como usuario nuevo, quiero que la interfaz sea clara e intuitiva para poder usar la plataforma sin ayuda externa. | Alta | 3 |
-| 20 | US04 | Navegación rápida a secciones de Servicios, Contacto, Nosotros y Suscríbete | Como usuario, quiero acceder rápidamente a las secciones principales desde el menú de navegación, para encontrar la información que necesito sin perder tiempo. | Alta | 2 |
-| 21 | US05 | Acceso al formulario de contacto para envío de mensajes | Como usuario, quiero llenar un formulario de contacto para enviar mis consultas o dudas a TalentManager de forma sencilla. | Alta | 2 |
-| 22 | US01 | Visualización del mensaje principal en la pantalla de inicio | Como visitante de la página, quiero visualizar un mensaje principal claro y motivador en la pantalla de inicio, para entender rápidamente el propósito de TalentManager. | Alta | 1 |
-| 23 | US03 | Visualización de beneficios principales de TalentManager en la landing page | Como visitante, quiero ver los beneficios destacados de TalentManager, para conocer rápidamente las principales ventajas del servicio. | Alta | 1 |
-| 24 | US06 | Visualización del apartado de planes y precios de suscripción | Como potencial cliente, quiero ver claramente los planes de suscripción disponibles, para comparar opciones y tomar una decisión de compra. | Alta | 1 |
-| 25 | US07 | Acceso a la sección "Sobre Nosotros" para conocer la empresa y el proyecto | Como visitante, quiero acceder a la sección de "Sobre Nosotros" para saber más sobre la historia de la empresa y el propósito de TalentManager. | Alta | 1 |
-| 26 | US08 | Visualización de políticas de privacidad y términos de servicio | Como usuario, quiero acceder a las políticas de privacidad y términos de servicio para comprender las condiciones legales de uso de la plataforma. | Alta | 1 |
-| 27 | US09 | Acceso a redes sociales desde el pie de página (footer) | Como usuario, quiero poder visitar las redes sociales oficiales de TalentManager desde el footer de la página para seguir sus novedades. | Alta | 1 |
-| 28 | US28 | Diseño limpio y profesional que inspire confianza | Como usuario, quiero que el diseño sea profesional y ordenado para sentirme cómodo usando la plataforma. | Alta | 1 |
-| 29 | US29 | Presentación clara y ordenada de la información | Como usuario, quiero que la información se muestre ordenadamente para encontrar fácilmente lo que necesito. | Alta | 1 |
-| 30 | US30 | Navegación coherente en todas las secciones de la plataforma | Como usuario, quiero que la navegación funcione igual en todas partes para no confundirme al moverme por la plataforma. | Alta | 1 |
+| 11 | TS5 | Obtener resúmenes mensuales | Como desarrollador, quiero obtener un resumen mensual de horas trabajadas de los empleados mediante `/api/v1/monthly-summaries`. | Alta | 8 |
+| 12 | TS6 | Crear un nuevo resumen mensual | Como desarrollador, quiero crear un resumen mensual de horas trabajadas vía `/api/v1/monthly-summaries` para registrar los resúmenes en base de datos. | Alta | 8 |
+| 13 | TS9 | Obtener detalles de reportes de desempeño | Como desarrollador, quiero obtener los reportes de desempeño mediante `/api/v1/reports` para mostrarlos en el frontend. | Alta | 8 |
+| 14 | TS7 | Implementar autenticación JWT | Como desarrollador, quiero implementar la autenticación JWT para asegurar el acceso a las APIs protegidas de la aplicación. | Alta | 8 |
+| 15 | US10 | Visualización de la galería de slides informativos mediante el carrusel (Swiper) | Como usuario, quiero ver una galería de slides informativos interactivos en la landing page para conocer las principales funciones de TalentManager de forma atractiva. | Alta | 5 |
+| 16 | US11 | Registro básico de empleados | Como responsable de RRHH, quiero registrar empleados nuevos con sus datos personales básicos para agregarlos al sistema de gestión. | Alta | 5 |
+| 17 | US12 | Edición de información del perfil | Como responsable de RRHH, quiero editar la información de un perfil de empleado para mantenerla actualizada. | Alta | 5 |
+| 18 | US13 | Visualización de perfil completo | Como responsable de RRHH, quiero ver todos los datos del perfil del empleado para tener una vista clara de su información. | Alta | 5 |
+| 19 | US14 | Registro de cargo y área del empleado | Como responsable de RRHH, quiero registrar el cargo y área de un empleado para reflejar su posición actual en la organización. | Alta | 5 |
+| 20 | US16 | Registro de faltas o tardanzas | Como supervisor, quiero registrar faltas y llegadas tardías para evaluar el compromiso del empleado. | Alta | 5 |
+| 21 | US26 | Reporte de empleados con mejor desempeño | Como directivo, quiero identificar a los empleados con mejor desempeño para reconocer su trabajo. | Alta | 5 |
+| 22 | TS2 | Crear una nueva empresa | Como desarrollador, quiero crear una nueva empresa a través del endpoint RESTful `/api/v1/companies` para que las empresas puedan ser registradas en la base de datos. | Alta | 5 |
+| 23 | TS4 | Crear nuevo empleado | Como desarrollador, quiero crear un nuevo empleado a través del endpoint `/api/v1/employees` para registrar empleados en la base de datos. | Alta | 5 |
+| 24 | TS8 | Registrar un nuevo usuario | Como desarrollador, quiero permitir que nuevos usuarios se registren mediante `/api/v1/auth/register` para crear una cuenta. | Alta | 5 |
+| 25 | US02 | Acceso a menú de navegación responsive desde cualquier dispositivo | Como usuario, quiero acceder fácilmente al menú de navegación desde cualquier dispositivo, para moverme por la plataforma sin importar el tamaño de pantalla. | Alta | 3 |
+| 26 | US27 | Interfaz de usuario intuitiva y fácil de usar | Como usuario nuevo, quiero que la interfaz sea clara e intuitiva para poder usar la plataforma sin ayuda externa. | Alta | 3 |
+| 27 | TS1 | Obtener lista de empresas | Como desarrollador, quiero obtener una lista de empresas a través del endpoint RESTful `/api/v1/companies` para poder mostrar la información de las empresas en el frontend. | Alta | 3 |
+| 28 | TS3 | Obtener empleados de una empresa | Como desarrollador, quiero obtener la lista de empleados de una empresa mediante `/api/v1/companies/{companyId}/employees` para mostrar los empleados en el frontend. | Alta | 3 |
+| 29 | US04 | Navegación rápida a secciones de Servicios, Contacto, Nosotros y Suscríbete | Como usuario, quiero acceder rápidamente a las secciones principales desde el menú de navegación, para encontrar la información que necesito sin perder tiempo. | Alta | 2 |
+| 30 | US05 | Acceso al formulario de contacto para envío de mensajes | Como usuario, quiero llenar un formulario de contacto para enviar mis consultas o dudas a TalentManager de forma sencilla. | Alta | 2 |
+| 31 | US01 | Visualización del mensaje principal en la pantalla de inicio | Como visitante de la página, quiero visualizar un mensaje principal claro y motivador en la pantalla de inicio, para entender rápidamente el propósito de TalentManager. | Alta | 1 |
+| 32 | US03 | Visualización de beneficios principales de TalentManager en la landing page | Como visitante, quiero ver los beneficios destacados de TalentManager, para conocer rápidamente las principales ventajas del servicio. | Alta | 1 |
+| 33 | US06 | Visualización del apartado de planes y precios de suscripción | Como potencial cliente, quiero ver claramente los planes de suscripción disponibles, para comparar opciones y tomar una decisión de compra. | Alta | 1 |
+| 34 | US07 | Acceso a la sección "Sobre Nosotros" para conocer la empresa y el proyecto | Como visitante, quiero acceder a la sección de "Sobre Nosotros" para saber más sobre la historia de la empresa y el propósito de TalentManager. | Alta | 1 |
+| 35 | US08 | Visualización de políticas de privacidad y términos de servicio | Como usuario, quiero acceder a las políticas de privacidad y términos de servicio para comprender las condiciones legales de uso de la plataforma. | Alta | 1 |
+| 36 | US09 | Acceso a redes sociales desde el pie de página (footer) | Como usuario, quiero poder visitar las redes sociales oficiales de TalentManager desde el footer de la página para seguir sus novedades. | Alta | 1 |
+| 37 | US28 | Diseño limpio y profesional que inspire confianza | Como usuario, quiero que el diseño sea profesional y ordenado para sentirme cómodo usando la plataforma. | Alta | 1 |
+| 38 | US29 | Presentación clara y ordenada de la información | Como usuario, quiero que la información se muestre ordenadamente para encontrar fácilmente lo que necesito. | Alta | 1 |
+| 39 | US30 | Navegación coherente en todas las secciones de la plataforma | Como usuario, quiero que la navegación funcione igual en todas partes para no confundirme al moverme por la plataforma. | Alta | 1 |
 
 # **Capítulo IV: Product Design** 
 
