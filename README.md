@@ -1544,6 +1544,10 @@ La base de datos de TalentManager ha sido diseñada bajo un enfoque relacional, 
 ### **4.8.1. Database Diagram.** 
 
 <p align="center">
+  <img src="Images/diagramaborrador.png" alt="imagen" />
+</p>
+
+<p align="center">
   <img src="Images/diagramabding.png" alt="imagen" />
 </p>
 
