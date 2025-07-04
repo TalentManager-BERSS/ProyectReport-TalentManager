@@ -942,10 +942,10 @@ Para la elaboración de nuestro Product Backlog, hemos utilizado la escala de Fi
 | 8 | US21 | Guardado automático de evaluaciones | Como gerente de RRHH, quiero que la evaluación se guarde automáticamente para evitar pérdida de información. | Alta | 8 |
 | 9 | US22 | Visualización de resultados por empleado | Como gerente de RRHH, quiero ver los resultados de cada evaluación por empleado para hacer seguimiento a su progreso. | Alta | 8 |
 | 10 | US25 | Exportación de reportes en pantalla | Como directivo, quiero poder exportar lo que veo en pantalla para compartirlo o analizarlo externamente. | Alta | 8 |
-| 11 | TS5 | Obtener resúmenes mensuales | Como desarrollador, quiero obtener un resumen mensual de horas trabajadas de los empleados mediante `/api/v1/monthly-summaries`. | Alta | 8 |
-| 12 | TS6 | Crear un nuevo resumen mensual | Como desarrollador, quiero crear un resumen mensual de horas trabajadas vía `/api/v1/monthly-summaries` para registrar los resúmenes en base de datos. | Alta | 8 |
-| 13 | TS9 | Obtener detalles de reportes de desempeño | Como desarrollador, quiero obtener los reportes de desempeño mediante `/api/v1/reports` para mostrarlos en el frontend. | Alta | 8 |
-| 14 | TS7 | Implementar autenticación JWT | Como desarrollador, quiero implementar la autenticación JWT para asegurar el acceso a las APIs protegidas de la aplicación. | Alta | 8 |
+| 11 | TS05 | Obtener resúmenes mensuales | Como desarrollador, quiero obtener un resumen mensual de horas trabajadas de los empleados mediante `/api/v1/monthly-summaries`. | Alta | 8 |
+| 12 | TS06 | Crear un nuevo resumen mensual | Como desarrollador, quiero crear un resumen mensual de horas trabajadas vía `/api/v1/monthly-summaries` para registrar los resúmenes en base de datos. | Alta | 8 |
+| 13 | TS09 | Obtener detalles de reportes de desempeño | Como desarrollador, quiero obtener los reportes de desempeño mediante `/api/v1/reports` para mostrarlos en el frontend. | Alta | 8 |
+| 14 | TS07 | Implementar autenticación JWT | Como desarrollador, quiero implementar la autenticación JWT para asegurar el acceso a las APIs protegidas de la aplicación. | Alta | 8 |
 | 15 | US10 | Visualización de la galería de slides informativos mediante el carrusel (Swiper) | Como usuario, quiero ver una galería de slides informativos interactivos en la landing page para conocer las principales funciones de TalentManager de forma atractiva. | Alta | 5 |
 | 16 | US11 | Registro básico de empleados | Como responsable de RRHH, quiero registrar empleados nuevos con sus datos personales básicos para agregarlos al sistema de gestión. | Alta | 5 |
 | 17 | US12 | Edición de información del perfil | Como responsable de RRHH, quiero editar la información de un perfil de empleado para mantenerla actualizada. | Alta | 5 |
@@ -953,13 +953,13 @@ Para la elaboración de nuestro Product Backlog, hemos utilizado la escala de Fi
 | 19 | US14 | Registro de cargo y área del empleado | Como responsable de RRHH, quiero registrar el cargo y área de un empleado para reflejar su posición actual en la organización. | Alta | 5 |
 | 20 | US16 | Registro de faltas o tardanzas | Como supervisor, quiero registrar faltas y llegadas tardías para evaluar el compromiso del empleado. | Alta | 5 |
 | 21 | US26 | Reporte de empleados con mejor desempeño | Como directivo, quiero identificar a los empleados con mejor desempeño para reconocer su trabajo. | Alta | 5 |
-| 22 | TS2 | Crear una nueva empresa | Como desarrollador, quiero crear una nueva empresa a través del endpoint RESTful `/api/v1/companies` para que las empresas puedan ser registradas en la base de datos. | Alta | 5 |
-| 23 | TS4 | Crear nuevo empleado | Como desarrollador, quiero crear un nuevo empleado a través del endpoint `/api/v1/employees` para registrar empleados en la base de datos. | Alta | 5 |
-| 24 | TS8 | Registrar un nuevo usuario | Como desarrollador, quiero permitir que nuevos usuarios se registren mediante `/api/v1/auth/register` para crear una cuenta. | Alta | 5 |
+| 22 | TS02 | Crear una nueva empresa | Como desarrollador, quiero crear una nueva empresa a través del endpoint RESTful `/api/v1/companies` para que las empresas puedan ser registradas en la base de datos. | Alta | 5 |
+| 23 | TS04 | Crear nuevo empleado | Como desarrollador, quiero crear un nuevo empleado a través del endpoint `/api/v1/employees` para registrar empleados en la base de datos. | Alta | 5 |
+| 24 | TS08 | Registrar un nuevo usuario | Como desarrollador, quiero permitir que nuevos usuarios se registren mediante `/api/v1/auth/register` para crear una cuenta. | Alta | 5 |
 | 25 | US02 | Acceso a menú de navegación responsive desde cualquier dispositivo | Como usuario, quiero acceder fácilmente al menú de navegación desde cualquier dispositivo, para moverme por la plataforma sin importar el tamaño de pantalla. | Alta | 3 |
 | 26 | US27 | Interfaz de usuario intuitiva y fácil de usar | Como usuario nuevo, quiero que la interfaz sea clara e intuitiva para poder usar la plataforma sin ayuda externa. | Alta | 3 |
-| 27 | TS1 | Obtener lista de empresas | Como desarrollador, quiero obtener una lista de empresas a través del endpoint RESTful `/api/v1/companies` para poder mostrar la información de las empresas en el frontend. | Alta | 3 |
-| 28 | TS3 | Obtener empleados de una empresa | Como desarrollador, quiero obtener la lista de empleados de una empresa mediante `/api/v1/companies/{companyId}/employees` para mostrar los empleados en el frontend. | Alta | 3 |
+| 27 | TS01 | Obtener lista de empresas | Como desarrollador, quiero obtener una lista de empresas a través del endpoint RESTful `/api/v1/companies` para poder mostrar la información de las empresas en el frontend. | Alta | 3 |
+| 28 | TS03 | Obtener empleados de una empresa | Como desarrollador, quiero obtener la lista de empleados de una empresa mediante `/api/v1/companies/{companyId}/employees` para mostrar los empleados en el frontend. | Alta | 3 |
 | 29 | US04 | Navegación rápida a secciones de Servicios, Contacto, Nosotros y Suscríbete | Como usuario, quiero acceder rápidamente a las secciones principales desde el menú de navegación, para encontrar la información que necesito sin perder tiempo. | Alta | 2 |
 | 30 | US05 | Acceso al formulario de contacto para envío de mensajes | Como usuario, quiero llenar un formulario de contacto para enviar mis consultas o dudas a TalentManager de forma sencilla. | Alta | 2 |
 | 31 | US01 | Visualización del mensaje principal en la pantalla de inicio | Como visitante de la página, quiero visualizar un mensaje principal claro y motivador en la pantalla de inicio, para entender rápidamente el propósito de TalentManager. | Alta | 1 |
