@@ -935,16 +935,14 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 | US28 | Diseño limpio y profesional que inspire confianza | Como usuario, quiero que el diseño sea profesional y ordenado para sentirme cómodo usando la plataforma. | Escenario 1: Uso de colores neutros. Dado que accedo a la plataforma, Cuando se carga el entorno, Entonces veo una estética sobria y profesional. Escenario 2: Tipografía legible. Dado que leo información, Cuando hay mucho texto, Entonces está en tamaño y fuente adecuados. Escenario 3: Espaciado adecuado. Dado que hay distintos bloques, Cuando los veo, Entonces no están saturados ni amontonados. | EP07 |
 | US29 | Presentación clara y ordenada de la información | Como usuario, quiero que la información se muestre ordenadamente para encontrar fácilmente lo que necesito. | Escenario 1: Secciones diferenciadas. Dado que estoy en un perfil, Cuando lo consulto, Entonces veo pestañas o secciones claramente divididas. Escenario 2: Prioridad de datos importantes. Dado que accedo al panel, Cuando se muestran datos, Entonces los más importantes aparecen primero. Escenario 3: Visibilidad móvil optimizada. Dado que accedo desde el celular, Cuando navego, Entonces todo sigue ordenado y visible. | EP05 |
 | US30 | Navegación coherente en todas las secciones de la plataforma | Como usuario, quiero que la navegación funcione igual en todas partes para no confundirme al moverme por la plataforma. | Escenario 1: Menú visible en todas las páginas. Dado que cambio de módulo, Cuando se carga la nueva sección, Entonces el menú principal sigue disponible. Escenario 2: Enlaces activos destacados. Dado que navego entre secciones, Cuando estoy en una, Entonces su ítem del menú se resalta. Escenario 3: Flujo de navegación lógico. Dado que realizo tareas secuenciales, Cuando avanzo paso a paso, Entonces sigo un flujo coherente sin perderme. | EP05 |
-| TS01 | Obtener lista de empresas | Como desarrollador, quiero obtener una lista de empresas a través del endpoint RESTful `/api/v1/companies` para poder mostrar la información de las empresas en el frontend. | Escenario 1: Dado que el endpoint `/api/v1/companies` está disponible, Cuando se realiza una solicitud GET, Entonces la respuesta debe tener estado 200 y el cuerpo debe incluir una lista de empresas.<br><br>Escenario 2: Dado que no existen empresas en la base de datos, Cuando se realiza una solicitud GET, Entonces la respuesta debe tener estado 200 y un cuerpo vacío. | EP06 |
-| TS02 | Crear una nueva empresa | Como desarrollador, quiero crear una nueva empresa a través del endpoint RESTful `/api/v1/companies` para que las empresas puedan ser registradas en la base de datos. | Escenario 1: Dado que el endpoint `/api/v1/companies` está disponible, Cuando se envía una solicitud POST con los datos válidos, Entonces la respuesta debe tener estado 201 y el cuerpo debe incluir la nueva empresa creada.<br><br>Escenario 2: Dado que se envía una solicitud POST con un campo `name` vacío, Cuando se procesa la solicitud, Entonces la respuesta debe tener estado 400 con un mensaje de error. | EP06 |
-| TS03 | Obtener empleados de una empresa | Como desarrollador, quiero obtener la lista de empleados de una empresa a través del endpoint RESTful `/api/v1/companies/{companyId}/employees` para mostrar los empleados en el frontend. | Escenario 1: Dado que el endpoint está disponible, Cuando se realiza una solicitud GET con un `companyId` válido, Entonces la respuesta debe tener estado 200 y una lista de empleados.<br><br>Escenario 2: Dado que no existen empleados para la empresa, Cuando se realiza una solicitud GET, Entonces la respuesta debe tener estado 200 y un cuerpo vacío. | EP06 |
-| TS04 | Crear nuevo empleado | Como desarrollador, quiero crear un nuevo empleado a través del endpoint RESTful `/api/v1/employees` para registrar empleados en la base de datos. | Escenario 1: Dado que el endpoint está disponible, Cuando se envía una solicitud POST con los datos válidos, Entonces la respuesta debe tener estado 201 y el cuerpo debe incluir el nuevo empleado creado.<br><br>Escenario 2: Dado que se envía una solicitud POST sin el campo `name`, Cuando se procesa la solicitud, Entonces la respuesta debe tener estado 400 con un mensaje de error. | EP06 |
-| TS05 | Obtener resúmenes mensuales | Como desarrollador, quiero obtener un resumen mensual de horas trabajadas de los empleados a través del endpoint RESTful `/api/v1/monthly-summaries` para mostrar la información en el frontend. | Escenario 1: Dado que el endpoint está disponible, Cuando se realiza una solicitud GET, Entonces la respuesta debe tener estado 200 y una lista de resúmenes mensuales.<br><br>Escenario 2: Dado que no existen resúmenes mensuales en la base de datos, Cuando se realiza una solicitud GET, Entonces la respuesta debe tener estado 200 y un cuerpo vacío. | EP06 |
-| TS06 | Crear un nuevo resumen mensual | Como desarrollador, quiero crear un nuevo resumen mensual de horas trabajadas a través del endpoint RESTful `/api/v1/monthly-summaries` para registrar los resúmenes en la base de datos. | Escenario 1: Dado que el endpoint está disponible, Cuando se envía una solicitud POST con datos válidos, Entonces la respuesta debe tener estado 201 y el cuerpo debe incluir el nuevo resumen mensual creado.<br><br>Escenario 2: Dado que se envía una solicitud POST con horas negativas, Cuando se procesa la solicitud, Entonces la respuesta debe tener estado 400 con un mensaje de error. | EP06 |
-| TS07 | Implementar autenticación JWT | Como desarrollador, quiero implementar la autenticación JWT para asegurar el acceso a las APIs protegidas de la aplicación. | Escenario 1: Dado que el endpoint `/api/v1/login` está disponible, Cuando se realiza una solicitud POST con email y password válidos, Entonces la respuesta debe tener estado 200 y el cuerpo debe incluir un JWT válido.<br><br>Escenario 2: Dado que el email o password son inválidos, Cuando se realiza una solicitud POST, Entonces la respuesta debe tener estado 401 con un mensaje de error. | EP06 |
-| TS08 | Registrar un nuevo usuario | Como desarrollador, quiero permitir que nuevos usuarios se registren a través del endpoint RESTful `/api/v1/auth/register` para crear una cuenta en la aplicación. | Escenario 1: Dado que se proporciona un nombre, email y contraseña válidos, Cuando se realiza una solicitud POST al endpoint `/api/v1/auth/register`, Entonces la respuesta debe tener estado 201 y el cuerpo debe incluir los datos del nuevo usuario.<br><br>Escenario 2: Dado que el email ya está registrado, Cuando se realiza una solicitud POST, Entonces la respuesta debe tener estado 409 con un mensaje de error. | EP06 |
-| TS09 | Obtener detalles de reportes de desempeño | Como desarrollador, quiero obtener los reportes de desempeño de los empleados a través del endpoint RESTful `/api/v1/reports` para mostrarlos en el frontend. | Escenario 1: Dado que el endpoint está disponible, Cuando se realiza una solicitud GET, Entonces la respuesta debe tener estado 200 y una lista de reportes.<br><br>Escenario 2: Dado que no existen reportes en la base de datos, Cuando se realiza una solicitud GET, Entonces la respuesta debe tener estado 200 y un cuerpo vacío. | EP06 |
-
+| TS01 | Obtener lista de empresas         | Como desarrollador, quiero obtener una lista de empresas a través del endpoint RESTful `/api/v1/companies` para poder mostrar la información en el frontend. | Escenario 1: Dado que el endpoint `/api/v1/companies` está disponible, Cuando se realiza una solicitud GET, Entonces la respuesta debe tener estado 200 y el cuerpo debe incluir una lista de empresas.<br><br>Escenario 2: Dado que no existen empresas en la base de datos, Cuando se realiza una solicitud GET, Entonces la respuesta debe tener estado 200 y un cuerpo vacío. | EP06 |
+| TS02 | Crear una nueva empresa           | Como desarrollador, quiero crear una nueva empresa a través del endpoint RESTful `/api/v1/companies` para que las empresas puedan ser registradas en la base de datos. | Escenario 1: Dado que el endpoint `/api/v1/companies` está disponible, Cuando se envía una solicitud POST con los datos válidos, Entonces la respuesta debe tener estado 201 y el cuerpo debe incluir la nueva empresa creada.<br><br>Escenario 2: Dado que se envía una solicitud POST con un campo `name` vacío, Cuando se procesa la solicitud, Entonces la respuesta debe tener estado 400 con un mensaje de error. | EP06 |
+| TS03 | Obtener empleados de una empresa  | Como desarrollador, quiero obtener la lista de empleados de una empresa a través del endpoint RESTful `/api/v1/companies/{companyId}/employees` para mostrar los empleados en el frontend. | Escenario 1: Dado que el endpoint está disponible, Cuando se realiza una solicitud GET con un `companyId` válido, Entonces la respuesta debe tener estado 200 y una lista de empleados.<br><br>Escenario 2: Dado que no existen empleados para la empresa, Cuando se realiza una solicitud GET, Entonces la respuesta debe tener estado 200 y un cuerpo vacío. | EP06 |
+| TS04 | Crear nuevo empleado              | Como desarrollador, quiero crear un nuevo empleado a través del endpoint RESTful `/api/v1/employees` para registrar empleados en la base de datos.           | Escenario 1: Dado que el endpoint está disponible, Cuando se envía una solicitud POST con los datos válidos, Entonces la respuesta debe tener estado 201 y el cuerpo debe incluir el nuevo empleado creado.<br><br>Escenario 2: Dado que se envía una solicitud POST sin el campo `name`, Cuando se procesa la solicitud, Entonces la respuesta debe tener estado 400 con un mensaje de error. | EP06 |
+| TS05 | Obtener resúmenes mensuales       | Como desarrollador, quiero obtener un resumen mensual de horas trabajadas de los empleados a través del endpoint RESTful `/api/v1/monthly-summaries` para mostrar la información en el frontend. | Escenario 1: Dado que el endpoint está disponible, Cuando se realiza una solicitud GET, Entonces la respuesta debe tener estado 200 y una lista de resúmenes mensuales.<br><br>Escenario 2: Dado que no existen resúmenes mensuales en la base de datos, Cuando se realiza una solicitud GET, Entonces la respuesta debe tener estado 200 y un cuerpo vacío. | EP06 |
+| TS06 | Implementar autenticación JWT     | Como desarrollador, quiero implementar la autenticación JWT para asegurar el acceso a las APIs protegidas de la aplicación.                                   | Escenario 1: Dado que el endpoint `/api/v1/login` está disponible, Cuando se realiza una solicitud POST con email y password válidos, Entonces la respuesta debe tener estado 200 y el cuerpo debe incluir un JWT válido.<br><br>Escenario 2: Dado que el email o password son inválidos, Cuando se realiza una solicitud POST, Entonces la respuesta debe tener estado 401 con un mensaje de error. | EP06 |
+| TS07 | Obtener detalles de reportes de desempeño | Como desarrollador, quiero obtener los reportes de desempeño de los empleados a través del endpoint RESTful `/api/v1/reports` para mostrarlos en el frontend. | Escenario 1: Dado que el endpoint está disponible, Cuando se realiza una solicitud GET, Entonces la respuesta debe tener estado 200 y una lista de reportes.<br><br>Escenario 2: Dado que no existen reportes en la base de datos, Cuando se realiza una solicitud GET, Entonces la respuesta debe tener estado 200 y un cuerpo vacío. | EP06 |
+| TS08 | Validaciones generales de entrada | Como desarrollador, quiero validar campos vacíos, formatos de texto y longitud de strings para garantizar la integridad de los datos recibidos desde el frontend. | Escenario 1: Cuando se envía una solicitud con campos vacíos, Entonces se debe devolver un estado 400 con un mensaje de validación.<br><br>Escenario 2: Cuando se envía un string demasiado largo o con formato incorrecto (ej: email inválido), Entonces la respuesta debe indicar el error específico. | EP06 |
 
 ### 
 
@@ -958,7 +956,7 @@ Se presentarán los user persona por cada segmento objetivo. Estos son arquetipo
 
 Para la elaboración de nuestro Product Backlog, hemos utilizado la escala de Fibonacci (1, 2, 3, 5, 8, 13).
 
-| \# Orden | User Story ID | Título | Descripción | Prioridad | Story points |
+| # Orden | User Story ID | Título | Descripción | Prioridad | Story points |
 | :---- | :---- | :---- | :---- | :---- | :---- |
 | 1 | US17 | Registro de observaciones de comportamiento | Como supervisor, quiero registrar observaciones de comportamiento para mantener constancia de actitudes positivas o negativas. | Alta | 8 |
 | 2 | US19 | Visualización de registros recientes del equipo | Como supervisor, quiero ver los registros recientes de mi equipo para revisar rápidamente la actividad reciente. | Alta | 8 |
@@ -970,35 +968,33 @@ Para la elaboración de nuestro Product Backlog, hemos utilizado la escala de Fi
 | 8 | US21 | Guardado automático de evaluaciones | Como gerente de RRHH, quiero que la evaluación se guarde automáticamente para evitar pérdida de información. | Alta | 8 |
 | 9 | US22 | Visualización de resultados por empleado | Como gerente de RRHH, quiero ver los resultados de cada evaluación por empleado para hacer seguimiento a su progreso. | Alta | 8 |
 | 10 | US25 | Exportación de reportes en pantalla | Como directivo, quiero poder exportar lo que veo en pantalla para compartirlo o analizarlo externamente. | Alta | 8 |
-| 11 | TS05 | Obtener resúmenes mensuales | Como desarrollador, quiero obtener un resumen mensual de horas trabajadas de los empleados mediante `/api/v1/monthly-summaries`. | Alta | 8 |
-| 12 | TS06 | Crear un nuevo resumen mensual | Como desarrollador, quiero crear un resumen mensual de horas trabajadas vía `/api/v1/monthly-summaries` para registrar los resúmenes en base de datos. | Alta | 8 |
-| 13 | TS09 | Obtener detalles de reportes de desempeño | Como desarrollador, quiero obtener los reportes de desempeño mediante `/api/v1/reports` para mostrarlos en el frontend. | Alta | 8 |
-| 14 | TS07 | Implementar autenticación JWT | Como desarrollador, quiero implementar la autenticación JWT para asegurar el acceso a las APIs protegidas de la aplicación. | Alta | 8 |
-| 15 | US10 | Visualización de la galería de slides informativos mediante el carrusel (Swiper) | Como usuario, quiero ver una galería de slides informativos interactivos en la landing page para conocer las principales funciones de TalentManager de forma atractiva. | Alta | 5 |
-| 16 | US11 | Registro básico de empleados | Como responsable de RRHH, quiero registrar empleados nuevos con sus datos personales básicos para agregarlos al sistema de gestión. | Alta | 5 |
-| 17 | US12 | Edición de información del perfil | Como responsable de RRHH, quiero editar la información de un perfil de empleado para mantenerla actualizada. | Alta | 5 |
-| 18 | US13 | Visualización de perfil completo | Como responsable de RRHH, quiero ver todos los datos del perfil del empleado para tener una vista clara de su información. | Alta | 5 |
-| 19 | US14 | Registro de cargo y área del empleado | Como responsable de RRHH, quiero registrar el cargo y área de un empleado para reflejar su posición actual en la organización. | Alta | 5 |
-| 20 | US16 | Registro de faltas o tardanzas | Como supervisor, quiero registrar faltas y llegadas tardías para evaluar el compromiso del empleado. | Alta | 5 |
-| 21 | US26 | Reporte de empleados con mejor desempeño | Como directivo, quiero identificar a los empleados con mejor desempeño para reconocer su trabajo. | Alta | 5 |
-| 22 | TS02 | Crear una nueva empresa | Como desarrollador, quiero crear una nueva empresa a través del endpoint RESTful `/api/v1/companies` para que las empresas puedan ser registradas en la base de datos. | Alta | 5 |
-| 23 | TS04 | Crear nuevo empleado | Como desarrollador, quiero crear un nuevo empleado a través del endpoint `/api/v1/employees` para registrar empleados en la base de datos. | Alta | 5 |
-| 24 | TS08 | Registrar un nuevo usuario | Como desarrollador, quiero permitir que nuevos usuarios se registren mediante `/api/v1/auth/register` para crear una cuenta. | Alta | 5 |
-| 25 | US02 | Acceso a menú de navegación responsive desde cualquier dispositivo | Como usuario, quiero acceder fácilmente al menú de navegación desde cualquier dispositivo, para moverme por la plataforma sin importar el tamaño de pantalla. | Alta | 3 |
-| 26 | US27 | Interfaz de usuario intuitiva y fácil de usar | Como usuario nuevo, quiero que la interfaz sea clara e intuitiva para poder usar la plataforma sin ayuda externa. | Alta | 3 |
-| 27 | TS01 | Obtener lista de empresas | Como desarrollador, quiero obtener una lista de empresas a través del endpoint RESTful `/api/v1/companies` para poder mostrar la información de las empresas en el frontend. | Alta | 3 |
-| 28 | TS03 | Obtener empleados de una empresa | Como desarrollador, quiero obtener la lista de empleados de una empresa mediante `/api/v1/companies/{companyId}/employees` para mostrar los empleados en el frontend. | Alta | 3 |
-| 29 | US04 | Navegación rápida a secciones de Servicios, Contacto, Nosotros y Suscríbete | Como usuario, quiero acceder rápidamente a las secciones principales desde el menú de navegación, para encontrar la información que necesito sin perder tiempo. | Alta | 2 |
-| 30 | US05 | Acceso al formulario de contacto para envío de mensajes | Como usuario, quiero llenar un formulario de contacto para enviar mis consultas o dudas a TalentManager de forma sencilla. | Alta | 2 |
-| 31 | US01 | Visualización del mensaje principal en la pantalla de inicio | Como visitante de la página, quiero visualizar un mensaje principal claro y motivador en la pantalla de inicio, para entender rápidamente el propósito de TalentManager. | Alta | 1 |
-| 32 | US03 | Visualización de beneficios principales de TalentManager en la landing page | Como visitante, quiero ver los beneficios destacados de TalentManager, para conocer rápidamente las principales ventajas del servicio. | Alta | 1 |
-| 33 | US06 | Visualización del apartado de planes y precios de suscripción | Como potencial cliente, quiero ver claramente los planes de suscripción disponibles, para comparar opciones y tomar una decisión de compra. | Alta | 1 |
-| 34 | US07 | Acceso a la sección "Sobre Nosotros" para conocer la empresa y el proyecto | Como visitante, quiero acceder a la sección de "Sobre Nosotros" para saber más sobre la historia de la empresa y el propósito de TalentManager. | Alta | 1 |
-| 35 | US08 | Visualización de políticas de privacidad y términos de servicio | Como usuario, quiero acceder a las políticas de privacidad y términos de servicio para comprender las condiciones legales de uso de la plataforma. | Alta | 1 |
-| 36 | US09 | Acceso a redes sociales desde el pie de página (footer) | Como usuario, quiero poder visitar las redes sociales oficiales de TalentManager desde el footer de la página para seguir sus novedades. | Alta | 1 |
-| 37 | US28 | Diseño limpio y profesional que inspire confianza | Como usuario, quiero que el diseño sea profesional y ordenado para sentirme cómodo usando la plataforma. | Alta | 1 |
-| 38 | US29 | Presentación clara y ordenada de la información | Como usuario, quiero que la información se muestre ordenadamente para encontrar fácilmente lo que necesito. | Alta | 1 |
-| 39 | US30 | Navegación coherente en todas las secciones de la plataforma | Como usuario, quiero que la navegación funcione igual en todas partes para no confundirme al moverme por la plataforma. | Alta | 1 |
+| 11 | TS06 | Implementar autenticación JWT | Como desarrollador, quiero implementar la autenticación JWT para asegurar el acceso a las APIs protegidas de la aplicación. | Alta | 8 |
+| 12 | TS07 | Obtener detalles de reportes de desempeño | Como desarrollador, quiero obtener los reportes de desempeño mediante `/api/v1/reports` para mostrarlos en el frontend. | Alta | 8 |
+| 13 | US10 | Visualización de la galería de slides informativos mediante el carrusel (Swiper) | Como usuario, quiero ver una galería de slides informativos interactivos en la landing page para conocer las principales funciones de TalentManager de forma atractiva. | Alta | 5 |
+| 14 | US11 | Registro básico de empleados | Como responsable de RRHH, quiero registrar empleados nuevos con sus datos personales básicos para agregarlos al sistema de gestión. | Alta | 5 |
+| 15 | US12 | Edición de información del perfil | Como responsable de RRHH, quiero editar la información de un perfil de empleado para mantenerla actualizada. | Alta | 5 |
+| 16 | US13 | Visualización de perfil completo | Como responsable de RRHH, quiero ver todos los datos del perfil del empleado para tener una vista clara de su información. | Alta | 5 |
+| 17 | US14 | Registro de cargo y área del empleado | Como responsable de RRHH, quiero registrar el cargo y área de un empleado para reflejar su posición actual en la organización. | Alta | 5 |
+| 18 | US16 | Registro de faltas o tardanzas | Como supervisor, quiero registrar faltas y llegadas tardías para evaluar el compromiso del empleado. | Alta | 5 |
+| 19 | US26 | Reporte de empleados con mejor desempeño | Como directivo, quiero identificar a los empleados con mejor desempeño para reconocer su trabajo. | Alta | 5 |
+| 20 | TS02 | Crear una nueva empresa | Como desarrollador, quiero crear una nueva empresa a través del endpoint RESTful `/api/v1/companies` para que las empresas puedan ser registradas en la base de datos. | Alta | 5 |
+| 21 | TS04 | Crear nuevo empleado | Como desarrollador, quiero crear un nuevo empleado a través del endpoint `/api/v1/employees` para registrar empleados en la base de datos. | Alta | 5 |
+| 22 | TS08 | Validaciones generales de entrada | Como desarrollador, quiero validar campos vacíos, formatos de texto y longitud de strings para garantizar la integridad de los datos recibidos desde el frontend. | Alta | 5 |
+| 23 | US02 | Acceso a menú de navegación responsive desde cualquier dispositivo | Como usuario, quiero acceder fácilmente al menú de navegación desde cualquier dispositivo, para moverme por la plataforma sin importar el tamaño de pantalla. | Alta | 3 |
+| 24 | US27 | Interfaz de usuario intuitiva y fácil de usar | Como usuario nuevo, quiero que la interfaz sea clara e intuitiva para poder usar la plataforma sin ayuda externa. | Alta | 3 |
+| 25 | TS01 | Obtener lista de empresas | Como desarrollador, quiero obtener una lista de empresas a través del endpoint RESTful `/api/v1/companies` para poder mostrar la información de las empresas en el frontend. | Alta | 3 |
+| 26 | TS03 | Obtener empleados de una empresa | Como desarrollador, quiero obtener la lista de empleados de una empresa mediante `/api/v1/companies/{companyId}/employees` para mostrar los empleados en el frontend. | Alta | 3 |
+| 27 | US04 | Navegación rápida a secciones de Servicios, Contacto, Nosotros y Suscríbete | Como usuario, quiero acceder rápidamente a las secciones principales desde el menú de navegación, para encontrar la información que necesito sin perder tiempo. | Alta | 2 |
+| 28 | US05 | Acceso al formulario de contacto para envío de mensajes | Como usuario, quiero llenar un formulario de contacto para enviar mis consultas o dudas a TalentManager de forma sencilla. | Alta | 2 |
+| 29 | US01 | Visualización del mensaje principal en la pantalla de inicio | Como visitante de la página, quiero visualizar un mensaje principal claro y motivador en la pantalla de inicio, para entender rápidamente el propósito de TalentManager. | Alta | 1 |
+| 30 | US03 | Visualización de beneficios principales de TalentManager en la landing page | Como visitante, quiero ver los beneficios destacados de TalentManager, para conocer rápidamente las principales ventajas del servicio. | Alta | 1 |
+| 31 | US06 | Visualización del apartado de planes y precios de suscripción | Como potencial cliente, quiero ver claramente los planes de suscripción disponibles, para comparar opciones y tomar una decisión de compra. | Alta | 1 |
+| 32 | US07 | Acceso a la sección "Sobre Nosotros" para conocer la empresa y el proyecto | Como visitante, quiero acceder a la sección de "Sobre Nosotros" para saber más sobre la historia de la empresa y el propósito de TalentManager. | Alta | 1 |
+| 33 | US08 | Visualización de políticas de privacidad y términos de servicio | Como usuario, quiero acceder a las políticas de privacidad y términos de servicio para comprender las condiciones legales de uso de la plataforma. | Alta | 1 |
+| 34 | US09 | Acceso a redes sociales desde el pie de página (footer) | Como usuario, quiero poder visitar las redes sociales oficiales de TalentManager desde el footer de la página para seguir sus novedades. | Alta | 1 |
+| 35 | US28 | Diseño limpio y profesional que inspire confianza | Como usuario, quiero que el diseño sea profesional y ordenado para sentirme cómodo usando la plataforma. | Alta | 1 |
+| 36 | US29 | Presentación clara y ordenada de la información | Como usuario, quiero que la información se muestre ordenadamente para encontrar fácilmente lo que necesito. | Alta | 1 |
+| 37 | US30 | Navegación coherente en todas las secciones de la plataforma | Como usuario, quiero que la navegación funcione igual en todas partes para no confundirme al moverme por la plataforma. | Alta | 1 |
 
 # **Capítulo IV: Product Design** 
 
@@ -1871,7 +1867,7 @@ Los aspectos que se han tenido en cuenta para este sprint son:
 
    #### **5.2.2.3. Sprint Backlog 2\.**
 
-En este sprint se muestran los trabajos realizados para desplegar la primera versión de nuestro landing page.
+En este sprint se muestran los trabajos realizados en este sprint:
 
 | Sprint \# 2 |  |  |  |  |  |
 | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -1991,7 +1987,7 @@ Los aspectos que se han tenido en cuenta para este sprint son:
 
    #### **5.2.3.3. Sprint Backlog 3\.**
 
-En este sprint se muestran los trabajos realizados para desplegar la primera versión de nuestro landing page.
+En este sprint se muestran los trabajos realizados en este sprint:
 
 | Sprint \# 3 |  |  |  |  |  |
 | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -2365,12 +2361,14 @@ vdsvdsjijmioewjnmijhnm4fhjnu4fhqnoiufqnmj29ih3rhfki4jfr43f45G%$=GG$?G$#?T¡$GP#�
 
 #### **5.2.4.1. Sprint Planning 4\.** 
 
+Durante esta sesión de planificación del sprint, el equipo acordó avanzar en la integración entre el backend y el frontend, incorporar el bounded context de Identity and Access Management (IAM) utilizando tokens JWT (JSON Web Tokens), y optimizar diversas funcionalidades de los endpoints existentes en el backend. En la reunión, el equipo asignó tareas específicas a cada integrante, centrando sus esfuerzos en el desarrollo de 4 historias de usuario y 9 historias técnicas fundamentales para mejorar la seguridad, la interoperabilidad y la funcionalidad general de la plataforma TalentManager.
+
 A continuación se podrá apreciar la tabla del sprint planificado:
 
 | Sprint \# | Sprint 4 |
 | :---- | :---- |
 | **Sprint Planning Background**  |  |
-| Date | 2025-06-18 |
+| Date | 2025-06-29 |
 | Time | 9:30 PM |
 | Location | Reunión virtual |
 | Prepared By | Luis Rodríguez, Gabriel Borja |
@@ -2378,9 +2376,9 @@ A continuación se podrá apreciar la tabla del sprint planificado:
 | Sprint 4 – 1 Review Summary | Durante el Sprint 3, se desarrollaron 11 historias de usuario enfocadas en el desarrollo del backend de la aplicación TalentManager. Este trabajo permitió consolidar la arquitectura de la base de datos y habilitar funcionalidades clave del sistema, como la gestión de empleados, reportes, observaciones y usuarios. Se implementaron endpoints RESTful para las entidades principales, incluyendo empleados, áreas, cargos y reportes, facilitando una integración eficaz entre el frontend y el backend. El programador Gustavo Román desempeñó un papel fundamental en la optimización de las consultas SQL y en la mejora de la estructura de la base de datos, lo que incrementó la eficiencia de las operaciones en MySQL. Gracias a estos ajustes, las operaciones de lectura y escritura se ejecutan ahora con mayor rapidez y precisión. Gabriel Borja y Luis Rodríguez colaboraron activamente en la definición de las relaciones entre tablas y en la correcta normalización de la base de datos, lo cual garantizó la integridad referencial y evitó redundancias, asegurando una estructura robusta, mantenible y escalable. Por su parte, Santiago Cárdenas y Santiago Suárez contribuyeron significativamente con la implementación de los servicios API RESTful para la gestión de reportes, observaciones y asistencias, asegurando una comunicación segura y eficiente entre los distintos componentes del sistema. Adicionalmente, se avanzó en la documentación de los endpoints utilizando Swagger y OpenAPI, lo que permitió estandarizar las rutas, mejorar la colaboración entre equipos y facilitar futuras integraciones con servicios externos. Finalmente, también se dedicaron esfuerzos a pulir aspectos del frontend previamente implementado, mejorando la coherencia visual, corrigiendo errores menores de navegación y ajustando componentes para ofrecer una experiencia de usuario más fluida e intuitiva. |
 | Sprint 4 – 1 Retrospective Summary | Durante el Sprint 3, se consolidó una base robusta para el backend de la plataforma TalentManager. El equipo avanzó significativamente en la integración de los servicios esenciales del sistema. Entre los principales logros se encuentra la optimización de la base de datos, con consultas SQL ajustadas correctamente que mejoraron considerablemente el rendimiento general del backend. La colaboración entre los integrantes permitió completar las tareas backend de forma coordinada y eficiente. En cuanto a la estructuración de las APIs, se implementaron los servicios necesarios para la gestión de empleados, reportes, observaciones y otras funcionalidades clave del sistema. En el ámbito de documentación, la implementación de Swagger y el uso del estándar OpenAPI facilitaron la integración y prueba de los endpoints, aumentando la claridad y transparencia del desarrollo. Para el siguiente sprint, se proyecta continuar con la mejora progresiva de las consultas SQL y la estructura de la base de datos, realizar correcciones menores si se detectan durante las pruebas del backend, ampliar la documentación especialmente en los endpoints más complejos, y reforzar la seguridad de la API y del acceso a datos sensibles. |
 | **Sprint Goal & User Stories**  |  |
-| Sprint 4 Goal | Our focus is on the development of the backend infrastructure for the TalentManager platform, particularly in consolidating all core API functionalities and ensuring end-to-end integration with the frontend. This includes refining employee evaluations, exporting reports, securing access with JWT, and finalizing company and user management endpoints. We believe it delivers a robust backend system that supports all key business processes—from user authentication to performance reporting—while maintaining consistency, security, and scalability. Furthermore, the use of OpenAPI and Swagger supports clear documentation and facilitates ongoing collaboration and future integrations. This will be confirmed when all remaining user stories and technical tasks—including secure data handling, frontend-backend synchronization, and data export features—are completed, validated, and meet the expected quality and performance benchmarks. |
-| Sprint 4 Velocity | 52 |
-| Sum of Story Points | 52 |
+| Sprint 4 Goal | Our current focus is on strengthening the authentication and authorization mechanisms of the TalentManager platform through the implementation of Identity and Access Management (IAM) using JSON Web Tokens (JWT). This involves securing access to protected resources and establishing reliable communication between the backend services and the frontend interface. We believe this approach establishes a solid security infrastructure that safeguards user access, ensures proper session handling, and restricts unauthorized entry to sensitive endpoints. By leveraging JWT, we facilitate secure and efficient interactions between the client and server components. This will be validated once all authentication endpoints are properly protected with JWT, the frontend is capable of sending and storing tokens correctly, and the full integration between frontend and backend is tested and confirmed to meet expected security standards, including protection against common threats and misuse. |
+| Sprint 4 Velocity | 78 |
+| Sum of Story Points | 78 |
 
 #### 
 
@@ -2411,29 +2409,39 @@ Los aspectos que se han tenido en cuenta para este sprint son:
 
    #### **5.2.4.3. Sprint Backlog 4\.**
 
-En este sprint se muestran los trabajos realizados para desplegar la primera versión de nuestro landing page.
+En este sprint se muestran los trabajos realizados en este sprint:
 
-| Sprint \# 4 |  |  |  |  |  |
+| Sprint # 4 |  |  |  |  |  |
 | :---- | :---- | :---- | :---- | :---- | :---- |
 | Work-Item / Task | User Story ID | Description | Estimation (Hours) | Assigned To / Status |
 | TSK01 | US17 | Implementar endpoint para registrar observaciones de comportamiento | 4 | Developer Team | Done |
 | TSK02 | US17 | Validación de campos y lógica de negocio para observaciones | 3 | Developer Team | Done |
-| TSK03 | US24 | Endpoint para generar reporte por criterio de evaluación | 5 | Developer Team | Done |
-| TSK04 | US20 | Crear endpoint para iniciar evaluación de desempeño | 3 | Developer Team | Done |
-| TSK05 | US22 | Implementar endpoint para mostrar resultados por empleado | 3 | Developer Team | Done |
-| TSK06 | TS01 | GET `/api/v1/companies` - Obtener lista de empresas | 2 | Developer Team | Done |
-| TSK07 | TS02 | POST `/api/v1/companies` - Crear nueva empresa | 3 | Developer Team | Done |
-| TSK08 | TS02 | Validación de datos (campos obligatorios, formato email) | 2 | Developer Team | Done |
-| TSK09 | TS03 | GET `/api/v1/companies/{id}/employees` - Obtener empleados | 3 | Developer Team | Done |
-| TSK10 | TS04 | POST `/api/v1/employees` - Crear nuevo empleado | 3 | Developer Team | Done |
-| TSK11 | TS04 | Validaciones del empleado y lógica de registro | 2 | Developer Team | Done |
-| TSK12 | TS05 | GET `/api/v1/monthly-summaries` - Obtener resúmenes | 2 | Developer Team | Done |
-| TSK13 | TS06 | POST `/api/v1/monthly-summaries` - Crear resumen mensual | 3 | Developer Team | Done |
-| TSK14 | TS06 | Validaciones de campos faltantes | 2 | Developer Team | Done |
-| TSK15 | TS07 | Implementar autenticación JWT: login y generación de token | 4 | Developer Team | Done |
-| TSK16 | TS08 | POST `/api/v1/auth/register` - Registro de usuarios | 3 | Developer Team | Done |
-| TSK17 | TS08 | Validaciones: email duplicado, formato de contraseña | 2 | Developer Team | Done |
-| TSK18 | TS09 | GET `/api/v1/reports` - Obtener reportes de desempeño | 3 | Developer Team | Done |
+| TSK03 | US17 | Diseño del DTO para recepción y almacenamiento de datos | 2 | Developer Team | Done |
+| TSK04 | US17 | Documentación del endpoint en Swagger | 1 | Developer Team | Done |
+| TSK05 | US24 | Endpoint para generar reporte por criterio de evaluación | 5 | Developer Team | Done |
+| TSK06 | US24 | Filtrado dinámico de criterios y ordenamiento | 2 | Developer Team | Done |
+| TSK07 | US24 | Definición de estructura de salida del reporte (DTO) | 2 | Developer Team | Done |
+| TSK08 | US20 | Crear endpoint para iniciar evaluación de desempeño | 3 | Developer Team | Done |
+| TSK09 | US20 | Asignación automática de formularios por empleado | 2 | Developer Team | Done |
+| TSK10 | US20 | Generación de estructura base de evaluación desde plantilla | 2 | Developer Team | Done |
+| TSK11 | US22 | Implementar endpoint para mostrar resultados por empleado | 3 | Developer Team | Done |
+| TSK12 | US22 | Mapeo de resultados individuales y consolidación por bloques | 2 | Developer Team | Done |
+| TSK13 | US22 | Inclusión de metainformación sobre la evaluación (fecha, autor, etc.) | 1 | Developer Team | Done |
+| TSK14 | TS01 | GET `/api/v1/companies` - Obtener lista de empresas | 2 | Developer Team | Done |
+| TSK15 | TS02 | POST `/api/v1/companies` - Crear nueva empresa | 3 | Developer Team | Done |
+| TSK16 | TS02 | Validación de datos (campos obligatorios, formato email) | 2 | Developer Team | Done |
+| TSK17 | TS02 | Conversión de string a value object para website | 2 | Developer Team | Done |
+| TSK18 | TS03 | GET `/api/v1/companies/{id}/employees` - Obtener empleados | 3 | Developer Team | Done |
+| TSK19 | TS03 | Incorporar filtros por estado o rol del empleado | 2 | Developer Team | Done |
+| TSK20 | TS04 | POST `/api/v1/employees` - Crear nuevo empleado | 3 | Developer Team | Done |
+| TSK21 | TS04 | Validaciones del empleado y lógica de registro | 2 | Developer Team | Done |
+| TSK22 | TS05 | GET `/api/v1/monthly-summaries` - Obtener resúmenes | 2 | Developer Team | Done |
+| TSK23 | TS06 | Implementar autenticación JWT: login y generación de token | 4 | Developer Team | Done |
+| TSK24 | TS06 | Configuración de seguridad para rutas públicas y protegidas | 3 | Developer Team | Done |
+| TSK25 | TS07 | GET `/api/v1/reports` - Obtener reportes de desempeño | 3 | Developer Team | Done |
+| TSK26 | TS07 | Agregación de datos por periodo y empleados | 2 | Developer Team | Done |
+| TSK27 | TS08 | Validaciones: Validar campos vacíos, formatos de texto y longitud de strings | 2 | Developer Team | Done |
+
 
 #### **5.2.4.4. Development Evidence for Sprint Review.**
 
@@ -2442,21 +2450,21 @@ En este sprint se muestran los trabajos realizados para desplegar la primera ver
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 | :---- | :---- | :---- | :---- | :---- | :---- |
 | Raizo400/TalentManager-BERSS/Backend-TalentManager | master | f2nyqh |  |  | 30/06/2025 |
-| borj410/TalentManager-BERSS/Backend-TalentManager | feature/reports | 4nbohc |  |  | 06/07/2025 |
-| Sack136/TalentManager-BERSS/Backend-TalentManager | feature/reports | d52bmf |  |  | 07/07/2025 |
+| borj410/TalentManager-BERSS/Backend-TalentManager | develop | 4nbohc |  |  | 06/07/2025 |
+| Sack136/TalentManager-BERSS/Backend-TalentManager | develop | d52bmf |  |  | 07/07/2025 |
 | SDarXx/TalentManager-BERSS/Backend-TalentManager | master | o0ltw1 |  |  | 01/07/2025 |
 | luissssrr/TalentManager-BERSS/Backend-TalentManager | develop | vcehw6 |  |  | 07/07/2025 |
 | borj410/TalentManager-BERSS/Backend-TalentManager | master | t9ucdp |  |  | 04/07/2025 |
 | SDarXx/TalentManager-BERSS/Backend-TalentManager | develop | r7k1ae |  |  | 01/07/2025 |
 | Raizo400/TalentManager-BERSS/Backend-TalentManager | develop | 9l4ewc |  |  | 30/06/2025 |
-| luissssrr/TalentManager-BERSS/Backend-TalentManager | feature/reports | qvsnl8 |  |  | 01/07/2025 |
-| Sack136/TalentManager-BERSS/Backend-TalentManager | master | d30wmx |  |  | 03/07/2025 |
+| luissssrr/TalentManager-BERSS/Backend-TalentManager | develop | qvsnl8 |  |  | 01/07/2025 |
+| Sack136/TalentManager-BERSS/Backend-TalentManager | develop | d30wmx |  |  | 03/07/2025 |
 | luissssrr/TalentManager-BERSS/Backend-TalentManager | develop | kvf3tp |  |  | 05/07/2025 |
-| Raizo400/TalentManager-BERSS/Backend-TalentManager | feature/reports | n5xmhg |  |  | 02/07/2025 |
+| Raizo400/TalentManager-BERSS/Backend-TalentManager | develop | n5xmhg |  |  | 02/07/2025 |
 | Sack136/TalentManager-BERSS/Backend-TalentManager | develop | rkh92z |  |  | 03/07/2025 |
 | luissssrr/TalentManager-BERSS/Backend-TalentManager | develop | 5phqbt |  |  | 06/07/2025 |
-| SDarXx/TalentManager-BERSS/Backend-TalentManager | feature/reports | zc9xb3 |  |  | 05/07/2025 |
-| SDarXx/TalentManager-BERSS/Backend-TalentManager | develop | giy24n |  |  | 30/06/2025 |
+| SDarXx/TalentManager-BERSS/Backend-TalentManager | develop | zc9xb3 |  |  | 05/07/2025 |
+| SDarXx/TalentManager-BERSS/Backend-TalentManager | master | giy24n |  |  | 30/06/2025 |
 | Raizo400/TalentManager-BERSS/Backend-TalentManager | master | 4wk7ne |  |  | 06/07/2025 |
 | borj410/TalentManager-BERSS/Backend-TalentManager | master | kjp3mt |  |  | 30/06/2025 |
 | Sack136/TalentManager-BERSS/Backend-TalentManager | master | bgm5lu |  |  | 04/07/2025 |
@@ -2744,27 +2752,26 @@ Este conjunto de actividades garantizó que el backend de TalentManager estuvier
 
 #### **5.2.3.8. Team Collaboration Insights during Sprint.** 
 
-Durante el Sprint 3, el equipo de desarrollo centró sus esfuerzos en consolidar el backend de TalentManager, utilizando Java con Spring Boot como tecnología principal y MySQL como sistema gestor de base de datos. Se implementaron múltiples endpoints RESTful conforme a las rutas documentadas en Swagger, lo cual permitió una interacción clara, estructurada y eficiente con los datos de reportes y resúmenes mensuales de rendimiento del personal.
+Durante este Sprint 4, el equipo se enfocó en la integración completa del frontend con el backend de TalentManager, asegurando una sincronización efectiva entre la capa de presentación y la lógica de negocio. Utilizando Java con Spring Boot para el backend y MySQL como sistema gestor de base de datos, se fortaleció la arquitectura existente y se implementaron mecanismos seguros para el registro e inicio de sesión de usuarios administradores, garantizando control de acceso mediante tokens JWT.
 
-Actividades realizadas:
-Arquitectura Backend: Se definieron y desarrollaron los endpoints necesarios para gestionar entidades clave como reportes y resúmenes mensuales de empleados. Los endpoints siguen una estructura clara y RESTful, tales como por ejemplo:
+* Ampliación de la infraestructura backend:
+Se desarrollaron los endpoints necesarios para la gestión de autenticación y autorización, incluyendo la creación de nuevos usuarios administrativos y la validación de sus credenciales. Todo esto se conectó de forma efectiva con la base de datos MySQL mediante el uso de controladores REST, servicios y repositorios.
 
-- /api/v1/reports para el manejo de reportes.
+* Funcionalidades básicas de autenticación:
+Se implementó la lógica de registro e inicio de sesión en el sistema para usuarios administradores, asegurando que los datos de acceso se manejen de forma segura y sean correctamente validados por el backend.
 
-- /api/v1/monthly-summaries para los resúmenes mensuales generales.
+* Integración del frontend con la capa lógica:
+Se logró una integración fluida entre el frontend y el backend, permitiendo que las acciones de los usuarios (como iniciar sesión, consultar listas de empleados o enviar mensajes de soporte) se reflejen de manera inmediata en la base de datos. Esta conexión sólida permite una experiencia fluida, estable y sin errores relacionados al manejo de datos.
 
-Operaciones CRUD: Se implementaron las funcionalidades para las entidades principales (reports y monthly summaries).
+* Desarrollo del módulo de identidad y control de acceso (IAM):
+Se introdujo un sistema de gestión de identidad que define flujos de inicio de sesión, asignación de roles y permisos dentro de TalentManager. El control de acceso se segmenta según los privilegios definidos para los usuarios administradores.
 
-Documentación con Swagger y OpenAPI: Toda la API fue documentada usando Swagger UI, lo que permitió al equipo visualizar, probar y validar el comportamiento de los endpoints en tiempo real. Esta integración facilitó una comunicación más clara entre frontend y backend y mejoró la trazabilidad del desarrollo.
+* Implementación de tokens JWT:
+Para asegurar la autenticación y autorización, se integró el uso de JSON Web Tokens (JWT), lo que permite mantener sesiones activas de forma segura y controlar el acceso a los recursos del sistema según el rol del usuario autenticado.
 
-Base de Datos MySQL: Se utilizó una estructura relacional eficiente, centrada en el soporte de operaciones de alto rendimiento, alineada con las necesidades de consulta de datos de evaluaciones y reportes. La estructura permite acceder rápidamente a los resúmenes por empleado o compañía, reduciendo los tiempos de respuesta en las consultas clave.
-
-Mejoras en el Frontend: Se realizaron ajustes visuales y funcionales en el frontend, principalmente en los formularios de generación de reportes y visualización de datos. Se mejoró la experiencia de usuario para facilitar la interacción con los datos evaluativos desde distintas vistas.
-
-Dashboard de rendimiento: Se integró un dashboard visual que presenta un gráfico general sobre el rendimiento del personal, ofreciendo una visualización rápida del comportamiento global de los equipos evaluados durante el mes.
-
-
-
+* Refinamiento de funcionalidades clave del backend:
+Se realizaron mejoras estructurales y funcionales en los principales módulos de la aplicación. Se optimizó el manejo de entidades como Company, Employee, Report, MonthlySummary y SupportMessage, reforzando las validaciones a través de sus value objects (como EntryDate, CompanyWebsite, TeamName, YearMonthPeriod, entre otros). Además, se consolidó el flujo de gestión de soporte mediante los agregados SupportOverview y SupportStatus, asegurando que cada solicitud esté correctamente registrada, auditada y trazada.
+También se reforzó la integridad de los datos a nivel de persistencia utilizando una estrategia personalizada para el nombrado de tablas (SnakeCaseWithPluralizedTablePhysicalNamingStrategy) y se validaron reglas críticas como fechas no futuras o IDs mayores a cero, garantizando consistencia en toda la lógica de dominio.
 
 
 ## **5.3. Validation Interviews.**
