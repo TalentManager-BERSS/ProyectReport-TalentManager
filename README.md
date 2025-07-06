@@ -1483,10 +1483,6 @@ Diagrama de contenedores:
 
 ### **4.6.3. Software Architecture Components Diagrams.** 
 
-<p align="center">
-  <img src="Images/img94.jpg" alt="imagen" />
-</p>
-
 Diagrama de componentes de front-end:
 
 <p align="center">
@@ -1496,7 +1492,31 @@ Diagrama de componentes de front-end:
 Diagrama de componentes de back-end:
 
 <p align="center">
-  <img src="Images/componentesbackend.png" alt="imagen" />
+  <img src="Images/diagramabackendcorregido.png" alt="imagen" />
+</p>
+
+Diagrama de componentes de bounded context "company":
+
+<p align="center">
+  <img src="Images/companydiagrama.png" alt="imagen" />
+</p>
+
+Diagrama de componentes de bounded context "employee":
+
+<p align="center">
+  <img src="Images/employeediagrama.png" alt="imagen" />
+</p>
+
+Diagrama de componentes de bounded context "report":
+
+<p align="center">
+  <img src="Images/reportdiagrama.png" alt="imagen" />
+</p>
+
+Diagrama de componentes de bounded context "support":
+
+<p align="center">
+  <img src="Images/supportdiagrama.png" alt="imagen" />
 </p>
 
 # **4.7.Software Object-Oriented Design.** 
