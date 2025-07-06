@@ -1530,7 +1530,7 @@ Diagrama de componentes de bounded context "support":
 
 **Diagrama de clases de back-end:**
 <p align="center">
-  <img src="Images/diagramaclasesbackend.png" alt="imagen" />
+  <img src="Images/diagramaclasesbackendcorregido.png" alt="imagen" />
 </p>
 
 ### **4.7.2. Class Dictionary.** 
