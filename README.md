@@ -2321,42 +2321,6 @@ Mejoras en el Frontend: Se realizaron ajustes visuales y funcionales en el front
 
 Dashboard de rendimiento: Se integró un dashboard visual que presenta un gráfico general sobre el rendimiento del personal, ofreciendo una visualización rápida del comportamiento global de los equipos evaluados durante el mes.
 
-vdsvdsjijmioewjnmijhnm4fhjnu4fhqnoiufqnmj29ih3rhfki4jfr43f45G%$=GG$?G$#?T¡$GP#¡G%ÑG%RG¨%$LÑG´45gñg´54ñg¨$ñvds
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### **5.2.4. Sprint 4**
 
 #### **5.2.4.1. Sprint Planning 4\.** 
