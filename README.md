@@ -2479,7 +2479,7 @@ Durante el Sprint 4, el equipo se centró en el desarrollo y despliegue de toda 
 
 3. Se volvió a publicar la landing page:
 
-Gracias a netlify y railway, se pudo subir toda nuestra aplicación a la nube.
+Gracias a netlify y railway, se pudo subir toda nuestra aplicación a la nube, estas 3 siendo las ultimas versiones para toda la aplicación
 
 #### **5.2.4.8. Team Collaboration Insights during Sprint.** 
 
