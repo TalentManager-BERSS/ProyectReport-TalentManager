@@ -2075,248 +2075,6 @@ El Sprint 3 ha sido clave para establecer una base sólida en el backend de Tale
 
 #### **5.2.3.6. Services Documentation Evidence for Sprint Review.**
 
-Durante el Sprint 4, el equipo de TalentManager se centró en la implementación del módulo IAM (Identity and Access Management), permitiendo la gestión completa del registro, autenticación y asociación de usuarios con entidades como Manager y Company. Este módulo garantiza un sistema de autenticación seguro basado en JWT (JSON Web Tokens) y constituye la base para controlar el acceso a los demás módulos funcionales de la plataforma.
-
-Además, se documentaron todos los endpoints en Swagger/OpenAPI, mejorando la experiencia de integración para el equipo de desarrollo y facilitando la validación de los flujos de autenticación desde el frontend.
-
-| Endpoint                             | Acción                                               | Verbo HTTP | Sintaxis de llamada                     | Parámetros                                                                                              | Ejemplo de Request                                                                                                                                                                                                                  | Ejemplo de Response                                                | Explicación                                                                                                               |
-| ------------------------------------ | ---------------------------------------------------- | ---------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-| `/api/v1/auth/register`              | Registrar un nuevo usuario.                          | POST       | POST /api/v1/auth/register              | `username`, `rawPassword`, `managerId`                                                                  | `{ "username": "alice", "rawPassword": "securepass123", "managerId": 1 }`                                                                                                                                                           | `{ "id": 3, "username": "alice", "managerId": 1, "companyId": 1 }` | Crea un usuario asociado a un manager existente. Se debe indicar el ID del manager.                                       |
-| `/api/v1/auth/sign-in`               | Autenticar un usuario.                               | POST       | POST /api/v1/auth/sign-in               | `username`, `rawPassword`                                                                               | `{ "username": "alice", "rawPassword": "securepass123" }`                                                                                                                                                                           | `{ "id": 3, "username": "alice", "token": "eyJhbGciOiJIUzI1..." }` | Verifica las credenciales del usuario y devuelve un token JWT si son válidas.                                             |
-| `/api/v1/auth/register-with-manager` | Registrar un usuario junto con su manager y empresa. | POST       | POST /api/v1/auth/register-with-manager | `username`, `rawPassword`, `firstname`, `lastname`, `companyName`, `companyEmail`, `companyDescription` | `{ "username": "bob", "rawPassword": "12345678", "firstname": "Roberto", "lastname": "Lopez", "companyName": "InnovaTech", "companyEmail": "contacto@innovatech.io", "companyDescription": "Servicios de innovación tecnológica" }` | `{ "id": 4, "username": "bob", "managerId": 2, "companyId": 2 }`   | Crea simultáneamente un manager, una empresa y un usuario asociado a ese manager. Evita duplicados por nombre de empresa. |
-
-El Sprint 4 fue crucial en la consolidación del módulo IAM (Identity and Access Management) de TalentManager. Gracias a esta implementación, la plataforma ahora:
-
-- Soporta registro seguro de usuarios, managers y empresas.
-
-- Permite el inicio de sesión autenticado con JWT, protegiendo el acceso a los módulos del sistema.
-
-- Establece una arquitectura escalable de gestión de identidades, esencial para roles, permisos y trazabilidad futura.
-
-Esta base permitirá una evolución segura y controlada del ecosistema TalentManager, alineado con buenas prácticas de seguridad y diseño de software empresarial.
-
-#### **5.2.3.7. Software Deployment Evidence for Sprint Review.**
-
-Durante el Sprint 3, el equipo se centró en el desarrollo y despliegue de las funcionalidades backend para la aplicación web TalentManager. A continuación, se detallan los pasos realizados para asegurar que el backend estuviera correctamente implementado y desplegado en el entorno de producción.
-
-1. Se creo el repositorio para el backend: [https://github.com/TalentManager-BERSS/Backend-TalentManager](https://github.com/TalentManager-BERSS/Backend-TalentManager)
-
-2. Se logró publicar los web services del backend: [https://backend-talentmanager-production.up.railway.app/swagger-ui/index.html](https://backend-talentmanager-production.up.railway.app/swagger-ui/index.html) 
-
-Actividades de Despliegue:
-
-1. Desarrollo de la API Backend:
-
-La API RESTful fue desarrollada utilizando Spring Boot como el marco principal de trabajo y MySQL como sistema de gestión de bases de datos. La API permite gestionar las entidades clave del sistema, como empleados, reportes, mensajes de soporte, notificaciones y usuarios.
-
-2. Despliegue en el Entorno de Desarrollo:
-
-Se utilizó Swagger para documentar la API y proporcionar una interfaz interactiva que permite explorar y probar todos los endpoints. Esto facilita el trabajo de los desarrolladores, quienes pueden validar el comportamiento de la API en tiempo real.
-
-3. Despliegue en el Entorno de Producción:
-
-La API fue desplegada en el entorno de producción. Se configuraron las instancias necesarias en el servidor para asegurar la disponibilidad continua y garantizar que la API esté operativa sin interrupciones.
-
-MySQL fue configurado en el servidor de producción para manejar un volumen de datos moderado, optimizando las consultas y asegurando un rendimiento eficiente.
-
-4. Configuración y Gestión de la Base de Datos:
-
-La base de datos está en MySQL y se implementaron todas las relaciones necesarias entre las tablas para garantizar la integridad de los datos. Además, se llevaron a cabo pruebas de rendimiento en las consultas de la base de datos para asegurar que las operaciones de lectura y escritura fueran rápidas y escalables.
-
-5. Despliegue en Netlify:
-
-Si bien el equipo planeaba subirlo en Azure, se terminó eligiendo netlify por problemas en los intentos.
-
-Este conjunto de actividades garantizó que el backend de TalentManager estuviera correctamente implementado, optimizado para el entorno de producción y disponible para su uso continuo.
-
-#### **5.2.3.8. Team Collaboration Insights during Sprint.** 
-
-Durante el Sprint 3, el equipo de desarrollo centró sus esfuerzos en consolidar el backend de TalentManager, utilizando Java con Spring Boot como tecnología principal y MySQL como sistema gestor de base de datos. Se implementaron múltiples endpoints RESTful conforme a las rutas documentadas en Swagger, lo cual permitió una interacción clara, estructurada y eficiente con los datos de reportes y resúmenes mensuales de rendimiento del personal.
-
-Actividades realizadas:
-Arquitectura Backend: Se definieron y desarrollaron los endpoints necesarios para gestionar entidades clave como reportes y resúmenes mensuales de empleados. Los endpoints siguen una estructura clara y RESTful, tales como por ejemplo:
-
-- /api/v1/reports para el manejo de reportes.
-
-- /api/v1/monthly-summaries para los resúmenes mensuales generales.
-
-Operaciones CRUD: Se implementaron las funcionalidades para las entidades principales (reports y monthly summaries).
-
-Documentación con Swagger y OpenAPI: Toda la API fue documentada usando Swagger UI, lo que permitió al equipo visualizar, probar y validar el comportamiento de los endpoints en tiempo real. Esta integración facilitó una comunicación más clara entre frontend y backend y mejoró la trazabilidad del desarrollo.
-
-Base de Datos MySQL: Se utilizó una estructura relacional eficiente, centrada en el soporte de operaciones de alto rendimiento, alineada con las necesidades de consulta de datos de evaluaciones y reportes. La estructura permite acceder rápidamente a los resúmenes por empleado o compañía, reduciendo los tiempos de respuesta en las consultas clave.
-
-Mejoras en el Frontend: Se realizaron ajustes visuales y funcionales en el frontend, principalmente en los formularios de generación de reportes y visualización de datos. Se mejoró la experiencia de usuario para facilitar la interacción con los datos evaluativos desde distintas vistas.
-
-Dashboard de rendimiento: Se integró un dashboard visual que presenta un gráfico general sobre el rendimiento del personal, ofreciendo una visualización rápida del comportamiento global de los equipos evaluados durante el mes.
-
-### **5.2.4. Sprint 4**
-
-#### **5.2.4.1. Sprint Planning 4\.** 
-
-Durante esta sesión de planificación del sprint, el equipo acordó avanzar en la integración entre el backend y el frontend, incorporar el bounded context de Identity and Access Management (IAM) utilizando tokens JWT (JSON Web Tokens), y optimizar diversas funcionalidades de los endpoints existentes en el backend. En la reunión, el equipo asignó tareas específicas a cada integrante, centrando sus esfuerzos en el desarrollo de 4 historias de usuario y 9 historias técnicas fundamentales para mejorar la seguridad, la interoperabilidad y la funcionalidad general de la plataforma TalentManager.
-
-A continuación se podrá apreciar la tabla del sprint planificado:
-
-| Sprint \# | Sprint 4 |
-| :---- | :---- |
-| **Sprint Planning Background**  |  |
-| Date | 2025-06-29 |
-| Time | 9:30 PM |
-| Location | Reunión virtual |
-| Prepared By | Luis Rodríguez, Gabriel Borja |
-| Attendees (to planning meeting) | Santiago Cárdenas / Gustavo Román / Luis Rodríguez / Santiago Suárez / Gabriel Borja |
-| Sprint 4 – 1 Review Summary | Durante el Sprint 3, se desarrollaron 11 historias de usuario enfocadas en el desarrollo del backend de la aplicación TalentManager. Este trabajo permitió consolidar la arquitectura de la base de datos y habilitar funcionalidades clave del sistema, como la gestión de empleados, reportes, observaciones y usuarios. Se implementaron endpoints RESTful para las entidades principales, incluyendo empleados, áreas, cargos y reportes, facilitando una integración eficaz entre el frontend y el backend. El programador Gustavo Román desempeñó un papel fundamental en la optimización de las consultas SQL y en la mejora de la estructura de la base de datos, lo que incrementó la eficiencia de las operaciones en MySQL. Gracias a estos ajustes, las operaciones de lectura y escritura se ejecutan ahora con mayor rapidez y precisión. Gabriel Borja y Luis Rodríguez colaboraron activamente en la definición de las relaciones entre tablas y en la correcta normalización de la base de datos, lo cual garantizó la integridad referencial y evitó redundancias, asegurando una estructura robusta, mantenible y escalable. Por su parte, Santiago Cárdenas y Santiago Suárez contribuyeron significativamente con la implementación de los servicios API RESTful para la gestión de reportes, observaciones y asistencias, asegurando una comunicación segura y eficiente entre los distintos componentes del sistema. Adicionalmente, se avanzó en la documentación de los endpoints utilizando Swagger y OpenAPI, lo que permitió estandarizar las rutas, mejorar la colaboración entre equipos y facilitar futuras integraciones con servicios externos. Finalmente, también se dedicaron esfuerzos a pulir aspectos del frontend previamente implementado, mejorando la coherencia visual, corrigiendo errores menores de navegación y ajustando componentes para ofrecer una experiencia de usuario más fluida e intuitiva. |
-| Sprint 4 – 1 Retrospective Summary | Durante el Sprint 3, se consolidó una base robusta para el backend de la plataforma TalentManager. El equipo avanzó significativamente en la integración de los servicios esenciales del sistema. Entre los principales logros se encuentra la optimización de la base de datos, con consultas SQL ajustadas correctamente que mejoraron considerablemente el rendimiento general del backend. La colaboración entre los integrantes permitió completar las tareas backend de forma coordinada y eficiente. En cuanto a la estructuración de las APIs, se implementaron los servicios necesarios para la gestión de empleados, reportes, observaciones y otras funcionalidades clave del sistema. En el ámbito de documentación, la implementación de Swagger y el uso del estándar OpenAPI facilitaron la integración y prueba de los endpoints, aumentando la claridad y transparencia del desarrollo. Para el siguiente sprint, se proyecta continuar con la mejora progresiva de las consultas SQL y la estructura de la base de datos, realizar correcciones menores si se detectan durante las pruebas del backend, ampliar la documentación especialmente en los endpoints más complejos, y reforzar la seguridad de la API y del acceso a datos sensibles. |
-| **Sprint Goal & User Stories**  |  |
-| Sprint 4 Goal | Our current focus is on strengthening the authentication and authorization mechanisms of the TalentManager platform through the implementation of Identity and Access Management (IAM) using JSON Web Tokens (JWT). This involves securing access to protected resources and establishing reliable communication between the backend services and the frontend interface. We believe this approach establishes a solid security infrastructure that safeguards user access, ensures proper session handling, and restricts unauthorized entry to sensitive endpoints. By leveraging JWT, we facilitate secure and efficient interactions between the client and server components. This will be validated once all authentication endpoints are properly protected with JWT, the frontend is capable of sending and storing tokens correctly, and the full integration between frontend and backend is tested and confirmed to meet expected security standards, including protection against common threats and misuse. |
-| Sprint 4 Velocity | 78 |
-| Sum of Story Points | 78 |
-
-#### 
-
-#### **5.2.4.2. Aspect Leaders and Collaborators.**
-
-En esta sección, el equipo desarrolló una Leadership and Collaboration Matrix (LACX) adaptada al contexto de TalentManager, con el propósito de mejorar la claridad y eficiencia en la comunicación interna. Este artefacto asigna de forma explícita a una persona líder y a sus colaboradores por cada aspecto relevante del Sprint. Dichos aspectos representan áreas clave del alcance funcional trabajado en esta iteración. La sección incluye una introducción que describe los componentes priorizados durante el Sprint y cómo el LACX permite identificar con claridad las responsabilidades compartidas y los puntos de coordinación en el equipo.
-
-Se han definido los roles de líder (L) y colaborador (C) para los integrantes del grupo en cada aspecto definido del sprint
-
-Los aspectos que se han tenido en cuenta para este sprint son:
-
-1. Conexión frontend-backend
-2. Correciones frontend  
-3. Correciones backend
-4. Validaciones
-5. Agregar IAM
-6. Deployment
-
-| Team Member (Last Name, First Name) | GitHub Username | Conexión frontend-backend | Correciones frontend | Correciones backend | Validaciones | Agregar IAM | Deployment |
-| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| Cárdenas Concha, Santiago Iván | Sack136 | C | C | L | C | C | C |
-| Román Pajuelo, Luis Gustavo | Raizo400 | L | C | C | C | C | C |
-| Suárez Romero, Santiago Manuel | SDarXx | C | C | C | C | C | L |
-| Borja Molina, Gabriel Sebastián | borj410 | C | C | C | L | L | C |
-| Rodríguez Rodríguez, Luis Piero | luissssrr | C | L | C | C | C | C |
-
-#### 
-
-   #### **5.2.4.3. Sprint Backlog 4\.**
-
-En este sprint se muestran los trabajos realizados en este sprint:
-
-| Sprint # 4 |  |  |  |  |  |
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| Work-Item / Task | User Story ID | Description | Estimation (Hours) | Assigned To / Status |
-| TSK01 | US17 | Implementar endpoint para registrar observaciones de comportamiento | 4 | Developer Team | Done |
-| TSK02 | US17 | Validación de campos y lógica de negocio para observaciones | 3 | Developer Team | Done |
-| TSK03 | US17 | Diseño para recepción y almacenamiento de datos | 2 | Developer Team | Done |
-| TSK04 | US17 | Documentación del endpoint en Swagger | 1 | Developer Team | Done |
-| TSK05 | US24 | Endpoint para generar reporte por criterio de evaluación | 5 | Developer Team | Done |
-| TSK06 | US24 | Filtrado dinámico de criterios y ordenamiento | 2 | Developer Team | Done |
-| TSK07 | US24 | Definición de estructura de salida del reporte (DTO) | 2 | Developer Team | Done |
-| TSK08 | US20 | Crear endpoint para iniciar evaluación de desempeño | 3 | Developer Team | Done |
-| TSK09 | US20 | Asignación automática de formularios por empleado | 2 | Developer Team | Done |
-| TSK10 | US20 | Generación de estructura base de evaluación desde plantilla | 2 | Developer Team | Done |
-| TSK11 | US22 | Implementar endpoint para mostrar resultados por empleado | 3 | Developer Team | Done |
-| TSK12 | US22 | Mapeo de resultados individuales y consolidación por bloques | 2 | Developer Team | Done |
-| TSK13 | US22 | Inclusión de metainformación sobre la evaluación (fecha, autor, etc.) | 1 | Developer Team | Done |
-| TSK14 | TS01 | GET `/api/v1/companies` - Obtener lista de empresas | 2 | Developer Team | Done |
-| TSK15 | TS02 | POST `/api/v1/companies` - Crear nueva empresa | 3 | Developer Team | Done |
-| TSK16 | TS02 | Validación de datos (campos obligatorios, formato email) | 2 | Developer Team | Done |
-| TSK17 | TS03 | GET `/api/v1/companies/{id}/employees` - Obtener empleados | 3 | Developer Team | Done |
-| TSK18 | TS03 | Incorporar filtros por estado o rol del empleado | 2 | Developer Team | Done |
-| TSK19 | TS04 | POST `/api/v1/employees` - Crear nuevo empleado | 3 | Developer Team | Done |
-| TSK20 | TS04 | Validaciones del empleado y lógica de registro | 2 | Developer Team | Done |
-| TSK21 | TS05 | GET `/api/v1/monthly-summaries` - Obtener resúmenes | 2 | Developer Team | Done |
-| TSK22 | TS06 | Implementar autenticación JWT: login y generación de token | 4 | Developer Team | Done |
-| TSK23 | TS06 | Configuración de seguridad para rutas públicas y protegidas | 3 | Developer Team | Done |
-| TSK24 | TS07 | GET `/api/v1/reports` - Obtener reportes de desempeño | 3 | Developer Team | Done |
-| TSK25 | TS07 | Agregación de datos por periodo y empleados | 2 | Developer Team | Done |
-| TSK26 | TS08 | Validaciones: Validar campos vacíos, formatos de texto y longitud de strings | 2 | Developer Team | Done |
-
-
-#### **5.2.4.4. Development Evidence for Sprint Review.**
-
-#### 
-
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-| :---- | :---- | :---- | :---- | :---- | :---- |
-| Raizo400/TalentManager-BERSS/Backend-TalentManager | master | f2nyqh |  |  | 30/06/2025 |
-| borj410/TalentManager-BERSS/Backend-TalentManager | develop | 4nbohc |  |  | 06/07/2025 |
-| Sack136/TalentManager-BERSS/Backend-TalentManager | develop | d52bmf |  |  | 07/07/2025 |
-| SDarXx/TalentManager-BERSS/Backend-TalentManager | master | o0ltw1 |  |  | 01/07/2025 |
-| luissssrr/TalentManager-BERSS/Backend-TalentManager | develop | vcehw6 |  |  | 07/07/2025 |
-| borj410/TalentManager-BERSS/Backend-TalentManager | master | t9ucdp |  |  | 04/07/2025 |
-| SDarXx/TalentManager-BERSS/Backend-TalentManager | develop | r7k1ae |  |  | 01/07/2025 |
-| Raizo400/TalentManager-BERSS/Backend-TalentManager | develop | 9l4ewc |  |  | 30/06/2025 |
-| luissssrr/TalentManager-BERSS/Backend-TalentManager | develop | qvsnl8 |  |  | 01/07/2025 |
-| Sack136/TalentManager-BERSS/Backend-TalentManager | develop | d30wmx |  |  | 03/07/2025 |
-| luissssrr/TalentManager-BERSS/Backend-TalentManager | develop | kvf3tp |  |  | 05/07/2025 |
-| Raizo400/TalentManager-BERSS/Backend-TalentManager | develop | n5xmhg |  |  | 02/07/2025 |
-| Sack136/TalentManager-BERSS/Backend-TalentManager | develop | rkh92z |  |  | 03/07/2025 |
-| luissssrr/TalentManager-BERSS/Backend-TalentManager | develop | 5phqbt |  |  | 06/07/2025 |
-| SDarXx/TalentManager-BERSS/Backend-TalentManager | develop | zc9xb3 |  |  | 05/07/2025 |
-| SDarXx/TalentManager-BERSS/Backend-TalentManager | master | giy24n |  |  | 30/06/2025 |
-| Raizo400/TalentManager-BERSS/Backend-TalentManager | master | 4wk7ne |  |  | 06/07/2025 |
-| borj410/TalentManager-BERSS/Backend-TalentManager | master | kjp3mt |  |  | 30/06/2025 |
-| Sack136/TalentManager-BERSS/Backend-TalentManager | master | bgm5lu |  |  | 04/07/2025 |
-| borj410/TalentManager-BERSS/Backend-TalentManager | master | td5ywn |  |  | 02/07/2025 |
-
-#### 
-
-
-
-
-
-
-
-
-
-
-
-
-#### **5.2.4.5. Execution Evidence for Sprint Review.**
-
-Durante el Sprint 4, se completaron varias tareas clave en el desarrollo del backend de TalentManager (además de correciones de frontend), con un enfoque principal en la implementación de funcionalidades críticas para la gestión de empleados, reportes, soporte y la integración de un sistema robusto de notificaciones. Este sprint se centró en la mejora de la infraestructura backend y la integración de funcionalidades esenciales, como la gestión de empleados, reportes mensuales y mensajes de soporte.
-
-Se implementaron además las APIs necesarias, con documentación clara y accesible a través de OpenAPI y Swagger, lo que facilita la interacción con el backend y permite la prueba eficiente de todos los endpoints disponibles. La documentación de las APIs también garantiza la facilidad para los desarrolladores al agregar nuevas funcionalidades y al interactuar con el sistema de manera coherente.
-
-Avances Realizados:
-
-1. Empleados:
-
-Gestión de Empleados: Se implementaron las funcionalidades para obtener información de empleados (GetAll, GetById), crear nuevos empleados (Create), actualizar datos existentes (Update) y eliminar empleados (Delete).
-
-Gestión de Equipos: Además de la gestión de empleados, se integró la funcionalidad para asignar y actualizar equipos (TeamName) de los empleados.
-
-2. Reportes:
-
-Gestión de Reportes: Se habilitaron las funcionalidades para crear reportes (Create), obtener detalles de reportes específicos (GetById), y actualizar (Update) los reportes ya existentes, asociados a la compañía correspondiente.
-
-3. Soporte:
-
-Gestión de Mensajes de Soporte: Se implementaron las funcionalidades para gestionar los mensajes de soporte, con capacidad para crear nuevos mensajes (Create), actualizar mensajes (Update) y registrar la fecha de solicitud (RequestDate).
-
-Visibilidad de Mensajes de Soporte: Se introdujo la gestión de una vista de soporte que incluye la capacidad de ver el estado de cada solicitud de soporte y su procesamiento.
-
-4. Notificaciones:
-
-Gestión de Notificaciones: Se implementaron funcionalidades clave para la creación de notificaciones (Create), la visualización de todas las notificaciones (GetAll) y la capacidad de actualizar el estado de las notificaciones (Patch).
-
-5. Contribuciones del Equipo:
-
-Modelado y Entidades: Se trabajó en la implementación de entidades y value objects (por ejemplo, Employee, Report, CompanyId, SupportMessageId), garantizando la coherencia en la estructura de dominio a través de la arquitectura de DDD.
-
-Validaciones y Data Annotations: Se añadieron validaciones para asegurar que los datos ingresados cumplieran con las reglas de negocio, como la validación de fechas en EntryDate, RequestDate y la validación de los valores de los ID de empresa y equipo.
-
-Internacionalización (i18n): Se trabajó en la implementación de soporte multilingüe, garantizando que la plataforma pueda ser utilizada en diferentes idiomas.
-
-Mejoras en la Infraestructura: El equipo optimizó la configuración de la base de datos y completó las configuraciones necesarias para la persistencia, utilizando la estrategia de nomenclatura de "Snake Case" y pluralización de las tablas para asegurar coherencia en el esquema de base de datos.
-
-El Sprint 3 ha sido clave para establecer una base sólida en el backend de TalentManager. Se implementaron funcionalidades esenciales para la gestión de empleados, reportes y soporte, además de trabajar en la validación de los datos, la mejora en la estructura de la base de datos y la integración de notificaciones. La documentación y las pruebas de las APIs a través de OpenAPI y Swagger han permitido una mayor transparencia y facilidad para la interacción con el sistema, lo que será crucial para futuras expansiones y ajustes de la plataforma.
-
-#### **5.2.4.6. Services Documentation Evidence for Sprint Review.**
-
 Durante el Sprint 3, se centró el desarrollo del backend de la aplicación TalentManager, reemplazando la API simulada con servicios backend completamente funcionales. La plataforma ahora está conectada a una base de datos real y las operaciones CRUD para gestionar empleados, reportes, mensajes de soporte y notificaciones están completamente implementadas y operativas.
 
 En lugar de depender de una API falsa, el equipo implementó una API RESTful construida con Spring Boot y conectada a MySQL. A continuación, se detallan los endpoints de la nueva API, sus métodos implementados y la documentación correspondiente.
@@ -2543,6 +2301,237 @@ Si bien el equipo planeaba subirlo en Azure, se terminó eligiendo netlify por p
 Este conjunto de actividades garantizó que el backend de TalentManager estuviera correctamente implementado, optimizado para el entorno de producción y disponible para su uso continuo.
 
 #### **5.2.3.8. Team Collaboration Insights during Sprint.** 
+
+Durante el Sprint 3, el equipo de desarrollo centró sus esfuerzos en consolidar el backend de TalentManager, utilizando Java con Spring Boot como tecnología principal y MySQL como sistema gestor de base de datos. Se implementaron múltiples endpoints RESTful conforme a las rutas documentadas en Swagger, lo cual permitió una interacción clara, estructurada y eficiente con los datos de reportes y resúmenes mensuales de rendimiento del personal.
+
+Actividades realizadas:
+Arquitectura Backend: Se definieron y desarrollaron los endpoints necesarios para gestionar entidades clave como reportes y resúmenes mensuales de empleados. Los endpoints siguen una estructura clara y RESTful, tales como por ejemplo:
+
+- /api/v1/reports para el manejo de reportes.
+
+- /api/v1/monthly-summaries para los resúmenes mensuales generales.
+
+Operaciones CRUD: Se implementaron las funcionalidades para las entidades principales (reports y monthly summaries).
+
+Documentación con Swagger y OpenAPI: Toda la API fue documentada usando Swagger UI, lo que permitió al equipo visualizar, probar y validar el comportamiento de los endpoints en tiempo real. Esta integración facilitó una comunicación más clara entre frontend y backend y mejoró la trazabilidad del desarrollo.
+
+Base de Datos MySQL: Se utilizó una estructura relacional eficiente, centrada en el soporte de operaciones de alto rendimiento, alineada con las necesidades de consulta de datos de evaluaciones y reportes. La estructura permite acceder rápidamente a los resúmenes por empleado o compañía, reduciendo los tiempos de respuesta en las consultas clave.
+
+Mejoras en el Frontend: Se realizaron ajustes visuales y funcionales en el frontend, principalmente en los formularios de generación de reportes y visualización de datos. Se mejoró la experiencia de usuario para facilitar la interacción con los datos evaluativos desde distintas vistas.
+
+Dashboard de rendimiento: Se integró un dashboard visual que presenta un gráfico general sobre el rendimiento del personal, ofreciendo una visualización rápida del comportamiento global de los equipos evaluados durante el mes.
+
+### **5.2.4. Sprint 4**
+
+#### **5.2.4.1. Sprint Planning 4\.** 
+
+Durante esta sesión de planificación del sprint, el equipo acordó avanzar en la integración entre el backend y el frontend, incorporar el bounded context de Identity and Access Management (IAM) utilizando tokens JWT (JSON Web Tokens), y optimizar diversas funcionalidades de los endpoints existentes en el backend. En la reunión, el equipo asignó tareas específicas a cada integrante, centrando sus esfuerzos en el desarrollo de 4 historias de usuario y 9 historias técnicas fundamentales para mejorar la seguridad, la interoperabilidad y la funcionalidad general de la plataforma TalentManager.
+
+A continuación se podrá apreciar la tabla del sprint planificado:
+
+| Sprint \# | Sprint 4 |
+| :---- | :---- |
+| **Sprint Planning Background**  |  |
+| Date | 2025-06-29 |
+| Time | 9:30 PM |
+| Location | Reunión virtual |
+| Prepared By | Luis Rodríguez, Gabriel Borja |
+| Attendees (to planning meeting) | Santiago Cárdenas / Gustavo Román / Luis Rodríguez / Santiago Suárez / Gabriel Borja |
+| Sprint 4 – 1 Review Summary | Durante el Sprint 3, se desarrollaron 11 historias de usuario enfocadas en el desarrollo del backend de la aplicación TalentManager. Este trabajo permitió consolidar la arquitectura de la base de datos y habilitar funcionalidades clave del sistema, como la gestión de empleados, reportes, observaciones y usuarios. Se implementaron endpoints RESTful para las entidades principales, incluyendo empleados, áreas, cargos y reportes, facilitando una integración eficaz entre el frontend y el backend. El programador Gustavo Román desempeñó un papel fundamental en la optimización de las consultas SQL y en la mejora de la estructura de la base de datos, lo que incrementó la eficiencia de las operaciones en MySQL. Gracias a estos ajustes, las operaciones de lectura y escritura se ejecutan ahora con mayor rapidez y precisión. Gabriel Borja y Luis Rodríguez colaboraron activamente en la definición de las relaciones entre tablas y en la correcta normalización de la base de datos, lo cual garantizó la integridad referencial y evitó redundancias, asegurando una estructura robusta, mantenible y escalable. Por su parte, Santiago Cárdenas y Santiago Suárez contribuyeron significativamente con la implementación de los servicios API RESTful para la gestión de reportes, observaciones y asistencias, asegurando una comunicación segura y eficiente entre los distintos componentes del sistema. Adicionalmente, se avanzó en la documentación de los endpoints utilizando Swagger y OpenAPI, lo que permitió estandarizar las rutas, mejorar la colaboración entre equipos y facilitar futuras integraciones con servicios externos. Finalmente, también se dedicaron esfuerzos a pulir aspectos del frontend previamente implementado, mejorando la coherencia visual, corrigiendo errores menores de navegación y ajustando componentes para ofrecer una experiencia de usuario más fluida e intuitiva. |
+| Sprint 4 – 1 Retrospective Summary | Durante el Sprint 3, se consolidó una base robusta para el backend de la plataforma TalentManager. El equipo avanzó significativamente en la integración de los servicios esenciales del sistema. Entre los principales logros se encuentra la optimización de la base de datos, con consultas SQL ajustadas correctamente que mejoraron considerablemente el rendimiento general del backend. La colaboración entre los integrantes permitió completar las tareas backend de forma coordinada y eficiente. En cuanto a la estructuración de las APIs, se implementaron los servicios necesarios para la gestión de empleados, reportes, observaciones y otras funcionalidades clave del sistema. En el ámbito de documentación, la implementación de Swagger y el uso del estándar OpenAPI facilitaron la integración y prueba de los endpoints, aumentando la claridad y transparencia del desarrollo. Para el siguiente sprint, se proyecta continuar con la mejora progresiva de las consultas SQL y la estructura de la base de datos, realizar correcciones menores si se detectan durante las pruebas del backend, ampliar la documentación especialmente en los endpoints más complejos, y reforzar la seguridad de la API y del acceso a datos sensibles. |
+| **Sprint Goal & User Stories**  |  |
+| Sprint 4 Goal | Our current focus is on strengthening the authentication and authorization mechanisms of the TalentManager platform through the implementation of Identity and Access Management (IAM) using JSON Web Tokens (JWT). This involves securing access to protected resources and establishing reliable communication between the backend services and the frontend interface. We believe this approach establishes a solid security infrastructure that safeguards user access, ensures proper session handling, and restricts unauthorized entry to sensitive endpoints. By leveraging JWT, we facilitate secure and efficient interactions between the client and server components. This will be validated once all authentication endpoints are properly protected with JWT, the frontend is capable of sending and storing tokens correctly, and the full integration between frontend and backend is tested and confirmed to meet expected security standards, including protection against common threats and misuse. |
+| Sprint 4 Velocity | 78 |
+| Sum of Story Points | 78 |
+
+#### 
+
+#### **5.2.4.2. Aspect Leaders and Collaborators.**
+
+En esta sección, el equipo desarrolló una Leadership and Collaboration Matrix (LACX) adaptada al contexto de TalentManager, con el propósito de mejorar la claridad y eficiencia en la comunicación interna. Este artefacto asigna de forma explícita a una persona líder y a sus colaboradores por cada aspecto relevante del Sprint. Dichos aspectos representan áreas clave del alcance funcional trabajado en esta iteración. La sección incluye una introducción que describe los componentes priorizados durante el Sprint y cómo el LACX permite identificar con claridad las responsabilidades compartidas y los puntos de coordinación en el equipo.
+
+Se han definido los roles de líder (L) y colaborador (C) para los integrantes del grupo en cada aspecto definido del sprint
+
+Los aspectos que se han tenido en cuenta para este sprint son:
+
+1. Conexión frontend-backend
+2. Correciones frontend  
+3. Correciones backend
+4. Validaciones
+5. Agregar IAM
+6. Deployment
+
+| Team Member (Last Name, First Name) | GitHub Username | Conexión frontend-backend | Correciones frontend | Correciones backend | Validaciones | Agregar IAM | Deployment |
+| :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
+| Cárdenas Concha, Santiago Iván | Sack136 | C | C | L | C | C | C |
+| Román Pajuelo, Luis Gustavo | Raizo400 | L | C | C | C | C | C |
+| Suárez Romero, Santiago Manuel | SDarXx | C | C | C | C | C | L |
+| Borja Molina, Gabriel Sebastián | borj410 | C | C | C | L | L | C |
+| Rodríguez Rodríguez, Luis Piero | luissssrr | C | L | C | C | C | C |
+
+#### 
+
+   #### **5.2.4.3. Sprint Backlog 4\.**
+
+En este sprint se muestran los trabajos realizados en este sprint:
+
+| Sprint # 4 |  |  |  |  |  |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| Work-Item / Task | User Story ID | Description | Estimation (Hours) | Assigned To / Status |
+| TSK01 | US17 | Implementar endpoint para registrar observaciones de comportamiento | 4 | Developer Team | Done |
+| TSK02 | US17 | Validación de campos y lógica de negocio para observaciones | 3 | Developer Team | Done |
+| TSK03 | US17 | Diseño para recepción y almacenamiento de datos | 2 | Developer Team | Done |
+| TSK04 | US17 | Documentación del endpoint en Swagger | 1 | Developer Team | Done |
+| TSK05 | US24 | Endpoint para generar reporte por criterio de evaluación | 5 | Developer Team | Done |
+| TSK06 | US24 | Filtrado dinámico de criterios y ordenamiento | 2 | Developer Team | Done |
+| TSK07 | US24 | Definición de estructura de salida del reporte (DTO) | 2 | Developer Team | Done |
+| TSK08 | US20 | Crear endpoint para iniciar evaluación de desempeño | 3 | Developer Team | Done |
+| TSK09 | US20 | Asignación automática de formularios por empleado | 2 | Developer Team | Done |
+| TSK10 | US20 | Generación de estructura base de evaluación desde plantilla | 2 | Developer Team | Done |
+| TSK11 | US22 | Implementar endpoint para mostrar resultados por empleado | 3 | Developer Team | Done |
+| TSK12 | US22 | Mapeo de resultados individuales y consolidación por bloques | 2 | Developer Team | Done |
+| TSK13 | US22 | Inclusión de metainformación sobre la evaluación (fecha, autor, etc.) | 1 | Developer Team | Done |
+| TSK14 | TS01 | GET `/api/v1/companies` - Obtener lista de empresas | 2 | Developer Team | Done |
+| TSK15 | TS02 | POST `/api/v1/companies` - Crear nueva empresa | 3 | Developer Team | Done |
+| TSK16 | TS02 | Validación de datos (campos obligatorios, formato email) | 2 | Developer Team | Done |
+| TSK17 | TS03 | GET `/api/v1/companies/{id}/employees` - Obtener empleados | 3 | Developer Team | Done |
+| TSK18 | TS03 | Incorporar filtros por estado o rol del empleado | 2 | Developer Team | Done |
+| TSK19 | TS04 | POST `/api/v1/employees` - Crear nuevo empleado | 3 | Developer Team | Done |
+| TSK20 | TS04 | Validaciones del empleado y lógica de registro | 2 | Developer Team | Done |
+| TSK21 | TS05 | GET `/api/v1/monthly-summaries` - Obtener resúmenes | 2 | Developer Team | Done |
+| TSK22 | TS06 | Implementar autenticación JWT: login y generación de token | 4 | Developer Team | Done |
+| TSK23 | TS06 | Configuración de seguridad para rutas públicas y protegidas | 3 | Developer Team | Done |
+| TSK24 | TS07 | GET `/api/v1/reports` - Obtener reportes de desempeño | 3 | Developer Team | Done |
+| TSK25 | TS07 | Agregación de datos por periodo y empleados | 2 | Developer Team | Done |
+| TSK26 | TS08 | Validaciones: Validar campos vacíos, formatos de texto y longitud de strings | 2 | Developer Team | Done |
+
+
+#### **5.2.4.4. Development Evidence for Sprint Review.**
+
+#### 
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| Raizo400/TalentManager-BERSS/Backend-TalentManager | master | f2nyqh |  |  | 30/06/2025 |
+| borj410/TalentManager-BERSS/Backend-TalentManager | develop | 4nbohc |  |  | 06/07/2025 |
+| Sack136/TalentManager-BERSS/Backend-TalentManager | develop | d52bmf |  |  | 07/07/2025 |
+| SDarXx/TalentManager-BERSS/Backend-TalentManager | master | o0ltw1 |  |  | 01/07/2025 |
+| luissssrr/TalentManager-BERSS/Backend-TalentManager | develop | vcehw6 |  |  | 07/07/2025 |
+| borj410/TalentManager-BERSS/Backend-TalentManager | master | t9ucdp |  |  | 04/07/2025 |
+| SDarXx/TalentManager-BERSS/Backend-TalentManager | develop | r7k1ae |  |  | 01/07/2025 |
+| Raizo400/TalentManager-BERSS/Backend-TalentManager | develop | 9l4ewc |  |  | 30/06/2025 |
+| luissssrr/TalentManager-BERSS/Backend-TalentManager | develop | qvsnl8 |  |  | 01/07/2025 |
+| Sack136/TalentManager-BERSS/Backend-TalentManager | develop | d30wmx |  |  | 03/07/2025 |
+| luissssrr/TalentManager-BERSS/Backend-TalentManager | develop | kvf3tp |  |  | 05/07/2025 |
+| Raizo400/TalentManager-BERSS/Backend-TalentManager | develop | n5xmhg |  |  | 02/07/2025 |
+| Sack136/TalentManager-BERSS/Backend-TalentManager | develop | rkh92z |  |  | 03/07/2025 |
+| luissssrr/TalentManager-BERSS/Backend-TalentManager | develop | 5phqbt |  |  | 06/07/2025 |
+| SDarXx/TalentManager-BERSS/Backend-TalentManager | develop | zc9xb3 |  |  | 05/07/2025 |
+| SDarXx/TalentManager-BERSS/Backend-TalentManager | master | giy24n |  |  | 30/06/2025 |
+| Raizo400/TalentManager-BERSS/Backend-TalentManager | master | 4wk7ne |  |  | 06/07/2025 |
+| borj410/TalentManager-BERSS/Backend-TalentManager | master | kjp3mt |  |  | 30/06/2025 |
+| Sack136/TalentManager-BERSS/Backend-TalentManager | master | bgm5lu |  |  | 04/07/2025 |
+| borj410/TalentManager-BERSS/Backend-TalentManager | master | td5ywn |  |  | 02/07/2025 |
+
+#### 
+
+#### **5.2.4.5. Execution Evidence for Sprint Review.**
+
+Durante el Sprint 4, se completaron varias tareas clave en el desarrollo del backend de TalentManager (además de correciones de frontend), con un enfoque principal en la implementación de funcionalidades críticas para la gestión de empleados, reportes, soporte y la integración de un sistema robusto de notificaciones. Este sprint se centró en la mejora de la infraestructura backend y la integración de funcionalidades esenciales, como la gestión de empleados, reportes mensuales y mensajes de soporte.
+
+Se implementaron además las APIs necesarias, con documentación clara y accesible a través de OpenAPI y Swagger, lo que facilita la interacción con el backend y permite la prueba eficiente de todos los endpoints disponibles. La documentación de las APIs también garantiza la facilidad para los desarrolladores al agregar nuevas funcionalidades y al interactuar con el sistema de manera coherente.
+
+Avances Realizados:
+
+1. Empleados:
+
+Gestión de Empleados: Se implementaron las funcionalidades para obtener información de empleados (GetAll, GetById), crear nuevos empleados (Create), actualizar datos existentes (Update) y eliminar empleados (Delete).
+
+Gestión de Equipos: Además de la gestión de empleados, se integró la funcionalidad para asignar y actualizar equipos (TeamName) de los empleados.
+
+2. Reportes:
+
+Gestión de Reportes: Se habilitaron las funcionalidades para crear reportes (Create), obtener detalles de reportes específicos (GetById), y actualizar (Update) los reportes ya existentes, asociados a la compañía correspondiente.
+
+3. Soporte:
+
+Gestión de Mensajes de Soporte: Se implementaron las funcionalidades para gestionar los mensajes de soporte, con capacidad para crear nuevos mensajes (Create), actualizar mensajes (Update) y registrar la fecha de solicitud (RequestDate).
+
+Visibilidad de Mensajes de Soporte: Se introdujo la gestión de una vista de soporte que incluye la capacidad de ver el estado de cada solicitud de soporte y su procesamiento.
+
+4. Notificaciones:
+
+Gestión de Notificaciones: Se implementaron funcionalidades clave para la creación de notificaciones (Create), la visualización de todas las notificaciones (GetAll) y la capacidad de actualizar el estado de las notificaciones (Patch).
+
+5. Contribuciones del Equipo:
+
+Modelado y Entidades: Se trabajó en la implementación de entidades y value objects (por ejemplo, Employee, Report, CompanyId, SupportMessageId), garantizando la coherencia en la estructura de dominio a través de la arquitectura de DDD.
+
+Validaciones y Data Annotations: Se añadieron validaciones para asegurar que los datos ingresados cumplieran con las reglas de negocio, como la validación de fechas en EntryDate, RequestDate y la validación de los valores de los ID de empresa y equipo.
+
+Internacionalización (i18n): Se trabajó en la implementación de soporte multilingüe, garantizando que la plataforma pueda ser utilizada en diferentes idiomas.
+
+Mejoras en la Infraestructura: El equipo optimizó la configuración de la base de datos y completó las configuraciones necesarias para la persistencia, utilizando la estrategia de nomenclatura de "Snake Case" y pluralización de las tablas para asegurar coherencia en el esquema de base de datos.
+
+El Sprint 3 ha sido clave para establecer una base sólida en el backend de TalentManager. Se implementaron funcionalidades esenciales para la gestión de empleados, reportes y soporte, además de trabajar en la validación de los datos, la mejora en la estructura de la base de datos y la integración de notificaciones. La documentación y las pruebas de las APIs a través de OpenAPI y Swagger han permitido una mayor transparencia y facilidad para la interacción con el sistema, lo que será crucial para futuras expansiones y ajustes de la plataforma.
+
+#### **5.2.4.6. Services Documentation Evidence for Sprint Review.**
+
+Durante el Sprint 4, el equipo de TalentManager se centró en la implementación del módulo IAM (Identity and Access Management), permitiendo la gestión completa del registro, autenticación y asociación de usuarios con entidades como Manager y Company. Este módulo garantiza un sistema de autenticación seguro basado en JWT (JSON Web Tokens) y constituye la base para controlar el acceso a los demás módulos funcionales de la plataforma.
+
+Además, se documentaron todos los endpoints en Swagger/OpenAPI, mejorando la experiencia de integración para el equipo de desarrollo y facilitando la validación de los flujos de autenticación desde el frontend.
+
+| Endpoint                             | Acción                                               | Verbo HTTP | Sintaxis de llamada                     | Parámetros                                                                                              | Ejemplo de Request                                                                                                                                                                                                                  | Ejemplo de Response                                                | Explicación                                                                                                               |
+| ------------------------------------ | ---------------------------------------------------- | ---------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| `/api/v1/auth/register`              | Registrar un nuevo usuario.                          | POST       | POST /api/v1/auth/register              | `username`, `rawPassword`, `managerId`                                                                  | `{ "username": "alice", "rawPassword": "securepass123", "managerId": 1 }`                                                                                                                                                           | `{ "id": 3, "username": "alice", "managerId": 1, "companyId": 1 }` | Crea un usuario asociado a un manager existente. Se debe indicar el ID del manager.                                       |
+| `/api/v1/auth/sign-in`               | Autenticar un usuario.                               | POST       | POST /api/v1/auth/sign-in               | `username`, `rawPassword`                                                                               | `{ "username": "alice", "rawPassword": "securepass123" }`                                                                                                                                                                           | `{ "id": 3, "username": "alice", "token": "eyJhbGciOiJIUzI1..." }` | Verifica las credenciales del usuario y devuelve un token JWT si son válidas.                                             |
+| `/api/v1/auth/register-with-manager` | Registrar un usuario junto con su manager y empresa. | POST       | POST /api/v1/auth/register-with-manager | `username`, `rawPassword`, `firstname`, `lastname`, `companyName`, `companyEmail`, `companyDescription` | `{ "username": "bob", "rawPassword": "12345678", "firstname": "Roberto", "lastname": "Lopez", "companyName": "InnovaTech", "companyEmail": "contacto@innovatech.io", "companyDescription": "Servicios de innovación tecnológica" }` | `{ "id": 4, "username": "bob", "managerId": 2, "companyId": 2 }`   | Crea simultáneamente un manager, una empresa y un usuario asociado a ese manager. Evita duplicados por nombre de empresa. |
+
+El Sprint 4 fue crucial en la consolidación del módulo IAM (Identity and Access Management) de TalentManager. Gracias a esta implementación, la plataforma ahora:
+
+- Soporta registro seguro de usuarios, managers y empresas.
+
+- Permite el inicio de sesión autenticado con JWT, protegiendo el acceso a los módulos del sistema.
+
+- Establece una arquitectura escalable de gestión de identidades, esencial para roles, permisos y trazabilidad futura.
+
+Esta base permitirá una evolución segura y controlada del ecosistema TalentManager, alineado con buenas prácticas de seguridad y diseño de software empresarial.
+
+#### **5.2.4.7. Software Deployment Evidence for Sprint Review.**
+
+Durante el Sprint 3, el equipo se centró en el desarrollo y despliegue de las funcionalidades backend para la aplicación web TalentManager. A continuación, se detallan los pasos realizados para asegurar que el backend estuviera correctamente implementado y desplegado en el entorno de producción.
+
+1. Se creo el repositorio para el backend: [https://github.com/TalentManager-BERSS/Backend-TalentManager](https://github.com/TalentManager-BERSS/Backend-TalentManager)
+
+2. Se logró publicar los web services del backend: [https://backend-talentmanager-production.up.railway.app/swagger-ui/index.html](https://backend-talentmanager-production.up.railway.app/swagger-ui/index.html) 
+
+Actividades de Despliegue:
+
+1. Desarrollo de la API Backend:
+
+La API RESTful fue desarrollada utilizando Spring Boot como el marco principal de trabajo y MySQL como sistema de gestión de bases de datos. La API permite gestionar las entidades clave del sistema, como empleados, reportes, mensajes de soporte, notificaciones y usuarios.
+
+2. Despliegue en el Entorno de Desarrollo:
+
+Se utilizó Swagger para documentar la API y proporcionar una interfaz interactiva que permite explorar y probar todos los endpoints. Esto facilita el trabajo de los desarrolladores, quienes pueden validar el comportamiento de la API en tiempo real.
+
+3. Despliegue en el Entorno de Producción:
+
+La API fue desplegada en el entorno de producción. Se configuraron las instancias necesarias en el servidor para asegurar la disponibilidad continua y garantizar que la API esté operativa sin interrupciones.
+
+MySQL fue configurado en el servidor de producción para manejar un volumen de datos moderado, optimizando las consultas y asegurando un rendimiento eficiente.
+
+4. Configuración y Gestión de la Base de Datos:
+
+La base de datos está en MySQL y se implementaron todas las relaciones necesarias entre las tablas para garantizar la integridad de los datos. Además, se llevaron a cabo pruebas de rendimiento en las consultas de la base de datos para asegurar que las operaciones de lectura y escritura fueran rápidas y escalables.
+
+5. Despliegue en Netlify:
+
+Si bien el equipo planeaba subirlo en Azure, se terminó eligiendo netlify por problemas en los intentos.
+
+Este conjunto de actividades garantizó que el backend de TalentManager estuviera correctamente implementado, optimizado para el entorno de producción y disponible para su uso continuo.
+
+#### **5.2.4.8. Team Collaboration Insights during Sprint.** 
 
 Durante este Sprint 4, el equipo se enfocó en la integración completa del frontend con el backend de TalentManager, asegurando una sincronización efectiva entre la capa de presentación y la lógica de negocio. Utilizando Java con Spring Boot para el backend y MySQL como sistema gestor de base de datos, se fortaleció la arquitectura existente y se implementaron mecanismos seguros para el registro e inicio de sesión de usuarios administradores, garantizando control de acceso mediante tokens JWT.
 
