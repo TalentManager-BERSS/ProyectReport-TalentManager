@@ -2437,43 +2437,9 @@ En este sprint se muestran los trabajos realizados en este sprint:
 
 #### **5.2.4.5. Execution Evidence for Sprint Review.**
 
-Durante el Sprint 4, se completaron varias tareas clave en el desarrollo del backend de TalentManager (además de correciones de frontend), con un enfoque principal en la implementación de funcionalidades críticas para la gestión de empleados, reportes, soporte y la integración de un sistema robusto de notificaciones. Este sprint se centró en la mejora de la infraestructura backend y la integración de funcionalidades esenciales, como la gestión de empleados, reportes mensuales y mensajes de soporte.
+Durante el Sprint 4, se volvió a publicar una nueva versión del backend y del frontend, para lograr la conexión entre ambos:
 
-Se implementaron además las APIs necesarias, con documentación clara y accesible a través de OpenAPI y Swagger, lo que facilita la interacción con el backend y permite la prueba eficiente de todos los endpoints disponibles. La documentación de las APIs también garantiza la facilidad para los desarrolladores al agregar nuevas funcionalidades y al interactuar con el sistema de manera coherente.
-
-Avances Realizados:
-
-1. Empleados:
-
-Gestión de Empleados: Se implementaron las funcionalidades para obtener información de empleados (GetAll, GetById), crear nuevos empleados (Create), actualizar datos existentes (Update) y eliminar empleados (Delete).
-
-Gestión de Equipos: Además de la gestión de empleados, se integró la funcionalidad para asignar y actualizar equipos (TeamName) de los empleados.
-
-2. Reportes:
-
-Gestión de Reportes: Se habilitaron las funcionalidades para crear reportes (Create), obtener detalles de reportes específicos (GetById), y actualizar (Update) los reportes ya existentes, asociados a la compañía correspondiente.
-
-3. Soporte:
-
-Gestión de Mensajes de Soporte: Se implementaron las funcionalidades para gestionar los mensajes de soporte, con capacidad para crear nuevos mensajes (Create), actualizar mensajes (Update) y registrar la fecha de solicitud (RequestDate).
-
-Visibilidad de Mensajes de Soporte: Se introdujo la gestión de una vista de soporte que incluye la capacidad de ver el estado de cada solicitud de soporte y su procesamiento.
-
-4. Notificaciones:
-
-Gestión de Notificaciones: Se implementaron funcionalidades clave para la creación de notificaciones (Create), la visualización de todas las notificaciones (GetAll) y la capacidad de actualizar el estado de las notificaciones (Patch).
-
-5. Contribuciones del Equipo:
-
-Modelado y Entidades: Se trabajó en la implementación de entidades y value objects (por ejemplo, Employee, Report, CompanyId, SupportMessageId), garantizando la coherencia en la estructura de dominio a través de la arquitectura de DDD.
-
-Validaciones y Data Annotations: Se añadieron validaciones para asegurar que los datos ingresados cumplieran con las reglas de negocio, como la validación de fechas en EntryDate, RequestDate y la validación de los valores de los ID de empresa y equipo.
-
-Internacionalización (i18n): Se trabajó en la implementación de soporte multilingüe, garantizando que la plataforma pueda ser utilizada en diferentes idiomas.
-
-Mejoras en la Infraestructura: El equipo optimizó la configuración de la base de datos y completó las configuraciones necesarias para la persistencia, utilizando la estrategia de nomenclatura de "Snake Case" y pluralización de las tablas para asegurar coherencia en el esquema de base de datos.
-
-El Sprint 3 ha sido clave para establecer una base sólida en el backend de TalentManager. Se implementaron funcionalidades esenciales para la gestión de empleados, reportes y soporte, además de trabajar en la validación de los datos, la mejora en la estructura de la base de datos y la integración de notificaciones. La documentación y las pruebas de las APIs a través de OpenAPI y Swagger han permitido una mayor transparencia y facilidad para la interacción con el sistema, lo que será crucial para futuras expansiones y ajustes de la plataforma.
+Link de web service publicado: [https://backend-talentmanager-production-2f5a.up.railway.app/swagger-ui/index.html#/](https://backend-talentmanager-production-2f5a.up.railway.app/swagger-ui/index.html#/)
 
 #### **5.2.4.6. Services Documentation Evidence for Sprint Review.**
 
@@ -2499,11 +2465,11 @@ Esta base permitirá una evolución segura y controlada del ecosistema TalentMan
 
 #### **5.2.4.7. Software Deployment Evidence for Sprint Review.**
 
-Durante el Sprint 3, el equipo se centró en el desarrollo y despliegue de las funcionalidades backend para la aplicación web TalentManager. A continuación, se detallan los pasos realizados para asegurar que el backend estuviera correctamente implementado y desplegado en el entorno de producción.
+Durante el Sprint 4, el equipo se centró en el desarrollo y despliegue de todas la aplicación. 
 
 1. Se creo el repositorio para el backend: [https://github.com/TalentManager-BERSS/Backend-TalentManager](https://github.com/TalentManager-BERSS/Backend-TalentManager)
 
-2. Se logró publicar los web services del backend: [https://backend-talentmanager-production.up.railway.app/swagger-ui/index.html](https://backend-talentmanager-production.up.railway.app/swagger-ui/index.html) 
+2. Se volvió a publicar los web services del backend: [https://backend-talentmanager-production-2f5a.up.railway.app/swagger-ui/index.html#/](https://backend-talentmanager-production-2f5a.up.railway.app/swagger-ui/index.html#/)
 
 Actividades de Despliegue:
 
@@ -3002,6 +2968,6 @@ Aplicación Web en Netlify: [https://talentmanager.netlify.app/](https://talentm
 
 Repositorio de backend: [https://github.com/TalentManager-BERSS/Backend-TalentManager](https://github.com/TalentManager-BERSS/Backend-TalentManager)
 
-Link de web services de backend publicado: [https://backend-talentmanager-production.up.railway.app/swagger-ui/index.html](https://backend-talentmanager-production.up.railway.app/swagger-ui/index.html)
+Link de web services de backend publicado: [https://backend-talentmanager-production-2f5a.up.railway.app/swagger-ui/index.html#/](https://backend-talentmanager-production-2f5a.up.railway.app/swagger-ui/index.html#/)
 
 Link del video de exposición TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/EWgO2d8ROdVMrdLdf1OsQBoBA_SlcHa0nJ_NqW2W4T9Xag?e=kSTrai&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/EWgO2d8ROdVMrdLdf1OsQBoBA_SlcHa0nJ_NqW2W4T9Xag?e=kSTrai&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
