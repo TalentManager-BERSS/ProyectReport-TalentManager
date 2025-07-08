@@ -68,6 +68,11 @@ Insights TB2 (todos participaron):
   <img src="Images/insightstb2.png" alt="imagen" />
 </p>
 
+Insights TF1 (todos participaron):
+
+<p align="center">
+  <img src="Images/insightstb2.png" alt="imagen" />
+</p>
 
 **CONTENT** 
 
