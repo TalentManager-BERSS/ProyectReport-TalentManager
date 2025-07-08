@@ -2441,9 +2441,9 @@ En este sprint se muestran los trabajos realizados en este sprint:
 
 Durante el Sprint 4, se volvió a publicar una nueva versión de la landing page, backend y del frontend, para lograr la conexión entre ambos:
 
-Link de landing page: 
+Link de landing page: [https://tmlandingpage.netlify.app/](https://tmlandingpage.netlify.app/)
 
-Link de frontend:
+Link de frontend: [https://talentmanagerapp.netlify.app/](https://talentmanagerapp.netlify.app/)
 
 Link de web service publicado: [https://backend-talentmanager-production-2f5a.up.railway.app/swagger-ui/index.html#/](https://backend-talentmanager-production-2f5a.up.railway.app/swagger-ui/index.html#/)
 
@@ -2475,9 +2475,9 @@ Durante el Sprint 4, el equipo se centró en el desarrollo y despliegue de toda 
 
 1. Se volvió a publicar los web services del backend: [https://backend-talentmanager-production-2f5a.up.railway.app/swagger-ui/index.html#/](https://backend-talentmanager-production-2f5a.up.railway.app/swagger-ui/index.html#/)
 
-2. Se volvió a publicar el frontend:
+2. Se volvió a publicar el frontend: [https://talentmanagerapp.netlify.app/](https://talentmanagerapp.netlify.app/)
 
-3. Se volvió a publicar la landing page:
+3. Se volvió a publicar la landing page: [https://tmlandingpage.netlify.app/](https://tmlandingpage.netlify.app/)
 
 Gracias a netlify y railway, se pudo subir toda nuestra aplicación a la nube, estas 3 siendo las ultimas versiones para toda la aplicación
 
@@ -2932,7 +2932,7 @@ Link del video de exposición TB1: [https://upcedupe-my.sharepoint.com/:v:/g/per
 
 Repositorio de landing page: [https://github.com/TalentManager-BERSS/LandingPage-TalentManager](https://github.com/TalentManager-BERSS/LandingPage-TalentManager)
 
-Landing Page en Netlify: [https://talentmanagerlandingpage.netlify.app/](https://talentmanagerlandingpage.netlify.app/)
+Landing Page en Netlify: [https://tmlandingpage.netlify.app/](https://tmlandingpage.netlify.app/)
 
 Repositorio de frontend: [https://github.com/TalentManager-BERSS/WebApplication-TalentManager](https://github.com/TalentManager-BERSS/WebApplication-TalentManager)
 
@@ -2943,7 +2943,7 @@ Link del video About-the-Team: [https://upcedupe-my.sharepoint.com/:v:/g/persona
 
 Link del video About-the-Product: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310308_upc_edu_pe/EZNURjBF--dAqx0zZFIzG6cBxNCNnAxJh1dAhgz2fI6L2w?e=KUTd9U](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310308_upc_edu_pe/EZNURjBF--dAqx0zZFIzG6cBxNCNnAxJh1dAhgz2fI6L2w?e=KUTd9U)
 
-Aplicación Web en Netlify: [https://talentmanager.netlify.app/](https://talentmanager.netlify.app/)
+Aplicación Web en Netlify: [https://talentmanagerapp.netlify.app/](https://talentmanagerapp.netlify.app/)
 
 Repositorio de backend: [https://github.com/TalentManager-BERSS/Backend-TalentManager](https://github.com/TalentManager-BERSS/Backend-TalentManager)
 
