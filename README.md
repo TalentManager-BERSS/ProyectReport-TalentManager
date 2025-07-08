@@ -2075,196 +2075,25 @@ El Sprint 3 ha sido clave para establecer una base sólida en el backend de Tale
 
 #### **5.2.3.6. Services Documentation Evidence for Sprint Review.**
 
-Durante el Sprint 3, se centró el desarrollo del backend de la aplicación TalentManager, reemplazando la API simulada con servicios backend completamente funcionales. La plataforma ahora está conectada a una base de datos real y las operaciones CRUD para gestionar empleados, reportes, mensajes de soporte y notificaciones están completamente implementadas y operativas.
+Durante el Sprint 4, el equipo de TalentManager se centró en la implementación del módulo IAM (Identity and Access Management), permitiendo la gestión completa del registro, autenticación y asociación de usuarios con entidades como Manager y Company. Este módulo garantiza un sistema de autenticación seguro basado en JWT (JSON Web Tokens) y constituye la base para controlar el acceso a los demás módulos funcionales de la plataforma.
 
-En lugar de depender de una API falsa, el equipo implementó una API RESTful construida con Spring Boot y conectada a MySQL. A continuación, se detallan los endpoints de la nueva API, sus métodos implementados y la documentación correspondiente.
+Además, se documentaron todos los endpoints en Swagger/OpenAPI, mejorando la experiencia de integración para el equipo de desarrollo y facilitando la validación de los flujos de autenticación desde el frontend.
 
-| Endpoint | Acción | Verbo HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Request | Ejemplo de Response | Explicación |
-|----------|--------|------------|----------------------|------------|---------------------|----------------------|-------------|
-| /api/v1/employees | Obtener los datos de todos los empleados. | GET | GET /api/v1/employees | Ninguno | GET /api/v1/employees | `[{"id":1,"fullName":"Juan Pérez","occupation":"Developer"}]` | Obtiene los datos de todos los empleados en el sistema. |
-| /api/v1/employees | Crear un nuevo empleado. | POST | POST /api/v1/employees | Nombre, ocupación | `{"firstName": "Juan", "lastName": "Pérez", "occupation": "Developer"}` | `{"id": 1,"fullName":"Juan Pérez","occupation":"Developer"}` | Crea un nuevo empleado en el sistema. Permite registrar un empleado con su nombre, apellido y ocupación. |
-| /api/v1/employees/{id} | Obtener los datos de un empleado específico. | GET | GET /api/v1/employees/{id} | id (Integer) | GET /api/v1/employees/1 | `{"id":1,"fullName":"Juan Pérez","occupation":"Developer"}` | Obtiene los datos de un empleado específico, usando su ID. |
-| /api/v1/employees/{id} | Actualizar los datos de un empleado. | PUT | PUT /api/v1/employees/{id} | id (Integer) | `{"occupation": "Senior Developer"}` | `{"id":1,"fullName":"Juan Pérez","occupation":"Senior Developer"}` | Actualiza los datos de un empleado existente usando su ID. Permite modificar la ocupación del empleado. |
-| /api/v1/employees/{id} | Eliminar un empleado. | DELETE | DELETE /api/v1/employees/{id} | id (Integer) | DELETE /api/v1/employees/1 | Empleado eliminado exitosamente. | Elimina un empleado del sistema utilizando su ID. |
-| /api/v1/support-messages | Crear un nuevo mensaje de soporte. | POST | POST /api/v1/support-messages | message, companyId | `{"message": "Necesito asistencia", "companyId": 1}` | `{"id": 1,"message":"Necesito asistencia","companyId":1}` | Crea un nuevo mensaje de soporte en el sistema. Permite que un empleado envíe un mensaje a soporte. |
-| /api/v1/support-messages/{id} | Obtener un mensaje de soporte específico. | GET | GET /api/v1/support-messages/{id} | id (Integer) | GET /api/v1/support-messages/1 | `{"id":1,"message":"Necesito asistencia","companyId":1}` | Obtiene un mensaje de soporte específico utilizando su ID. |
-| /api/v1/support-messages/{id} | Actualizar el contenido de un mensaje. | PUT | PUT /api/v1/support-messages/{id} | id (Integer) | `{"message": "Ya he recibido ayuda"}` | `{"id":1,"message":"Ya he recibido ayuda","companyId":1}` | Actualiza el contenido de un mensaje de soporte. |
-| /api/v1/notifications | Obtener todas las notificaciones. | GET | GET /api/v1/notifications | Ninguno | GET /api/v1/notifications | `[{"id":1,"title":"Nuevo mensaje","content":"Tienes un nuevo mensaje en tu cuenta","isRead":false}]` | Obtiene todas las notificaciones generadas en el sistema. |
-| /api/v1/notifications/user/{userClientId} | Obtener las notificaciones de un usuario. | GET | GET /api/v1/notifications/user/{userClientId} | userClientId (Integer) | GET /api/v1/notifications/user/2 | `[{"id": 1, "title": "Nuevo mensaje", "content": "Tienes un nuevo mensaje", "isRead": false}]` | Obtiene todas las notificaciones para un usuario específico. |
-| /api/v1/notifications/{id} | Obtener una notificación específica. | GET | GET /api/v1/notifications/{id} | id (Integer) | GET /api/v1/notifications/1 | `{"id":1,"title":"Nuevo mensaje","content":"Tienes un nuevo mensaje en tu cuenta","isRead":false}` | Obtiene los detalles de una notificación utilizando su ID. |
-| /api/v1/notifications/hide-all | Ocultar todas las notificaciones de un usuario. | PATCH | PATCH /api/v1/notifications/hide-all | userClientId (Integer) | PATCH /api/v1/notifications/hide-all | `{"message": "Todas las notificaciones se han ocultado."}` | Oculta todas las notificaciones activas de un usuario sin eliminarlas físicamente. |
+| Endpoint                             | Acción                                               | Verbo HTTP | Sintaxis de llamada                     | Parámetros                                                                                              | Ejemplo de Request                                                                                                                                                                                                                  | Ejemplo de Response                                                | Explicación                                                                                                               |
+| ------------------------------------ | ---------------------------------------------------- | ---------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
+| `/api/v1/auth/register`              | Registrar un nuevo usuario.                          | POST       | POST /api/v1/auth/register              | `username`, `rawPassword`, `managerId`                                                                  | `{ "username": "alice", "rawPassword": "securepass123", "managerId": 1 }`                                                                                                                                                           | `{ "id": 3, "username": "alice", "managerId": 1, "companyId": 1 }` | Crea un usuario asociado a un manager existente. Se debe indicar el ID del manager.                                       |
+| `/api/v1/auth/sign-in`               | Autenticar un usuario.                               | POST       | POST /api/v1/auth/sign-in               | `username`, `rawPassword`                                                                               | `{ "username": "alice", "rawPassword": "securepass123" }`                                                                                                                                                                           | `{ "id": 3, "username": "alice", "token": "eyJhbGciOiJIUzI1..." }` | Verifica las credenciales del usuario y devuelve un token JWT si son válidas.                                             |
+| `/api/v1/auth/register-with-manager` | Registrar un usuario junto con su manager y empresa. | POST       | POST /api/v1/auth/register-with-manager | `username`, `rawPassword`, `firstname`, `lastname`, `companyName`, `companyEmail`, `companyDescription` | `{ "username": "bob", "rawPassword": "12345678", "firstname": "Roberto", "lastname": "Lopez", "companyName": "InnovaTech", "companyEmail": "contacto@innovatech.io", "companyDescription": "Servicios de innovación tecnológica" }` | `{ "id": 4, "username": "bob", "managerId": 2, "companyId": 2 }`   | Crea simultáneamente un manager, una empresa y un usuario asociado a ese manager. Evita duplicados por nombre de empresa. |
 
-<p align="center">
-  <img src="Images/api1.png" alt="imagen" />
-</p>
+El Sprint 4 fue crucial en la consolidación del módulo IAM (Identity and Access Management) de TalentManager. Gracias a esta implementación, la plataforma ahora:
 
-<p align="center">
-  <img src="Images/api2.png" alt="imagen" />
-</p>
+- Soporta registro seguro de usuarios, managers y empresas.
 
-<p align="center">
-  <img src="Images/api3.png" alt="imagen" />
-</p>
+- Permite el inicio de sesión autenticado con JWT, protegiendo el acceso a los módulos del sistema.
 
-<p align="center">
-  <img src="Images/api4.png" alt="imagen" />
-</p>
+- Establece una arquitectura escalable de gestión de identidades, esencial para roles, permisos y trazabilidad futura.
 
-<p align="center">
-  <img src="Images/api5.png" alt="imagen" />
-</p>
-
-<p align="center">
-  <img src="Images/develop1.png" alt="imagen" />
-</p>
-
-<p align="center">
-  <img src="Images/develop2.png" alt="imagen" />
-</p>
-
-<p align="center">
-  <img src="Images/develop3.png" alt="imagen" />
-</p>
-
-<p align="center">
-  <img src="Images/develop4.png" alt="imagen" />
-</p>
-
-<p align="center">
-  <img src="Images/develop5.png" alt="imagen" />
-</p>
-
-<p align="center">
-  <img src="Images/develop6.png" alt="imagen" />
-</p>
-
-<p align="center">
-  <img src="Images/develop7.png" alt="imagen" />
-</p>
-
-<p align="center">
-  <img src="Images/develop8.png" alt="imagen" />
-</p>
-<p align="center">
-  <img src="Images/develop9.png" alt="imagen" />
-</p>
-
-<p align="center">
-  <img src="Images/develop10.png" alt="imagen" />
-</p>
-
-<p align="center">
-  <img src="Images/develop11.png" alt="imagen" />
-</p>
-
-<p align="center">
-  <img src="Images/develop12.png" alt="imagen" />
-</p>
-
-<p align="center">
-  <img src="Images/develop13.png" alt="imagen" />
-</p>
-
-<p align="center">
-  <img src="Images/develop14.png" alt="imagen" />
-</p>
-
-<p align="center">
-  <img src="Images/develop15.png" alt="imagen" />
-</p>
-
-1. Empleados (Employees)
-Operaciones CRUD soportadas:
-
-GET /api/v1/employees: Obtener todos los empleados.
-
-GET /api/v1/employees/{employeeId}: Obtener empleado por ID.
-
-POST /api/v1/employees: Crear un nuevo empleado.
-
-PUT /api/v1/employees/{employeeId}: Actualizar datos de un empleado.
-
-DELETE /api/v1/employees/{employeeId}: Eliminar empleado.
-
-Descripción:
-Permite gestionar la información del personal de la empresa: creación, edición, consulta y eliminación de registros individuales. Esta entidad es clave para administrar el talento humano dentro del sistema.
-
-2. Reportes (Reports)
-Operaciones CRUD soportadas:
-
-GET /api/v1/reports: Obtener todos los reportes.
-
-GET /api/v1/reports/{reportId}: Obtener reporte por ID.
-
-GET /api/v1/reports/by-company/{companyId}: Obtener reportes por empresa.
-
-POST /api/v1/reports: Crear un nuevo reporte.
-
-PUT /api/v1/reports/{reportId}: Actualizar reporte.
-
-DELETE /api/v1/reports/{reportId}: Eliminar reporte.
-
-Descripción:
-Gestiona los reportes de desempeño generados para empleados o empresas. Esto facilita el seguimiento y evaluación del rendimiento individual y colectivo.
-
-3. Resúmenes Mensuales (Monthly Summaries)
-Operaciones CRUD soportadas:
-
-GET /api/v1/monthly-summaries: Obtener todos los resúmenes mensuales.
-
-GET /api/v1/monthly-summaries/{monthlySummaryId}: Obtener resumen por ID.
-
-GET /api/v1/monthly-summaries/by-employee/{employeeId}: Resúmenes por empleado.
-
-GET /api/v1/monthly-summaries/by-company/{companyId}: Resúmenes por empresa.
-
-POST /api/v1/monthly-summaries: Crear un nuevo resumen mensual.
-
-PUT /api/v1/monthly-summaries/{monthlySummaryId}: Actualizar resumen.
-
-DELETE /api/v1/monthly-summaries/{monthlySummaryId}: Eliminar resumen.
-
-Descripción:
-Registra y centraliza los resúmenes mensuales que reflejan la productividad, metas alcanzadas y puntos a mejorar de cada empleado o empresa en un período determinado.
-
-4. Perfiles (Profiles)
-Operaciones CRUD soportadas:
-
-GET /api/v1/profiles: Obtener todos los perfiles.
-
-GET /api/v1/profiles/{profileId}: Obtener perfil por ID.
-
-POST /api/v1/profiles: Crear nuevo perfil.
-
-PUT /api/v1/profiles/{profileId}: Actualizar nombre de usuario.
-
-DELETE /api/v1/profiles/{profileId}: Eliminar perfil.
-
-Descripción:
-Define los perfiles asociados a los usuarios del sistema. Incluye información como nombre de usuario y roles, facilitando la personalización de la experiencia de cada tipo de usuario.
-
-5. Mensajes de Soporte (Support Messages)
-Operaciones CRUD soportadas:
-
-GET /api/v1/support-messages: Obtener todos los mensajes.
-
-GET /api/v1/support-messages/{id}: Obtener mensaje específico.
-
-GET /api/v1/support-messages/company/{companyId}: Mensajes por empresa.
-
-POST /api/v1/support-messages: Crear mensaje de soporte.
-
-PUT /api/v1/support-messages/{id}: Actualizar mensaje.
-
-DELETE /api/v1/support-messages/{id}: Eliminar mensaje.
-
-Descripción:
-Facilita la comunicación entre empleados y administradores o personal de TI, permitiendo enviar y gestionar mensajes relacionados con dudas, incidentes o problemas técnicos.
-
-8. Integración con Swagger y OpenAPI
-La documentación de la API ha sido completamente integrada utilizando OpenAPI y Swagger, proporcionando una interfaz interactiva para explorar y probar todos los endpoints de la API. Esto permite a los desarrolladores verificar las operaciones soportadas, los parámetros requeridos y las respuestas esperadas para cada endpoint. Con la interfaz de Swagger, los desarrolladores pueden realizar pruebas de las funcionalidades en tiempo real, mejorando la eficiencia y reduciendo los errores de integración al interactuar con el sistema backend de TalentManager.
-
-El Sprint 3 ha sido fundamental para el backend de TalentManager, estableciendo una base sólida de operaciones CRUD que gestionan empleados, reportes, soporte, notificaciones y usuarios. La integración de Swagger y OpenAPI facilita a los desarrolladores explorar y probar los endpoints de manera interactiva, mejorando la experiencia de integración y el desarrollo continuo de la plataforma.
+Esta base permitirá una evolución segura y controlada del ecosistema TalentManager, alineado con buenas prácticas de seguridad y diseño de software empresarial.
 
 #### **5.2.3.7. Software Deployment Evidence for Sprint Review.**
 
@@ -2380,7 +2209,7 @@ En este sprint se muestran los trabajos realizados en este sprint:
 | Work-Item / Task | User Story ID | Description | Estimation (Hours) | Assigned To / Status |
 | TSK01 | US17 | Implementar endpoint para registrar observaciones de comportamiento | 4 | Developer Team | Done |
 | TSK02 | US17 | Validación de campos y lógica de negocio para observaciones | 3 | Developer Team | Done |
-| TSK03 | US17 | Diseño del DTO para recepción y almacenamiento de datos | 2 | Developer Team | Done |
+| TSK03 | US17 | Diseño para recepción y almacenamiento de datos | 2 | Developer Team | Done |
 | TSK04 | US17 | Documentación del endpoint en Swagger | 1 | Developer Team | Done |
 | TSK05 | US24 | Endpoint para generar reporte por criterio de evaluación | 5 | Developer Team | Done |
 | TSK06 | US24 | Filtrado dinámico de criterios y ordenamiento | 2 | Developer Team | Done |
@@ -2394,17 +2223,16 @@ En este sprint se muestran los trabajos realizados en este sprint:
 | TSK14 | TS01 | GET `/api/v1/companies` - Obtener lista de empresas | 2 | Developer Team | Done |
 | TSK15 | TS02 | POST `/api/v1/companies` - Crear nueva empresa | 3 | Developer Team | Done |
 | TSK16 | TS02 | Validación de datos (campos obligatorios, formato email) | 2 | Developer Team | Done |
-| TSK17 | TS02 | Conversión de string a value object para website | 2 | Developer Team | Done |
-| TSK18 | TS03 | GET `/api/v1/companies/{id}/employees` - Obtener empleados | 3 | Developer Team | Done |
-| TSK19 | TS03 | Incorporar filtros por estado o rol del empleado | 2 | Developer Team | Done |
-| TSK20 | TS04 | POST `/api/v1/employees` - Crear nuevo empleado | 3 | Developer Team | Done |
-| TSK21 | TS04 | Validaciones del empleado y lógica de registro | 2 | Developer Team | Done |
-| TSK22 | TS05 | GET `/api/v1/monthly-summaries` - Obtener resúmenes | 2 | Developer Team | Done |
-| TSK23 | TS06 | Implementar autenticación JWT: login y generación de token | 4 | Developer Team | Done |
-| TSK24 | TS06 | Configuración de seguridad para rutas públicas y protegidas | 3 | Developer Team | Done |
-| TSK25 | TS07 | GET `/api/v1/reports` - Obtener reportes de desempeño | 3 | Developer Team | Done |
-| TSK26 | TS07 | Agregación de datos por periodo y empleados | 2 | Developer Team | Done |
-| TSK27 | TS08 | Validaciones: Validar campos vacíos, formatos de texto y longitud de strings | 2 | Developer Team | Done |
+| TSK17 | TS03 | GET `/api/v1/companies/{id}/employees` - Obtener empleados | 3 | Developer Team | Done |
+| TSK18 | TS03 | Incorporar filtros por estado o rol del empleado | 2 | Developer Team | Done |
+| TSK19 | TS04 | POST `/api/v1/employees` - Crear nuevo empleado | 3 | Developer Team | Done |
+| TSK20 | TS04 | Validaciones del empleado y lógica de registro | 2 | Developer Team | Done |
+| TSK21 | TS05 | GET `/api/v1/monthly-summaries` - Obtener resúmenes | 2 | Developer Team | Done |
+| TSK22 | TS06 | Implementar autenticación JWT: login y generación de token | 4 | Developer Team | Done |
+| TSK23 | TS06 | Configuración de seguridad para rutas públicas y protegidas | 3 | Developer Team | Done |
+| TSK24 | TS07 | GET `/api/v1/reports` - Obtener reportes de desempeño | 3 | Developer Team | Done |
+| TSK25 | TS07 | Agregación de datos por periodo y empleados | 2 | Developer Team | Done |
+| TSK26 | TS08 | Validaciones: Validar campos vacíos, formatos de texto y longitud de strings | 2 | Developer Team | Done |
 
 
 #### **5.2.4.4. Development Evidence for Sprint Review.**
