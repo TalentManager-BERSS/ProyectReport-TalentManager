@@ -1439,9 +1439,6 @@ El equipo no realizó cambios de distribución para la elaboración de los Mock-
   <img src="Images/nuevo81.jpg" alt="imagen" />
 </p>
 <p align="center">
-  <img src="Images/nuevo82.jpg" alt="imagen" />
-</p>
-<p align="center">
   <img src="Images/nuevo83.jpg" alt="imagen" />
 </p>
 <p align="center">
