@@ -2868,7 +2868,7 @@ Recomendación: Incluir testimonios con resultados (por ejemplo: “Aumentamos e
 
 Para ofrecer de buena manera el producto, se realizó un video About-the-Product:
 
-Link del video About-the-Product: [https://upcedupe-my.sharepoint.com/personal/u202311532_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202311532%5Fupc%5Fedu%5Fpe%2FDocuments%2F2025%2D06%2D22%2013%2D56%2D22%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E73f0ac0b%2D7253%2D4c13%2D86ac%2D11576cc80a6f](https://upcedupe-my.sharepoint.com/personal/u202311532_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202311532%5Fupc%5Fedu%5Fpe%2FDocuments%2F2025%2D06%2D22%2013%2D56%2D22%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E73f0ac0b%2D7253%2D4c13%2D86ac%2D11576cc80a6f)
+Link del video About-the-Product: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310308_upc_edu_pe/EZNURjBF--dAqx0zZFIzG6cBxNCNnAxJh1dAhgz2fI6L2w?e=KUTd9U](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310308_upc_edu_pe/EZNURjBF--dAqx0zZFIzG6cBxNCNnAxJh1dAhgz2fI6L2w?e=KUTd9U)
 
 ### **5.5. Video About-the-Team**
 
@@ -2962,7 +2962,7 @@ Link de video de entrevistas de validación: [https://upcedupe-my.sharepoint.com
 
 Link del video About-the-Team: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/EY7cj9cTbClEsOC3AHmjwdoBNElPQs31-kwufDOEo_vywg?e=a1yxqt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311207_upc_edu_pe/EY7cj9cTbClEsOC3AHmjwdoBNElPQs31-kwufDOEo_vywg?e=a1yxqt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-Link del video About-the-Product: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311532_upc_edu_pe/EbmmbPDT22tCraD9LpqukK0BE8zCItf2vBaaCSPlEIOYyw?e=TjCb72&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311532_upc_edu_pe/EbmmbPDT22tCraD9LpqukK0BE8zCItf2vBaaCSPlEIOYyw?e=TjCb72&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+Link del video About-the-Product: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310308_upc_edu_pe/EZNURjBF--dAqx0zZFIzG6cBxNCNnAxJh1dAhgz2fI6L2w?e=KUTd9U](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310308_upc_edu_pe/EZNURjBF--dAqx0zZFIzG6cBxNCNnAxJh1dAhgz2fI6L2w?e=KUTd9U)
 
 Aplicación Web en Netlify: [https://talentmanager.netlify.app/](https://talentmanager.netlify.app/)
 
