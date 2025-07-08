@@ -179,7 +179,7 @@ Insights TB2 (todos participaron):
 [5.2.1.2 Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)  
 [5.2.1.3 Sprint Backlog 1](#5213-sprint-backlog-1)  
 [5.2.1.4 Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)  
-[5.2.1.5 Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)  
+[5.2.1.5 ](#5215-execution-evidence-for-sprint-review)  
 [5.2.1.6 Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)  
 [5.2.1.7 Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)  
 [5.2.1.8 Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)  
@@ -189,7 +189,7 @@ Insights TB2 (todos participaron):
 [5.2.2.2 Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)  
 [5.2.2.3 Sprint Backlog 2](#5223-sprint-backlog-2)  
 [5.2.2.4 Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)  
-[5.2.2.5 Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)  
+[5.2.2.5 ](#5225-execution-evidence-for-sprint-review)  
 [5.2.2.6 Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)  
 [5.2.2.7 Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)  
 [5.2.2.8 Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)  
@@ -1879,7 +1879,7 @@ En este sprint se muestran los trabajos realizados en este sprint:
 | US29 | 1 | Presentación clara y ordenada de la información | 1 | Developer Team | Done |
 | US30 | 1 | Navegación coherente en todas las secciones de la plataforma | 1 | Developer Team | Done |
 
-#### **5.2.1.4. Development Evidence for Sprint Review.**
+#### **5.2.2.4. Development Evidence for Sprint Review.**
 
 #### 
 
@@ -1893,13 +1893,13 @@ En este sprint se muestran los trabajos realizados en este sprint:
 
 #### 
 
-#### **5.2.1.5. Execution Evidence for Sprint Review.**
+#### **5.2.2.5. Execution Evidence for Sprint Review.**
 
 Durante el Sprint 2, se desarrollaron 9 historias de usuario centradas en la construcción del apartado frontend de TalentManager
 
 El equipo cumplió con todas las historias planeadas desde un apartado frontend, dejandolo las tareas como in progress a falta de implementación de backend.
 
-#### **5.2.1.6. Services Documentation Evidence for Sprint Review.**
+#### **5.2.2.6. Services Documentation Evidence for Sprint Review.**
 
 Durante el Sprint 2, se desarrolló el frontend de TalentManager enfocado en las funcionalidades relacionadas a la gestión de empleados y visualización de reportes, utilizando endpoints simulados. Para este propósito se usaron fake APIs provistas por MockAPI, las cuales permitieron trabajar con datos de prueba que simulan una base de datos real sin requerir infraestructura backend inmediata.
 
@@ -1910,7 +1910,7 @@ Las fake APIs fueron integradas desde dos fuentes principales:
 | https://681fc1f272e59f922ef71049.mockapi.io/api/v1/employee          | Empleado (Employee)                                        | GET, POST, PUT, DELETE                                      | Permitir gestión completa de colaboradores en la organización: alta, edición, eliminación y consulta con filtros.                                     |
 | https://6824f9c70f0188d7e72b99b7.mockapi.io/reports | Reportes (Reports)                  | 	GET, POST, DELETE                                           | Visualización y descarga de reportes de desempeño para análisis estratégico.                              |
 
-#### **5.2.1.7. Software Deployment Evidence for Sprint Review.**
+#### **5.2.2.7. Software Deployment Evidence for Sprint Review.**
 
 En este sprint, el equipo realizó el despliegue de la aplicación web del proyecto
 
@@ -2434,7 +2434,11 @@ En este sprint se muestran los trabajos realizados en este sprint:
 
 #### **5.2.4.5. Execution Evidence for Sprint Review.**
 
-Durante el Sprint 4, se volvió a publicar una nueva versión del backend y del frontend, para lograr la conexión entre ambos:
+Durante el Sprint 4, se volvió a publicar una nueva versión de la landing page, backend y del frontend, para lograr la conexión entre ambos:
+
+Link de landing page: 
+
+Link de frontend:
 
 Link de web service publicado: [https://backend-talentmanager-production-2f5a.up.railway.app/swagger-ui/index.html#/](https://backend-talentmanager-production-2f5a.up.railway.app/swagger-ui/index.html#/)
 
@@ -2462,37 +2466,15 @@ Esta base permitirá una evolución segura y controlada del ecosistema TalentMan
 
 #### **5.2.4.7. Software Deployment Evidence for Sprint Review.**
 
-Durante el Sprint 4, el equipo se centró en el desarrollo y despliegue de todas la aplicación. 
+Durante el Sprint 4, el equipo se centró en el desarrollo y despliegue de toda la aplicación. 
 
-1. Se creo el repositorio para el backend: [https://github.com/TalentManager-BERSS/Backend-TalentManager](https://github.com/TalentManager-BERSS/Backend-TalentManager)
+1. Se volvió a publicar los web services del backend: [https://backend-talentmanager-production-2f5a.up.railway.app/swagger-ui/index.html#/](https://backend-talentmanager-production-2f5a.up.railway.app/swagger-ui/index.html#/)
 
-2. Se volvió a publicar los web services del backend: [https://backend-talentmanager-production-2f5a.up.railway.app/swagger-ui/index.html#/](https://backend-talentmanager-production-2f5a.up.railway.app/swagger-ui/index.html#/)
+2. Se volvió a publicar el frontend:
 
-Actividades de Despliegue:
+3. Se volvió a publicar la landing page:
 
-1. Desarrollo de la API Backend:
-
-La API RESTful fue desarrollada utilizando Spring Boot como el marco principal de trabajo y MySQL como sistema de gestión de bases de datos. La API permite gestionar las entidades clave del sistema, como empleados, reportes, mensajes de soporte, notificaciones y usuarios.
-
-2. Despliegue en el Entorno de Desarrollo:
-
-Se utilizó Swagger para documentar la API y proporcionar una interfaz interactiva que permite explorar y probar todos los endpoints. Esto facilita el trabajo de los desarrolladores, quienes pueden validar el comportamiento de la API en tiempo real.
-
-3. Despliegue en el Entorno de Producción:
-
-La API fue desplegada en el entorno de producción. Se configuraron las instancias necesarias en el servidor para asegurar la disponibilidad continua y garantizar que la API esté operativa sin interrupciones.
-
-MySQL fue configurado en el servidor de producción para manejar un volumen de datos moderado, optimizando las consultas y asegurando un rendimiento eficiente.
-
-4. Configuración y Gestión de la Base de Datos:
-
-La base de datos está en MySQL y se implementaron todas las relaciones necesarias entre las tablas para garantizar la integridad de los datos. Además, se llevaron a cabo pruebas de rendimiento en las consultas de la base de datos para asegurar que las operaciones de lectura y escritura fueran rápidas y escalables.
-
-5. Despliegue en Netlify:
-
-Si bien el equipo planeaba subirlo en Azure, se terminó eligiendo netlify por problemas en los intentos.
-
-Este conjunto de actividades garantizó que el backend de TalentManager estuviera correctamente implementado, optimizado para el entorno de producción y disponible para su uso continuo.
+Gracias a netlify y railway, se pudo subir toda nuestra aplicación a la nube.
 
 #### **5.2.4.8. Team Collaboration Insights during Sprint.** 
 
@@ -2516,7 +2498,6 @@ Para asegurar la autenticación y autorización, se integró el uso de JSON Web 
 * Refinamiento de funcionalidades clave del backend:
 Se realizaron mejoras estructurales y funcionales en los principales módulos de la aplicación. Se optimizó el manejo de entidades como Company, Employee, Report, MonthlySummary y SupportMessage, reforzando las validaciones a través de sus value objects (como EntryDate, CompanyWebsite, TeamName, YearMonthPeriod, entre otros). Además, se consolidó el flujo de gestión de soporte mediante los agregados SupportOverview y SupportStatus, asegurando que cada solicitud esté correctamente registrada, auditada y trazada.
 También se reforzó la integridad de los datos a nivel de persistencia utilizando una estrategia personalizada para el nombrado de tablas (SnakeCaseWithPluralizedTablePhysicalNamingStrategy) y se validaron reglas críticas como fechas no futuras o IDs mayores a cero, garantizando consistencia en toda la lógica de dominio.
-
 
 ## **5.3. Validation Interviews.**
 
@@ -2895,6 +2876,14 @@ Link del video About-the-Team: [https://upcedupe-my.sharepoint.com/:v:/g/persona
 
 15. Validación con usuarios finales y retroalimentación positiva: El equipo llevó a cabo entrevistas y pruebas de concepto con usuarios reales de los segmentos objetivo (supervisores operativos y gerentes de RR.HH.) para validar la propuesta. Los supervisores enfatizaron la necesidad de centralizar la información dispersa y automatizar los reportes de desempeño, manifestando una alta disposición a adoptar TalentManager siempre que cumpliera con la promesa de mejorar la eficiencia y simplicidad de sus tareas diarias. De igual modo, los gerentes de recursos humanos valoraron la generación de métricas objetivas en tiempo real y la personalización de criterios, considerando la plataforma como una solución estratégica que implementarían si garantiza estos aspectos clave, dado que les permitiría tomar decisiones más informadas y reducir la subjetividad en la evaluación del personal
 
+16. Integración exitosa del sistema completo: Durante este Sprint, se logró integrar de forma estable el frontend desarrollado en Angular con el backend implementado en Spring Boot, garantizando una comunicación fluida mediante APIs REST seguras y bien documentadas.
+
+17. Arquitectura sólida basada en DDD: La adopción del enfoque Domain-Driven Design permitió una separación clara de responsabilidades, encapsulando la lógica de negocio en entidades, agregados y value objects bien definidos, mejorando la mantenibilidad del sistema.
+
+18. Módulos funcionales completados: Se desarrollaron con éxito los módulos centrales de TalentManager: gestión de empleados, compañías, reportes mensuales, mensajería de soporte y evaluaciones. Cada módulo fue validado con operaciones CRUD completas y pruebas funcionales.
+
+19. Autenticación segura: Se implementó un sistema de autenticación robusto mediante JWT, asegurando que cada usuario tenga acceso únicamente a las funcionalidades correspondientes a su rol (administrador o supervisor).
+
 **Recomendaciones:**
 
 1. Reforzar la seguridad de la plataforma, implementando autenticación robusta (p. ej., OAuth2/JWT) y encriptación de datos sensibles; además, establecer controles de acceso más granulares para proteger la información confidencial en todas las capas del sistema.
@@ -2908,6 +2897,8 @@ Link del video About-the-Team: [https://upcedupe-my.sharepoint.com/:v:/g/persona
 5. Perfeccionar la experiencia de usuario, incorporando mejoras sugeridas por los usuarios (por ejemplo, interfaces aún más simplificadas, ayudas interactivas en pantalla) e implementando una aplicación móvil nativa o una versión web progresiva que facilite el acceso y uso de TalentManager desde cualquier dispositivo.
    
 6. Fortalecer la documentación y soporte al usuario, elaborando manuales de uso claros y tutoriales prácticos para administradores y empleados, así como ampliando la documentación técnica (incluyendo guías de instalación, APIs y mejores prácticas de desarrollo). Esto facilitará la adopción de la plataforma en nuevas organizaciones y simplificará el mantenimiento evolutivo por parte del equipo de desarrollo.
+
+7. Agregar pruebas automatizadas unitarias y de integración: Para fortalecer la calidad del software y facilitar futuras refactorizaciones, se sugiere implementar pruebas con JUnit y Mockito, especialmente para los servicios de dominio y controladores.
 
 # **BIBLIOGRAFÍA**
 
