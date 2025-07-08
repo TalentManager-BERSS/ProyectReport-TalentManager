@@ -2838,20 +2838,6 @@ Recomendación: Agregar capturas o videos de dashboards y testimonios reales en 
 
 - PROBLEMA #4
 
-Severidad: 3
-
-Heurística violada: Visibilidad del estado del sistema
-
-Problema: No se visualiza ninguna alerta automática de bajo rendimiento, lo que impide una acción proactiva.
-
-<p align="center">
-  <img src="Images/figura4.png" alt="img" />
-</p>
-
-Recomendación: Integrar alertas visuales automáticas cuando ciertos indicadores (ej. asistencia o cumplimiento) bajen de un umbral.
-
-- PROBLEMA #5
-
 Severidad: 1
 
 Heurística violada: Ayuda y documentación
